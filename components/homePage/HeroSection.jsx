@@ -1,4 +1,5 @@
 import bg from '@/public/hero-bg.jpg'
+import Link from "next/link";
 
 export default function HeroSection() {
     return (<>
@@ -22,31 +23,31 @@ export default function HeroSection() {
                             different
                             frontiers of chemical sciences</p>
                         <div className="flex justify-center md:justify-start">
-                            <a href="./register"
+                            <Link href="/register"
                                className="p-3 pt-2 text-primary05 bg-primaryRegular rounded-full baseline hover:bg-primary80 md:block px-6">Register
                                 Here
-                            </a>
+                            </Link>
                         </div>
                     </div>
 
                     <div
                         className="flex px-8 flex-col w-full justify-between space-y-8 space-x-0 absolute left-0 -bottom-56 sm:space-y-0 sm:space-x-12 sm:-bottom-12 sm:flex-row">
-                        <a href="#"
+                        <Link href="#"
                            className="block flex-1 p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
                             <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Venue</h5>
                             <p className="font-normal text-gray-700 dark:text-gray-400">
                                 Auditorium, 5th floor, National Institute of Technology, Delhi
                             </p>
-                        </a>
+                        </Link>
 
-                        <a href="#"
+                        <Link href="#"
                            className="block flex-1 p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
                             <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Conference
                                 Dates</h5>
                             <p className="font-normal text-gray-700 dark:text-gray-400">
                                 24 - 25 March, 2023
                             </p>
-                        </a>
+                        </Link>
                     </div>
                 </div>
             </section>
