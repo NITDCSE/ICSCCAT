@@ -1,25 +1,29 @@
 import nitdWhiteLogo from '@/public/nitd-logo-labeled-white.png'
-import ssduWhiteLogo from '@/public/nitd-logo-labeled-white.png'
+import ssduWhiteLogo from '@/public/sscdu-logo-white.png'
 import rtcsseWhiteLogo from '@/public/rtcsse-logo-white.png'
 import Link from "next/link";
 import Image from "next/image"
 
 export default function Footer() {
     return (<footer>
-            <div className="bg-primary50">
-                <div className="container mx-auto px-6 py-8 text-white">
-                    <div className="flex flex-col items-center justify-between md:flex-row">
-                        <div className="flex space-x-8 md:flex-col md:space-y-4 md:space-x-0">
-                            <div className="">
-                                <Image src={nitdWhiteLogo} alt="" className="max-h-12 object-contain"/>
-                            </div>
-                            <div className="py-2">
-                                <Image src={ssduWhiteLogo} alt="" className="max-h-12 object-contain"/>
-                            </div>
+        <div className="bg-primary50">
+            <div className="container mx-auto px-6 py-8 text-white">
+                <div className="flex flex-col items-center justify-between md:flex-row">
+                    <div className="flex items-center justify-between space-x-8 md:flex-col md:space-y-4 md:space-x-0">
+                        <div>
+                            <Image src={nitdWhiteLogo} alt="" className="max-h-12 object-contain"/>
                         </div>
-
-                        <div className="py-2 pr-32">
-                            <Image src={rtcsseWhiteLogo} alt="" className="max-h-24 object-contain"/>
+                        <div className="py-2">
+                            <Image src={ssduWhiteLogo} alt="" className="max-h-12 object-contain"/>
+                        </div>
+                    </div>
+                    <div className="flex md:flex-col items-center">
+                        <div>
+                            <Image src={rtcsseWhiteLogo} className="max-h-24 object-contain"/>
+                        </div>
+                        <div className="py-2 flex flex-col items-center">
+                            <h3 className="text-xl text-bold">Contact us</h3>
+                            <Link href="mailto:rtcsse@nitdelhi.ac.in">rtcsse@nitdelhi.ac.in</Link>
                         </div>
                     </div>
                 </div>
@@ -33,5 +37,6 @@ export default function Footer() {
                         Asthana</Link></p>
                 </div>
             </div>
-        </footer>)
+        </div>
+    </footer>)
 }

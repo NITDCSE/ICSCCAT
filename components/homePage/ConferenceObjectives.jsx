@@ -3,28 +3,28 @@ import React from "react";
 export default function ConferenceObjectives() {
     const objectives = [
         {
-            heading: "Providing Platforms",
-            body: "Providing a unique oppurtunity to meet educators,scholars,eminent scientists,industrialists and experts fromemical sciences"
+            heading: "",
+            body: "Providing a unique opportunity to meet educators, scholars, eminent scientists, industrialists and experts from various chemical organizations to exchange knowledge and ideas on the recent trends in chemical sciences"
         },
         {
-            heading: "Providing Platforms",
-            body:"To serve as a cradle for the genesis of new ideas leading to novel possibilities "
+            heading: "",
+            body:"To serve as a cradle for the genesis of new ideas leading to novel possibilities for sustainable development."
         },
         {
-            heading: "Providing Platforms",
-            body: "Providing a unique oppurtunity to meet educators,scholars,eminent scientists,industrialists and experts fromemical sciences"
+            heading: "",
+            body: "Promoting collaborative endeavors and interdisciplinary linkages to meet the global challenges."
         },
         {
-            heading: "Providing Platforms",
-            body: "Providing a unique oppurtunity to meet educators,scholars,eminent scientists,industrialists and experts fromvarious chemical organisations to exchange knowledge and ideas on the recent trends in chemical sciences"
+            heading: "",
+            body: "Providing a platform to explore newer fields at the interface of research including sustainable energy, nanotechnology and material chemistry."
         },
         {
-            heading: "Providing Platforms",
-            body: "Providing a unique oppurtunity to meet educators,scholars,eminent scientists,industrialists and experts fromemical sciences"
+            heading: "",
+            body: "To identify innovative solutions towards a path of renewable and sustainable energy."
         },
         {
-            heading: "Providing Platforms",
-            body: "Providing a unique oppurtunity to meet educators,scholars,eminent scientists,industrialists and experts fromemical sciences"
+            heading: "",
+            body: "Inspiring young minds towards sustainable ventures that positively impact society and future research."
         },
     ]
 

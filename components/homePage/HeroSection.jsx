@@ -16,12 +16,11 @@ export default function HeroSection() {
                         <h1 className="max-w-md text-4xl font-bold text-center md:text-5xl md:text-left">
                             First International Conference on RTCSSE-2023
                         </h1>
-                        <p className="text-center max-w-sm text-black md:text-left">The prime objective of the
-                            RTCSSE-2023
-                            is to
-                            serve as a forum for the exchange of ideas and knowledge between individuals working at
-                            different
-                            frontiers of chemical sciences</p>
+                        <p className="text-center max-w-sm text-black md:text-left">
+                            The prime objective of the RTCSSE-2023 is to serve as a forum for the exchange of ideas and
+                            knowledge between individuals working at different frontiers of chemical sciences and
+                            sustainable energy.
+                        </p>
                         <div className="flex justify-center md:justify-start">
                             <Link href="/register"
                                className="p-3 pt-2 text-primary05 bg-primaryRegular rounded-full baseline hover:bg-primary80 md:block px-6">Register
