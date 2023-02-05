@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function FeesSection() {
     return (
         <section id="register" className=" bg-primary10 px-6 py-12 justify-center items-center">
