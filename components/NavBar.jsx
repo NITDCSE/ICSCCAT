@@ -7,7 +7,7 @@ export default function NavBar() {
         <nav className="container mx-auto p-6">
             <div className="flex items-center justify-between">
                 <div className="pt-2 md:w-1/3">
-                    <Image src={rtcsseLogo} className="max-h-12" alt="RTCSSE 2023 object-contain" />
+                    <Image src={rtcsseLogo} className="max-h-12 object-contain" alt="RTCSSE 2023" />
                 </div>
                 <div className="hidden space-x-6 md:flex">
                     <a href="/" className="hover:text-primary50">Home</a>
