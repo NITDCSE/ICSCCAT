@@ -4,13 +4,7 @@ export default function BankDetailsSection() {
             <h3 className="text-2xl py-8 font-bold text-center md:text-3xl md:text-left">Bank Details
             </h3>
             <table className="mx-auto shadow-2xl font-bold border-2 border-primaryDark mb-4 my-auto w-6/12">
-                <thread className="text-white">
-                    <tr>
-                        <th className="py-3 bg-primary30">S.No</th>
-                        <th className="py-3 bg-primary30">Category</th>
-                        <th className="py-3 bg-primary30">Fees</th>
-                    </tr>
-                </thread>
+                
                 <tbody className="text-white text-center">
                 <tr className="bg-primary50 cursor-pointer">
                     <td className="py-3 px-6">1</td>

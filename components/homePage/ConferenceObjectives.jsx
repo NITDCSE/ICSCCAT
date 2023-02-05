@@ -8,7 +8,7 @@ export default function ConferenceObjectives() {
         },
         {
             heading: "Providing Platforms",
-            body: "Providing a unique oppurtunity to meet educators,scholars,eminent scientists,industrialists and experts fromemical sciences"
+            body:"To serve as a cradle for the genesis of new ideas leading to novel possibilities "
         },
         {
             heading: "Providing Platforms",

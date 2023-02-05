@@ -1,18 +1,22 @@
 export default function ConferenceThemes() {
     const themes = [
         "Sustainable Energy",
-        "Sustainable Energy",
-        "Sustainable Energy",
-        "Sustainable Energy",
-        "Sustainable Energy",
-        "Sustainable Energy",
-        "Sustainable Energy",
-        "Sustainable Energy",
-        "Sustainable Energy",
-        "Sustainable Energy",
-        "Sustainable Energy",
-        "Sustainable Energy",
-        "Sustainable Energy",
+        "Energy Production,Conservation and Storage",
+        "Suststainable Food System",
+        "Hydrogen Fuels",
+        "Smart Materials",
+        "Porous Materials",
+        "Composite Materials",
+        "Namomaterials",
+        "Catalysis",
+        "Biomaterials",
+        "Molecule Machines",
+        "Molecular Modelling",
+        "Green Chemistry",
+        "Applied Chemistry",
+        "Food Chemistry",
+        "Photochemistry",
+        "Metal Organic Frameworks(MOFs)"
     ]
     return (
         <section id="themes" className="py-6">
