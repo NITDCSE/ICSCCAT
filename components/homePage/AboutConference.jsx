@@ -28,8 +28,8 @@ export default function AboutConference() {
                         <li className="relative mb-6 sm:mb-0">
                             <div className="flex items-center">
                                 <div
-                                    className="z-10 flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full ring-0 ring-white dark:bg-blue-900 sm:ring-8 dark:ring-gray-900 shrink-0">
-                                    <svg aria-hidden="true" className="w-3 h-3 text-blue-800 dark:text-blue-300"
+                                    className="z-10 flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full ring-0 ring-white sm:ring-8 shrink-0">
+                                    <svg aria-hidden="true" className="w-3 h-3 text-blue-800"
                                          fill="currentColor"
                                          viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
                                         <path fill-rule="evenodd"
@@ -37,13 +37,13 @@ export default function AboutConference() {
                                               clip-rule="evenodd"></path>
                                     </svg>
                                 </div>
-                                <div className="hidden sm:flex w-full bg-gray-200 h-0.5 dark:bg-gray-700"></div>
+                                <div className="hidden sm:flex w-full bg-gray-200 h-0.5"></div>
                             </div>
                             <div className="mt-3 sm:pr-8">
-                                <h3 className="text-lg font-semibold text-gray-900 dark:text-white">Last
+                                <h3 className="text-lg font-semibold text-gray-900">Last
                                     Registration</h3>
                                 <time
-                                    className="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">March
+                                    className="block mb-2 text-sm font-normal leading-none text-gray-400">March
                                     20,
                                     2023
                                 </time>
@@ -52,8 +52,8 @@ export default function AboutConference() {
                         <li className="relative mb-6 sm:mb-0">
                             <div className="flex items-center">
                                 <div
-                                    className="z-10 flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full ring-0 ring-white dark:bg-blue-900 sm:ring-8 dark:ring-gray-900 shrink-0">
-                                    <svg aria-hidden="true" className="w-3 h-3 text-blue-800 dark:text-blue-300"
+                                    className="z-10 flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full ring-0 ring-white sm:ring-8 shrink-0">
+                                    <svg aria-hidden="true" className="w-3 h-3 text-blue-800"
                                          fill="currentColor"
                                          viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
                                         <path fill-rule="evenodd"
@@ -61,13 +61,13 @@ export default function AboutConference() {
                                               clip-rule="evenodd"></path>
                                     </svg>
                                 </div>
-                                <div className="hidden sm:flex w-full bg-gray-200 h-0.5 dark:bg-gray-700"></div>
+                                <div className="hidden sm:flex w-full bg-gray-200 h-0.5 "></div>
                             </div>
                             <div className="mt-3 sm:pr-8">
-                                <h3 className="text-lg font-semibold text-gray-900 dark:text-white">Abstract Submission
+                                <h3 className="text-lg font-semibold text-gray-900 ">Abstract Submission
                                     Begins</h3>
                                 <time
-                                    className="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
+                                    className="block mb-2 text-sm font-normal leading-none text-gray-400">
                                     February 5, 2023
                                 </time>
                             </div>
@@ -75,8 +75,8 @@ export default function AboutConference() {
                         <li className="relative mb-6 sm:mb-0">
                             <div className="flex items-center">
                                 <div
-                                    className="z-10 flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full ring-0 ring-white dark:bg-blue-900 sm:ring-8 dark:ring-gray-900 shrink-0">
-                                    <svg aria-hidden="true" className="w-3 h-3 text-blue-800 dark:text-blue-300"
+                                    className="z-10 flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full ring-0 ring-white sm:ring-8 shrink-0">
+                                    <svg aria-hidden="true" className="w-3 h-3 text-blue-800"
                                          fill="currentColor"
                                          viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
                                         <path fill-rule="evenodd"
@@ -84,13 +84,13 @@ export default function AboutConference() {
                                               clip-rule="evenodd"></path>
                                     </svg>
                                 </div>
-                                <div className="hidden sm:flex w-full bg-gray-200 h-0.5 dark:bg-gray-700"></div>
+                                <div className="hidden sm:flex w-full bg-gray-200 h-0.5 "></div>
                             </div>
                             <div className="mt-3 sm:pr-8">
-                                <h3 className="text-lg font-semibold text-gray-900 dark:text-white">Abstract Submission
+                                <h3 className="text-lg font-semibold text-gray-900 ">Abstract Submission
                                     ends</h3>
                                 <time
-                                    className="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
+                                    className="block mb-2 text-sm font-normal leading-none text-gray-400">
                                     February 28, 2023
                                 </time>
                             </div>
@@ -98,8 +98,8 @@ export default function AboutConference() {
                         <li className="relative mb-6 sm:mb-0">
                             <div className="flex items-center">
                                 <div
-                                    className="z-10 flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full ring-0 ring-white dark:bg-blue-900 sm:ring-8 dark:ring-gray-900 shrink-0">
-                                    <svg aria-hidden="true" className="w-3 h-3 text-blue-800 dark:text-blue-300"
+                                    className="z-10 flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full ring-0 ring-white sm:ring-8 shrink-0">
+                                    <svg aria-hidden="true" className="w-3 h-3 text-blue-800"
                                          fill="currentColor"
                                          viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
                                         <path fill-rule="evenodd"
@@ -107,13 +107,13 @@ export default function AboutConference() {
                                               clip-rule="evenodd"></path>
                                     </svg>
                                 </div>
-                                <div className="hidden sm:flex w-full bg-gray-200 h-0.5 dark:bg-gray-700"></div>
+                                <div className="hidden sm:flex w-full bg-gray-200 h-0.5 "></div>
                             </div>
                             <div className="mt-3 sm:pr-8">
-                                <h3 className="text-lg font-semibold text-gray-900 dark:text-white">Notification of
+                                <h3 className="text-lg font-semibold text-gray-900 ">Notification of
                                     acceptance</h3>
                                 <time
-                                    className="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
+                                    className="block mb-2 text-sm font-normal leading-none text-gray-400">
                                     March 6, 2023
                                 </time>
                             </div>
