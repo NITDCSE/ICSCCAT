@@ -1,6 +1,6 @@
 import nitdWhiteLogo from '@/public/nitd-logo-labeled-white.png'
-import ssduWhiteLogo from '@/public/sscdu-logo-white.png'
-import rtcsseWhiteLogo from '@/public/rtcsse-logo-white.png'
+import ssduWhiteLogo from '@/public/sscdu-logo-labeled-white.png'
+import rtcsseWhiteLogo from '@/public/rtcsse-logo.png'
 import Link from "next/link";
 import Image from "next/image"
 
