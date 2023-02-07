@@ -7,22 +7,22 @@ export default function BankDetailsSection() {
                 
                 <tbody className="text-white text-center">
                 <tr className="bg-primary50 cursor-pointer">
-                    <td className="py-3 px-6">1</td>
+                 
                     <td className="py-3 px-6">Bank Name :</td>
                     <td className="py-3 px-6"> CANARA BANK</td>
                 </tr>
                 <tr className="bg-primary50 cursor-pointer">
-                    <td className="py-3 px-6">2</td>
+                    
                     <td className="py-3 px-6">Account Name:</td>
                     <td className="py-3 px-6">NIT DELHI STC CONFERENCE</td>
                 </tr>
                 <tr className="bg-primary50 cursor-pointer">
-                    <td className="py-3 px-6">3</td>
+                    
                     <td className="py-3 px-6">Account No.</td>
                     <td className="py-3 px-6">2983101006538</td>
                 </tr>
                 <tr className="bg-primary50 cursor-pointer">
-                    <td className="py-3 px-6">4</td>
+                    
                     <td className="py-3 px-6">IFSC Code</td>
                     <td className="py-3 px-6">CNRB0002983</td>
                 </tr>
