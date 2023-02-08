@@ -1,5 +1,4 @@
 export default function AboutConference() {
-    // TODO: add about NITD and SSDU
     return (
         <>
             <section id="about">

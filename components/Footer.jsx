@@ -6,7 +6,6 @@ import sscduSquareLogo from "@/public/sscdu-logo.png"
 import Link from "next/link";
 import Image from "next/image"
 
-// TODO: add DoAS and DoChem above logos
 export default function Footer() {
     return (<footer>
         <div className="bg-primary10">
