@@ -12,13 +12,14 @@ export default function HeroSection() {
                 <div
                     className="container relative flex flex-col-reverse md:flex-row justify-center items-start px-6 mx-auto pt-12 space-y-0 md:justify-start"
                 >
-                    <div className="flex flex-col mx-auto md:mx-0 md:w-1/2 mb-32 space-y-12">
-                        <h1 className="max-w-md text-4xl font-bold text-center md:text-5xl md:text-left">
-                            First International Conference on RTCSSE-2023
+                    <div className="flex flex-col mx-auto md:mx-0 mb-32 space-y-0">
+                        <h1 className="text-lg text-center md:text-xl md:text-left">
+                            1st International Conference on
                         </h1>
-                        <p className="text-center  text-3xl max-w-sm text-black md:text-left">
-                            Recent trends in Chemical Sciences and sustainable energy
+                        <p className="md:max-w-md text-center font-bold text-4xl text-black md:text-5xl md:text-left">
+                            Recent Trends in Chemical Sciences & Sustainable Energy
                         </p>
+                        <div className="py-8" />
                         <div className="flex justify-center md:justify-start">
                             <Link href="/register"
                                className="p-3 pt-2 text-primary05 bg-primaryRegular rounded-full baseline hover:bg-primary80 md:block px-6">Register
