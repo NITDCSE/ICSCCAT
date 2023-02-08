@@ -13,36 +13,30 @@ export default function FeesSection() {
                 <h3 className="text-2xl py-8 font-bold text-center md:text-3xl md:text-left">Registration Fees
                 </h3>
                 <table className="mx-auto shadow-2xl font-bold border-2  mb-8 border-primaryDark w-6/12">
-                    <thread className="text-white">
-                        <tr>
-                            <th className="py-3 bg-primary30">S.No</th>
-                            <th className="py-3 bg-primary30">Category</th>
-                            <th className="py-3 bg-primary30">Fees</th>
-                        </tr>
-                    </thread>
+                   
                     <tbody className="text-white text-center">
                     <tr className="bg-primary50 cursor-pointer">
-                        <td className="py-3 px-6">1</td>
+                        
                         <td className="py-3 px-6">UG/PG Student</td>
                         <td className="py-3 px-6"> Rs.500</td>
                     </tr>
                     <tr className="bg-primary50 cursor-pointer">
-                        <td className="py-3 px-6">2</td>
+                        
                         <td className="py-3 px-6">Research Scholar</td>
                         <td className="py-3 px-6">Rs.1000</td>
                     </tr>
                     <tr className="bg-primary50 cursor-pointer">
-                        <td className="py-3 px-6">3</td>
+                        
                         <td className="py-3 px-6">Faculty</td>
                         <td className="py-3 px-6"> Rs.2000</td>
                     </tr>
                     <tr className="bg-primary50 cursor-pointer">
-                        <td className="py-3 px-6">4</td>
+                    
                         <td className="py-3 px-6">Scientist and industrialists</td>
                         <td className="py-3 px-6"> Rs.3000</td>
                     </tr>
                     <tr className="bg-primary50 cursor-pointer">
-                        <td className="py-3 px-6">5</td>
+                        
                         <td className="py-3 px-6">Abroad Participants(Faculty/Research Scholars)</td>
                         <td className="py-3 px-6"> $200/$100</td>
                     </tr>

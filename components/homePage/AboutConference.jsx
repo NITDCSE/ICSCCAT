@@ -8,13 +8,7 @@ export default function AboutConference() {
                             About the Conference
                         </h3>
                         <p className="text-center  text-black md:text-left">
-                            The prime objective of the RTCSSE-2023 is to serve as a forum for the exchange of ideas and
-                            knowledge between individuals working at different frontiers of chemical sciences and
-                            sustainable energy. It will provide a platform for the researchers, scientists, professors
-                            from academia and industry participants to showcase their research in the form of keynote
-                            addresses, lectures, discussions and presentations on cutting edge research and technology.
-                            It will further provide an opportunity for the participants to create networks among the
-                            peers that can strengthen collaborative interdisciplinary research.
+                           Recent Trends in Chemical Sciences and Sustainable Energy
                         </p>
                     </div>
                 </div>
