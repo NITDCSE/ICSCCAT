@@ -1,7 +1,7 @@
 export default function ConferenceThemes() {
     const themes = [
-        " Environment Sustainable Energy",
-        "Energy Production,Conservation and Storage",
+        "Environment and Sustainable Energy",
+        "Energy Production, Conservation and Storage",
         "Sustainable Food System",
         "Hydrogen Fuels",
         "Smart Materials",
@@ -16,7 +16,7 @@ export default function ConferenceThemes() {
         "Applied Chemistry",
         "Food Chemistry",
         "Photochemistry",
-        "Metal Organic Frameworks(MOFs)"
+        "Metal Organic Frameworks (MOFs)",
     ]
     return (
         <section id="themes" className="py-6">
