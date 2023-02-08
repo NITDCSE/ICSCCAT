@@ -1,29 +1,34 @@
-import nitdWhiteLogo from '@/public/nitd-logo-labeled-white.png'
-import ssduWhiteLogo from '@/public/sscdu-logo-labeled-white.png'
-import rtcsseWhiteLogo from '@/public/rtcsse-logo.png'
+import nitdLongLogo from '@/public/nitd-logo-labeled-blue.png'
+import sscduLongLogo from '@/public/sscdu-logo-long.png'
+import rtcsseWhiteLogo from '@/public/rtcsse-logo-labeled.png'
 import Link from "next/link";
 import Image from "next/image"
 
 export default function Footer() {
     return (<footer>
-        <div className="bg-primary50">
-            <div className="container mx-auto px-6 py-8 text-white">
-                <div className="flex flex-col items-center justify-between md:flex-row">
-                    <div className="flex items-center justify-between space-x-8 md:flex-col md:space-y-4 md:space-x-0">
+        <div className="bg-primary10">
+            <div className="container mx-auto px-6 py-8">
+                <div className="flex flex-col items-center space-y-6 justify-between">
+                    <div className="grid items-center justify-between space-x-8 grid-cols-2">
                         <div>
-                            <Image src={nitdWhiteLogo} alt="" className="max-h-12 object-contain"/>
+                            <Image src={nitdLongLogo} alt="" className="max-h-12 object-contain"/>
                         </div>
-                        <div className="py-2">
-                            <Image src={ssduWhiteLogo} alt="" className="max-h-12 object-contain"/>
+                        <div>
+                            <Image src={sscduLongLogo} alt="" className="max-h-12 object-contain"/>
                         </div>
                     </div>
-                    <div className="flex md:flex-col items-center">
-                        <div>
-                            <Image src={rtcsseWhiteLogo} className="max-h-24 object-contain"/>
+                    <div className="grid items-center grid-cols-1 md:space-x-8 md:grid-cols-2">
+                        <div className="">
+                            <Image src={rtcsseWhiteLogo} className="max-h-12 object-contain"/>
                         </div>
-                        <div className="py-2 flex flex-col items-center">
-                            <h3 className="text-xl text-bold">Contact us</h3>
-                            <Link href="mailto:rtcsse@nitdelhi.ac.in">rtcsse@nitdelhi.ac.in</Link>
+                        <div className="py-2 flex items-center justify-around space-x-6 md:flex-col">
+                            <h3 className="text-md text-bold">Contact us</h3>
+                            <div className="mx-auto grid grid-cols-1 sm:grid-cols-2 text-xs">
+                                <Link href="mailto:rtcsse@nitdelhi.ac.in">rtcsse@nitdelhi.ac.in</Link>
+                                <p> 783 854 5356</p>
+                                <p>011 3386 1250</p>
+                                <p>011 3386 1256</p>
+                            </div>
                         </div>
                     </div>
                 </div>
