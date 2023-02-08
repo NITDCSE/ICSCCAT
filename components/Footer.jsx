@@ -10,12 +10,12 @@ export default function Footer() {
             <div className="container mx-auto px-6 py-8">
                 <div className="flex flex-col items-center space-y-6 justify-between">
                     <div className="grid items-center justify-between space-x-8 grid-cols-2">
-                        <div>
+                        <a target="_blank" href="https://nitdelhi.ac.in/" >
                             <Image src={nitdLongLogo} alt="" className="max-h-12 object-contain"/>
-                        </div>
-                        <div>
+                        </a>
+                        <a target="_blank" href="https://ss.du.ac.in/">
                             <Image src={sscduLongLogo} alt="" className="max-h-12 object-contain"/>
-                        </div>
+                        </a>
                     </div>
                     <div className="grid items-center grid-cols-1 md:space-x-8 md:grid-cols-2">
                         <div className="">

@@ -20,17 +20,17 @@ export default function NavBar() {
             </div>
             <div className="container mx-auto p-6 ">
                 <div className="flex items-center justify-between">
-                    <div className="flex pt-2">
+                    <Link href="/" className="flex pt-2">
                         <Image src={rtcsseLogoLabeled} className="max-h-12 object-contain hidden md:block" alt="RTCSSE 2023"/>
                         <Image src={rtcsseLogo} className="max-h-12 object-contain md:hidden" alt="RTCSSE 2023" width={72}/>
-                    </div>
+                    </Link>
                     <div className="flex space-x-4 items-center justify-end">
-                        <div className="pt-2">
+                        <a target="_blank" href="https://nitdelhi.ac.in/" className="pt-2">
                             <Image src={nitdLogo} className="max-h-12 object-contain" alt="NITD" width={72} />
-                        </div>
-                        <div className="pt-2">
+                        </a>
+                        <a target="_blank" href="https://ss.du.ac.in/" className="pt-2">
                             <Image src={sscduLogo} className="max-h-12 object-contain" alt="NITD" width={72}/>
-                        </div>
+                        </a>
                         <div className="pl-6">
                             <Link href="/register"
                                   className="p-3 my-auto px-6 pt-2 text-white bg-primaryRegular rounded-full baseline hidden md:block hover:bg-primary80"
