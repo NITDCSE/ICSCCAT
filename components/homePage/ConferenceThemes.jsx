@@ -16,7 +16,7 @@ export default function ConferenceThemes() {
         "Applied Chemistry",
         "Food Chemistry",
         "Photochemistry",
-        "Metal Organic Frameworks (MOFs)",
+        "Metal Organic Frameworks (MOFs)", // TODO: make s small
     ]
     return (
         <section id="themes" className="py-6">

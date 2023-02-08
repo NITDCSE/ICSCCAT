@@ -1,14 +1,19 @@
 export default function AboutConference() {
+    // TODO: add about NITD and SSDU
     return (
         <>
             <section id="about">
                 <div className="flex flex-col md:flex-col px-6 mx-auto mt-10 space-y-12 container">
                     <div className="flex flex-col md:flex-col mx-auto mt-10 space-y-5 container">
-                        <h3 className=" max-w-md text-4xl font-bold text-center md:text-5xl md:text-left">
+                        <h3 className="text-4xl font-bold text-center md:text-5xl md:text-left">
                             About the Conference
                         </h3>
-                        <p className="text-center  text-black md:text-left">
-                           Recent Trends in Chemical Sciences and Sustainable Energy
+                        <p className="text-center text-black lg:text-lg md:text-left">
+                            The prime objective of the RTCSSE-2023 is to serve as a forum for the exchange of ideas and knowledge between individuals working at different frontiers of chemical sciences and sustainable energy. It will provide a platform
+                            for the researchers, scientists, professors from academia and industry participants to showcase their research in the form of keynote addresses, lectures, discussions and presentations on cutting edge research and
+                            technology. It will further provide an opportunity for the participants to create
+                            networks among the peers that can strengthen collaborative interdisciplinary
+                            research.
                         </p>
                     </div>
                 </div>

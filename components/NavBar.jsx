@@ -11,8 +11,8 @@ export default function NavBar() {
             <div className="bg-black text-white text-xs">
                 <div className="container mx-auto py-1 px-6">
                     <div className="items-center justify-between flex flex-col md:flex-row">
-                        <p className="text-center">Contact us - <span><Link href="mailto:rtcsee@nitdelhi.ac.in"
-                                                                            className="underline hover:text-primary20">rtcsee@nitdelhi.ac.in</Link></span>
+                        <p className="text-center">Contact us - <span><Link href="mailto:rtcsse@nitdelhi.ac.in"
+                                                                            className="underline hover:text-primary20">rtcsse@nitdelhi.ac.in</Link></span>
                         </p>
                         <p>+91 782 854 5356, 011 3386 1250, 011 3386 1256</p>
                     </div>
@@ -26,10 +26,10 @@ export default function NavBar() {
                     </Link>
                     <div className="flex space-x-4 items-center justify-end">
                         <a target="_blank" href="https://nitdelhi.ac.in/" className="pt-2">
-                            <Image src={nitdLogo} className="max-h-12 object-contain" alt="NITD" width={72} />
+                            <Image src={nitdLogo} className="max-h-12 object-contain" alt="NITD" width={72} quality={100}/>
                         </a>
                         <a target="_blank" href="https://ss.du.ac.in/" className="pt-2">
-                            <Image src={sscduLogo} className="max-h-12 object-contain" alt="NITD" width={72}/>
+                            <Image src={sscduLogo} className="max-h-12 object-contain" alt="NITD" width={72} quality={100}/>
                         </a>
                         <div className="pl-6">
                             <Link href="/register"

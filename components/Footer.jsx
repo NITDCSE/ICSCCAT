@@ -1,36 +1,30 @@
 import nitdLongLogo from '@/public/nitd-logo-labeled-blue.png'
 import sscduLongLogo from '@/public/sscdu-logo-long.png'
-import rtcsseWhiteLogo from '@/public/rtcsse-logo-labeled.png'
+import rtcsseLogo from '@/public/rtcsse-logo.png'
+import nitdSquareLogo from "@/public/nitd-logo.png"
+import sscduSquareLogo from "@/public/sscdu-logo.png"
 import Link from "next/link";
 import Image from "next/image"
 
+// TODO: add DoAS and DoChem above logos
 export default function Footer() {
     return (<footer>
         <div className="bg-primary10">
             <div className="container mx-auto px-6 py-8">
-                <div className="flex flex-col items-center space-y-6 justify-between">
-                    <div className="grid items-center justify-between space-x-8 grid-cols-2">
-                        <a target="_blank" href="https://nitdelhi.ac.in/" >
-                            <Image src={nitdLongLogo} alt="" className="max-h-12 object-contain"/>
-                        </a>
-                        <a target="_blank" href="https://ss.du.ac.in/">
-                            <Image src={sscduLongLogo} alt="" className="max-h-12 object-contain"/>
-                        </a>
+                <div className="grid items-center grid-cols-3">
+                    <a className="m-auto flex flex-col items-center space-y-6" target="_blank" href="https://nitdelhi.ac.in/">
+                        <p className="text-xs text-center md:text-lg">Department of Applied Sciences</p>
+                        <Image src={nitdLongLogo} alt="" className="max-h-12 object-contain hidden md:block"/>
+                        <Image src={nitdSquareLogo} alt="" className="max-h-12 object-contain md:hidden"/>
+                    </a>
+                    <div className="mx-auto">
+                        <Image src={rtcsseLogo} className="object-contain" width={170}/>
                     </div>
-                    <div className="grid items-center grid-cols-1 md:space-x-8 md:grid-cols-2">
-                        <div className="">
-                            <Image src={rtcsseWhiteLogo} className="max-h-12 object-contain"/>
-                        </div>
-                        <div className="py-2 flex items-center justify-around space-x-6 md:flex-col">
-                            <h3 className="text-md text-bold">Contact us</h3>
-                            <div className="mx-auto grid grid-cols-1 sm:grid-cols-2 text-xs">
-                                <Link href="mailto:rtcsse@nitdelhi.ac.in">rtcsse@nitdelhi.ac.in</Link>
-                                <p> 783 854 5356</p>
-                                <p>011 3386 1250</p>
-                                <p>011 3386 1256</p>
-                            </div>
-                        </div>
-                    </div>
+                    <a className="m-auto flex flex-col items-center space-y-6" target="_blank" href="https://nitdelhi.ac.in/">
+                        <p className="text-xs text-center md:text-lg">Department of Chemistry</p>
+                        <Image src={sscduLongLogo} alt="" className="max-h-12 object-contain hidden md:block"/>
+                        <Image src={sscduSquareLogo} alt="" className="max-h-12 object-contain md:hidden"/>
+                    </a>
                 </div>
             </div>
             <div className="bg-black text-white text-sm">
