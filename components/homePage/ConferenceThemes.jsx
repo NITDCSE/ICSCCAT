@@ -1,22 +1,22 @@
 export default function ConferenceThemes() {
     const themes = [
-        "Environment and Sustainable Energy",
-        "Energy Production, Conservation and Storage",
-        "Sustainable Food System",
-        "Hydrogen Fuels",
-        "Smart Materials",
-        "Porous Materials",
-        "Composite Materials",
-        "Nanomaterials",
-        "Catalysis",
-        "Biomaterials",
-        "Molecule Machines",
-        "Molecular Modelling",
-        "Green Chemistry",
-        "Applied Chemistry",
-        "Food Chemistry",
-        "Photochemistry",
-        "Metal Organic Frameworks (MOFs)", // TODO: make s small
+        "ENVIRONMENT AND SUSTAINABLE ENERGY",
+        "ENERGY PRODUCTION, CONSERVATION AND STORAGE",
+        "SUSTAINABLE FOOD SYSTEM",
+        "HYDROGEN FUELS",
+        "SMART MATERIALS",
+        "POROUS MATERIALS",
+        "COMPOSITE MATERIALS",
+        "NANOMATERIALS",
+        "CATALYSIS",
+        "BIOMATERIALS",
+        "MOLECULE MACHINES",
+        "MOLECULAR MODELING",
+        "GREEN CHEMISTRY",
+        "APPLIED CHEMISTRY",
+        "FOOD CHEMISTRY",
+        "PHOTOCHEMISTRY",
+        "METAL ORGANIC FRAMEWORKS (MOFs)",
     ]
     return (
         <section id="themes" className="py-6">
@@ -37,7 +37,7 @@ export default function ConferenceThemes() {
 function ConferenceThemeGridItem({theme}) {
     return (
         <div
-            className="block font-medium bg-primary10 text-sm leading-tight uppercase rounded px-6 py-3 my-2 md:mx-4 focus:outline-none focus:ring-0">
+            className="block font-medium bg-primary10 text-sm leading-tight rounded px-6 py-3 my-2 md:mx-4 focus:outline-none focus:ring-0">
             {theme}
         </div>
     )

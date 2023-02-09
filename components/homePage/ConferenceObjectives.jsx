@@ -3,27 +3,27 @@ import React from "react";
 export default function ConferenceObjectives() {
     const objectives = [
         {
-            heading: "",
+            heading: "Platform for Innovative & Intellectual Discussions",
             body: "Providing a unique opportunity to meet educators, scholars, eminent scientists, industrialists and experts from various chemical organizations to exchange knowledge and ideas on the recent trends in chemical sciences"
         },
         {
-            heading: "",
+            heading: "Opening New Horizons for Sustainability",
             body:"To serve as a cradle for the genesis of new ideas leading to novel possibilities for sustainable development."
         },
         {
-            heading: "",
+            heading: "Stimulating Interdisciplinary Research",
             body: "Promoting collaborative endeavors and interdisciplinary linkages to meet the global challenges."
         },
         {
-            heading: "",
+            heading: "Combining Conventional & Modern Approaches to Solving Problems",
             body: "Providing a platform to explore newer fields at the interface of research including sustainable energy, nanotechnology and material chemistry."
         },
         {
-            heading: "",
+            heading: "Innovative Solutions for Sustainability",
             body: "To identify innovative solutions towards a path of renewable and sustainable energy."
         },
         {
-            heading: "",
+            heading: "Encouraging Young Minds to Explore Sustainability",
             body: "Inspiring young minds towards sustainable ventures that positively impact society and future research."
         },
     ]
@@ -55,7 +55,7 @@ function ConferenceObjectiveGridItem({heading, body, index}) {
                 <div className="flex items-center space-x-2">
                     <div className="px-4 py-2 text-white rounded-full md:py-1 bg-primary50">{index}</div>
 
-                    <h3 className="text-base font-bold md:mb-4 md:hidden">{heading}</h3>
+                    <h3 className="text-base text-white font-bold md:mb-4 md:hidden">{heading}</h3>
                 </div>
             </div>
             <div>
