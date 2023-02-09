@@ -26,7 +26,7 @@ export default function HeroSection() {
                                 1st International Conference on
                             </h1>
                             <p className="text-center font-bold text-4xl text-black md:text-5xl md:text-left">
-                                Recent Trends in Chemical Sciences & Sustainable Energy
+                                "Recent Trends in Chemical Sciences & Sustainable Energy"
                             </p>
                             <p className="text-center text-lg text-black md:text-2xl md:text-left mt-4">
                                 24 - 25 March, 2023

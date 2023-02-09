@@ -1,0 +1,49 @@
+.venue {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.mapdiv {
+    width: 40%;
+}
+
+.textdiv {
+    width: 60%;
+    border-left: 2px solid rgb(171, 167, 167);
+    padding-left: 30px;
+}
+
+.mapdiv h1 {
+    font-weight: 600;
+    /* margin-top: 30px; */
+    margin-bottom: 20px;
+    font-size: 22px;
+}
+.hed{
+    font-weight: 600;
+    font-size: 24px;
+    /* text-decoration: underline; */
+}
+
+@media screen and (max-width: 1090px) {
+    .mapdiv {
+        width: 50%;
+    }
+    .textdiv {
+        width: 50%;
+        /* margin-top: 30px; */
+    }
+}
+@media screen and (max-width: 865px) {
+    .mapdiv {
+        width: 100%;
+    }
+    .textdiv {
+        width: 100%;
+        margin-top: 30px;
+    }
+    #railway iframe{
+        width: 300px;
+        height: 300px;
+    }
+}
