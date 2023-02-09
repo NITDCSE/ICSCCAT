@@ -4,7 +4,7 @@ export default function AboutConference() {
             <section id="about">
                 <div className="flex flex-col md:flex-col px-6 mx-auto mt-10 space-y-12 container">
                     <div className="flex flex-col md:flex-col mx-auto mt-10 space-y-5 container">
-                        <h3 className="text-4xl font-bold text-center md:text-5xl md:text-left">
+                        <h3 className="text-3xl font-bold text-center md:text-4xl md:text-left">
                             About the Conference
                         </h3>
                         <p className="text-center text-black lg:text-lg md:text-left">
