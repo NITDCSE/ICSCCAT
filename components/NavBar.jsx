@@ -88,12 +88,12 @@ function Ribbon({open}) {
         {name: "Venue", link: "/venue"},
     ]
 
-    return (<div className={`${open ? 'block' : 'hidden'} md:block`}>
+    return (<div className={`${open ? 'block' : 'hidden'} md:block bg-primaryDark text-white`}>
         <div
-            className="container bg-primary05 absolute md:static mx-auto py-1 px-6 left-0 w-full md:w-auto mx-auto">
+            className="container bg-primaryDark absolute md:static mx-auto py-1 px-6 left-0 w-full md:w-auto mx-auto">
             <ul className="md:flex md:items-center md:justify-between">
                 {links.map((link, index) => (<li key={link.name} className="my-6 md:my-0">
-                    <Link className="uppercase text-sm font-medium hover:text-primary80"
+                    <Link className="font-semibold uppercase text-sm font-medium hover:text-primary20"
                           href={link.link}>{link.name}</Link>
                 </li>))}
             </ul>
