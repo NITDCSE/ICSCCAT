@@ -1,7 +1,6 @@
 "use client"
 
 import Image from "next/image";
-import rtcsseLogoLabeled from "@/public/rtcsse-logo-labeled.png"
 import rtcsseLogo from "@/public/rtcsse-logo.png"
 import nitdLogo from "@/public/nitd-logo.png"
 import sscduLogo from "@/public/sscdu-logo.png"
@@ -12,23 +11,45 @@ export default function NavBar() {
     const [open, setOpen] = useState(false)
 
     return (<nav className="sticky top-0 z-50 bg-primary05 drop-shadow">
-        <div className="bg-black text-white text-xs">
-            <div className="container mx-auto py-1 px-6">
-                <div className="items-center justify-between flex flex-col md:flex-row">
-                    <p className="text-center">Contact us - <span><Link href="mailto:rtcsse@nitdelhi.ac.in"
-                                                                        className="underline hover:text-primary20">rtcsse@nitdelhi.ac.in</Link></span>
-                    </p>
-                    <p>+91 782 854 5356, 011 3386 1250, 011 3386 1256</p>
-                </div>
-            </div>
+        <ContactHeader />
+        <ConferenceHeader setOpen={setOpen} open={open} />
+        <NavRibbon open={open}/>
+    </nav>)
+}
+
+function NavRibbon({open}) {
+    const links = [
+        {name: "Home", link: "/"},
+        {name: "About", link: "/"},
+        {name: "Schedule", link: "/"},
+        {name: "Speakers", link: "/"},
+        {name: "Abstract Papers", link: "/"},
+        {name: "Committee", link: "/"},
+        {name: "Sponsors", link: "/"},
+        {name: "Venue", link: "/venue"},
+    ]
+
+    return (<div className={`${open ? 'block' : 'hidden'} md:block bg-primaryDark text-white`}>
+        <div
+            className="container bg-primaryDark absolute md:static mx-auto py-1 px-6 left-0 w-full md:w-auto mx-auto">
+            <ul className="md:flex md:items-center md:justify-between">
+                {links.map((link, index) => (<li key={link.name} className="my-6 md:my-0">
+                    <Link className="font-semibold uppercase text-sm font-medium hover:text-primary20"
+                          href={link.link}>{link.name}</Link>
+                </li>))}
+            </ul>
         </div>
-        <div className="container mx-auto p-6 ">
+    </div>)
+}
+
+function ConferenceHeader({open, setOpen}) {
+    return (
+        <div className="container mx-auto px-6 py-4">
             <div className="flex space-x-6 items-center justify-between">
-                <Link href="/" className="flex pt-2">
-                    <Image src={rtcsseLogoLabeled} className="max-h-12 object-contain hidden md:block"
-                           alt="RTCSSE 2023"/>
-                    <Image src={rtcsseLogo} className="max-h-12 object-contain md:hidden" alt="RTCSSE 2023"
+                <Link href="/" className="flex items-center space-x-4 pt-2">
+                    <Image src={rtcsseLogo} className="max-h-12 object-contain" alt="RTCSSE 2023"
                            width={72}/>
+                    <h3 className="hidden md:block text-3xl tracking-wider text-center align-middle">RTCSSE 2023</h3>
                 </Link>
                 <div className="flex space-x-4 items-center justify-end">
                     <a target="_blank" href="https://nitdelhi.ac.in/" className="pt-2">
@@ -53,12 +74,12 @@ export default function NavBar() {
                             {!open ? (
                                 <svg viewBox="0 0 116 78" fill="none" className="w-4 h-4 text-blue-800"
                                      xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M8.00891 7.6001H108.631" stroke="black" stroke-width="14.3746"
-                                          stroke-miterlimit="10" stroke-linecap="round"/>
-                                    <path d="M8.00891 38.7451H108.631" stroke="black" stroke-width="14.3746"
-                                          stroke-miterlimit="10" stroke-linecap="round"/>
-                                    <path d="M8.00891 69.8896H108.631" stroke="black" stroke-width="14.3746"
-                                          stroke-miterlimit="10" stroke-linecap="round"/>
+                                    <path d="M8.00891 7.6001H108.631" stroke="black" strokeWidth="14.3746"
+                                          strokeMiterlimit="10" strokeLinecap="round"/>
+                                    <path d="M8.00891 38.7451H108.631" stroke="black" strokeWidth="14.3746"
+                                          strokeMiterlimit="10" strokeLinecap="round"/>
+                                    <path d="M8.00891 69.8896H108.631" stroke="black" strokeWidth="14.3746"
+                                          strokeMiterlimit="10" strokeLinecap="round"/>
                                 </svg>
                             ) : (<svg viewBox="0 0 101 101" fill="none" className="w-4 h-4 text-blue-800"
                                       xmlns="http://www.w3.org/2000/svg">
@@ -72,31 +93,20 @@ export default function NavBar() {
 
             </div>
         </div>
-        <Ribbon open={open}/>
-    </nav>)
+    )
 }
 
-function Ribbon({open}) {
-    const links = [
-        {name: "Home", link: "/"},
-        {name: "About", link: "/"},
-        {name: "Schedule", link: "/"},
-        {name: "Speakers", link: "/"},
-        {name: "Abstract Papers", link: "/"},
-        {name: "Committee", link: "/"},
-        {name: "Sponsors", link: "/"},
-        {name: "Venue", link: "/venue"},
-    ]
-
-    return (<div className={`${open ? 'block' : 'hidden'} md:block bg-primaryDark text-white`}>
-        <div
-            className="container bg-primaryDark absolute md:static mx-auto py-1 px-6 left-0 w-full md:w-auto mx-auto">
-            <ul className="md:flex md:items-center md:justify-between">
-                {links.map((link, index) => (<li key={link.name} className="my-6 md:my-0">
-                    <Link className="font-semibold uppercase text-sm font-medium hover:text-primary20"
-                          href={link.link}>{link.name}</Link>
-                </li>))}
-            </ul>
+function ContactHeader() {
+    return (
+        <div className="bg-black text-white text-xs">
+            <div className="container mx-auto py-1 px-6">
+                <div className="items-center justify-between flex flex-col md:flex-row">
+                    <p className="text-center">Contact us - <span><Link href="mailto:rtcsse@nitdelhi.ac.in"
+                                                                        className="underline hover:text-primary20">rtcsse@nitdelhi.ac.in</Link></span>
+                    </p>
+                    <p>+91 782 854 5356, 011 3386 1250, 011 3386 1256</p>
+                </div>
+            </div>
         </div>
-    </div>)
+    )
 }
