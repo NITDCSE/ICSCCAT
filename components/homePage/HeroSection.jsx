@@ -1,11 +1,9 @@
-import bg from '@/public/hero-bg.jpg'
-import rtcsseSquareLogo from "@/public/rtcsse-logo.png"
 import Link from "next/link";
 import Image from "next/image";
+import bg from '@/public/hero-bg.jpg'
+import rtcsseSquareLogo from "@/public/rtcsse-logo.png"
 import nitdLongLogo from "@/public/nitd-logo-labeled-blue.png";
-import nitdSquareLogo from "@/public/nitd-logo.png";
 import sscduLongLogo from "@/public/sscdu-logo-long.png";
-import sscduSquareLogo from "@/public/sscdu-logo.png";
 
 export default function HeroSection() {
     return (<>
@@ -22,13 +20,16 @@ export default function HeroSection() {
                     <div className="flex flex-col md:flex-row md:space-x-8 items-center">
                         <Image className="w-32 md:w-64 object-contain" src={rtcsseSquareLogo} width={256} quality={100} priority/>
                         <div className="flex flex-col mx-auto md:mx-0">
-                            <h1 className="text-lg text-center md:text-xl md:text-left">
-                                1st International Conference on
-                            </h1>
-                            <p className="text-center font-bold text-4xl text-black md:text-5xl md:text-left">
-                                "Recent Trends in Chemical Sciences & Sustainable Energy"
+                            <p className="text-2xl text-center md:text-3xl">
+                                1st International Conference
                             </p>
-                            <p className="text-center text-lg text-black md:text-2xl md:text-left mt-4">
+                            <p className="text-center text-lg text-black md:text-xl">
+                                on
+                            </p>
+                            <h1 className="text-center font-bold text-4xl text-black md:text-5xl">
+                                "Recent Trends in Chemical Sciences & Sustainable Energy"
+                            </h1>
+                            <p className="text-center text-lg text-black md:text-2xl mt-4">
                                 24 - 25 March, 2023
                             </p>
                         </div>
@@ -53,7 +54,8 @@ export default function HeroSection() {
                         </Link>
                     </div>
                 </div>
-                <div
+                <Link
+                    href="/venue"
                     className="flex px-8 md:px-32 lg:px-64 flex-col w-full justify-between space-y-8 space-x-0 absolute left-0 sm:space-y-0 sm:space-x-12 -bottom-12 sm:flex-row">
                     <div className="block flex-1 p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100">
                         <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900">Venue</h5>
@@ -61,7 +63,7 @@ export default function HeroSection() {
                             Auditorium, 5th floor, National Institute of Technology, Delhi
                         </p>
                     </div>
-                </div>
+                </Link>
             </div>
         </section>
         <div class="w-full my-16"/>
