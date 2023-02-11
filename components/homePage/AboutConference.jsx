@@ -34,7 +34,7 @@ export default function AboutConference() {
                         {
                             events.map(function (event) {
                                 return (
-                                    <li className="relative mb-6 sm:mb-0">
+                                    <li key={event.name} className="relative mb-6 sm:mb-0">
                                         <div className="flex items-center">
                                             <div
                                                 className="z-10 flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full ring-0 ring-white sm:ring-8 shrink-0">
@@ -49,9 +49,9 @@ export default function AboutConference() {
                                             <div className="hidden sm:flex w-full bg-gray-200 h-0.5 "></div>
                                         </div>
                                         <div className="mt-3 sm:pr-8">
-                                            <h3 className="text-lg font-semibold text-gray-900 ">{event.name}</h3>
+                                            <h3 className="text-lg font-semibold text-gray-900">{event.name}</h3>
                                             <time
-                                                className="block mb-2 text-sm font-normal leading-none text-gray-400">
+                                                className="block mb-2 text-sm leading-none text-primaryRegular font-bold">
                                                 {event.date}
                                             </time>
                                         </div>
