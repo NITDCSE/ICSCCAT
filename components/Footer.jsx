@@ -12,7 +12,7 @@ export default function Footer() {
             <div className="container mx-auto px-6 py-8">
                 <div className="grid items-center grid-cols-3">
                     <a className="m-auto flex flex-col items-center space-y-6" target="_blank" href="https://nitdelhi.ac.in/">
-                        <p className="text-xs text-center md:text-lg">Department of Applied Sciences</p>
+                        <p className="text-xs text-center text-primaryRegular md:text-lg">DEPARTMENT OF APPLIED SCIENCES</p>
                         <Image src={nitdLongLogo} alt="" className="max-h-12 object-contain hidden md:block"/>
                         <Image src={nitdSquareLogo} alt="" className="max-h-12 object-contain md:hidden"/>
                     </a>
@@ -20,7 +20,7 @@ export default function Footer() {
                         <Image src={rtcsseLogo} className="object-contain" width={170}/>
                     </div>
                     <a className="m-auto flex flex-col items-center space-y-6" target="_blank" href="https://nitdelhi.ac.in/">
-                        <p className="text-xs text-center md:text-lg">Department of Chemistry</p>
+                        <p className="text-xs text-center md:text-lg">DEPARTMENT OF CHEMISTRY</p>
                         <Image src={sscduLongLogo} alt="" className="max-h-12 object-contain hidden md:block"/>
                         <Image src={sscduSquareLogo} alt="" className="max-h-12 object-contain md:hidden"/>
                     </a>
