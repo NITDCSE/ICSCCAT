@@ -12,7 +12,7 @@ export default function FeesSection() {
             <div className="container mx-auto px-6 justify-center items-center">
                 <h3 className="text-2xl py-8 font-bold text-center md:text-3xl md:text-left">Registration Fees
                 </h3>
-                <table className="mx-auto shadow-2xl font-bold border-2  mb-8 border-primaryDark w-6/12">
+                <table className="mx-auto font-bold border-2  mb-8 border-primaryDark w-6/12">
                    
                     <tbody className="text-white text-center">
                     <tr className="bg-primary50 cursor-pointer">
