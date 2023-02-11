@@ -1,0 +1,31 @@
+.s-logo {
+    width: 150px;
+    height: auto;
+    padding-bottom: 10px;
+}
+
+.card-s {
+    box-shadow: 0 0 3px rgb(93 103 175 / 73%);
+    padding: 10px;
+    width: 320px;
+    border: transparent;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.card-s .text-s {
+    border-top: 1px solid rgb(179, 177, 177);
+    padding-top: 3px;
+}
+.hed{
+    font-weight: 600;
+    font-size: 24px;
+    color: rgb(70, 70, 121);
+}
+.spon{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}

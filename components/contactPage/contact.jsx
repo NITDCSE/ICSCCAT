@@ -55,11 +55,11 @@ export default function railwayStation() {
 
 
 
-
-        <br></br>
-        <section id="railway" className=" bg-primary10 px-3 py-12 justify-center items-center">
+        {/* How to reach Section */}
+        {/* <br></br> */}
+        <section id="railway" className=" px-3 py-12 justify-center items-center">
             <h1 className="hed text-center">How to Reach NIT DELHI</h1>
-            <div className="venue justify-center">
+            <div className="venue card-sec justify-center">
                 <div className="card-c "> 
                     <div className="a-box">
                         <div className="img-container">
@@ -108,7 +108,7 @@ export default function railwayStation() {
                 </div>
             </div>
         </section>
-    <br></br>
+    {/* <br></br> */}
         </>
     )
 }
