@@ -3,7 +3,7 @@ export default function BankDetailsSection() {
         <section id="bank details" className="container mx-auto px-6 mb-12 justify-center items-center">
             <h3 className="text-2xl py-8 font-bold text-center md:text-3xl md:text-left">Bank Details
             </h3>
-            <table className="mx-auto shadow-2xl font-bold border-2 border-primaryDark mb-4 my-auto w-6/12">
+            <table className="mx-auto font-bold border-2 border-primaryDark mb-4 my-auto w-6/12">
                 
                 <tbody className="text-white text-center">
                 <tr className="bg-primary50 cursor-pointer">
@@ -28,6 +28,8 @@ export default function BankDetailsSection() {
                 </tr>
                 </tbody>
             </table>
+
+            <p className="mx-auto text-lg font-bold text-center">*Last Date for registration is March 20, 2023</p>
         </section>
     )
 }
