@@ -78,7 +78,9 @@
 .card-c .text-container h3:hover {
     color: black;
 }
-
+.hh{
+    color: rgb(55, 55, 185);
+}
 @media screen and (max-width: 1400px) {
     .mapdiv {
         width: 55%;
