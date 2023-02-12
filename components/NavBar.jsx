@@ -24,14 +24,14 @@ function NavRibbon({open}) {
         {name: "Schedule", link: "/"},
         {name: "Speakers", link: "/"},
         {name: "Abstract Papers", link: "/"},
-        {name: "Committees", link: "/"},
-        {name: "Sponsors", link: "/"},
+        {name: "Committees", link: "/committees"},
+        {name: "Sponsors", link: "/sponsors"},
         {name: "Contact Us", link: "/contact"},
     ]
 
     return (<div className={`${open ? 'block' : 'hidden'} md:block bg-primaryDark text-white`}>
         <div
-            className="container bg-primaryDark absolute md:static mx-auto py-1 px-6 left-0 w-full md:w-auto mx-auto">
+            className="container bg-primaryDark absolute md:static mx-auto py-1.5 px-6 left-0 w-full md:w-auto mx-auto">
             <ul className="md:flex md:items-center md:justify-between">
                 {links.map((link, index) => (<li key={link.name} className="my-6 md:my-0">
                     <Link className="font-semibold uppercase text-sm font-medium hover:text-primary20"
