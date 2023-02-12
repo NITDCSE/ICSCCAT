@@ -10,11 +10,11 @@ import {useState} from "react"
 export default function NavBar() {
     const [open, setOpen] = useState(false)
 
-    return (<nav className="sticky top-0 z-50 bg-primary05 drop-shadow">
-        <ContactHeader />
-        <ConferenceHeader setOpen={setOpen} open={open} />
+    return (<>
+        <ContactHeader/>
+        <ConferenceHeader setOpen={setOpen} open={open}/>
         <NavRibbon open={open}/>
-    </nav>)
+    </>)
 }
 
 function NavRibbon({open}) {
@@ -29,7 +29,7 @@ function NavRibbon({open}) {
         {name: "Contact Us", link: "/contact"},
     ]
 
-    return (<div className={`${open ? 'block' : 'hidden'} md:block bg-primaryDark text-white`}>
+    return (<nav className={`${open ? 'block' : 'hidden'} md:block bg-primaryDark text-white sticky top-6 z-50`}>
         <div
             className="container bg-primaryDark absolute md:static mx-auto py-1.5 px-6 left-0 w-full md:w-auto mx-auto">
             <ul className="md:flex md:items-center md:justify-between">
@@ -39,7 +39,7 @@ function NavRibbon({open}) {
                 </li>))}
             </ul>
         </div>
-    </div>)
+    </nav>)
 }
 
 function ConferenceHeader({open, setOpen}) {
@@ -47,9 +47,10 @@ function ConferenceHeader({open, setOpen}) {
         <div className="container mx-auto px-6 py-4">
             <div className="flex space-x-6 items-center justify-between">
                 <Link href="/" className="flex items-center space-x-4 pt-2">
-                    <Image src={rtcsseLogo} className="max-h-12 object-contain" alt="RTCSSE 2023"
-                           width={72}/>
-                    <h3 className="hidden md:block text-3xl tracking-wider text-center align-middle">RTCSSE 2023</h3>
+                    <Image src={rtcsseLogo} className="max-h-14 object-contain" alt="RTCSSE 2023"
+                           width={72} quality={100}/>
+                    <h3 className="hidden md:block font-medium font-mono text-3xl tracking-wider text-center align-middle">RTCSSE
+                        2023</h3>
                 </Link>
                 <div className="flex space-x-4 items-center justify-end">
                     <a target="_blank" href="https://nitdelhi.ac.in/" className="pt-2">
@@ -57,7 +58,7 @@ function ConferenceHeader({open, setOpen}) {
                                quality={100}/>
                     </a>
                     <a target="_blank" href="https://ss.du.ac.in/" className="pt-2">
-                        <Image src={sscduLogo} className="max-h-12 object-contain" alt="NITD" width={72}
+                        <Image src={sscduLogo} className="max-h-14 object-contain" alt="NITD" width={72}
                                quality={100}/>
                     </a>
                     <div className="pl-6 hidden md:block ">
@@ -98,7 +99,7 @@ function ConferenceHeader({open, setOpen}) {
 
 function ContactHeader() {
     return (
-        <div className="bg-black text-white text-xs">
+        <div className="bg-black text-white text-xs sticky top-0 z-50">
             <div className="container mx-auto py-1 px-6">
                 <div className="items-center justify-between flex flex-col md:flex-row">
                     <p className="text-center">Contact us - <span><Link href="mailto:rtcsse@nitdelhi.ac.in"
