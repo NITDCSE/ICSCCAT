@@ -3,7 +3,7 @@ import "./venue.css";
 import Image from "next/image";
 import plane from './airplane.jpg'
 import train from './train.jpg'
-export default function railwayStation() {
+export default function Contact() {
     return (
         <>
 
