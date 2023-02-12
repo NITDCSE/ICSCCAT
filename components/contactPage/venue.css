@@ -74,7 +74,8 @@
     font-size: 18px;
     transition: all 0.5s;
 }
-.card-c .text-container h3:hover{
+
+.card-c .text-container h3:hover {
     color: black;
 }
 
@@ -101,12 +102,33 @@
         height: 300px;
     }
 }
+
 @media screen and (max-width: 534px) {
-    #railway{
+    #railway {
         padding-top: 0px;
     }
     #railway iframe {
         width: 300px;
         height: 300px;
+    }
+}
+
+@media screen and (max-width: 809px) {
+    .card-c .a-box {
+        margin: 30px 7px;
+    }
+}
+
+@media screen and (max-width: 666px) {
+
+    .card-c .a-box {
+        width: 250px;
+    }
+    .card-c .a-box .img-container{
+        width: 177px;
+    }
+    .card-sec{
+        flex-direction: column;
+        align-content: center;
     }
 }
