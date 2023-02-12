@@ -1,9 +1,9 @@
 export default function AboutConference() {
     const events = [
         {name: "Abstract Submission Begins", date: "February 5, 2023"},
-        {name: "Abstract Submission Ends", date: "February 28, 2023"},
-        {name: "Notification of Acceptance", date: "March 6, 2023"},
-        {name: "Last Registration", date: "March 20, 2023"},
+        {name: "Abstract Submission Ends", date: "March 6, 2023"},
+        {name: "Notification of Acceptance", date: "March 10, 2023"},
+        {name: "Last Registration", date: "March 15, 2023"},
         {name: "Conference", date: "March 24 -25, 2023"},
     ]
 
