@@ -24,7 +24,7 @@ function NavRibbon({open}) {
         {name: "Schedule", link: "/"},
         {name: "Speakers", link: "/"},
         {name: "Abstract Papers", link: "/"},
-        {name: "Committees", link: "/"},
+        {name: "Committees", link: "/committees"},
         {name: "Sponsors", link: "/sponsors"},
         {name: "Contact Us", link: "/contact"},
     ]
