@@ -1,4 +1,4 @@
-import profile from "@/public/hardik-gdsc-min.jpeg"
+import profile from "@/public/profile.png"
 import Image from "next/image";
 import {organisingCommittee} from "@/components/committeesPage/data";
 
