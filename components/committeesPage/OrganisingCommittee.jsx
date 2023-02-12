@@ -4,8 +4,10 @@ import {organisingCommittee} from "@/components/committeesPage/data";
 
 export default function OrganisingCommittee() {
     return (
-        <>
-            <h2 className="text-4xl font-bold text-center md:text-4xl md:text-left">Organising Committee</h2>
+        <section id="organisingcommittee" className="py-6">
+            <div className="container mx-auto px-6">
+                <h4 className="text-4xl font-bold text-center md:text-4xl md:text-left">Organising Committee</h4>
+            </div>
             {
                 organisingCommittee.map(function (section, idx) {
                     return (
@@ -25,7 +27,7 @@ export default function OrganisingCommittee() {
                     )
                 })
             }
-        </>
+        </section>
     )
 }
 
@@ -34,7 +36,8 @@ function UserProfile({member}) {
         <div className="max-w-sm min-w-sm w-full mx-auto rounded overflow-hidden shadow-md bg-white">
             <div className="px-6 py-4">
                 <div className="flex justify-center pb-6">
-                    <Image src={profile} className="max-h-18 rounded-full aspect-square object-contain" alt="profile image" width={128}
+                    <Image src={profile} className="max-h-18 rounded-full aspect-square object-contain"
+                           alt="profile image" width={128}
                            quality={100}/>
                 </div>
                 <div className="font-bold text-xl mb-2 text-primaryDark text-center">{member.name}</div>

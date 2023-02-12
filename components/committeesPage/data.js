@@ -116,3 +116,27 @@ export const localOrganisingCommittee = [
     {name: "Dr. Ramesh Chand"},
     {name: "Mr. Amar Singh Meena"},
 ]
+
+export const advisoryCommittee = [
+    {name: "Prof. C. N. R. Rao", affiliation: "JNCASR Bangalore"},
+    {name: "Prof. R. N. Mukherjee", affiliation: "Former Director, IISER Kolkata"},
+    {name: "Prof. N. Sathyamurthy", affiliation: "Former Director, IISER Mohali"},
+    {name: "Prof. U. P. Singh", affiliation: "Deputy Director, IIT Roorkee"},
+    {name: "Prof. A. K. Paul", affiliation: "Former VC, DAV University Jalandhar"},
+    {name: "Prof. P. S. Kalsi", affiliation: "National Forensic Sciences University, Gandhinagar"},
+    {name: "Dr. A. K. Tyagi", affiliation: "Director, Chemistry Group, BARC Mumbai"},
+    {name: "Prof. P. S. Mukherjee", affiliation: "IISc Bangalore"},
+    {name: "Prof. Anil J. Elias", affiliation: "Department of Chemistry, IIT Delhi"},
+    {name: "Prof. Ashok K. Ganguli", affiliation: "Department of Chemistry, IIT Delhi"},
+    {name: "Prof. Gros Claude", affiliation: "ICMUB, France"},
+    {name: "Prof. Minati Baral", affiliation: "Department of Chemistry, NIT Kurukshetra"},
+    {name: "Prof. B. S. Kaith", affiliation: "Department of Chemistry, NIT Jalandhar"},
+    {name: "Prof. S. K. Awasthi", affiliation: "Department of Chemistry, University of Delhi"},
+    {name: "Prof. Rajeev Gupta", affiliation: "Department of Chemistry, University of Delhi"},
+    {name: "Prof. D. S. Rawat", affiliation: "Department of Chemistry, University of Delhi"},
+    {name: "Prof. R. K. Sharma", affiliation: "Department of Chemistry, University of Delhi"},
+    {name: "Prof. D. S. Pandey", affiliation: "Department of Chemistry, BHU"},
+    {name: "Prof. Sartaz Tabassum", affiliation: "Department of Chemistry, AMU"},
+    {name: "Prof. Benjamin Elias", affiliation: "IMCN, UCLouvain, Belgium"},
+    {name: "Prof. N. K. Kaushik", affiliation: "Kwangwoon University, South Korea"},
+]
