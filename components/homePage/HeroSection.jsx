@@ -21,16 +21,17 @@ export default function HeroSection() {
                         <Image className="w-32 md:w-64 object-contain" src={rtcsseSquareLogo} width={256} quality={100} priority/>
                         <div className="flex flex-col mx-auto md:mx-0">
                             <p className="text-2xl text-center md:text-3xl">
-                            1st International Conference
+                            1<sup>st</sup> International Conference
+                          
                             </p>
                             <p className="text-center text-lg text-black md:text-xl">
                                 on
                             </p>
                             <h1 className="text-center font-bold text-4xl text-black md:text-5xl">
-                                "Recent Trends in Chemical Sciences & Sustainable Energy"
+                             Recent Trends in Chemical Sciences & Sustainable Energy
                             </h1>
                             <p className="text-center text-lg text-black md:text-2xl mt-4">
-                                24 - 25 March, 2023
+                                24<sup>th</sup> - 25<sup>th</sup> March, 2023
                             </p>
                         </div>
                     </div>
