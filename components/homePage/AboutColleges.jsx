@@ -7,6 +7,7 @@ export default function AboutColleges() {
                         <h3 className="text-2xl font-bold text-center md:text-3xl md:text-left">
                             About National Institute of Technology, Delhi
                         </h3>
+                        
                         <p className="text-black text-justify">
                             National Institute of Technology Delhi is a premier public technical autonomous institution
                             located in New Delhi. NIT Delhi is an Institution of National Importance (INI) and aims to
