@@ -18,6 +18,9 @@ import richa from '@/public/Committe pics/richa.jpg'
 import madhviraj from '@/public/Committe pics/madhviraj.jpg'
 import vishal from '@/public/Committe pics/vishal.jpg'
 import devesh from '@/public/Committe pics/devesh.jpg'
+import bhavnajoshi from '@/public/Committe pics/bhavnajoshi.jpg'
+import manu from '@/public/Committe pics/manu.png'
+import dhruv from '@/public/Committe pics/dhruv tyagi.jpeg'
 
 
 export const organisingCommittee = [
@@ -183,9 +186,9 @@ export const advisoryCommittee = [
 export const studentCommittee = {
     core: [
         {name: "Devesh Kumar Mishara", image: devesh},
-        {name: "Bhavna Joshi", image: profile},
+        {name: "Bhavna Joshi", image:bhavnajoshi},
         {name: "Devansh Gahlawat", image: devansh},
-        {name: "Manu Agarwal", image: profile},
+        {name: "Manu Agarwal", image:manu},
         {name: "Syamantak Gupta", image: profile},
         {name: "Anil Gurjar", image: profile},
     ],
@@ -200,7 +203,7 @@ export const studentCommittee = {
         {name: "Richa", image:richa},
         {name: "Priya Malik", image: profile},
         {name: "Risabh Kushwaha", image: risabh},
-        {name: "Dhruv Tyagi", image: profile},
+        {name: "Dhruv Tyagi", image: dhruv},
         {name: "Manjot Kaur Channi", image: profile},
         {name: "Chitransh Chaturvedi", image: profile},
         {name: "Subodh Kumar", image: profile},
