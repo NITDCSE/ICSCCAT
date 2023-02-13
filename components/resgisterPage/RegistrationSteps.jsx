@@ -7,15 +7,19 @@ export default function RegistrationSteps() {
                 <ol className="space-y-1 text-gray-500 text-lg list-disc list-inside dark:text-gray-400">
                     <li>
                         Step 1 : Participants need to pay the registration fees according to the category shown in the
-                        table below by clicking on Fees Payment
+                        table
                     </li>
                     <li>
                         Step 2 : After payment take the snapshot of the receipt / registration fee payment.
-                        Fill in the required details in the google form and attach the registration fee payment/ receipt
-                        and Abstract paper by clicking on the Google Form and click Submit.
+                        
                     </li>
                     <li>
-                        Step 3 : You will receive an acknowledgment via email once your registration is confirmed.
+                        Step 3 :
+                        Fill in the required details in the Google form and attach the registration fee payment/ receipt
+                        and Abstract Paper there and click Submit.
+                    </li>
+                    <li>
+                        Step 4 : You will receive an acknowledgment via email once your registration is confirmed.
                     </li>
                 </ol>
             </div>

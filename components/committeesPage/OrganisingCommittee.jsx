@@ -14,10 +14,10 @@ export default function OrganisingCommittee() {
                             <div className="mx-auto container px-6 py-4">
                                 <h3 className="text-3xl font-bold text-center mb-8">{section.type}</h3>
                                 <div
-                                    className={`grid grid-cols-1 md:grid-cols-${section.members.length <= 2 ? section.members.length : 2} lg:grid-cols-${section.members.length <= 4 ? section.members.length : 4}  gap-4 my-2`}>
+                                    className={`grid grid-flow-col auto-cols-fr gap-4 my-2`}>
                                     {
                                         section.members.map(function (member) {
-                                            return (<UserProfile member={member}/>)
+                                            return (<UserProfile member={member} profileSize={section.type === 'Patrons' ? 128 : 96}/>)
                                         })
                                     }
                                 </div>
@@ -30,13 +30,13 @@ export default function OrganisingCommittee() {
     )
 }
 
-function UserProfile({member}) {
+function UserProfile({member, profileSize}) {
     return (
         <div className="max-w-sm min-w-sm w-full mx-auto rounded overflow-hidden shadow-md bg-white">
             <div className="px-6 py-4">
                 <div className="flex justify-center pb-6">
-                    <Image src={member.photo} className="max-h-18 rounded-full aspect-square object-contain"
-                           alt="profile image" width={128}
+                    <Image src={member.photo} className="max-h-18 rounded-full aspect-square object-cover"
+                           alt="profile image" width={profileSize}
                            quality={100}/>
                 </div>
                 <div className="font-bold text-xl mb-2 text-primaryDark text-center">{member.name}</div>
