@@ -1,7 +1,6 @@
 import Image from "next/image"
-import bg from '@/public/pang-yuhao-_kd5cxwZOK4-unsplash.jpg'
-import bgn from '@/public/DSC_0141.jpg'
-import bgd from '@/public/DSC_0173.jpg'
+import nitdAdmin from '@/public/nitd_admin.jpg'
+import nitdAcad from '@/public/nitd_acad.jpg'
 export default function AboutNITD() {
     return (
         <>
@@ -9,7 +8,7 @@ export default function AboutNITD() {
            
                 <div className="flex flex-col md:flex-col mt-4  container">
                     <h3 className="text-3xl px-6 font-bold text-center md:text-4xl md:text-left">
-                        About National Institute of Technology,Delhi
+                        About National Institute of Technology, Delhi
                     </h3>
                     <div className="bg-primary10 py-3 mt-10">
                         <p className="text-center px-6  mx-auto text-black lg:text-lg md:text-left">
@@ -24,7 +23,7 @@ export default function AboutNITD() {
                             </p>
                             </div>
                             <div className="flex-1">
-                                <Image src={bgn} className="object-cover" />
+                                <Image src={nitdAdmin} className="object-cover" />
                             </div>
                            
                         </div>
@@ -32,7 +31,7 @@ export default function AboutNITD() {
                     <div className="bg-primary10">
                     <div className="grid grid-cols-2">
                     <div className="flex-1">
-                                <Image src={bgd} className="object-cover" />
+                                <Image src={nitdAcad} className="object-cover" />
                             </div>
                         <div className="flex-1">
                             <p className="text-center  p-6 py-6 text-black lg:text-lg md:text-left">
@@ -54,7 +53,7 @@ export default function AboutNITD() {
            
         <div className="flex flex-col md:flex-col mt-4  container">
         <h3 className="text-2xl px-6 font-bold text-center md:text-3xl md:text-left">
-         About Department of Applied Sciences,NIT DELHI
+         About Department of Applied Sciences, NIT Delhi
         </h3>
         <div className="bg-primary10 py-3 mt-10">
                         <p className="text-center px-6  mx-auto text-black lg:text-lg md:text-left">
