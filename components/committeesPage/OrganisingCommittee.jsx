@@ -1,4 +1,3 @@
-import profile from "@/public/profile.png"
 import Image from "next/image";
 import {organisingCommittee} from "@/components/committeesPage/data";
 
@@ -36,7 +35,7 @@ function UserProfile({member}) {
         <div className="max-w-sm min-w-sm w-full mx-auto rounded overflow-hidden shadow-md bg-white">
             <div className="px-6 py-4">
                 <div className="flex justify-center pb-6">
-                    <Image src={profile} className="max-h-18 rounded-full aspect-square object-contain"
+                    <Image src={member.photo} className="max-h-18 rounded-full aspect-square object-contain"
                            alt="profile image" width={128}
                            quality={100}/>
                 </div>
