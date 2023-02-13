@@ -59,10 +59,10 @@ function ConferenceObjectiveGridItem({heading, body, index}) {
                 </div>
             </div>
             <div>
-                <h3 className="hidden mb-4 text-lg font md:block">
+                <h3 className="hidden mb-4 text-lg font md:block text-justify">
                     {heading}
                 </h3>
-                <p className="text-black">{body}</p>
+                <p className="text-black text-justify">{body}</p>
             </div>
         </div>
     )
