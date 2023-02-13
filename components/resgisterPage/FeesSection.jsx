@@ -42,7 +42,10 @@ export default function FeesSection() {
                     </tr>
                     </tbody>
                 </table>
+            <p className="mx-auto text-lg font-bold text-center">*Last Date for registration is March 20, 2023</p>
+
             </div>
+            
         </section>
     )
 }

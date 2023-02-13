@@ -1,3 +1,5 @@
+import apsingh from "@/public/profile photos/Dr. A. P. Singh.jfif"
+
 export const organisingCommittee = [
     {
         type: 'Patrons',
@@ -5,7 +7,8 @@ export const organisingCommittee = [
             {
                 name: 'Prof. (Dr.) Ajay K. Sharma',
                 designation: 'Director',
-                affiliation: 'National Institute of Technology, Delhi'
+                affiliation: 'National Institute of Technology, Delhi',
+                photo: apsingh
             },
             {
                 name: 'Prof. Yogesh Singh',
