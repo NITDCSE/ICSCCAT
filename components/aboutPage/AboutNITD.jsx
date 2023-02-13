@@ -4,11 +4,11 @@ import nitdAcad from '@/public/nitd_acad.jpg'
 export default function AboutNITD() {
     return (
         <>
-        <section id="about">
+        <section id="about" className="justify-center flex">
            
                 <div className="flex flex-col md:flex-col mt-4  container">
                     <h3 className="text-3xl px-6 font-bold text-center md:text-4xl md:text-left">
-                        About National Institute of Technology, Delhi
+                        About National Institute of Technology Delhi
                     </h3>
                     <div className="bg-primary10 py-3 mt-10">
                         <p className="text-center px-6  mx-auto text-black lg:text-lg  text-justify">
@@ -17,7 +17,7 @@ export default function AboutNITD() {
                         </p>
                     </div>
                     <div>
-                        <div className="grid grid-cols-2">
+                        <div className="grid grid-cols-2 py-3">
                             <div><p className="text-center flex-1 px-6 text-black py-6 lg:text-lg  text-justify">
                                 NIT Delhi started its academic session in 2010 and it was operating from its transit campus at Narela, Delhi until recently. The institute has now completely shifted to its permanent campus situated on NH-1 (GT Karnal Road), Narela sub-city, New Delhi. The institute offers B. Tech. programmes in three areas of technology (Computer Science and Engineering, Electronics and Communication Engineering, and Electrical Engineering), M. Tech. programmes in five disciplines, along with Ph.D. programmes in all branches of Science and Engineering. The institute is all set to start B. Tech. programmes in two new branches (Mechanical Engineering and Civil Engineering) from academic session 2022-23.
                             </p>
@@ -49,7 +49,7 @@ export default function AboutNITD() {
                 </div>
         
         </section>
-        <section id="about">
+        <section id="about" className="justify-center flex">
            
         <div className="flex flex-col md:flex-col mt-4  container">
         <h3 className="text-2xl px-6 font-bold text-center md:text-3xl md:text-left">
