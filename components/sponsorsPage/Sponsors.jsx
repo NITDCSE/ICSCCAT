@@ -12,7 +12,7 @@ export default function SponsorsSection() {
             <Image src={SERB} alt=""/>
             </div>
             <div className="text-s">
-                SERB (Science and Engineering Research Board)
+                SERB <br></br>Science & Engineering Research Board
             </div>
         </div>
             
