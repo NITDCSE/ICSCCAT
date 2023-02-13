@@ -42,16 +42,16 @@ export default function HeroSection() {
                 </div>
                 <Link
                     href="/contact"
-                    className="flex px-8 md:px-32 lg:px-64 flex-col w-full justify-between space-y-8 space-x-0 absolute left-0 sm:space-y-0 sm:space-x-12 -bottom-12 sm:flex-row">
+                    className="flex px-8 md:px-32 lg:px-64 flex-col w-full justify-between space-y-8 space-x-0 absolute left-0 sm:space-y-0 sm:space-x-12 -bottom-14 sm:flex-row">
                     <div className="block flex-1 p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100">
                         <h5 className="mb-2 text-2xl text-center font-bold tracking-tight text-gray-900">Venue</h5>
-                        <p className="font-normal text-center text-gray-700">
+                        <p className="font-normal text-lg text-center text-gray-700">
                             Auditorium, Admin Block National Institute of Technology Delhi, Plot No. FA7, Zone, P1, GT Karnal Road, Delhi, 110036
                         </p>
                     </div>
                 </Link>
             </div>
         </section>
-        <div class="w-full my-16"/>
+        <div class="w-full my-24"/>
     </>)
 }
