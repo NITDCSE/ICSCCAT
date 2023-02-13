@@ -17,6 +17,7 @@ export default function ConferenceThemes() {
         "FOOD CHEMISTRY",
         "PHOTOCHEMISTRY",
         "METAL ORGANIC FRAMEWORKS (MOFs)",
+        "SEMICONDUCTOR MATERIALS",
     ]
     return (
         <section id="themes" className="py-6">
