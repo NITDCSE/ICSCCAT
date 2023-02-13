@@ -1,5 +1,3 @@
-import apsingh from "@/public/profile photos/Dr. A. P. Singh.jfif"
-
 import hardik from "@/public/profile_images/student_committee/hardik.jpeg"
 import devansh from "@/public/profile_images/student_committee/devansh.jpg"
 import profile from "@/public/profile.png"
@@ -12,7 +10,6 @@ export const organisingCommittee = [
                 name: 'Prof. (Dr.) Ajay K. Sharma',
                 designation: 'Director',
                 affiliation: 'National Institute of Technology, Delhi',
-                photo: apsingh
             },
             {
                 name: 'Prof. Yogesh Singh',
