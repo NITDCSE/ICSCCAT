@@ -105,7 +105,7 @@ function ContactHeader() {
                     <p className="text-center">Contact us - <span><Link href="mailto:rtcsse@nitdelhi.ac.in"
                                                                         className="underline hover:text-primary20">rtcsse@nitdelhi.ac.in</Link></span>
                     </p>
-                    <p> 011 3386 1250/1256</p>
+                    <p>  Office: +011 3386 1250/1256</p>
                 </div>
             </div>
         </div>
