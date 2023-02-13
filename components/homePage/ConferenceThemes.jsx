@@ -38,7 +38,7 @@ export default function ConferenceThemes() {
 function ConferenceThemeGridItem({theme}) {
     return (
         <div
-            className="block font-medium bg-primary10 text-sm leading-tight rounded px-6 py-3 my-2 md:mx-4 focus:outline-none focus:ring-0">
+            className="block font-medium bg-primary10 text-md leading-tight rounded px-6 py-3 my-2 md:mx-4 focus:outline-none focus:ring-0">
             {theme}
         </div>
     )

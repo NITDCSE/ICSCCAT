@@ -34,7 +34,7 @@ function NavRibbon({open}) {
             className="container bg-primaryDark absolute md:static mx-auto py-1.5 px-6 left-0 w-full md:w-auto mx-auto">
             <ul className="md:flex md:items-center md:justify-between">
                 {links.map((link, index) => (<li key={link.name} className="my-6 md:my-0">
-                    <Link className="font-semibold uppercase text-sm font-medium hover:text-primary20"
+                    <Link className="font-bold uppercase text-md font-medium hover:text-primary20"
                           href={link.link}>{link.name}</Link>
                 </li>))}
             </ul>
@@ -49,7 +49,7 @@ function ConferenceHeader({open, setOpen}) {
                 <Link href="/" className="flex items-center space-x-4 pt-2">
                     <Image src={rtcsseLogo} className="max-h-14 object-contain" alt="RTCSSE 2023"
                            width={72} quality={100}/>
-                    <h3 className="hidden md:block font-medium font-mono text-3xl tracking-wider text-center align-middle">RTCSSE
+                    <h3 className="hidden md:block font-bold text-3xl tracking-wider text-center align-middle">RTCSSE
                         2023</h3>
                 </Link>
                 <div className="flex space-x-4 items-center justify-end">

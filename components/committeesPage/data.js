@@ -1,5 +1,9 @@
 import apsingh from "@/public/profile photos/Dr. A. P. Singh.jfif"
 
+import hardik from "@/public/profile_images/student_committee/hardik.jpeg"
+import devansh from "@/public/profile_images/student_committee/devansh.jpg"
+import profile from "@/public/profile.png"
+
 export const organisingCommittee = [
     {
         type: 'Patrons',
@@ -89,36 +93,40 @@ export const organisingCommittee = [
     },
 ]
 
-export const localOrganisingCommittee = [
-    {name: "Dr. V. S. Pandey"},
-    {name: "Dr. Gyanendra Sheoran"},
-    {name: "Dr. Amit Mahajan"},
-    {name: "Dr. Prashant Kumar"},
-    {name: "Dr. Saloni Priya"},
-    {name: "Dr. Ritu Goel"},
-    {name: "Mr. Krishan Pal"},
-    {name: "Mr. Jitender Singh Bisht"},
-    {name: "Mr. Aadesh Kumar"},
-    {name: "Mrs. Aparna Tripathi"},
-    {name: "Mr. Shubham Bhardwaj"},
-    {name: "Mrs. Navisha Sharma"},
-    {name: "Mr. Lov Kumar Dubey"},
-    {name: "Mr. Praveen Kumar"},
-    {name: "Dr. Chandra Shekhar Jeengar"},
-    {name: "Dr. Gajendra Gaur"},
-    {name: "Dr. Pradeep Pratap Singh"},
-    {name: "Dr. Saraswati Kanodia"},
-    {name: "Dr. Suman Yadav"},
-    {name: "Dr. Seema Gupta"},
-    {name: "Dr. Govind Ji Rai"},
-    {name: "Dr. Narbir Singh"},
-    {name: "Dr. Aanchal Sethi"},
-    {name: "Dr. Bholey Singh"},
-    {name: "Dr. Mukesh Kumar Verma"},
-    {name: "Dr. Partibha"},
-    {name: "Dr. Ramesh Chand"},
-    {name: "Mr. Amar Singh Meena"},
-]
+export const localOrganisingCommittee = {
+    nitDelhi: [
+            {name: "Dr. V. S. Pandey"},
+            {name: "Dr. Gyanendra Sheoran"},
+            {name: "Dr. Amit Mahajan"},
+            {name: "Dr. Prashant Kumar"},
+            {name: "Dr. Saloni Priya"},
+            {name: "Dr. Ritu Goel"},
+            {name: "Mr. Krishan Pal"},
+            {name: "Mr. Jitender Singh Bisht"},
+            {name: "Mr. Aadesh Kumar"},
+            {name: "Mrs. Aparna Tripathi"},
+            {name: "Mr. Shubham Bhardwaj"},
+            {name: "Mrs. Navisha Sharma"},
+            {name: "Mr. Lov Kumar Dubey"},
+            {name: "Mr. Praveen Kumar"},
+        ],
+    sscdu: [
+        {name: "Dr. Chandra Shekhar Jeengar"},
+        {name: "Dr. Gajendra Gaur"},
+        {name: "Dr. Pradeep Pratap Singh"},
+        {name: "Dr. Saraswati Kanodia"},
+        {name: "Dr. Suman Yadav"},
+        {name: "Dr. Seema Gupta"},
+        {name: "Dr. Govind Ji Rai"},
+        {name: "Dr. Narbir Singh"},
+        {name: "Dr. Aanchal Sethi"},
+        {name: "Dr. Bholey Singh"},
+        {name: "Dr. Mukesh Kumar Verma"},
+        {name: "Dr. Partibha"},
+        {name: "Dr. Ramesh Chand"},
+        {name: "Mr. Amar Singh Meena"},
+    ]
+}
 
 export const advisoryCommittee = [
     {name: "Prof. C. N. R. Rao", affiliation: "JNCASR Bangalore"},
@@ -143,3 +151,38 @@ export const advisoryCommittee = [
     {name: "Prof. Benjamin Elias", affiliation: "IMCN, UCLouvain, Belgium"},
     {name: "Prof. N. K. Kaushik", affiliation: "Kwangwoon University, South Korea"},
 ]
+
+export const studentCommittee = {
+    core: [
+        {name: "Devesh Kumar Mishara", image: profile},
+        {name: "Bhavna Joshi", image: profile},
+        {name: "Devansh Gahlawat", image: devansh},
+        {name: "Manu Agarwal", image: profile},
+        {name: "Syamantak Gupta", image: profile},
+        {name: "Anil Gurjar", image: profile},
+    ],
+    technical: [
+        {name: "Hardik Sachan", image: hardik},
+        {name: "Shivansh Asthana", image: profile},
+        {name: "Vishal Singh", image: profile},
+    ],
+    others: [
+        {name: "MADHVI RAJ", image: profile},
+        {name: "RAMAKANT PRASHAD", image: profile},
+        {name: "RICHA", image: profile},
+        {name: "PRIYA MALIK", image: profile},
+        {name: "RISHABH KUSHWAHA", image: profile},
+        {name: "DHRUV TYAGI", image: profile},
+        {name: "MANJOT KAUR CHANNI", image: profile},
+        {name: "CHITRANSH CHATURVEDI", image: profile},
+        {name: "SUBODH KUMAR", image: profile},
+        {name: "SATYAM KUMAR", image: profile},
+        {name: "LEELANAND SAH", image: profile},
+        {name: "AYUSH BIYANI", image: profile},
+        {name: "MANSI ARYA", image: profile},
+        {name: "ABHINAV THAKUR", image: profile},
+        {name: "SUPRASHITA DAIMARI", image: profile},
+        {name: "TANISHQ RANJAN", image: profile},
+        {name: "SAJAL SAHU", image: profile},
+    ]
+}

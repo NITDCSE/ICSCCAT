@@ -15,7 +15,7 @@ export default function AboutConference() {
                         <h3 className="text-3xl font-bold text-center md:text-4xl md:text-left">
                             About the Conference
                         </h3>
-                        <p className="text-center text-black lg:text-lg md:text-left">
+                        <p className="text-center text-black lg:text-lg md:text-justify">
                             The prime objective of the RTCSSE-2023 is to serve as a forum for the exchange of ideas and knowledge between individuals working at different frontiers of chemical sciences and sustainable energy. It will provide a platform
                             for the researchers, scientists, professors from academia and industry participants to showcase their research in the form of keynote addresses, lectures, discussions and presentations on cutting edge research and
                             technology. It will further provide an opportunity for the participants to create

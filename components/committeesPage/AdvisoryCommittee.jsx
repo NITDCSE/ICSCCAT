@@ -1,4 +1,5 @@
 import {advisoryCommittee} from "@/components/committeesPage/data";
+import Image from "next/image";
 
 export default function AdvisoryCommittee() {
     return (
