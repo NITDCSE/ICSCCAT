@@ -48,7 +48,7 @@ export const organisingCommittee = [
             {
                 name: 'Prof. Praveen Garg',
                 designation: 'Principal',
-                affiliation: 'Swami Shraddhanand College,University of Delhi',
+                affiliation: 'Swami Shraddhanand College, University of Delhi',
                 photo:praveen
             }
         ]
