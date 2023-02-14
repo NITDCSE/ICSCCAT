@@ -13,13 +13,13 @@ export default function Contact() {
             <section className="flex justify-center items-center">
                 <div id="railway" className=" bg-primary10 px-3 py-12  venue container">
                     <div className="textdiv">
-                        <div className="px-12">
+                        <div className="px-8">
                             <br></br>
-                            <span className="px-3 font-bold">Dr. Amit Pratap Singh
+                            <span className="px-3 font-bold pl">Dr. Amit Pratap Singh
                         </span>
                             <br></br>
                             
-                            <span className="px-3">
+                            <span className="px-3 pl">
                             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
                                 className="bi bi-telephone-fill inline-block" viewBox="0 0 16 16">
                             <path fill-rule="evenodd"
@@ -28,7 +28,7 @@ export default function Contact() {
                         </span>
                             +91 7838545356 (M)
                             <br></br>
-                            <span className="px-3">
+                            <span className="px-3 pl">
                             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
                                 className="bi bi-telephone-fill inline-block" viewBox="0 0 16 16">
                             <path fill-rule="evenodd"
@@ -37,12 +37,12 @@ export default function Contact() {
                         </span>
                             011 3386 1250,1256 (O)
                         </div>
-                        <div className="px-12">
+                        <div className="px-8">
                             <br></br>
-                            <span className="px-3 font-bold">Dr. Chandra Shekhar Jeengar
+                            <span className="px-3 font-bold pl">Dr. Chandra Shekhar Jeengar
                         </span>
                             <br></br>
-                            <span className="px-3">
+                            <span className="px-3 pl">
                             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
                                 className="bi bi-telephone-fill inline-block" viewBox="0 0 16 16">
                             <path fill-rule="evenodd"
@@ -53,9 +53,9 @@ export default function Contact() {
                             <br></br>
                             <br></br>
                         </div>
-                        <div className="px-12">
+                        <div className="px-8">
                             {/* <h1 className="px-3">Email Id:</h1> */}
-                            <span className="px-3">
+                            <span className="px-3 pl">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
                                     className="bi bi-envelope-at inline-block" viewBox="0 0 16 16">
                                 <path
@@ -67,9 +67,12 @@ export default function Contact() {
                                 rtcsse[at]nitdelhi.ac.in
                                 <br></br>
                                 <br></br>
+                                <span className="font-bold px pl">Address:</span> Auditorium, Administrative Block <br></br> National Institute of Technology Delhi<br></br> Plot No. FA7, Zone, P1, GT Karnal Road, Delhi, 110036
+                                <br></br>
+                                <br></br>
                         </div>
-                        <div className="px-12">
-                            <h1 className="px-3 ">For more information visit institution website:
+                        <div className="px-8">
+                            <h1 className="px-3 pl">For more information visit institution website:
                             </h1>
                             
                             {/* <span className="px-3">NIT Delhi:</span> */}

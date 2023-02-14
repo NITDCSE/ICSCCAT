@@ -6,7 +6,9 @@
 .mapdiv {
     width: 50%;
 }
-
+.pl{
+    padding-left: 0;
+}
 .textdiv {
     width: 50%;
 }
@@ -19,7 +21,7 @@
 
 .hed {
     font-weight: 600;
-    font-size: 24px;
+    font-size: 34px;
     color: rgb(70, 70, 121);
 }
 
