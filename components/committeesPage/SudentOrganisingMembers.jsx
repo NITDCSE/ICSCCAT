@@ -15,7 +15,7 @@ export default function StudentOrganisingMembers() {
                         )
                     })}
                 </div>
-                <h3 className="text-xl font-bold pt-6">Technical Committee</h3>
+                <h3 className="text-xl font-bold pt-6">Web Designing Committee</h3>
                 <div className="mt-6 grid grid-cols-1 xs:grid-cols-2 md:grid-cols-4">
                     {studentCommittee.technical.map(function (member) {
                         return (
@@ -41,7 +41,7 @@ function StudentProfile({member, small}) {
         <div
             className="block flex space-x-4 items-center font-medium bg-primary10 rounded px-6 py-3 my-2 md:mx-4 focus:outline-none focus:ring-0">
             <Image src={member.image} width={small ? 48 : 72} className="rounded-full aspect-square object-cover" />
-            <p className={`${small ? "text-sm font-bold" : "text-lg font-bold"}`}>{member.name}</p>
+            <p className={`${small ? "text-sm" : "text-lg"}`}>{member.name}</p>
         </div>
     )
 }
