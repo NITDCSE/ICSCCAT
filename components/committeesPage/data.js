@@ -191,8 +191,8 @@ export const studentCommittee = {
         {name: "Bhavna Joshi", image:bhavnajoshi},
         {name: "Devansh Gahlawat", image: devansh},
         {name: "Manu Agarwal", image:manu},
-        {name: "Syamantak Gupta", image: samyantak},
-        {name: "Anil Gurjar", image: anil},
+        {name: "Syamantak Gupta", image: profile},
+        {name: "Anil Gurjar", image: profile},
     ],
     technical: [
         {name: "Hardik Sachan", image:hardik},
