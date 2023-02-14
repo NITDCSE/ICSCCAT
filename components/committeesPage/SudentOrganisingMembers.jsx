@@ -11,20 +11,20 @@ export default function StudentOrganisingMembers() {
                 <div className="mt-6 grid grid-cols-1 xs:grid-cols-2 md:grid-cols-4">
                     {studentCommittee.core.map(function (member) {
                         return (
-                            <StudentProfile member={member} small={false} />
+                            <StudentProfile member={member} small={true} />
                         )
                     })}
                 </div>
-                <h3 className="text-xl font-bold pt-6">Technical Committee</h3>
+                <h3 className="text-xl font-bold pt-6">Web Designing Team</h3>
                 <div className="mt-6 grid grid-cols-1 xs:grid-cols-2 md:grid-cols-4">
                     {studentCommittee.technical.map(function (member) {
                         return (
-                            <StudentProfile member={member} small={false} />
+                            <StudentProfile member={member} small={true} />
                         )
                     })}
                 </div>
                 <h3 className="text-xl font-bold pt-6">Student Organising Members</h3>
-                <div className="mt-6 grid grid-cols-1 xs:grid-cols-2 md:grid-cols-5">
+                <div className="mt-6 grid grid-cols-1 xs:grid-cols-2 md:grid-cols-4">
                     {studentCommittee.others.map(function (member) {
                         return (
                             <StudentProfile member={member} small={true} />

@@ -53,7 +53,7 @@ export default function AboutNITD() {
            
         <div className="flex flex-col md:flex-col mt-4  container">
         <h3 className="text-2xl px-6 font-bold text-center md:text-3xl md:text-left">
-         About Department of Applied Sciences NIT Delhi
+         About Department of Applied Sciences, NIT Delhi
         </h3>
         <div className=" py-3 mb-4 mt-10">
                         <p className="text-center px-6  mx-auto text-black lg:text-lg md:text-left">

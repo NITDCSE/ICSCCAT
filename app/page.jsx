@@ -13,7 +13,7 @@ export default function Home() {
             <AboutConference/>
             <ConferenceObjectives />
             <ConferenceThemes />
-            <Registerbuttonbottom />
+            
 
             
         </>
