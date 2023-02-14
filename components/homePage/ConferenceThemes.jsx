@@ -16,7 +16,7 @@ export default function ConferenceThemes() {
         "Applied Chemistry",
         "Food Chemistry",
         "Photochemistry",
-        "Metal Organic Frameworks (Mofs)",
+        "Metal Organic Frameworks (MOFs)",
         "Semiconductor Materials",
     ]
     return (
