@@ -14,11 +14,11 @@ import devansh from "@/public/profile_images/student_committee/devansh.jpg"
 import hardik from "@/public/profile_images/student_committee/hardik.jpeg"
 import shivansh from '@/public/Committe pics/Shivansh.jpg'
 import risabh from '@/public/Committe pics/risabh.jpg'
-import richa from '@/public/Committe pics/richa.jpg'
+import richa from '@/public/Committe pics/richa.png'
 import madhviraj from '@/public/Committe pics/madhviraj.jpg'
 import vishal from '@/public/Committe pics/vishal.jpg'
 import devesh from '@/public/Committe pics/devesh.jpg'
-import bhavnajoshi from '@/public/Committe pics/bhavnajoshi.jpg'
+import bhavnajoshi from '@/public/Committe pics/bhavanajoshi.png'
 import manu from '@/public/Committe pics/manu.png'
 import dhruv from '@/public/Committe pics/dhruv tyagi.jpeg'
 
@@ -30,7 +30,7 @@ export const organisingCommittee = [
             {
                 name: 'Prof. (Dr.) Ajay K. Sharma',
                 designation: 'Director',
-                affiliation: 'National Institute of Technology, Delhi',
+                affiliation: 'National Institute of Technology Delhi',
                 photo:ajaysharma
                 
             },
@@ -48,7 +48,7 @@ export const organisingCommittee = [
             {
                 name: 'Prof. Praveen Garg',
                 designation: 'Principal',
-                affiliation: 'Swami Shraddhanand College, DU',
+                affiliation: 'Swami Shraddhanand College,University of Delhi',
                 photo:praveen
             }
         ]
@@ -65,12 +65,12 @@ export const organisingCommittee = [
         ]
     },
     {
-        type: 'Co-conveners',
+        type: 'Co-Conveners',
         members: [
             {
                 name: 'Dr. Anuj K. Sharma',
                 designation: 'Associate Professor',
-                affiliation: 'National Institute of Technology, Delhi',
+                affiliation: 'Department of Applied Sciences, NIT Delhi',
                 photo:anujsharma
                 
             },
@@ -187,12 +187,12 @@ export const advisoryCommittee = [
 
 export const studentCommittee = {
     core: [
-        {name: "Devesh Kumar Mishara", image: devesh},
+        {name: "Devesh Kumar Mishra", image: devesh},
         {name: "Bhavna Joshi", image:bhavnajoshi},
         {name: "Devansh Gahlawat", image: devansh},
         {name: "Manu Agarwal", image:manu},
-        {name: "Syamantak Gupta", image: profile},
-        {name: "Anil Gurjar", image: profile},
+        {name: "Syamantak Gupta", image: samyantak},
+        {name: "Anil Gurjar", image: anil},
     ],
     technical: [
         {name: "Hardik Sachan", image:hardik},

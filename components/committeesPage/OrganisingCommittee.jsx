@@ -5,14 +5,14 @@ export default function OrganisingCommittee() {
     return (
         <section id="organisingcommittee" className="py-6">
             <div className="container mx-auto px-6">
-                <h4 className="text-4xl font-bold text-center md:text-4xl md:text-left">Organising Committee</h4>
+  
             </div>
             {
                 organisingCommittee.map(function (section, idx) {
                     return (
                         <div key={idx} className={`${idx % 2 === 0 ? 'bg-primary05' : 'bg-primary10'} w-full`}>
                             <div className="mx-auto container px-6 py-4">
-                                <h3 className="text-3xl font-bold text-center mb-8">{section.type}</h3>
+                                <h3 className="text-3xl text-primary90 font-bold text-center mb-8">{section.type}</h3>
                                 <div
                                     className={`grid grid-flow-col auto-cols-fr gap-4 my-2`}>
                                     {
