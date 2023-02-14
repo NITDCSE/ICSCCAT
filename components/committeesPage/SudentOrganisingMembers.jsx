@@ -15,7 +15,7 @@ export default function StudentOrganisingMembers() {
                         )
                     })}
                 </div>
-                <h3 className="text-xl font-bold pt-6">Web Designing Committee</h3>
+                <h3 className="text-xl font-bold pt-6">Web Designing Team</h3>
                 <div className="mt-6 grid grid-cols-1 xs:grid-cols-2 md:grid-cols-4">
                     {studentCommittee.technical.map(function (member) {
                         return (

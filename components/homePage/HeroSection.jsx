@@ -46,7 +46,7 @@ export default function HeroSection() {
                     <div className="block flex-1 p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100">
                         <h5 className="mb-2 text-2xl text-center font-bold tracking-tight text-gray-900">Venue</h5>
                         <p className="font-normal text-lg text-center text-gray-700">
-                            Auditorium, Admin Block National Institute of Technology Delhi, Plot No. FA7, Zone, P1, GT Karnal Road, Delhi, 110036
+                            Auditorium, Administrative Block <br></br> National Institute of Technology Delhi<br></br> Plot No. FA7, Zone, P1, GT Karnal Road, Delhi, 110036
                         </p>
                     </div>
                 </Link>

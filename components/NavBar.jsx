@@ -99,7 +99,7 @@ function ConferenceHeader({open, setOpen}) {
 
 function ContactHeader() {
     return (
-        <div className="bg-black text-white text-xs sticky top-0 z-50">
+        <div className="bg-black text-white text-xm sticky top-0 z-50">
             <div className="container mx-auto py-1 px-6">
                 <div className="items-center justify-between flex flex-col md:flex-row">
                     <p className="text-center">Contact us - <span><Link href="mailto:rtcsse@nitdelhi.ac.in"
