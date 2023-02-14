@@ -23,7 +23,7 @@ import manu from '@/public/Committe pics/manu.png'
 import dhruv from '@/public/Committe pics/dhruv tyagi.jpeg'
 import anil from '@/public/Committe pics/Anil Gurjar.jpg'
 import samyantak from '@/public/Committe pics/Syamantak Gupta.jpg'
-import manjot from "@/public/Committe pics/"
+
 
 
 export const organisingCommittee = [
