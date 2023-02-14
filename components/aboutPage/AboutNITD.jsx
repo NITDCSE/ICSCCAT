@@ -5,7 +5,7 @@ export default function AboutNITD({college, nitdActive, setNitdActive}) {
     return (
         <>
             <section id="about" className="justify-center flex flex-col">
-                <CollegeTabs nitdActive={nitdActive} setNitdActive={setNitdActive} />
+                {/*<CollegeTabs nitdActive={nitdActive} setNitdActive={setNitdActive} />*/}
                 <div className="flex flex-col md:flex-col mt-4 container">
                     <h3 className="text-3xl px-6 pt-4 font-bold text-center md:text-4xl md:text-left">
                         {college.heading1}

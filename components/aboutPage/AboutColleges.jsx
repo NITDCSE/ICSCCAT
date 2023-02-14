@@ -9,6 +9,7 @@ export default function AboutColleges() {
     return(
         <>
             <AboutNITD college={aboutColleges.nitd} nitdActive={true} setNitdActive={()=> {}}/>
+            <AboutNITD college={aboutColleges.ssdu} nitdActive={false} setNitdActive={()=> {}}/>
         </>
     )
 }
