@@ -1,7 +1,7 @@
 import bhupendirmehta from '@/public/profile_photos/Dr. BhupenderMehta SSNC DU.png'
 import chaganlal from '@/public/profile_photos/Dr. ChhaganLal SSNC.png'
 import gunjanarora from '@/public/profile_photos/Dr. Gunjan-Arora SSNC DU.jpg'
-import manishasingh from '@/public/profile_photos/Dr. Manisha Singh.jpg'
+import manishasingh from '@/public/profile_photos/Dr. Manisha Singh.jpeg'
 import pratibha from '@/public/profile_photos/Dr. Pratibha NIT delhi.png'
 import apsingh from '@/public/Committe pics/Dr. A. P. Singh.jpg'
 import nishantverma from '@/public/Committe pics/Dr. Nishant Verma.jpg'
