@@ -8,7 +8,7 @@ export default function AboutNITD() {
            
                 <div className="flex flex-col md:flex-col mt-4  container">
                     <h3 className="text-3xl px-6 font-bold text-center md:text-4xl md:text-left">
-                        About National Institute of Technology, Delhi
+                        About National Institute of Technology Delhi
                     </h3>
                     <div className="bg-primary10 py-3 mt-10">
                         <p className="text-center px-6  mx-auto text-black lg:text-lg text-justify">
