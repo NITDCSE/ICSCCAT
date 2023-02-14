@@ -15,7 +15,7 @@ export default function HeroSection() {
                 className="container relative flex flex-col-reverse md:flex-row justify-center items-start px-6 mx-auto pt-12 space-y-0 md:justify-start"
             >
                 <div className="flex flex-col mb-32 mx-auto items-center">
-                    <div className="flex flex-col md:space-x-8 items-center">
+                    <div className="flex flex-col items-center">
                         <Image className="w-32 md:w-64 object-contain" src={rtcsseSquareLogo} width={256} quality={100} priority/>
                         <div className="flex flex-col mx-auto md:mx-0">
                             <p className="text-2xl text-center md:text-3xl">
