@@ -1,4 +1,6 @@
 import {localOrganisingCommittee} from "@/components/committeesPage/data";
+import Image from "next/image";
+import profile from "@/public/profile.png"
 
 export default function LocalOrganisingCommittee() {
     return (
@@ -10,8 +12,9 @@ export default function LocalOrganisingCommittee() {
                         {localOrganisingCommittee.nitDelhi.map(function (member) {
                             return (
                                 <div
-                                    className="block font-medium bg-primary10 text-sm leading-tight rounded px-6 py-3 my-2 md:mx-4 focus:outline-none focus:ring-0">
-                                    {member.name}
+                                    className="block flex space-x-4 items-center font-medium bg-primary10 rounded px-6 py-3 my-2 md:mx-4 focus:outline-none focus:ring-0">
+                                    <Image src={profile} width={48} className="rounded-full aspect-square object-cover" />
+                                    <p className={`${"text-sm font-bold"}`}>{member.name}</p>
                                 </div>
                             )
                         })}
@@ -20,8 +23,9 @@ export default function LocalOrganisingCommittee() {
                         {localOrganisingCommittee.sscdu.map(function (member) {
                             return (
                                 <div
-                                    className="block font-medium bg-primary10 text-sm leading-tight rounded px-6 py-3 my-2 md:mx-4 focus:outline-none focus:ring-0">
-                                    {member.name}
+                                    className="block flex space-x-4 items-center font-medium bg-primary10 rounded px-6 py-3 my-2 md:mx-4 focus:outline-none focus:ring-0">
+                                    <Image src={profile} width={48} className="rounded-full aspect-square object-cover" />
+                                    <p className={`${"text-sm font-bold"}`}>{member.name}</p>
                                 </div>
                             )
                         })}

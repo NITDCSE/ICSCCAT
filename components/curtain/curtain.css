@@ -17,9 +17,9 @@
 
 .curtain-panel .curtain {
     width: 50%;
-    background-color: #e71a1a;
+    background-color: #ae0d07;
     position: relative;
-    transition: transform 0.5s ease-out;
+    transition: transform 2s ease-out;
     display: flex;
     align-items: center;
     overflow: hidden;
@@ -66,9 +66,9 @@
 }
 
 .curtain-trigger:checked ~ .left-curtain {
-    transform: translateX(calc(-100% + 2em));
+    transform: translateX(-100%);
 }
 
 .curtain-trigger:checked ~ .right-curtain {
-    transform: translateX(calc(100% - 2em));
+    transform: translateX(100%);
 }

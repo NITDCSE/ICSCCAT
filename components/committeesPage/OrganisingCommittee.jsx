@@ -17,7 +17,8 @@ export default function OrganisingCommittee() {
                                     className={`grid grid-flow-col auto-cols-fr gap-4 my-2`}>
                                     {
                                         section.members.map(function (member) {
-                                            return (<UserProfile member={member} profileSize={section.type === 'Patrons' ? 128 : 96}/>)
+                                            return (<UserProfile member={member}
+                                                                 profileSize={section.type === 'Patrons' ? 164 : (section.type === 'Chairman' ? 128 : 96)}/>)
                                         })
                                     }
                                 </div>
