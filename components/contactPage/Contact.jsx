@@ -72,7 +72,7 @@ export default function Contact() {
                                 <br></br>
                         </div>
                         <div className="px-8">
-                            <h1 className="px-3 pl">For more information visit institution website:
+                            <h1 className="px-3 pl">For more information, visit institute website:
                             </h1>
                             
                             {/* <span className="px-3">NIT Delhi:</span> */}
