@@ -19,11 +19,11 @@ export default function NavBar() {
 
 function NavRibbon({open}) {
     const links = [
-        {name: "Home", link: "/"},
+        {name: "Home", link: "#"},
         {name: "About", link: "/about"},
-        {name: "Schedule", link: "/"},
-        {name: "Speakers", link: "/"},
-        {name: "Abstract Papers", link: "/"},
+        {name: "Schedule", link: "#"},
+        {name: "Speakers", link: "#"},
+        {name: "Abstract Papers", link: "#"},
         {name: "Committees", link: "/committees"},
         {name: "Sponsors", link: "/sponsors"},
         {name: "Contact Us", link: "/contact"},
