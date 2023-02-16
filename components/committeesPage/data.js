@@ -21,6 +21,18 @@ import devesh from '@/public/Committe pics/devesh.jpg'
 import bhavnajoshi from '@/public/Committe pics/bhavanajoshi.png'
 import manu from '@/public/Committe pics/manu.png'
 import dhruv from '@/public/Committe pics/dhruv tyagi.jpeg'
+
+import anil from '@/public/Committe pics/Anil Gurjar.jpg'
+import samyantak from '@/public/Committe pics/Syamantak Gupta.jpg'
+import manjot from '@/public/Committe pics/Manjot Kaur Channi.jpg'
+import sajal from'@/public/Committe pics/Sajal Sahu.jpg'
+import chitransh from '@/public/Committe pics/Chitransh Chaturvedi.jpg'
+import ayush from '@/public/Committe pics/Ayush Biyani.jpg'
+import satyam from '@/public/Committe pics/Satyam Kumar.jpg'
+import priya from '@/public/Committe pics/Priya Malik.jpg'
+import mansi from '@/public/Committe pics/Mansi Arya.jpg'
+import supra from '@/public/Committe pics/suprashita.jpg'
+import tanishq from '@/public/Committe pics/Tanishq Ranjan.jpg'
 import amitmahajan from "@/public/localOrganisingCommittee/Dr. Amit Mahajan.jpg"
 import gyanendra from "@/public/localOrganisingCommittee/Dr. Gyanendra Sheoran.jpg"
 import prashantkumar from "@/public/localOrganisingCommittee/Dr. Prashant Kumar.jpeg"
@@ -34,6 +46,7 @@ import praveenkumar from "@/public/localOrganisingCommittee/Mr.Praveen Kumar.jpg
 import shubhambharadwaj from "@/public/localOrganisingCommittee/Mr. Shubham Bhardwaj.png"
 import navishasharma from "@/public/localOrganisingCommittee/Mrs. Navisha Sharma.jpg"
 import aparnatripathi from "@/public/localOrganisingCommittee/Ms. Aparna Tripathi.jpg"
+
 
 
 export const organisingCommittee = [
@@ -219,16 +232,16 @@ export const studentCommittee = {
         {name: "Priya Malik", image: profile},
         {name: "Risabh Kushwaha", image: risabh},
         {name: "Dhruv Tyagi", image: dhruv},
-        {name: "Manjot Kaur Channi", image: profile},
-        {name: "Chitransh Chaturvedi", image: profile},
+        {name: "Manjot Kaur Channi", image: manjot},
+        {name: "Chitransh Chaturvedi", image:chitransh},
         {name: "Subodh Kumar", image: profile},
-        {name: "Satyam Kumar", image: profile},
+        {name: "Satyam Kumar", image: satyam},
         {name: "Leelanand Sah", image: profile},
-        {name: "Ayush Biyani", image: profile},
-        {name: "Mansi Arya", image: profile},
+        {name: "Ayush Biyani", image: ayush},
+        {name: "Mansi Arya", image: mansi},
         {name: "Abhinav Thakur", image: profile},
-        {name: "Suprashita Diamari", image: profile},
-        {name: "Tanishq Ranjan", image: profile},
-        {name: "Sajal Sahu", image: profile},
+        {name: "Suprashita Diamari", image: supra},
+        {name: "Tanishq Ranjan", image:tanishq},
+        {name: "Sajal Sahu", image: sajal},
     ]
 }
