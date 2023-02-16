@@ -5,6 +5,7 @@ import ConferenceThemes from "@/components/homePage/ConferenceThemes";
 import AboutColleges from "@/components/homePage/AboutColleges";
 import Registerbuttonbottom from "@/components/homePage/registerbuttonbottom";
 
+
 export default function Home() {
     return (
         <>
@@ -13,9 +14,6 @@ export default function Home() {
             <AboutConference/>
             <ConferenceObjectives />
             <ConferenceThemes />
-            
-
-            
         </>
     )
 }

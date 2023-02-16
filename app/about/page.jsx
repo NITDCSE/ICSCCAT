@@ -1,8 +1,8 @@
-import AboutNITD from "@/components/aboutPage/AboutNITD"
+import AboutColleges from "@/components/aboutPage/AboutColleges";
+
 export default function About() {
-    return(
-        <>
-           <AboutNITD />
-        </>
+    return (
+        <AboutColleges />
     )
+
 }

@@ -40,8 +40,8 @@ function StudentProfile({member, small}) {
     return (
         <div
             className="block flex space-x-4 items-center font-medium bg-primary10 rounded px-6 py-3 my-2 md:mx-4 focus:outline-none focus:ring-0">
-            <Image src={member.image} width={small ? 48 : 72} className="rounded-full aspect-square object-cover" />
-            <p className={`${small ? "text-sm font-bold" : "text-lg font-bold"}`}>{member.name}</p>
+            <Image src={member.image} width={48} className="rounded-full aspect-square object-cover" />
+            <p className={`${"text-sm font-bold"}`}>{member.name}</p>
         </div>
     )
 }

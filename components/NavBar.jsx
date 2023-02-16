@@ -19,17 +19,17 @@ export default function NavBar() {
 
 function NavRibbon({open}) {
     const links = [
-        {name: "Home", link: "/"},
+        {name: "Home", link: "#"},
         {name: "About", link: "/about"},
-        {name: "Schedule", link: "/"},
-        {name: "Speakers", link: "/"},
-        {name: "Abstract Papers", link: "/"},
+        {name: "Schedule", link: "#"},
+        {name: "Speakers", link: "#"},
+        {name: "Abstract Papers", link: "#"},
         {name: "Committees", link: "/committees"},
         {name: "Sponsors", link: "/sponsors"},
         {name: "Contact Us", link: "/contact"},
     ]
 
-    return (<nav className={`${open ? 'block' : 'hidden'} md:block bg-primaryDark text-white sticky top-6 z-50`}>
+    return (<nav className={`${open ? 'block' : 'hidden'} md:block bg-primaryDark text-white sticky top-8 z-50`}>
         <div
             className="container bg-primaryDark absolute md:static mx-auto py-1.5 px-6 left-0 w-full md:w-auto mx-auto">
             <ul className="md:flex md:items-center md:justify-between">
@@ -44,11 +44,11 @@ function NavRibbon({open}) {
 
 function ConferenceHeader({open, setOpen}) {
     return (
-        <div className="container mx-auto px-6 py-4">
+        <div className="container mx-auto px-6 py-2">
             <div className="flex space-x-6 items-center justify-between">
                 <Link href="/" className="flex items-center space-x-4 pt-2">
-                    <Image src={rtcsseLogo} className="max-h-14 object-contain" alt="RTCSSE 2023"
-                           width={72} quality={100}/>
+                    <Image src={rtcsseLogo} className="object-contain" alt="RTCSSE 2023"
+                           width={84} quality={100}/>
                     <h3 className="hidden md:block font-bold text-3xl tracking-wider text-center align-middle">RTCSSE
                         2023</h3>
                 </Link>
@@ -99,7 +99,7 @@ function ConferenceHeader({open, setOpen}) {
 
 function ContactHeader() {
     return (
-        <div className="bg-black text-white text-xs sticky top-0 z-50">
+        <div className="bg-black text-white text-xm sticky top-0 z-50">
             <div className="container mx-auto py-1 px-6">
                 <div className="items-center justify-between flex flex-col md:flex-row">
                     <p className="text-center">Contact us - <span><Link href="mailto:rtcsse@nitdelhi.ac.in"
