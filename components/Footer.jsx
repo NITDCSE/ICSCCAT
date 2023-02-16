@@ -23,7 +23,7 @@ export default function Footer() {
                         <Image src={rtcsseLogo} className="object-contain" width={170} quality={100}/>
                     </div>
                     <a className="m-auto flex flex-col items-center space-y-6" target="_blank"
-                       href="https://nitdelhi.ac.in/">
+                       href="https://ss.du.ac.in/">
                         <p className="text-xs text-center md:text-lg hidden md:block">DEPARTMENT OF CHEMISTRY</p>
                         <Image src={sscduLongLogo} alt="" className="max-h-14 object-contain hidden md:block"
                                quality={100}/>

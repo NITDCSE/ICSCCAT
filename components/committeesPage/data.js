@@ -43,14 +43,14 @@ export const organisingCommittee = [
             {
                 name: 'Prof. (Dr.) Ajay K. Sharma',
                 designation: 'Director',
-                affiliation: 'National Institute of Technology Delhi',
+                affiliation: {line1: 'National Institute of Technology Delhi', line2: ''},
                 photo:ajaysharma
                 
             },
             {
                 name: 'Prof. Yogesh Singh',
                 designation: 'Vice Chancellor',
-                affiliation: 'University of Delhi',
+                affiliation: {line1: 'University of Delhi', line2: ''},
                 photo:yogeshsingh
             },
         ]
@@ -61,7 +61,7 @@ export const organisingCommittee = [
             {
                 name: 'Prof. Praveen Garg',
                 designation: 'Principal',
-                affiliation: 'Swami Shraddhanand College, University of Delhi',
+                affiliation: {line1: 'Swami Shraddhanand College, University of Delhi', line2: ''},
                 photo:praveen
             }
         ]
@@ -71,8 +71,8 @@ export const organisingCommittee = [
         members: [
             {
                 name: 'Dr. Amit Pratap Singh',
-                designation: 'Head, Department of Applied Sciences',
-                affiliation: 'Associate Professor, NIT Delhi',
+                designation: 'Associate Professor & Head',
+                affiliation: {line1: 'Department of Applied Sciences', line2: 'National Institute of Technology Delhi'},
                 photo:apsingh
             }
         ]
@@ -83,14 +83,14 @@ export const organisingCommittee = [
             {
                 name: 'Dr. Anuj K. Sharma',
                 designation: 'Associate Professor',
-                affiliation: 'Department of Applied Sciences, NIT Delhi',
+                affiliation: {line1: 'Department of Applied Sciences', line2: 'National Institute of Technology Delhi'},
                 photo:anujsharma
                 
             },
             {
                 name: 'Dr. Bhupinder Mehta',
                 designation: 'Associate Professor',
-                affiliation: 'Department of Chemistry, SSNC, DU',
+                affiliation: {line1: 'Department of Chemistry', line2: 'Swami Shraddhanand College, University of Delhi'},
                 photo:bhupendirmehta
             },
         ]
@@ -101,25 +101,25 @@ export const organisingCommittee = [
             {
                 name: 'Dr. Pratibha',
                 designation: 'Assistant Professor',
-                affiliation: 'Department of Applied Sciences, NIT Delhi',
+                affiliation: {line1: 'Department of Applied Sciences', line2: 'National Institute of Technology Delhi'},
                 photo:pratibha
             },
             {
                 name: 'Dr. Chaggan Lal',
                 designation: 'Assistant Professor',
-                affiliation: 'Department of Chemistry, SSNC, DU',
+                affiliation: {line1: 'Department of Chemistry', line2: 'Swami Shraddhanand College, University of Delhi'},
                 photo:chaganlal
             },
             {
                 name: 'Dr. Nishant Verma',
                 designation: 'Assistant Professor',
-                affiliation: 'Department of Chemistry, SSNC, DU',
+                affiliation: {line1: 'Department of Chemistry', line2: ' Swami Shraddhanand College, University of Delhi'},
                 photo: nishantverma 
             },
             {
                 name: 'Dr. Gunjan Arora',
                 designation: 'Assistant Professor',
-                affiliation: 'Department of Chemistry, SSNC, DU',
+                affiliation: {line1: 'Department of Chemistry', line2: ' Swami Shraddhanand College, University of Delhi'},
                 photo:gunjanarora
             },
         ]
@@ -130,7 +130,7 @@ export const organisingCommittee = [
             {
                 name: 'Dr. Manisha Singh',
                 designation: 'Assistant Registrar',
-                affiliation: 'National Institute of Technology, Delhi',
+                affiliation: {line1: '', line2: 'National Institute of Technology Delhi'},
                 photo:manishasingh
             }
         ]
@@ -158,7 +158,7 @@ export const localOrganisingCommittee = {
         ],
     sscdu: [
         {name: "Dr. Chandra Shekhar Jeengar", affiliation: ssduLabel, photo: profile},
-        {name: "Dr. Gajendra Gaur", affiliation: ssduLabel, photo: profile},
+        {name: "Prof. Gajendra Gaur", affiliation: ssduLabel, photo: profile},
         {name: "Dr. Pradeep Pratap Singh", affiliation: ssduLabel, photo: profile},
         {name: "Dr. Saraswati Kanodia", affiliation: ssduLabel, photo: profile},
         {name: "Dr. Suman Yadav", affiliation: ssduLabel, photo: profile},

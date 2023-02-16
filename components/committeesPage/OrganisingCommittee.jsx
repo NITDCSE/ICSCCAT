@@ -42,7 +42,8 @@ function UserProfile({member, profileSize}) {
                 </div>
                 <div className="font-bold text-xl mb-2 text-primaryDark text-center">{member.name}</div>
                 <p className="text-primary80 text-lg text-center">{member.designation}</p>
-                <p className="uppercase leading-tight text-xs text-center">{member.affiliation}</p>
+                <p className="uppercase leading-tight text-sm text-center">{member.affiliation.line1}</p>
+                <p className="uppercase leading-tight text-xs text-center text-gray-500">{member.affiliation.line2}</p>
             </div>
         </div>
     )
