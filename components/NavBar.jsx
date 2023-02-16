@@ -44,11 +44,11 @@ function NavRibbon({open}) {
 
 function ConferenceHeader({open, setOpen}) {
     return (
-        <div className="container mx-auto px-6 py-4">
+        <div className="container mx-auto px-6 py-2">
             <div className="flex space-x-6 items-center justify-between">
                 <Link href="/" className="flex items-center space-x-4 pt-2">
-                    <Image src={rtcsseLogo} className="max-h-14 object-contain" alt="RTCSSE 2023"
-                           width={72} quality={100}/>
+                    <Image src={rtcsseLogo} className="object-contain" alt="RTCSSE 2023"
+                           width={84} quality={100}/>
                     <h3 className="hidden md:block font-bold text-3xl tracking-wider text-center align-middle">RTCSSE
                         2023</h3>
                 </Link>
