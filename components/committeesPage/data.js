@@ -21,6 +21,19 @@ import devesh from '@/public/Committe pics/devesh.jpg'
 import bhavnajoshi from '@/public/Committe pics/bhavanajoshi.png'
 import manu from '@/public/Committe pics/manu.png'
 import dhruv from '@/public/Committe pics/dhruv tyagi.jpeg'
+import amitmahajan from "@/public/localOrganisingCommittee/Dr. Amit Mahajan.jpg"
+import gyanendra from "@/public/localOrganisingCommittee/Dr. Gyanendra Sheoran.jpg"
+import prashantkumar from "@/public/localOrganisingCommittee/Dr. Prashant Kumar.jpeg"
+import ritugoel from "@/public/localOrganisingCommittee/Dr. Ritu Goel.jpg"
+import salonipriya from "@/public/localOrganisingCommittee/Dr. Saloni Priya.jpeg"
+import vsp from "@/public/localOrganisingCommittee/Dr. VS Pandey.jpg"
+import aadeshkumar from "@/public/localOrganisingCommittee/Mr. Aadesh Kumar.png"
+import jitendrasinghisht from "@/public/localOrganisingCommittee/Mr. Jitendra Singh Bisht.jpg"
+import krishanpal from "@/public/localOrganisingCommittee/Mr. Krishan Pal.jpg"
+import praveenkumar from "@/public/localOrganisingCommittee/Mr.Praveen Kumar.jpg"
+import shubhambharadwaj from "@/public/localOrganisingCommittee/Mr. Shubham Bhardwaj.png"
+import navishasharma from "@/public/localOrganisingCommittee/Mrs. Navisha Sharma.jpg"
+import aparnatripathi from "@/public/localOrganisingCommittee/Ms. Aparna Tripathi.jpg"
 
 
 export const organisingCommittee = [
@@ -128,36 +141,36 @@ const nitdLabel = {line1: "National Instutite of Technology", line2: "Delhi"}
 const ssduLabel = {line1: "Swami Shradhanand College", line2: "University of Delhi"}
 export const localOrganisingCommittee = {
     nitDelhi: [
-            {name: "Dr. V. S. Pandey", affiliation: nitdLabel},
-            {name: "Dr. Gyanendra Sheoran", affiliation: nitdLabel},
-            {name: "Dr. Amit Mahajan", affiliation: nitdLabel},
-            {name: "Dr. Prashant Kumar", affiliation: nitdLabel},
-            {name: "Dr. Saloni Priya", affiliation: nitdLabel},
-            {name: "Dr. Ritu Goel", affiliation: nitdLabel},
-            {name: "Mr. Krishan Pal", affiliation: nitdLabel},
-            {name: "Mr. Jitender Singh Bisht", affiliation: nitdLabel},
-            {name: "Mr. Aadesh Kumar", affiliation: nitdLabel},
-            {name: "Mrs. Aparna Tripathi", affiliation: nitdLabel},
-            {name: "Mr. Shubham Bhardwaj", affiliation: nitdLabel},
-            {name: "Mrs. Navisha Sharma", affiliation: nitdLabel},
-            {name: "Mr. Lov Kumar Dubey", affiliation: nitdLabel},
-            {name: "Mr. Praveen Kumar", affiliation: nitdLabel},
+            {name: "Dr. V. S. Pandey", affiliation: nitdLabel, photo: vsp},
+            {name: "Dr. Gyanendra Sheoran", affiliation: nitdLabel, photo: gyanendra},
+            {name: "Dr. Amit Mahajan", affiliation: nitdLabel, photo: amitmahajan},
+            {name: "Dr. Prashant Kumar", affiliation: nitdLabel, photo: prashantkumar},
+            {name: "Dr. Saloni Priya", affiliation: nitdLabel, photo: salonipriya},
+            {name: "Dr. Ritu Goel", affiliation: nitdLabel, photo: ritugoel},
+            {name: "Mr. Krishan Pal", affiliation: nitdLabel, photo: krishanpal},
+            {name: "Mr. Jitender Singh Bisht", affiliation: nitdLabel, photo: jitendrasinghisht},
+            {name: "Mr. Aadesh Kumar", affiliation: nitdLabel, photo: aadeshkumar},
+            {name: "Mrs. Aparna Tripathi", affiliation: nitdLabel, photo: aparnatripathi},
+            {name: "Mr. Shubham Bhardwaj", affiliation: nitdLabel, photo: shubhambharadwaj},
+            {name: "Mrs. Navisha Sharma", affiliation: nitdLabel, photo: navishasharma},
+            {name: "Mr. Lov Kumar Dubey", affiliation: nitdLabel, photo: profile},
+            {name: "Mr. Praveen Kumar", affiliation: nitdLabel, photo: praveenkumar},
         ],
     sscdu: [
-        {name: "Dr. Chandra Shekhar Jeengar", affiliation: ssduLabel},
-        {name: "Dr. Gajendra Gaur", affiliation: ssduLabel},
-        {name: "Dr. Pradeep Pratap Singh", affiliation: ssduLabel},
-        {name: "Dr. Saraswati Kanodia", affiliation: ssduLabel},
-        {name: "Dr. Suman Yadav", affiliation: ssduLabel},
-        {name: "Dr. Seema Gupta", affiliation: ssduLabel},
-        {name: "Dr. Govind Ji Rai", affiliation: ssduLabel},
-        {name: "Dr. Narbir Singh", affiliation: ssduLabel},
-        {name: "Dr. Aanchal Sethi", affiliation: ssduLabel},
-        {name: "Dr. Bholey Singh", affiliation: ssduLabel},
-        {name: "Dr. Mukesh Kumar Verma", affiliation: ssduLabel},
-        {name: "Dr. Partibha", affiliation: nitdLabel},
-        {name: "Dr. Ramesh Chand", affiliation: ssduLabel},
-        {name: "Mr. Amar Singh Meena", affiliation: ssduLabel},
+        {name: "Dr. Chandra Shekhar Jeengar", affiliation: ssduLabel, photo: profile},
+        {name: "Dr. Gajendra Gaur", affiliation: ssduLabel, photo: profile},
+        {name: "Dr. Pradeep Pratap Singh", affiliation: ssduLabel, photo: profile},
+        {name: "Dr. Saraswati Kanodia", affiliation: ssduLabel, photo: profile},
+        {name: "Dr. Suman Yadav", affiliation: ssduLabel, photo: profile},
+        {name: "Dr. Seema Gupta", affiliation: ssduLabel, photo: profile},
+        {name: "Dr. Govind Ji Rai", affiliation: ssduLabel, photo: profile},
+        {name: "Dr. Narbir Singh", affiliation: ssduLabel, photo: profile},
+        {name: "Dr. Aanchal Sethi", affiliation: ssduLabel, photo: profile},
+        {name: "Dr. Bholey Singh", affiliation: ssduLabel, photo: profile},
+        {name: "Dr. Mukesh Kumar Verma", affiliation: ssduLabel, photo: profile},
+        {name: "Dr. Partibha", affiliation: nitdLabel, photo: profile},
+        {name: "Dr. Ramesh Chand", affiliation: ssduLabel, photo: profile},
+        {name: "Mr. Amar Singh Meena", affiliation: ssduLabel, photo: profile},
     ]
 }
 

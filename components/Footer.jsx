@@ -31,6 +31,7 @@ export default function Footer() {
                                quality={100}/>
                     </a>
                 </div>
+                <p className="text-sm text-center mt-12">All right reserved RTCSSE-2023. Powered by NIT Delhi</p>
             </div>
             <div className="bg-black text-white text-sm">
                 <div className="container mx-auto px-6 py-2">
