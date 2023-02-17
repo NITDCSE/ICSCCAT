@@ -15,7 +15,7 @@ export default function HeroSection() {
                 className="container relative flex flex-col-reverse md:flex-row justify-center items-start px-6 mx-auto pt-12 space-y-0 md:justify-start"
             >
                 <div className="flex flex-col mb-32 mx-auto items-center">
-                    <div className="flex flex-col md:space-x-8 items-center">
+                    <div className="flex flex-col items-center">
                         <Image className="w-32 md:w-64 object-contain" src={rtcsseSquareLogo} width={256} quality={100} priority/>
                         <div className="flex flex-col mx-auto md:mx-0">
                             <p className="text-2xl text-center md:text-3xl">
@@ -42,22 +42,16 @@ export default function HeroSection() {
                 </div>
                 <Link
                     href="/contact"
-                    className="flex px-8 md:px-32 lg:px-64 flex-col w-full justify-between space-y-8 space-x-0 absolute left-0 sm:space-y-0 sm:space-x-12 -bottom-12 sm:flex-row">
+                    className="flex px-8 md:px-32 lg:px-64 flex-col w-full justify-between space-y-8 space-x-0 absolute left-0 sm:space-y-0 sm:space-x-12 -bottom-14 sm:flex-row">
                     <div className="block flex-1 p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100">
                         <h5 className="mb-2 text-2xl text-center font-bold tracking-tight text-gray-900">Venue</h5>
-                        <p className="font-normal text-center text-gray-700">
-                            Auditorium, Admin Block
-                        </p>
-                        <p className="font-normal text-center text-gray-700">
-                         National Institute of Technology, Delhi
-                        </p>
-                        <p className="font-normal text-center text-gray-700">
-                         Plot No. FA7, Zone, P1, GT Karnal Road, Delhi-110036
+                        <p className="font-normal text-lg text-center text-gray-700">
+                            Auditorium, Administrative Block <br></br> National Institute of Technology Delhi<br></br> Plot No. FA7, Zone, P1, GT Karnal Road, Delhi, 110036
                         </p>
                     </div>
                 </Link>
             </div>
         </section>
-        <div class="w-full my-16"/>
+        <div class="w-full my-24"/>
     </>)
 }
