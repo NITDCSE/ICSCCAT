@@ -28,13 +28,13 @@ export default function FeesSection() {
                     </tr>
                     <tr className="bg-primary50 cursor-pointer">
 
-                        <td className="py-3 px-6">Faculty</td>
+                        <td className="py-3 px-6">Faculty/Scientist</td>
                         <td className="py-3 px-6"> Rs.2000</td>
                     </tr>
                     <tr className="bg-primary50 cursor-pointer">
 
-                        <td className="py-3 px-6">Scientist and industrialists</td>
-                        <td className="py-3 px-6"> Rs.3000</td>
+                        <td className="py-3 px-6"> Industrialist</td>
+                        <td className="py-3 px-6"> Rs.15000</td>
                     </tr>
                     <tr className="bg-primary50 cursor-pointer">
 

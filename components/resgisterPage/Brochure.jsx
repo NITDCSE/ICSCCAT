@@ -1,4 +1,4 @@
-import brochure from '@/public/RTCSSE-2023_finaldraft.png'
+import brochure from '@/public/RTCSSE-2023_finaldraft (1).png'
 import Image from 'next/image'
 
 export default function Brochure() {
