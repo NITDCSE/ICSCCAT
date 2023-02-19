@@ -46,8 +46,19 @@ import praveenkumar from "@/public/localOrganisingCommittee/Mr.Praveen Kumar.jpg
 import shubhambharadwaj from "@/public/localOrganisingCommittee/Mr. Shubham Bhardwaj.png"
 import navishasharma from "@/public/localOrganisingCommittee/Mrs. Navisha Sharma.jpg"
 import aparnatripathi from "@/public/localOrganisingCommittee/Ms. Aparna Tripathi.jpg"
-
-
+import amar from '@/public/localOrganisingCommittee/amar.jpg'
+import anchal from '@/public/localOrganisingCommittee/anchal sethi.jpg'
+import bholey from '@/public/localOrganisingCommittee/bholey singh.jpg'
+import drpratibha from '@/public/localOrganisingCommittee/dr pratibha.jpg'
+import nabir from '@/public/localOrganisingCommittee/dr.nabirsingh.jpg'
+import gobind from '@/public/localOrganisingCommittee/gobind.jpg'
+import mukesh from '@/public/localOrganisingCommittee/mukesh verma.jpg'
+import pradeep from '@/public/localOrganisingCommittee/mukesh verma.jpg'
+import gaur from '@/public/localOrganisingCommittee/prof gaur.jpg'
+import ramesh from '@/public/localOrganisingCommittee/ramesh.jpg'
+import saraswati from '@/public/localOrganisingCommittee/saraswati kanodia.jpg'
+import seema from '@/public/localOrganisingCommittee/seema.jpg'
+import suman from '@/public/localOrganisingCommittee/suman yadav.jpg'
 
 export const organisingCommittee = [
     {
@@ -171,19 +182,19 @@ export const localOrganisingCommittee = {
         ],
     sscdu: [
         {name: "Dr. Chandra Shekhar Jeengar", affiliation: ssduLabel, photo: profile},
-        {name: "Prof. Gajendra Gaur", affiliation: ssduLabel, photo: profile},
-        {name: "Dr. Pradeep Pratap Singh", affiliation: ssduLabel, photo: profile},
-        {name: "Dr. Saraswati Kanodia", affiliation: ssduLabel, photo: profile},
-        {name: "Dr. Suman Yadav", affiliation: ssduLabel, photo: profile},
-        {name: "Dr. Seema Gupta", affiliation: ssduLabel, photo: profile},
-        {name: "Dr. Govind Ji Rai", affiliation: ssduLabel, photo: profile},
-        {name: "Dr. Narbir Singh", affiliation: ssduLabel, photo: profile},
-        {name: "Dr. Aanchal Sethi", affiliation: ssduLabel, photo: profile},
-        {name: "Dr. Bholey Singh", affiliation: ssduLabel, photo: profile},
-        {name: "Dr. Mukesh Kumar Verma", affiliation: ssduLabel, photo: profile},
-        {name: "Dr. Partibha", affiliation: nitdLabel, photo: profile},
-        {name: "Dr. Ramesh Chand", affiliation: ssduLabel, photo: profile},
-        {name: "Mr. Amar Singh Meena", affiliation: ssduLabel, photo: profile},
+        {name: "Prof. Gajendra Gaur", affiliation: ssduLabel, photo: gaur},
+        {name: "Dr. Pradeep Pratap Singh", affiliation: ssduLabel, photo: pradeep},
+        {name: "Dr. Saraswati Kanodia", affiliation: ssduLabel, photo: saraswati},
+        {name: "Dr. Suman Yadav", affiliation: ssduLabel, photo: suman},
+        {name: "Dr. Seema Gupta", affiliation: ssduLabel, photo: seema},
+        {name: "Dr. Govind Ji Rai", affiliation: ssduLabel, photo: gobind},
+        {name: "Dr. Narbir Singh", affiliation: ssduLabel, photo: nabir},
+        {name: "Dr. Aanchal Sethi", affiliation: ssduLabel, photo: anchal},
+        {name: "Dr. Bholey Singh", affiliation: ssduLabel, photo: bholey},
+        {name: "Dr. Mukesh Kumar Verma", affiliation: ssduLabel, photo:mukesh},
+        {name: "Dr. Partibha", affiliation: nitdLabel, photo: drpratibha},
+        {name: "Dr. Ramesh Chand", affiliation: ssduLabel, photo: ramesh},
+        {name: "Mr. Amar Singh Meena", affiliation: ssduLabel, photo: amar},
     ]
 }
 
@@ -217,8 +228,8 @@ export const studentCommittee = {
         {name: "Bhavna Joshi", image:bhavnajoshi},
         {name: "Devansh Gahlawat", image: devansh},
         {name: "Manu Agarwal", image:manu},
-        {name: "Syamantak Gupta", image: profile},
-        {name: "Anil Gurjar", image: profile},
+        {name: "Syamantak Gupta", image: samyantak},
+        {name: "Anil Gurjar", image: anil},
     ],
     technical: [
         {name: "Hardik Sachan", image:hardik},
