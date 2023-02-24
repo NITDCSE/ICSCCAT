@@ -59,6 +59,8 @@ import ramesh from '@/public/localOrganisingCommittee/ramesh.jpg'
 import saraswati from '@/public/localOrganisingCommittee/saraswati kanodia.jpg'
 import seema from '@/public/localOrganisingCommittee/seema.jpg'
 import suman from '@/public/localOrganisingCommittee/suman yadav.jpg'
+import love from '@/public/Committe pics/love dubey.jpg'
+import riddhi from '@/public/Committe pics/riddhi.png'
 
 export const organisingCommittee = [
     {
@@ -177,21 +179,21 @@ const nitdLabel = {line1: "National Instutite of Technology", line2: "Delhi"}
 const ssduLabel = {line1: "Swami Shradhanand College", line2: "University of Delhi"}
 export const localOrganisingCommittee = {
     nitDelhi: [
-        {name: "Dr. V. S. Pandey", affiliation: nitdLabel, photo: vsp},
-        {name: "Dr. Gyanendra Sheoran", affiliation: nitdLabel, photo: gyanendra},
-        {name: "Dr. Amit Mahajan", affiliation: nitdLabel, photo: amitmahajan},
-        {name: "Dr. Prashant Kumar", affiliation: nitdLabel, photo: prashantkumar},
-        {name: "Dr. Saloni Priya", affiliation: nitdLabel, photo: salonipriya},
-        {name: "Dr. Ritu Goel", affiliation: nitdLabel, photo: ritugoel},
-        {name: "Mr. Krishan Pal", affiliation: nitdLabel, photo: krishanpal},
-        {name: "Mr. Jitender Singh Bisht", affiliation: nitdLabel, photo: jitendrasinghisht},
-        {name: "Mr. Aadesh Kumar", affiliation: nitdLabel, photo: aadeshkumar},
-        {name: "Mrs. Aparna Tripathi", affiliation: nitdLabel, photo: aparnatripathi},
-        {name: "Mr. Shubham Bhardwaj", affiliation: nitdLabel, photo: shubhambharadwaj},
-        {name: "Mrs. Navisha Sharma", affiliation: nitdLabel, photo: navishasharma},
-        {name: "Mr. Lov Kumar Dubey", affiliation: nitdLabel, photo: profile},
-        {name: "Mr. Praveen Kumar", affiliation: nitdLabel, photo: praveenkumar},
-    ],
+            {name: "Dr. V. S. Pandey", affiliation: nitdLabel, photo: vsp},
+            {name: "Dr. Gyanendra Sheoran", affiliation: nitdLabel, photo: gyanendra},
+            {name: "Dr. Amit Mahajan", affiliation: nitdLabel, photo: amitmahajan},
+            {name: "Dr. Prashant Kumar", affiliation: nitdLabel, photo: prashantkumar},
+            {name: "Dr. Saloni Priya", affiliation: nitdLabel, photo: salonipriya},
+            {name: "Dr. Ritu Goel", affiliation: nitdLabel, photo: ritugoel},
+            {name: "Mr. Krishan Pal", affiliation: nitdLabel, photo: krishanpal},
+            {name: "Mr. Jitender Singh Bisht", affiliation: nitdLabel, photo: jitendrasinghisht},
+            {name: "Mr. Aadesh Kumar", affiliation: nitdLabel, photo: aadeshkumar},
+            {name: "Mrs. Aparna Tripathi", affiliation: nitdLabel, photo: aparnatripathi},
+            {name: "Mr. Shubham Bhardwaj", affiliation: nitdLabel, photo: shubhambharadwaj},
+            {name: "Mrs. Navisha Sharma", affiliation: nitdLabel, photo: navishasharma},
+            {name: "Mr. Lov Kumar Dubey", affiliation: nitdLabel, photo: love},
+            {name: "Mr. Praveen Kumar", affiliation: nitdLabel, photo: praveenkumar},
+        ],
     sscdu: [
         {name: "Dr. Chandra Shekhar Jeengar", affiliation: ssduLabel, photo: profile},
         {name: "Prof. Gajendra Gaur", affiliation: ssduLabel, photo: gaur},
@@ -407,5 +409,6 @@ export const studentCommittee = {
         {name: "Suprashita Diamari", image: supra},
         {name: "Tanishq Ranjan", image: tanishq},
         {name: "Sajal Sahu", image: sajal},
+        {name: "Riddhi Goyal", image: riddhi},
     ]
 }
