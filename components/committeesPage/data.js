@@ -59,6 +59,8 @@ import ramesh from '@/public/localOrganisingCommittee/ramesh.jpg'
 import saraswati from '@/public/localOrganisingCommittee/saraswati kanodia.jpg'
 import seema from '@/public/localOrganisingCommittee/seema.jpg'
 import suman from '@/public/localOrganisingCommittee/suman yadav.jpg'
+import love from '@/public/Committe pics/love dubey.jpg'
+import riddhi from '@/public/Committe pics/riddhi.png'
 
 export const organisingCommittee = [
     {
@@ -177,7 +179,7 @@ export const localOrganisingCommittee = {
             {name: "Mrs. Aparna Tripathi", affiliation: nitdLabel, photo: aparnatripathi},
             {name: "Mr. Shubham Bhardwaj", affiliation: nitdLabel, photo: shubhambharadwaj},
             {name: "Mrs. Navisha Sharma", affiliation: nitdLabel, photo: navishasharma},
-            {name: "Mr. Lov Kumar Dubey", affiliation: nitdLabel, photo: profile},
+            {name: "Mr. Lov Kumar Dubey", affiliation: nitdLabel, photo: love},
             {name: "Mr. Praveen Kumar", affiliation: nitdLabel, photo: praveenkumar},
         ],
     sscdu: [
@@ -254,5 +256,6 @@ export const studentCommittee = {
         {name: "Suprashita Diamari", image: supra},
         {name: "Tanishq Ranjan", image:tanishq},
         {name: "Sajal Sahu", image: sajal},
+        {name: "Riddhi Goyal", image: riddhi},
     ]
 }
