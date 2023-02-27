@@ -43,6 +43,34 @@ export default function FeesSection() {
                     </tr>
                     </tbody>
                 </table>
+                <h3 className="text-2xl py-8 font-bold text-center md:text-3xl md:text-left">Accomodation
+                </h3>
+                <table className="mx-auto font-bold border-2  mb-8 border-primaryDark w-6/12">
+
+                    <tbody className="text-white text-center">
+                    <tr className="bg-primary50 cursor-pointer">
+
+                        <td className="py-3 px-6">UG/PG Student</td>
+                        <td className="py-3 px-6"> Rs.2000 per night</td>
+                    </tr>
+                    <tr className="bg-primary50 cursor-pointer">
+
+                        <td className="py-3 px-6">Research Scholar</td>
+                        <td className="py-3 px-6">Rs.2000 per night</td>
+                    </tr>
+                    <tr className="bg-primary50 cursor-pointer">
+
+                        <td className="py-3 px-6">Faculty/Scientist</td>
+                        <td className="py-3 px-6">Rs.5000 per night</td>
+                    </tr>
+                    <tr className="bg-primary50 cursor-pointer">
+
+                        <td className="py-3 px-6"> Industrialist</td>
+                        <td className="py-3 px-6">Rs.5000 per night</td>
+                    </tr>
+                   
+                    </tbody>
+                </table>
                 <p className="mx-auto text-lg font-bold text-center">*Last Date for registration is March 15, 2023</p>
             </div>
         </section>
