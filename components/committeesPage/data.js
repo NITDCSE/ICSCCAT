@@ -25,7 +25,7 @@ import dhruv from '@/public/Committe pics/dhruv tyagi.jpeg'
 import anil from '@/public/Committe pics/Anil Gurjar.jpg'
 import samyantak from '@/public/Committe pics/Syamantak Gupta.jpg'
 import manjot from '@/public/Committe pics/Manjot Kaur Channi.jpg'
-import sajal from'@/public/Committe pics/Sajal Sahu.jpg'
+import sajal from '@/public/Committe pics/Sajal Sahu.jpg'
 import chitransh from '@/public/Committe pics/Chitransh Chaturvedi.jpg'
 import ayush from '@/public/Committe pics/Ayush Biyani.jpg'
 import satyam from '@/public/Committe pics/Satyam Kumar.jpg'
@@ -70,14 +70,14 @@ export const organisingCommittee = [
                 name: 'Prof. (Dr.) Ajay K. Sharma',
                 designation: 'Director',
                 affiliation: {line1: 'National Institute of Technology Delhi', line2: ''},
-                photo:ajaysharma
-                
+                photo: ajaysharma
+
             },
             {
                 name: 'Prof. Yogesh Singh',
                 designation: 'Vice Chancellor',
                 affiliation: {line1: 'University of Delhi', line2: ''},
-                photo:yogeshsingh
+                photo: yogeshsingh
             },
         ]
     },
@@ -88,7 +88,7 @@ export const organisingCommittee = [
                 name: 'Prof. Praveen Garg',
                 designation: 'Principal',
                 affiliation: {line1: 'Swami Shraddhanand College, University of Delhi', line2: ''},
-                photo:praveen
+                photo: praveen
             }
         ]
     },
@@ -99,7 +99,7 @@ export const organisingCommittee = [
                 name: 'Dr. Amit Pratap Singh',
                 designation: 'Associate Professor & Head',
                 affiliation: {line1: 'Department of Applied Sciences', line2: 'National Institute of Technology Delhi'},
-                photo:apsingh
+                photo: apsingh
             }
         ]
     },
@@ -110,14 +110,17 @@ export const organisingCommittee = [
                 name: 'Dr. Anuj K. Sharma',
                 designation: 'Associate Professor',
                 affiliation: {line1: 'Department of Applied Sciences', line2: 'National Institute of Technology Delhi'},
-                photo:anujsharma
-                
+                photo: anujsharma
+
             },
             {
                 name: 'Dr. Bhupinder Mehta',
                 designation: 'Associate Professor',
-                affiliation: {line1: 'Department of Chemistry', line2: 'Swami Shraddhanand College, University of Delhi'},
-                photo:bhupendirmehta
+                affiliation: {
+                    line1: 'Department of Chemistry',
+                    line2: 'Swami Shraddhanand College, University of Delhi'
+                },
+                photo: bhupendirmehta
             },
         ]
     },
@@ -128,25 +131,34 @@ export const organisingCommittee = [
                 name: 'Dr. Pratibha',
                 designation: 'Assistant Professor',
                 affiliation: {line1: 'Department of Applied Sciences', line2: 'National Institute of Technology Delhi'},
-                photo:pratibha
+                photo: pratibha
             },
             {
                 name: 'Dr. Chaggan Lal',
                 designation: 'Assistant Professor',
-                affiliation: {line1: 'Department of Chemistry', line2: 'Swami Shraddhanand College, University of Delhi'},
-                photo:chaganlal
+                affiliation: {
+                    line1: 'Department of Chemistry',
+                    line2: 'Swami Shraddhanand College, University of Delhi'
+                },
+                photo: chaganlal
             },
             {
                 name: 'Dr. Nishant Verma',
                 designation: 'Assistant Professor',
-                affiliation: {line1: 'Department of Chemistry', line2: ' Swami Shraddhanand College, University of Delhi'},
-                photo: nishantverma 
+                affiliation: {
+                    line1: 'Department of Chemistry',
+                    line2: ' Swami Shraddhanand College, University of Delhi'
+                },
+                photo: nishantverma
             },
             {
                 name: 'Dr. Gunjan Arora',
                 designation: 'Assistant Professor',
-                affiliation: {line1: 'Department of Chemistry', line2: ' Swami Shraddhanand College, University of Delhi'},
-                photo:gunjanarora
+                affiliation: {
+                    line1: 'Department of Chemistry',
+                    line2: ' Swami Shraddhanand College, University of Delhi'
+                },
+                photo: gunjanarora
             },
         ]
     },
@@ -157,7 +169,7 @@ export const organisingCommittee = [
                 name: 'Dr. Manisha Singh',
                 designation: 'Assistant Registrar',
                 affiliation: {line1: '', line2: 'National Institute of Technology Delhi'},
-                photo:manishasingh
+                photo: manishasingh
             }
         ]
     },
@@ -193,10 +205,151 @@ export const localOrganisingCommittee = {
         {name: "Dr. Narbir Singh", affiliation: ssduLabel, photo: nabir},
         {name: "Dr. Aanchal Sethi", affiliation: ssduLabel, photo: anchal},
         {name: "Dr. Bholey Singh", affiliation: ssduLabel, photo: bholey},
-        {name: "Dr. Mukesh Kumar Verma", affiliation: ssduLabel, photo:mukesh},
+        {name: "Dr. Mukesh Kumar Verma", affiliation: ssduLabel, photo: mukesh},
         {name: "Dr. Partibha", affiliation: nitdLabel, photo: drpratibha},
         {name: "Dr. Ramesh Chand", affiliation: ssduLabel, photo: ramesh},
         {name: "Mr. Amar Singh Meena", affiliation: ssduLabel, photo: amar},
+    ],
+    additional: [
+
+        {
+            name: "Prof. Mahaveer",
+            affiliation: {line1: "Deen Dayal Uppadhayaya College", line2: "University of Delhi"},
+            photo: profile
+        },
+        {
+            name: "Prof. Anjul Singh",
+            affiliation: {line1: "Professor, DS College", line2: "RMPSSU, Aligarh"},
+            photo: profile
+        },
+        {name: "Dr. Lata Rana", affiliation: {line1: "Assistant Professor", line2: "NIT Surat"}, photo: profile},
+        {
+            name: "Dr. Taruna Singh",
+            affiliation: {line1: "Associate Professor", line2: "Hansraj College, DU"},
+            photo: profile
+        },
+        {
+            name: "Dr. Ambika",
+            affiliation: {line1: "Associate Professor", line2: "Hansraj College, DU"},
+            photo: profile
+        },
+        {
+            name: "Dr. Aprajita Gaur",
+            affiliation: {line1: "Associate Professor", line2: "Kalindi College, DU"},
+            photo: profile
+        },
+        {
+            name: "Dr. Renu Bala",
+            affiliation: {line1: "Associate Professor", line2: "Kalindi College, DU"},
+            photo: profile
+        },
+        {
+            name: "Dr. Shilpika Bali Mehta",
+            affiliation: {line1: "Associate Professor", line2: "Kalindi College, DU"},
+            photo: profile
+        },
+        {
+            name: "Dr. Pawan Kumar",
+            affiliation: {line1: "Associate Professor", line2: "Rajdhani College, DU"},
+            photo: profile
+        },
+        {
+            name: "Dr. Ravi Kant",
+            affiliation: {line1: "Assistant Professor", line2: "Zakir Hussain College, DU"},
+            photo: profile
+        },
+        {
+            name: "Dr. Devender Verma",
+            affiliation: {line1: "Assistant Professor", line2: "Sri Venkateswara College, DU"},
+            photo: profile
+        },
+        {
+            name: "Dr. Manohar Lal",
+            affiliation: {line1: "Assistant Professor", line2: "Zakir Hussain College, DU"},
+            photo: profile
+        },
+        {
+            name: "Dr. Chetna Gupta",
+            affiliation: {line1: "Assistant Professor", line2: "Hansraj College, DU"},
+            photo: profile
+        },
+        {
+            name: "Dr. Rajesh Kumar Meena",
+            affiliation: {line1: "Assistant Professor", line2: "Kalindi College, DU"},
+            photo: profile
+        },
+        {
+            name: "Dr. Abhishek Gupta",
+            affiliation: {line1: "Assistant Professor", line2: "Kirori Mal College, DU"},
+            photo: profile
+        },
+        {
+            name: "Dr. Kamlesh",
+            affiliation: {line1: "Assistant Professor", line2: "Kirori Mal College, DU"},
+            photo: profile
+        },
+        {
+            name: "Dr. Parul Pant",
+            affiliation: {line1: "Assistant Professor", line2: "Hansraj College, DU"},
+            photo: profile
+        },
+        {
+            name: "Dr. Vinod Kumar Vashishtha",
+            affiliation: {line1: "Assistant Professor", line2: "GLA Mathura"},
+            photo: profile
+        },
+        {
+            name: "Dr. Devender Kumar",
+            affiliation: {line1: "Assistant Professor", line2: "DS College, RMPSSU, Aligarh"},
+            photo: profile
+        },
+        {
+            name: "Dr. Dharmendra Singh",
+            affiliation: {line1: "Assistant Professor", line2: "DS College, RMPSSU, Aligarh"},
+            photo: profile
+        },
+        {
+            name: "Dr. Anoop Kumar Saini",
+            affiliation: {line1: "Assistant Professor", line2: "Bhaskrachayra College, DU"},
+            photo: profile
+        },
+        {
+            name: "Dr. Radha Raman Maurya",
+            affiliation: {line1: "Assistant Professor", line2: "Ramjas College, DU"},
+            photo: profile
+        },
+        {
+            name: "Dr. Radhika Gupta",
+            affiliation: {line1: "Assistant Professor", line2: "Shyam Lal College, DU"},
+            photo: profile
+        },
+        {
+            name: "Dr. Madhubala",
+            affiliation: {line1: "Assistant Professor", line2: "Ramjas College, DU"},
+            photo: profile
+        },
+        {
+            name: "Dr. Narpat Neniwal",
+            affiliation: {line1: "Assistant Professor", line2: "Shri Aurobindo College, DU"},
+            photo: profile
+        },
+        {
+            name: "Dr. Mukesh Bhimwal",
+            affiliation: {line1: "Assistant Professor", line2: "Zakir Hussain College, DU"},
+            photo: profile
+        },
+        {
+            name: "Dr. Indraj Kumar",
+            affiliation: {line1: "Assistant Professor", line2: "Dayal Singh College, DU"},
+            photo: profile
+        },
+        {
+            name: "Dr. Umesh Kumar",
+            affiliation: {line1: "Assistant Professor", line2: "Deshbandhu College, DU"},
+            photo: profile
+        },
+        {name: "Dr. Jyoti Singh", affiliation: {line1: "Zakir Hussain College", line2: "University of Delhi"}, photo: profile},
+        {name: "Dr. Kalawati Saini", affiliation: {line1: "Miranda House", line2: "University of Delhi"}, photo: profile},
     ]
 }
 
@@ -227,26 +380,26 @@ export const advisoryCommittee = [
 export const studentCommittee = {
     core: [
         {name: "Devesh Kumar Mishra", image: devesh},
-        {name: "Bhavna Joshi", image:bhavnajoshi},
+        {name: "Bhavna Joshi", image: bhavnajoshi},
         {name: "Devansh Gahlawat", image: devansh},
-        {name: "Manu Agarwal", image:manu},
+        {name: "Manu Agarwal", image: manu},
         {name: "Syamantak Gupta", image: samyantak},
         {name: "Anil Gurjar", image: anil},
     ],
     technical: [
-        {name: "Hardik Sachan", image:hardik},
-        {name: "Shivansh Asthana", image:shivansh},
-        {name: "Vishal Singh", image:vishal},
+        {name: "Hardik Sachan", image: hardik},
+        {name: "Shivansh Asthana", image: shivansh},
+        {name: "Vishal Singh", image: vishal},
     ],
     others: [
-        {name: "Madhvi Raj", image:madhviraj},
+        {name: "Madhvi Raj", image: madhviraj},
         {name: "Ramakant Prasadh", image: profile},
-        {name: "Richa", image:richa},
+        {name: "Richa", image: richa},
         {name: "Priya Malik", image: profile},
         {name: "Risabh Kushwaha", image: risabh},
         {name: "Dhruv Tyagi", image: dhruv},
         {name: "Manjot Kaur Channi", image: manjot},
-        {name: "Chitransh Chaturvedi", image:chitransh},
+        {name: "Chitransh Chaturvedi", image: chitransh},
         {name: "Subodh Kumar", image: profile},
         {name: "Satyam Kumar", image: satyam},
         {name: "Leelanand Sah", image: profile},
@@ -254,7 +407,7 @@ export const studentCommittee = {
         {name: "Mansi Arya", image: mansi},
         {name: "Abhinav Thakur", image: profile},
         {name: "Suprashita Diamari", image: supra},
-        {name: "Tanishq Ranjan", image:tanishq},
+        {name: "Tanishq Ranjan", image: tanishq},
         {name: "Sajal Sahu", image: sajal},
         {name: "Riddhi Goyal", image: riddhi},
     ]
