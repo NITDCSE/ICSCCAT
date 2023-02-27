@@ -3,7 +3,7 @@ import chaganlal from '@/public/profile_photos/Dr. ChhaganLal SSNC.png'
 import gunjanarora from '@/public/profile_photos/Dr. Gunjan-Arora SSNC DU.jpg'
 import manishasingh from '@/public/profile_photos/Dr. Manisha Singh.jpeg'
 import pratibha from '@/public/profile_photos/Dr. Pratibha NIT delhi.png'
-import apsingh from '@/public/Committe pics/Dr. A. P. Singh.jpg'
+import apsingh from '@/public/Committe pics/apsingh2.png'
 import nishantverma from '@/public/Committe pics/Dr. Nishant Verma.jpg'
 import ajaysharma from '@/public/Committe pics/Dr. Ajay K. Sharma Director of NIT Delhi.jpg'
 import yogeshsingh from '@/public/Committe pics/Prof.-Yogesh-Singh-DU.jpg'
@@ -42,7 +42,7 @@ import vsp from "@/public/localOrganisingCommittee/Dr. VS Pandey.jpg"
 import aadeshkumar from "@/public/localOrganisingCommittee/Mr. Aadesh Kumar.png"
 import jitendrasinghisht from "@/public/localOrganisingCommittee/Mr. Jitendra Singh Bisht.jpg"
 import krishanpal from "@/public/localOrganisingCommittee/Mr. Krishan Pal.jpg"
-import praveenkumar from "@/public/localOrganisingCommittee/Mr.Praveen Kumar.jpg"
+import praveenkumar from "@/public/Committe pics/praveen2.png"
 import shubhambharadwaj from "@/public/localOrganisingCommittee/Mr. Shubham Bhardwaj.png"
 import navishasharma from "@/public/localOrganisingCommittee/Mrs. Navisha Sharma.jpg"
 import aparnatripathi from "@/public/localOrganisingCommittee/Ms. Aparna Tripathi.jpg"
