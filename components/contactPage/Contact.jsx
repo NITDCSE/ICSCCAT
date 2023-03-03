@@ -10,8 +10,8 @@ export default function Contact() {
         <>
 
             <h1 className=" py-3 text-center hed underline">Contact Us</h1>
-            <section className="flex justify-center items-center">
-                <div id="railway" className=" bg-primary10 px-3 py-12  venue container">
+            <section >
+                <div id="railway" className=" bg-primary10 px-3 py-12  venue ">
                     <div className="textdiv">
                         <div className="px-8">
                             <br></br>
