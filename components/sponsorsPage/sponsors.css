@@ -6,6 +6,9 @@
     height: 160px;
     padding-bottom: 10px;
 }
+.cdh{
+    max-width: 500px;
+}
 .card-s {
     box-shadow: 0 0 3px rgb(93 103 175 / 73%);
     padding: 10px;

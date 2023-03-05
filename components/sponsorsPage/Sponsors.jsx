@@ -2,6 +2,9 @@ import "./sponsors.css";
 import Image from "next/image";
 import SERB from './SERB_logo.png'
 import CSIR from './CSIR_LOGO.png'
+import BHEL from './BHEL_LOGO.jpeg'
+import GENIUS from './GENIUS_LOGO.png'
+import CDH from './CDH_LOGO.png'
 export default function SponsorsSection() {
     return (
         <>
@@ -24,6 +27,31 @@ export default function SponsorsSection() {
                 <span className="font-bold">CSIR:</span> Council of Scientific & Industrial Research
             </div>
         </div>
+        <div class="card-s">
+            <div className="s-logo">
+            <Image src={GENIUS} alt=""/>
+            </div>
+            <div className="text-s">
+                <span className="font-bold">GENIUS ENTERPRISE</span>
+            </div>
+        </div>
+        <div class="card-s">
+            <div className="s-logo">
+            <Image src={CDH} alt="" className="cdh"/>
+            </div>
+            <div className="text-s">
+                <span className="font-bold">CDH:</span> Central Drug House (P) Limited
+            </div>
+        </div>
+        <div class="card-s">
+            <div className="s-logo">
+            <Image src={BHEL} alt=""/>
+            </div>
+            <div className="text-s">
+                <span className="font-bold">BHEL:</span> Bharat Heavy Electricals Limited
+            </div>
+        </div>
+        
             
         </section>
         <br></br>
