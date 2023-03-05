@@ -1,6 +1,7 @@
 import "./sponsors.css";
 import Image from "next/image";
 import SERB from './SERB_logo.png'
+import CSIR from './CSIR_LOGO.png'
 export default function SponsorsSection() {
     return (
         <>
@@ -13,6 +14,14 @@ export default function SponsorsSection() {
             </div>
             <div className="text-s">
                 <span className="font-bold">SERB:</span> Science & Engineering Research Board
+            </div>
+        </div>
+        <div class="card-s">
+            <div className="s-logo">
+            <Image src={CSIR} alt=""/>
+            </div>
+            <div className="text-s">
+                <span className="font-bold">CSIR:</span> Council of Scientific & Industrial Research
             </div>
         </div>
             

@@ -1,9 +1,11 @@
 .s-logo {
     width: 150px;
-    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 160px;
     padding-bottom: 10px;
 }
-
 .card-s {
     box-shadow: 0 0 3px rgb(93 103 175 / 73%);
     padding: 10px;
