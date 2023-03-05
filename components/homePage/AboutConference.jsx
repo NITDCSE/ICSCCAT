@@ -1,7 +1,7 @@
 export default function AboutConference() {
     const events = [
         {name: "Abstract Submission Begins", date: "February 5, 2023"},
-        {name: "Abstract Submission Ends", date: "March 6, 2023"},
+        {name: "Abstract Submission Ends", date: "March 6, 2023", updated: "March 10, 2023"},
         {name: "Notification of Acceptance", date: "March 10, 2023"},
         {name: "Last Registration", date: "March 15, 2023"},
         {name: "Conference", date: "March 24 -25, 2023"},
@@ -50,10 +50,16 @@ export default function AboutConference() {
                                         </div>
                                         <div className="mt-3 sm:pr-8">
                                             <h3 className="text-lg font-semibold text-gray-900">{event.name}</h3>
-                                            <time
-                                                className="block mb-2 text-sm leading-none text-primaryRegular font-bold">
-                                                {event.date}
-                                            </time>
+                                            <div className="flex space-x-2">
+                                                <time
+                                                    className={`block mb-2 text-sm leading-none text-primaryRegular font-bold ${event.updated != null ? "line-through" : ""}`}>
+                                                    {event.date}
+                                                </time>
+                                                {event.updated && <time
+                                                    className={`block mb-2 text-sm leading-none text-primaryRegular font-bold`}>
+                                                    {event.updated}
+                                                </time>}
+                                            </div>
                                         </div>
                                     </li>
                                 )
