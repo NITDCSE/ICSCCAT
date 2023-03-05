@@ -53,7 +53,7 @@ import drpratibha from '@/public/localOrganisingCommittee/dr pratibha.jpg'
 import nabir from '@/public/localOrganisingCommittee/dr.nabirsingh.jpg'
 import gobind from '@/public/localOrganisingCommittee/gobind.jpg'
 import mukesh from '@/public/localOrganisingCommittee/mukesh verma.jpg'
-import pradeep from '@/public/localOrganisingCommittee/mukesh verma.jpg'
+import pradeep from '@/public/localOrganisingCommittee/pradeep_pratap_singh.jpeg'
 import gaur from '@/public/localOrganisingCommittee/prof gaur.jpg'
 import ramesh from '@/public/localOrganisingCommittee/ramesh.jpg'
 import saraswati from '@/public/localOrganisingCommittee/saraswati kanodia.jpg'
@@ -350,6 +350,7 @@ export const localOrganisingCommittee = {
         },
         {name: "Dr. Jyoti Singh", affiliation: {line1: "Zakir Hussain College", line2: "University of Delhi"}, photo: profile},
         {name: "Dr. Kalawati Saini", affiliation: {line1: "Miranda House", line2: "University of Delhi"}, photo: profile},
+        {name: "Dr. Gajender Singh", affiliation: {line1: "Associate Professor", line2: "Deshbandhu College, University of Delhi"}, photo: profile},
     ]
 }
 

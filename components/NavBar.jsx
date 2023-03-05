@@ -4,6 +4,8 @@ import Image from "next/image";
 import rtcsseLogo from "@/public/rtcsse-logo.png"
 import nitdLogo from "@/public/nitd-logo.png"
 import sscduLogo from "@/public/sscdu-logo.png"
+import g20logo from "@/public/g20_logo.png"
+import azadi from "@/public/azadi_ka_amrit_mahotsav.png"
 import Link from "next/link";
 import {useState} from "react"
 
@@ -46,12 +48,15 @@ function ConferenceHeader({open, setOpen}) {
     return (
         <div className="container mx-auto px-6 py-2">
             <div className="flex space-x-6 items-center justify-between">
+                <Image src={g20logo} className="object-contain" alt="G20"
+                       width={84} quality={100}/>
                 <Link href="/" className="flex items-center space-x-4 pt-2">
                     <Image src={rtcsseLogo} className="object-contain" alt="RTCSSE 2023"
                            width={84} quality={100}/>
                     <h3 className="hidden md:block font-bold text-3xl tracking-wider text-center align-middle">RTCSSE
                         2023</h3>
                 </Link>
+                <div className="flex-1" />
                 <div className="flex space-x-4 items-center justify-end">
                     <a target="_blank" href="https://nitdelhi.ac.in/" className="pt-2">
                         <Image src={nitdLogo} className="max-h-12 object-contain" alt="NITD" width={72}
@@ -66,6 +71,8 @@ function ConferenceHeader({open, setOpen}) {
                               className="p-3 my-auto px-6 pt-2 text-white bg-primaryRegular rounded-full baseline hover:bg-primary80"
                         >Register</Link>
                     </div>
+                    <Image src={azadi} className="object-contain" alt="G20"
+                           width={84} quality={100}/>
                     <div className=" md:hidden">
                         <div onClick={() => {
                             setOpen(!open)
@@ -90,6 +97,7 @@ function ConferenceHeader({open, setOpen}) {
                             </svg>)}
                         </div>
                     </div>
+
                 </div>
 
             </div>
