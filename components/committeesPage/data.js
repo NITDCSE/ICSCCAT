@@ -61,6 +61,7 @@ import seema from '@/public/localOrganisingCommittee/seema.jpg'
 import suman from '@/public/localOrganisingCommittee/suman yadav.jpg'
 import love from '@/public/Committe pics/love dubey.jpg'
 import riddhi from '@/public/Committe pics/riddhi.png'
+import praveennitdoc from "@/public/localOrganisingCommittee/praveen_nitd_oc.jpg"
 
 export const organisingCommittee = [
     {
@@ -192,7 +193,7 @@ export const localOrganisingCommittee = {
             {name: "Mr. Shubham Bhardwaj", affiliation: nitdLabel, photo: shubhambharadwaj},
             {name: "Mrs. Navisha Sharma", affiliation: nitdLabel, photo: navishasharma},
             {name: "Mr. Lov Kumar Dubey", affiliation: nitdLabel, photo: love},
-            {name: "Mr. Praveen Kumar", affiliation: nitdLabel, photo: praveenkumar},
+            {name: "Mr. Praveen Kumar", affiliation: nitdLabel, photo: praveennitdoc},
         ],
     sscdu: [
         {name: "Dr. Chandra Shekhar Jeengar", affiliation: ssduLabel, photo: profile},
