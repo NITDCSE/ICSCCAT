@@ -6,27 +6,27 @@ import rtcsseSquareLogo from "@/public/rtcsse-logo.png"
 export default function HeroSection() {
     return (<>
         <section className="bg-no-repeat bg-cover"
-                 id="hero"
-                 style={{
-                     backgroundImage: `linear-gradient(to bottom, rgba(233, 233, 245, 0.7), rgba(233, 233, 245, 0.8)), url(${bg.src})`
-                 }}
+            id="hero"
+            style={{
+                backgroundImage: `linear-gradient(to bottom, rgba(233, 233, 245, 0.7), rgba(233, 233, 245, 0.8)), url(${bg.src})`
+            }}
         >
             <div
                 className="container relative flex flex-col-reverse md:flex-row justify-center items-start px-6 mx-auto pt-12 space-y-0 md:justify-start"
             >
                 <div className="flex flex-col mb-32 mx-auto items-center">
                     <div className="flex flex-col items-center">
-                        <Image className="w-32 md:w-64 object-contain" src={rtcsseSquareLogo} width={256} quality={100} priority/>
+                        <Image className="w-32 md:w-64 object-contain" src={rtcsseSquareLogo} width={256} quality={100} priority />
                         <div className="flex flex-col mx-auto md:mx-0">
                             <p className="text-2xl text-center md:text-3xl">
-                            1<sup>st</sup> International Conference
-                          
+                                1<sup>st</sup> International Conference
+
                             </p>
                             <p className="text-center text-lg text-black md:text-xl">
                                 on
                             </p>
                             <h1 className="text-center font-bold text-4xl text-black md:text-5xl">
-                             "Recent Trends in Chemical Sciences & Sustainable Energy"
+                                "Recent Trends in Chemical Sciences & Sustainable Energy"
                             </h1>
                             <p className="text-center text-lg text-black md:text-2xl mt-4">
                                 24<sup>th</sup> - 25<sup>th</sup> March, 2023
@@ -35,7 +35,7 @@ export default function HeroSection() {
                     </div>
                     <div className="flex pt-8 justify-center">
                         <Link href="/register"
-                              className="p-3 pt-3 text-xl uppercase text-primary05 bg-primaryRegular rounded-full baseline hover:bg-primary80 md:block px-6">Register
+                            className="p-3 pt-3 text-xl uppercase text-primary05 bg-primaryRegular rounded-full baseline hover:bg-primary80 md:block px-6">Register
                             Here
                         </Link>
                     </div>
@@ -52,6 +52,19 @@ export default function HeroSection() {
                 </Link>
             </div>
         </section>
-        <div class="w-full my-48 md:my-24"/>
+        <div class="w-full my-48 md:my-24" />
+        <div class="relative flex overflow-x-hidden">
+            <div class="py-12 animate-marquee whitespace-nowrap">
+                <span class="text-2xl mx-4 text-red-500">Abstract submission extended to March 17</span>
+                <span class="text-2xl mx-4 text-red-500">Abstract submission extended to March 17</span>
+                <span class="text-2xl mx-4 text-red-500">Abstract submission extended to March 17</span>
+            </div>
+
+            <div class="absolute top-0 py-12 animate-marquee2 whitespace-nowrap">
+                <span class="text-2xl mx-4 text-red-500">Abstract submission extended to March 17</span>
+                <span class="text-2xl mx-4 text-red-500">Abstract submission extended to March 17</span>
+                <span class="text-2xl mx-4 text-red-500">Abstract submission extended to March 17</span>
+            </div>
+        </div>
     </>)
 }
