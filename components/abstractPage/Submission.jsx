@@ -39,7 +39,7 @@ export default function Submission() {
                             <li>A maximum of 1 image/scheme can be included.</li>
                         </ul>
                     </div>
-                    <p className="mt-10 py-2">Format for abstract submission: <a href="https://docs.google.com/document/d/16ur7J_aL2IslyCTkuG6Uo8IAy5oIYQEQ/edit" className="font-bold text-primaryRegular hover:text-primary80">Download</a></p>
+                    {/* <p className="mt-10 py-2">Format for abstract submission: <a href="https://docs.google.com/document/d/16ur7J_aL2IslyCTkuG6Uo8IAy5oIYQEQ/edit" className="font-bold text-primaryRegular hover:text-primary80">Download</a></p> */}
                     <p className="py-2">Google form For registration and abstract submission: <a href="https://rb.gy/irh8cs" className="font-bold text-primaryRegular hover:text-primary80">Download</a></p>
                     <p className="py-2">For registration fees payment, please check <Link href="register" className="font-bold text-primaryRegular hover:text-primary80">Instructions</Link></p>
                 </div>
