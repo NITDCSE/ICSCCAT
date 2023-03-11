@@ -1,0 +1,45 @@
+.s-logo {
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 160px;
+    padding-bottom: 10px;
+}
+.s-logo img{
+    border-radius: 50%;
+}
+.cdh{
+    max-width: 500px;
+}
+.card-s {
+    /* box-shadow: 0 0 3px rgb(93 103 175 / 73%); */
+    box-shadow: 2px 2px 3px rgb(139 139 139 / 73%);
+    padding: 10px;
+    width: 200px;
+    border: transparent;
+    border-radius: 5px;
+    margin-bottom: 50px;
+    margin-right: 20px;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: white;
+}
+
+.card-s .text-s .speakerTitle {
+    border-bottom: 1px solid rgb(179, 177, 177);
+    padding-top: 10px;
+}
+.hed{
+    font-weight: 600;
+    font-size: 24px;
+    color: rgb(70, 70, 121);
+}
+.spon{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
