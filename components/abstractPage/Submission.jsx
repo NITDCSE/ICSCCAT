@@ -18,6 +18,13 @@ export default function Submission() {
                         </ul>
                     </div>
                     <div className="flex-1">
+                        <h4 className="text-lg md:text-xl font-medium py-6">Mention Author(s) details below Title of Abstract</h4>
+                        <ul className="list-disc list-outside pl-4 space-y-1">
+                            <li>Author Name(s)</li>
+                            <li>Times New Roman 10 pts; Bold</li>
+                        </ul>
+                    </div>
+                    <div className="flex-1">
                         <h4 className="text-lg md:text-xl font-medium py-6">The abstract should be:</h4>
                         <ul className="list-disc list-outside pl-4 space-y-1">
                             <li>Not more than 250 words</li>

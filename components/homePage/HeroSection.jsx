@@ -5,6 +5,19 @@ import rtcsseSquareLogo from "@/public/rtcsse-logo.png"
 
 export default function HeroSection() {
     return (<>
+        <div className="relative flex overflow-x-hidden">
+            <div className="py-2 animate-marquee whitespace-nowrap">
+                <span className="text-2xl mx-4 text-red-500">Abstract submission extended to March 17</span>
+                <span className="text-2xl mx-4 text-red-500">Abstract submission extended to March 17</span>
+                <span className="text-2xl mx-4 text-red-500">Abstract submission extended to March 17</span>
+            </div>
+
+            <div className="absolute top-0 py-2 animate-marquee2 whitespace-nowrap">
+                <span className="text-2xl mx-4 text-red-500">Abstract submission extended to March 17</span>
+                <span className="text-2xl mx-4 text-red-500">Abstract submission extended to March 17</span>
+                <span className="text-2xl mx-4 text-red-500">Abstract submission extended to March 17</span>
+            </div>
+        </div>
         <section className="bg-no-repeat bg-cover"
             id="hero"
             style={{
@@ -52,19 +65,6 @@ export default function HeroSection() {
                 </Link>
             </div>
         </section>
-        <div class="w-full my-48 md:my-24" />
-        <div class="relative flex overflow-x-hidden">
-            <div class="py-12 animate-marquee whitespace-nowrap">
-                <span class="text-2xl mx-4 text-red-500">Abstract submission extended to March 17</span>
-                <span class="text-2xl mx-4 text-red-500">Abstract submission extended to March 17</span>
-                <span class="text-2xl mx-4 text-red-500">Abstract submission extended to March 17</span>
-            </div>
-
-            <div class="absolute top-0 py-12 animate-marquee2 whitespace-nowrap">
-                <span class="text-2xl mx-4 text-red-500">Abstract submission extended to March 17</span>
-                <span class="text-2xl mx-4 text-red-500">Abstract submission extended to March 17</span>
-                <span class="text-2xl mx-4 text-red-500">Abstract submission extended to March 17</span>
-            </div>
-        </div>
+        <div className="w-full my-48 md:my-24" />
     </>)
 }
