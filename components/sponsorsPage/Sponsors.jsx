@@ -5,6 +5,7 @@ import CSIR from './CSIR_LOGO.png'
 import BHEL from './BHEL_LOGO.jpeg'
 import GENIUS from './GENIUS_LOGO.png'
 import CDH from './CDH_LOGO.png'
+import ACS from './ACS_LOGO.jpeg'
 export default function SponsorsSection() {
     return (
         <>
@@ -49,6 +50,14 @@ export default function SponsorsSection() {
             </div>
             <div className="text-s">
                 <span className="font-bold">BHEL:</span> Bharat Heavy Electricals Limited
+            </div>
+        </div>
+        <div class="card-s">
+            <div className="s-logo acs">
+            <Image src={ACS} alt=""/>
+            </div>
+            <div className="text-s">
+                <span className="font-bold">ACS:</span> American Chemical Society
             </div>
         </div>
         
