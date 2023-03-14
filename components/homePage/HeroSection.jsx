@@ -7,15 +7,15 @@ export default function HeroSection() {
     return (<>
         <div className="relative flex overflow-x-hidden">
             <div className="py-2 animate-marquee whitespace-nowrap">
-                <span className="text-2xl mx-4 text-red-500">Abstract submission extended to March 17</span>
-                <span className="text-2xl mx-4 text-red-500">Abstract submission extended to March 17</span>
-                <span className="text-2xl mx-4 text-red-500">Abstract submission extended to March 17</span>
+                <span className="text-2xl mx-4 text-red-500">Last call for abstract submission: March 17, 2023</span>
+                <span className="text-2xl mx-4 text-red-500">Last call for abstract submission: March 17, 2023</span>
+                <span className="text-2xl mx-4 text-red-500">Last call for abstract submission: March 17, 2023</span>
             </div>
 
             <div className="absolute top-0 py-2 animate-marquee2 whitespace-nowrap">
-                <span className="text-2xl mx-4 text-red-500">Abstract submission extended to March 17</span>
-                <span className="text-2xl mx-4 text-red-500">Abstract submission extended to March 17</span>
-                <span className="text-2xl mx-4 text-red-500">Abstract submission extended to March 17</span>
+                <span className="text-2xl mx-4 text-red-500">Last call for abstract submission: March 17, 2023</span>
+                <span className="text-2xl mx-4 text-red-500">Last call for abstract submission: March 17, 2023</span>
+                <span className="text-2xl mx-4 text-red-500">Last call for abstract submission: March 17, 2023</span>
             </div>
         </div>
         <section className="bg-no-repeat bg-cover"
