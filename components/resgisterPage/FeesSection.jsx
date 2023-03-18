@@ -5,9 +5,9 @@ export default function FeesSection() {
         <section id="register" className=" bg-primary10 px-6 py-12 justify-center items-center">
             <div className="container mx-auto my-12 flex items-center justify-between flex-col">
                 <Link
-                    className="p-3 text-primary05 bg-primaryDark rounded-full baseline hover:bg-primaryLight md:block px-6"
-                    href="https://docs.google.com/forms/d/e/1FAIpQLSf1kd1D_Ej5j7vNh99o6Yon3aYnbt8lzbhFSDjrX5jqrQVgWw/viewform">Register
-                    Here
+                    className="p-3 text-primary05 bg-gray-400 rounded-full baseline md:block px-6 disabled"
+                    href="javascript:void(0)">Registeration Closed
+                    {/* href="https://docs.google.com/forms/d/e/1FAIpQLSf1kd1D_Ej5j7vNh99o6Yon3aYnbt8lzbhFSDjrX5jqrQVgWw/viewform">Registeration Closed */}
                 </Link>
             </div>
             <div className="container mx-auto px-6 justify-center items-center">
