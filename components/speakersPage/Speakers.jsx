@@ -4,6 +4,7 @@ import { SessionChair } from "./SessionChair";
 import { chiefGuest } from "./chiefGuestData";
 import { HonorGuest } from "./HonorGuest";
 import SpeakerComponent from "./SpeakerComponent";
+import { keynote } from "./keynoteSpeakersData";
 export default function SponsorsSection() {
     return (
         <>
@@ -20,6 +21,14 @@ export default function SponsorsSection() {
         <h1 className=" bg-primary10 py-3 text-center hed block">Guest of Honor</h1>
         <section id="railway" className=" bg-primary10 px-3 py-6 spon">
             {Object.values(HonorGuest).map((value) => {
+                return (
+                <SpeakerComponent speaker={value} />
+                );
+            })}  
+        </section>
+        <h1 className=" bg-primary10 py-3 text-center hed block">Keynote Speaker</h1>
+        <section id="railway" className=" bg-primary10 px-3 py-6 spon">
+            {Object.values(keynote).map((value) => {
                 return (
                 <SpeakerComponent speaker={value} />
                 );
