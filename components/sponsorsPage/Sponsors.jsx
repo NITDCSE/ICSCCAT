@@ -6,6 +6,8 @@ import BHEL from './BHEL_LOGO.jpeg'
 import GENIUS from './GENIUS_LOGO.png'
 import CDH from './CDH_LOGO.png'
 import ACS from './ACS_LOGO.jpeg'
+import LABINDIA from './LABINDIA_LOGO.jpg'
+import GENIUS_ENTERPRISE from './GENIUS_ENTERPRISE_LOGO.png'
 export default function SponsorsSection() {
     return (
         <>
@@ -58,6 +60,22 @@ export default function SponsorsSection() {
             </div>
             <div className="text-s">
                 <span className="font-bold">ACS:</span> American Chemical Society
+            </div>
+        </div>
+        <div class="card-s">
+            <div className="s-logo acs">
+            <Image src={LABINDIA} alt=""/>
+            </div>
+            <div className="text-s">
+                <span className="font-bold">LABINDIA</span>
+            </div>
+        </div>
+        <div class="card-s">
+            <div className="s-logo acs">
+            <Image src={GENIUS_ENTERPRISE} alt=""/>
+            </div>
+            <div className="text-s">
+                <span className="font-bold">GENIUS ENTERPRISE</span>
             </div>
         </div>
         
