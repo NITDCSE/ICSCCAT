@@ -12,10 +12,23 @@ export default function SponsorsSection() {
         {/* <h1 className=" bg-primary10 py-3 text-center hed underline">Tentative Speakers</h1> */}
         <h1 className=" bg-primary10 py-3 text-center hed block">Chief Guest</h1>
         <section id="railway" className=" bg-primary10 px-3 py-6 spon">
-            {Object.values(chiefGuest).map((value) => {
-                return (
-                <SpeakerComponent speaker={value} />
-                );
+            {  
+                Object.values(chiefGuest).map((value,index) => {
+                    if(index==0){
+                        return (
+                            <div>
+                            <h1 className="bg-primary10 pb-3 pt-0 text-center hed">Inaugral Session</h1>
+                            <SpeakerComponent speaker={value} />
+                            </div>
+                        )
+                    }else{
+                        return (
+                            <div>
+                            <h1 className="bg-primary10 pb-3 pt-0 text-center hed">Valedictory Session</h1>
+                            <SpeakerComponent speaker={value} />
+                            </div>
+                        );
+                    }
             })}  
         </section>
         <h1 className=" bg-primary10 py-3 text-center hed block">Guest of Honor</h1>
