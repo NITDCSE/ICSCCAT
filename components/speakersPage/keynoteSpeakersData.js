@@ -5,11 +5,11 @@ export const keynote = {
     Bakshi: {
         image: AKBhakshi,
         title: "Prof. A. K. Bakshi",
-        description: "Keynote Speaker"
+        description: "PDM University, Haryana"
     },
     Sourav: {
         image: Saurav,
         title: "Prof. Sourav Pal",
-        description: "Keynote Speaker"
+        description: "Ashoka University"
     }
 }

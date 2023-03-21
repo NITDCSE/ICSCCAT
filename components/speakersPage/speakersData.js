@@ -15,92 +15,98 @@ import Pritam from '@/public/speakers/Pritam.jpg'
 import Biswarup from '@/public/speakers/Biswarup.jpg'
 import Uma from '@/public/speakers/uma.jpg'
 import Pannuru from '@/public/speakers/Pannuru.png'
+import Kaushik from '@/public/speakers/Kaushik.jpg'
 
 export const aboutSpeakers = {
-        Sankar2: {
-            image: Sankar,
-            title: "Prof. M. Sankar",
-            description: "Invited Speaker"
-        },
-        Ram: {
-            image: Ram,
-            title: "Prof. Ram Singh",
-            description: "Invited Speaker"
-        },
-        Kaith2: {
-            image: Kaith,
-            title: "Prof. B. S. Kaith",
-            description: "Invited Speaker"
-        },
-        Sameer: {
-            image: Sameer,
-            title: "Prof. Sameer Sapra",
-            description: "Invited Speaker"
-        },
-        Neeraj: {
-            image: Neeraj,
-            title: "Prof. Neeraj",
-            description: "Invited Speaker"
-        },
-        Anantharaman: {
-            image: Anantharaman,
-            title: "Prof. G. Anantharaman",
-            description: "Invited Speaker"
-        },
-        Anuradha: {
-            image: Anuradha,
-            title: "Dr. Anuradha Singh",
-            description: "Invited Speaker"
-        },
-        Amit: {
-            image: Amit,
-            title: "Dr. Amit Srivastava",
-            description: "Invited Speaker"
-        },
-        Rampal2: {
-            image: Rampal,
-            title: "Prof. Rampal Pandey",
-            description: "Invited Speaker"
-        },
-        Avijit2: {
-            image: Avijit,
-            title: "Prof. Avijit Kumar Paul",
-            description: "Invited Speaker"
-        },
-        Munmun: {
-            image: Munmun,
-            title: "Prof. Munmun Ghosh",
-            description: "Invited Speaker"
-        },
-        Ashutosh: {
-            image: Ashutosh,
-            title: "Prof. Ashutosh Upadhyay",
-            description: "Invited Speaker"
-        },
-        Sasanka: {
-            image: Sasanka,
-            title: "Prof. Sasanka Deka",
-            description: "Invited Speaker"
-        },
-        Pritam: {
-            image: Pritam,
-            title: "Prof. Pritam Mukhopadhyay",
-            description: "Invited Speaker"
-        },
-        Biswarup: {
-            image: Biswarup,
-            title: "Prof. Biswarup Chakraborty",
-            description: "Invited Speaker"
-        },
-        Uma: {
-            image: Uma,
-            title: "Prof. Uma Rani",
-            description: "Invited Speaker"
-        },
-        Pannuru: {
-            image: Pannuru,
-            title: "Prof. Pannuru Venkatesu",
-            description: "Invited Speaker"
-        }
-    
+    Sankar2: {
+        image: Sankar,
+        title: "Prof. M. Sankar",
+        description: "IIT Roorkee"
+    },
+    Ram: {
+        image: Ram,
+        title: "Prof. Ram Singh",
+        description: "DTU"
+    },
+    Kaith2: {
+        image: Kaith,
+        title: "Prof. B. S. Kaith",
+        description: "NIT Jalandhar"
+    },
+    Sameer: {
+        image: Sameer,
+        title: "Prof. Sameer Sapra",
+        description: "IIT Delhi"
+    },
+    Neeraj: {
+        image: Neeraj,
+        title: "Prof. Neeraj",
+        description: "NIFTEM-K"
+    },
+    Kaushik: {
+        image: Kaushik,
+        title: "NK Kaushik",
+        description: "PBRC, Kwangwoon University, Seoul"
+    },
+    Anantharaman: {
+        image: Anantharaman,
+        title: "Prof. G. Anantharaman",
+        description: "IIT Kanpur"
+    },
+    Anuradha: {
+        image: Anuradha,
+        title: "Dr. Anuradha Singh",
+        description: "Sun Pharma"
+    },
+    Amit: {
+        image: Amit,
+        title: "Dr. Amit Srivastava",
+        description: "NFI Ltd., Surat"
+    },
+    Rampal2: {
+        image: Rampal,
+        title: "Prof. Rampal Pandey",
+        description: "NIT Uttarakhand"
+    },
+    Avijit2: {
+        image: Avijit,
+        title: "Prof. Avijit Kumar Paul",
+        description: "NIT Kurukshetra"
+    },
+    Munmun: {
+        image: Munmun,
+        title: "Prof. Munmun Ghosh",
+        description: "Ashoka University"
+    },
+    Ashutosh: {
+        image: Ashutosh,
+        title: "Prof. Ashutosh Upadhyay",
+        description: "NIFTEM-K"
+    },
+    Sasanka: {
+        image: Sasanka,
+        title: "Prof. Sasanka Deka",
+        description: "DU"
+    },
+    Pritam: {
+        image: Pritam,
+        title: "Prof. Pritam Mukhopadhyay",
+        description: "JNU"
+    },
+    Biswarup: {
+        image: Biswarup,
+        title: "Prof. Biswarup Chakraborty",
+        description: "IIT Delhi"
+    },
+    Uma: {
+        image: Uma,
+        title: "Prof. Uma Rani",
+        description: "WCTM, Gurugram"
+    },
+    Pannuru: {
+        image: Pannuru,
+        title: "Prof. Pannuru Venkatesu",
+        description: "DU"
+    }
+
 }
