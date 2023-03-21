@@ -207,7 +207,7 @@ export const localOrganisingCommittee = {
         {name: "Dr. Aanchal Sethi", affiliation: ssduLabel, photo: anchal},
         {name: "Dr. Bholey Singh", affiliation: ssduLabel, photo: bholey},
         {name: "Dr. Mukesh Kumar Verma", affiliation: ssduLabel, photo: mukesh},
-        {name: "Dr. Partibha", affiliation: nitdLabel, photo: drpratibha},
+        {name: "Dr. Partibha", affiliation: ssduLabel, photo: drpratibha},
         {name: "Dr. Ramesh Chand", affiliation: ssduLabel, photo: ramesh},
         {name: "Mr. Amar Singh Meena", affiliation: ssduLabel, photo: amar},
     ],
