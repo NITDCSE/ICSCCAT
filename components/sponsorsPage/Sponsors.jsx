@@ -7,6 +7,8 @@ import CDH from './CDH_LOGO.png'
 import ACS from './ACS_LOGO.jpeg'
 import LABINDIA from './LABINDIA_LOGO.jpg'
 import GENIUS_ENTERPRISE from './GENIUS_ENTERPRISE_LOGO.png'
+import GCPPL from './GCPPL_LOGO.png'
+import SCPPL from './SCPPL_LOGO.png'
 export default function SponsorsSection() {
     return (
         <>
@@ -67,6 +69,22 @@ export default function SponsorsSection() {
             </div>
             <div className="text-s">
                 <span className="font-bold">GENIUS ENTERPRISE</span>
+            </div>
+        </div>
+        <div class="card-s">
+            <div className="s-logo acs">
+            <Image src={GCPPL} alt=""/>
+            </div>
+            <div className="text-s">
+                <span className="font-bold">GCPPL:</span> Globe Civil Projects Pvt Ltd
+            </div>
+        </div>
+        <div class="card-s">
+            <div className="s-logo acs">
+            <Image src={SCPPL} alt=""/>
+            </div>
+            <div className="text-s">
+                <span className="font-bold">SCPPL:</span> Swadeshi Civil Infrastructure
             </div>
         </div>
         
