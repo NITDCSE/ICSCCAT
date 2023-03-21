@@ -34,7 +34,7 @@ export default function SponsorsSection() {
                 );
             })}  
         </section>
-        <h1 className=" bg-primary10 py-3 text-center hed block">TENTATIVE LIST OF SESSION CHAIR</h1>
+        <h1 className=" bg-primary10 py-3 text-center hed block">SESSION CHAIRS</h1>
         <section id="railway" className=" bg-primary10 px-3 py-6 spon">
             {Object.values(SessionChair).map((value) => {
                 return (

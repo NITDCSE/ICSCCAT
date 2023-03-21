@@ -3,7 +3,6 @@ import Image from "next/image";
 import SERB from './SERB_logo.png'
 import CSIR from './CSIR_LOGO.png'
 import BHEL from './BHEL_LOGO.jpeg'
-import GENIUS from './GENIUS_LOGO.png'
 import CDH from './CDH_LOGO.png'
 import ACS from './ACS_LOGO.jpeg'
 import LABINDIA from './LABINDIA_LOGO.jpg'
@@ -28,14 +27,6 @@ export default function SponsorsSection() {
             </div>
             <div className="text-s">
                 <span className="font-bold">CSIR:</span> Council of Scientific & Industrial Research
-            </div>
-        </div>
-        <div class="card-s">
-            <div className="s-logo">
-            <Image src={GENIUS} alt=""/>
-            </div>
-            <div className="text-s">
-                <span className="font-bold">GENIUS ENTERPRISE</span>
             </div>
         </div>
         <div class="card-s">
