@@ -84,7 +84,7 @@ export default function SponsorsSection() {
             <Image src={SCPPL} alt=""/>
             </div>
             <div className="text-s">
-                <span className="font-bold">SCPPL:</span> Swadeshi Civil Infrastructure
+                <span className="font-bold">SCIPL:</span> Swadeshi Civil Infrastructure
             </div>
         </div>
         

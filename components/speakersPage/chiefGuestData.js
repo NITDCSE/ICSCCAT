@@ -5,11 +5,11 @@ export const chiefGuest = {
     AnilKumar: {
         image: AnilKumar,
         title: "Dr. Anil Kumar Mishra",
-        description: "INMAS, DRDO"
+        description: "INMAS, DRDO                  "
     },
     AKPaul: {
         image: AKPaul,
         title: "Prof. A. K. Paul",
-        description: "CSIO, Chandigarh"
+        description: "Former Vice Chancellor, DAV University Jalandhar"
     }
 }

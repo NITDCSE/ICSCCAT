@@ -2,16 +2,14 @@ import AnilKumar2 from '@/public/speakers/AnilKumar2.jpg'
 import GeetaSikka from '@/public/speakers/GeetaSikka.jpg'
 import Manoj from '@/public/speakers/Manoj.jpg'
 import Rampal from '@/public/speakers/Rampal.jpg'
-import Avijit from '@/public/speakers/Avijit.jpg'
 import Gajendra from '@/public/speakers/Gajendra.png'
-import Pradeep from '@/public/speakers/Pradeep.png'
 import Awasthi from '@/public/speakers/Awasthi.png'
-import Sankar from '@/public/speakers/Sankar.png'
 import Kaith from '@/public/speakers/Kaith.jpg'
 import Arvind from '@/public/speakers/Arvind.png'
 import Umesh from '@/public/speakers/Umesh.jpg'
 import Deepak from '@/public/speakers/Deepak.jpg'
-
+import Munmun from '@/public/speakers/Munmun.png'
+import Profile from '@/public/speakers/Profile.png'
 export const SessionChair = {
     AnilKumar2: {
         image: AnilKumar2,
@@ -33,30 +31,15 @@ export const SessionChair = {
         title: "Prof. Rampal Pandey",
         description: "NIT Uttarakhand"
     },
-    Avijit: {
-        image: Avijit,
-        title: "Prof. Avijit Kumar Paul",
-        description: "NIT Kurukshetra"
-    },
     Gajendra: {
         image: Gajendra,
         title: "Prof. Gajender Gaur",
-        description: "SSNC, DU"
-    },
-    Pradeep: {
-        image: Pradeep,
-        title: "Prof. Pradeep Pratap Singh",
         description: "SSNC, DU"
     },
     Awasthi: {
         image: Awasthi,
         title: "Prof. S. K. Awasthi",
         description: "DU"
-    },
-    Sankar: {
-        image: Sankar,
-        title: "Prof. M. Sankar",
-        description: "IIT Roorkee"
     },
     Kaith: {
         image: Kaith,
@@ -77,5 +60,17 @@ export const SessionChair = {
         image: Deepak,
         title: "Dr. Deepak Gupta",
         description: "DTU"
+    },Munmun: {
+        image: Munmun,
+        title: "Prof. Munmun Ghosh",
+        description: "Ashoka University"
+    },Anurag: {
+        image: Profile,
+        title: "Dr. Anurag Mishra",
+        description: "Reliance Industries, Navi Mumbai"
+    },Parthiv: {
+        image: Profile,
+        title: "Dr. Parthiv Trivedi",
+        description: "Reliance Industries, Navi Mumbai"
     }
 }
