@@ -10,6 +10,8 @@ import Umesh from '@/public/speakers/Umesh.jpg'
 import Deepak from '@/public/speakers/Deepak.jpg'
 import Munmun from '@/public/speakers/Munmun.png'
 import Profile from '@/public/speakers/Profile.png'
+import Anurag from '@/public/speakers/Anurag.jpg'
+import Parthiv from '@/public/speakers/Parthiv.jpg'
 export const SessionChair = {
     AnilKumar2: {
         image: AnilKumar2,
@@ -65,11 +67,11 @@ export const SessionChair = {
         title: "Prof. Munmun Ghosh",
         description: "Ashoka University"
     },Anurag: {
-        image: Profile,
+        image: Anurag,
         title: "Dr. Anurag Mishra",
         description: "Reliance Industries, Navi Mumbai"
     },Parthiv: {
-        image: Profile,
+        image: Parthiv,
         title: "Dr. Parthiv Trivedi",
         description: "Reliance Industries, Navi Mumbai"
     }
