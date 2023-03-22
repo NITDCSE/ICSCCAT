@@ -4,7 +4,7 @@ import AKBhakshi from '@/public/speakers/AKBhakshi.jpg'
 export const keynote = {
     Bakshi: {
         image: AKBhakshi,
-        title: "Prof. A. K. Bakshi",
+        title: "Prof. A. K. Bakhshi",
         description: "PDM University, Haryana"
     },
     Sourav: {
