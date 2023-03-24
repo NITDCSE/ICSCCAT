@@ -23,7 +23,7 @@ function NavRibbon({open}) {
     const links = [
         {name: "Home", link: "#"},
         {name: "About", link: "/about"},
-        {name: "Schedule", link: "#"},
+        {name: "Schedule", link: "/schedule"},
         {name: "Speakers", link: "/speakers"},
         {name: "Abstract Papers", link: "/abstract"},
         {name: "Committees", link: "/committees"},
