@@ -23,7 +23,6 @@ function NavRibbon({open}) {
         {name: "Home", link: "#"},
         {name: "About", link: "/about"},
         {name: "Submissions", link: "#"},
-        {name: "Speakers", link: "/speakers"},
         {name: "Committees", link: "/committees"},
         {name: "Registration", link: "/registration"},
         
