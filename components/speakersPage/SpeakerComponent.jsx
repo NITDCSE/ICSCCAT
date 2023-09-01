@@ -4,7 +4,7 @@ export default function SpeakerComponent({speaker}) {
         <>
             <div className="card-s">
                 <div className="s-logo">
-                    <Image src={speaker.image} alt={speaker.title}/>
+                    <Image src={speaker.image} alt={speaker.title} />
                 </div>
                 <div className="text-s">
                     <div className="font-bold speakerTitle">{speaker.title}</div><span className="speakerDescription text-xs"> {speaker.description}</span>
@@ -13,8 +13,4 @@ export default function SpeakerComponent({speaker}) {
         </>
 
     )
-}
-
-
-
- 
+} 
