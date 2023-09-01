@@ -1,8 +1,4 @@
-import nitdLongLogo from '@/public/nitd-logo-labeled-blue.png'
-import sscduLongLogo from '@/public/sscdu-logo-long.png'
-import rtcsseLogo from '@/public/rtcsse-logo.png'
-import nitdSquareLogo from "@/public/nitd-logo.png"
-import sscduSquareLogo from "@/public/sscdu-logo.png"
+ 
 import 'assets/css/footer.css'
 import Link from "next/link";
 import Image from "next/image"
@@ -37,7 +33,7 @@ export default function Footer() {
                         </ul>
                         <ul className="emailList">
                             <li><a href="mailto:karanverma@nitdelhi.ac.in">karanverma@nitdelhi.ac.in</a></li>
-                            <li><a href="mailto:karanverma@nitdelhi.ac.in">gautam@nitdelhi.ac.in</a></li>
+                            <li><a href="mailto:gautam@nitdelhi.ac.in">gautam@nitdelhi.ac.in</a></li>
                         </ul>
                             </div>
                         </div>
@@ -49,13 +45,15 @@ export default function Footer() {
             </div>
             <div className="bg-black text-white text-sm">
                 <div className="container mx-auto px-6 py-2">
-                    <p className="text-center">Designed and Developed by - <Link href="https://hardiksachan.com"
-                                                                                 className="underline hover:text-primary20">Hardik
-                        Sachan</Link>, <Link
-                        href="https://github.com/ShivanshAsthana04" className="underline hover:text-primary20">Shivansh
-                        Asthana</Link> & <Link
-                        href="https://github.com/voltsyjr" className="underline hover:text-primary20">Vishal
-                        Singh</Link></p>
+                    <p className="text-center">Designed and Developed by - <Link href=""
+                                                                                 className="underline hover:text-primary20">
+                        Sajal Sahu </Link>, <Link
+                        href="" className="underline hover:text-primary20"> Rohit Kumar
+                        </Link>,  <Link
+                        href="" className="underline hover:text-primary20">
+                        Utkarsh Trivedi</Link>  &  <Link
+                        href="" className="underline hover:text-primary20">
+                        Shreyansh Gupta</Link> </p>
                 </div>
             </div>
         </div>
