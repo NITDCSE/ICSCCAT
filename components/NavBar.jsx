@@ -1,7 +1,7 @@
 "use client"
 
 import Image from "next/image";
-import rtcsseLogo from "@/public/rtcsse-logo.png"
+import rtcsseLogo from "@/assets/ICSCCAT logo.png"
 import nitdLogo from "@/public/nitd-logo.png"
 import sscduLogo from "@/public/sscdu-logo.png"
 import g20logo from "@/public/g20_logo.png"
