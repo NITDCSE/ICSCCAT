@@ -1,9 +1,9 @@
-import abdulAnsari from '@/public/keynote/andulAnsari.jpg'
-import selvaKumar from '@/public/speakers/AKBhakshi.jpg'
-import sharmaChakraborty from '@/public/speakers/AKBhakshi.jpg'
-import manindraAgarwal from '@/public/speakers/AKBhakshi.jpg'
-import moinUddin from '@/public/speakers/AKBhakshi.jpg'
-import manojMishra from '@/public/speakers/AKBhakshi.jpg'
+import abdulAnsari from '@/public/keynote/abdulAnsari.jpg'
+import selvaKumar from '@/public/keynote/selvaKumar.jpg'
+import sharmaChakraborty from '@/public/keynote/sharmaChakraborty.jpg'
+import manindraAgarwal from '@/public/keynote/manindraAgarwal.jpg'
+import moinUddin from '@/public/keynote/moinUddin.jpg'
+import manojMishra from '@/public/keynote/manojMishra.jpg'
 
 
 export const keynote = {
