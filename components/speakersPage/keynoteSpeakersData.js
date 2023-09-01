@@ -1,4 +1,4 @@
-import abdulAnsari from '@/public/speakers/AKBhakshi.jpg'
+import abdulAnsari from '@/public/keynote/andulAnsari.jpg'
 import selvaKumar from '@/public/speakers/AKBhakshi.jpg'
 import sharmaChakraborty from '@/public/speakers/AKBhakshi.jpg'
 import manindraAgarwal from '@/public/speakers/AKBhakshi.jpg'
