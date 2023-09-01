@@ -1,5 +1,5 @@
 import Image from "next/image";
-import {organisingCommittee} from "@/components/committeesPage/data";
+import {steeringCommitee} from "@/components/committeesPage/data";
 
 export default function OrganisingCommittee() {
     return (
@@ -8,7 +8,7 @@ export default function OrganisingCommittee() {
   
             </div>
             {
-                organisingCommittee.map(function (section, idx) {
+                steeringCommitee.map(function (section, idx) {
                     return (
                         <div key={idx} className={`${idx % 2 === 0 ? 'bg-primary05' : 'bg-primary10'} w-full`}>
                             <div className="mx-auto container px-6 py-4">
@@ -18,7 +18,8 @@ export default function OrganisingCommittee() {
                                     {
                                         section.members.map(function (member) {
                                             return (<UserProfile member={member}
-                                                                 profileSize={section.type === 'Patrons' ? 164 : (section.type === 'Chairman' ? 128 : 96)}/>)
+                                                                //  profileSize={section.type === 'Patrons' ? 164 : (section.type === 'Chairman' ? 128 : 96)}
+                                                                 />)
                                         })
                                     }
                                 </div>

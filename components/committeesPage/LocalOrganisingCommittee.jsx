@@ -1,6 +1,5 @@
-import {localOrganisingCommittee} from "@/components/committeesPage/data";
+import {steeringCommitee} from "@/components/committeesPage/data";
 import Image from "next/image";
-import profile from "@/public/profile.png"
 
 export default function LocalOrganisingCommittee() {
     return (
@@ -10,7 +9,7 @@ export default function LocalOrganisingCommittee() {
                     Members</h2>
                 <div className="mt-4 grid grid-cols-1 md:grid-cols-2">
                     <div className="grid grid-cols-1 md:grid-cols-2">
-                        {localOrganisingCommittee.nitDelhi.map(function (member) {
+                        {steeringCommitee.map(function (member) {
                             return (
                                 <div
                                     className="block flex space-x-4 items-center font-medium bg-primary10 rounded px-6 py-3 my-2 md:mx-4 focus:outline-none focus:ring-0">
@@ -26,7 +25,7 @@ export default function LocalOrganisingCommittee() {
                         })}
                     </div>
                     <div className="grid grid-cols-1 md:grid-cols-2">
-                        {localOrganisingCommittee.sscdu.map(function (member) {
+                        {steeringCommitee.map(function (member) {
                             return (
                                 <div
                                     className="block flex space-x-4 items-center font-medium bg-primary10 rounded px-6 py-3 my-2 md:mx-4 focus:outline-none focus:ring-0">
@@ -43,7 +42,7 @@ export default function LocalOrganisingCommittee() {
                     </div>
                 </div>
                 <div className="grid grid-cols-1 md:grid-cols-4">
-                    {localOrganisingCommittee.additional.map(function (member) {
+                    {steeringCommitee.map(function (member) {
                         return (
                             <div
                                 className="block flex space-x-4 items-center font-medium bg-primary10 rounded px-6 py-3 my-2 md:mx-4 focus:outline-none focus:ring-0">
