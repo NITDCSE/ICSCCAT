@@ -8,6 +8,8 @@
 }
 .s-logo img{
     border-radius: 50%;
+    width: 90%;
+    height: 90%;
 }
 .cdh{
     max-width: 500px;
@@ -16,6 +18,7 @@
     /* box-shadow: 0 0 3px rgb(93 103 175 / 73%); */
     box-shadow: 2px 2px 3px rgb(139 139 139 / 73%);
     padding: 10px;
+    height: 300px;
     width: 200px;
     border: transparent;
     border-radius: 5px;
@@ -33,6 +36,11 @@
     border-bottom: 1px solid rgb(179, 177, 177);
     padding-top: 10px;
 }
+
+.text-desig{
+    font-weight: 500;
+}
+ 
 .card-s .text-s {
     height: 90px;
 }

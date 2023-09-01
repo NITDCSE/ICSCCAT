@@ -35,7 +35,7 @@ export const keynote = {
       },
       uddin : {
         title: "Prof. Moin Uddin",
-        designation: "Prof. Moin Uddin",
+        designation: "Professor",
         description: "Apeejay Stya University, Gurugram",
         image: moinUddin,
       },
