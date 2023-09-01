@@ -8,8 +8,8 @@ export default function Committees() {
         <>
             <OrganisingCommittee />
             <AdvisoryCommittee />
-            <LocalOrganisingCommittee />
-            <StudentOrganisingMembers />
+            {/* <LocalOrganisingCommittee /> */}
+            {/* <StudentOrganisingMembers /> */}
         </>
     )
 }
