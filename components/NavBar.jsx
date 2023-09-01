@@ -51,8 +51,9 @@ function ConferenceHeader({open, setOpen}) {
                 <Link href="/" className="flex items-center space-x-4 pt-2">
                     <Image src={ICSCCAT} className="object-contain" alt="ICSCCAT-2024"
                            width={84} quality={100}/>
-                    <h3 className="hidden md:block font-bold text-3xl tracking-wider text-center align-middle">RTCSSE
-                        2023</h3>
+                    <h3 className="hidden md:block font-bold text-3xl tracking-wider text-center align-middle">
+                        ICSCCAT 2024
+                        </h3>
                 </Link>
                 <div className="flex-1" />
                 <div className="flex space-x-4 items-center justify-end">
