@@ -33,7 +33,7 @@ export default function ConferenceTracks() {
             return (
               <div
                 key={index}
-                className="bg-gray-200 p-4 rounded-lg shadow-md flex items-center"
+                className="bg-gray-200 p-4 rounded-lg shadow-md flex items-center hover:shadow-lg hover:bg-gray-400 transition duration-300 ease-in-out"
               >
                 <div className="w-1/2 pr-4">
                   <img
