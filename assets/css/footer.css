@@ -1,0 +1,45 @@
+#footer{
+    background-color: #1a2527;
+    color: whitesmoke;
+}
+
+.footer_content{
+    display: flex;
+    justify-content: space-around;
+
+}
+.footerAdress{
+   display: flex;
+   column-gap: 20px;
+}
+.Footer_Address_heading{
+    font-size: 20px;
+    font-weight: 700;
+}
+.footerAddress_icon{
+    padding-top:5px;
+}
+.footerAddress_icon svg{
+    height: 22px;
+    width: 22px;
+}
+
+.footer_contact
+{
+    display: flex;
+    column-gap: 20px;
+}
+
+.footer_contact_content h3{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.footer_contact_icon{
+    padding-top:5px;
+}
+
+.footer_contact_icon svg{
+    height: 22px;
+    width: 22px;
+}
