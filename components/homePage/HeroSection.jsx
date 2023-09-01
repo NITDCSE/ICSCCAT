@@ -39,7 +39,7 @@ export default function HeroSection() {
                                 on
                             </p>
                             <h1 className="text-center font-bold text-4xl text-black md:text-5xl">
-                                "Recent Trends in Chemical Sciences & Sustainable Energy"
+                                "Secure Cyber Computing & Advanced Technologies"
                             </h1>
                             <p className="text-center text-lg text-black md:text-2xl mt-4">
                                 24<sup>th</sup> - 25<sup>th</sup> March, 2023
