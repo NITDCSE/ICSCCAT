@@ -1,13 +1,12 @@
-import OrganisingCommittee from "@/components/committeesPage/OrganisingCommittee";
-import LocalOrganisingCommittee from "@/components/committeesPage/LocalOrganisingCommittee";
-import AdvisoryCommittee from "@/components/committeesPage/AdvisoryCommittee";
-import StudentOrganisingMembers from "@/components/committeesPage/SudentOrganisingMembers";
-
+import {advisoryCommittee} from '@/components/committeesPage/data'
+import Committee from "@/components/committeesPage/Committee";
+import CheifPatron from '@/components/committeesPage/CheifPatron';
 export default function Committees() {
     return (
         <>
-            <OrganisingCommittee />
-            <AdvisoryCommittee />
+            <CheifPatron/>
+            <Committee data = {advisoryCommittee} name = {"Advisory Committee"} />
+            {/* <AdvisoryCommittee /> */}
             {/* <LocalOrganisingCommittee /> */}
             {/* <StudentOrganisingMembers /> */}
         </>

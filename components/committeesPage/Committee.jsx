@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-export default function OrganisingCommittee(props) {
+export default function Committee(props) {
     return (
         <section className="py-6">
             <div className="container mx-auto px-6 my-6 font-bold text-4xl">
