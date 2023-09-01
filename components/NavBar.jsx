@@ -26,7 +26,7 @@ function NavRibbon({open}) {
         {name: "Speakers", link: "/speakers"},
         {name: "Committees", link: "/committees"},
         {name: "Registration", link: "/registration"},
-        {name: "Contact Us", link: "/contact"},
+        
     ]
 
     return (<nav className={`${open ? 'block' : 'hidden'} md:block bg-primaryDark text-white sticky top-8 z-50`}>
