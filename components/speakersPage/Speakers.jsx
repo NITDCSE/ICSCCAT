@@ -17,9 +17,7 @@ export default function SponsorsSection() {
             })}  
         </section>
         
-         
-        
-        <br></br>
+              
         </>
     )
 }
