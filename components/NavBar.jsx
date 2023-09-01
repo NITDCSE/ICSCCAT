@@ -68,7 +68,7 @@ function ConferenceHeader({open, setOpen}) {
                     </div> */}
                     <Image src={azadi} className="object-contain" alt="G20"
                            width={84} quality={100}/>
-                    <div className=" md:hidden">
+                    <div className="md:hidden">
                         <div onClick={() => {
                             setOpen(!open)
                         }}
