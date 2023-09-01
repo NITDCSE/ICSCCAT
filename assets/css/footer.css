@@ -43,3 +43,11 @@
     height: 22px;
     width: 22px;
 }
+
+.contact_details{
+    display: flex;
+    column-gap: 15px;
+}
+.emailList a{
+    text-decoration: underline;
+}

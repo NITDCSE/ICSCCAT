@@ -30,16 +30,22 @@ export default function Footer() {
                         </div>
                         <div className="footer_contact_content">
                         <h3 class="Footer_ContactUs_heading__F1Du9">Contact Us</h3>
+                            <div className="contact_details">
                         <ul class="contact_list">
-                        <li class="Footer_ContactUs_item__rFApu undefined">+91 941 924 0698</li>
-                        <li class="Footer_ContactUs_item__rFApu undefined">+91 800 338 9258</li>
+                           <li class="Footer_ContactUs_item__rFApu undefined">+91 80033 89258</li>
+                           <li class="Footer_ContactUs_item__rFApu undefined">+91 82925 56170</li>
                         </ul>
+                        <ul className="emailList">
+                            <li><a href="mailto:karanverma@nitdelhi.ac.in">karanverma@nitdelhi.ac.in</a></li>
+                            <li><a href="mailto:karanverma@nitdelhi.ac.in">gautam@nitdelhi.ac.in</a></li>
+                        </ul>
+                            </div>
                         </div>
                         
                     </div>
                     
                 </div>
-                <p className="text-sm text-center mt-12">All right reserved RTCSSE-2023. Powered by NIT Delhi</p>
+                <p className="text-sm text-center mt-12">All right reserved ICSCCAT-2024. Powered by NIT Delhi</p>
             </div>
             <div className="bg-black text-white text-sm">
                 <div className="container mx-auto px-6 py-2">
