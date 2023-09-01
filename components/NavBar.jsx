@@ -2,8 +2,7 @@
 
 import Image from "next/image";
 import ICSCCAT from "@/assets/ICSCCAT logo.png"
-import nitdLogo from "@/public/nitd-logo.png"
-import sscduLogo from "@/public/sscdu-logo.png"
+import nitdLogo from "@/public/nitd-logo.png" 
 import g20logo from "@/public/g20_logo.png"
 import azadi from "@/public/azadi_ka_amrit_mahotsav.png"
 import Link from "next/link";
@@ -23,6 +22,7 @@ function NavRibbon({open}) {
         {name: "Home", link: "#"},
         {name: "About", link: "/about"},
         {name: "Submissions", link: "#"},
+        {name: "Speakers", link: "/speakers"},
         {name: "Committees", link: "/committees"},
         {name: "Registration", link: "/registration"},
         
