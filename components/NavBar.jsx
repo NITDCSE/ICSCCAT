@@ -13,7 +13,6 @@ export default function NavBar() {
     const [open, setOpen] = useState(false)
 
     return (<>
-        <ContactHeader/>
         <ConferenceHeader setOpen={setOpen} open={open}/>
         <NavRibbon open={open}/>
     </>)
@@ -23,11 +22,10 @@ function NavRibbon({open}) {
     const links = [
         {name: "Home", link: "#"},
         {name: "About", link: "/about"},
-        {name: "Schedule", link: "/schedule"},
+        {name: "Submissions", link: "#"},
         {name: "Speakers", link: "/speakers"},
-        {name: "Abstract Papers", link: "/abstract"},
         {name: "Committees", link: "/committees"},
-        {name: "Sponsors", link: "/sponsors"},
+        {name: "Registration", link: "/registration"},
         {name: "Contact Us", link: "/contact"},
     ]
 
@@ -51,7 +49,7 @@ function ConferenceHeader({open, setOpen}) {
                 <Image src={g20logo} className="object-contain" alt="G20"
                        width={84} quality={100}/>
                 <Link href="/" className="flex items-center space-x-4 pt-2">
-                    <Image src={rtcsseLogo} className="object-contain" alt="RTCSSE 2023"
+                    <Image src={rtcsseLogo} className="object-contain" alt="ICSCCAT-2024"
                            width={84} quality={100}/>
                     <h3 className="hidden md:block font-bold text-3xl tracking-wider text-center align-middle">RTCSSE
                         2023</h3>
@@ -62,15 +60,12 @@ function ConferenceHeader({open, setOpen}) {
                         <Image src={nitdLogo} className="max-h-12 object-contain" alt="NITD" width={72}
                                quality={100}/>
                     </a>
-                    <a target="_blank" href="https://ss.du.ac.in/" className="pt-2">
-                        <Image src={sscduLogo} className="max-h-14 object-contain" alt="NITD" width={72}
-                               quality={100}/>
-                    </a>
-                    <div className="pl-6 hidden md:block ">
+                    {/* register button */}
+                    {/* <div className="pl-6 hidden md:block ">
                         <Link href="/register"
                               className="p-3 my-auto px-6 pt-2 text-white bg-gray-400 rounded-full baseline"
                         >Registration Closed</Link>
-                    </div>
+                    </div> */}
                     <Image src={azadi} className="object-contain" alt="G20"
                            width={84} quality={100}/>
                     <div className=" md:hidden">
@@ -105,17 +100,4 @@ function ConferenceHeader({open, setOpen}) {
     )
 }
 
-function ContactHeader() {
-    return (
-        <div className="bg-black text-white text-xm sticky top-0 z-50">
-            <div className="container mx-auto py-1 px-6">
-                <div className="items-center justify-between flex flex-col md:flex-row">
-                    <p className="text-center">Contact us - <span><Link href="mailto:rtcsse@nitdelhi.ac.in"
-                                                                        className="underline hover:text-primary20">rtcsse@nitdelhi.ac.in</Link></span>
-                    </p>
-                    <p>  Office: +011 3386 1250/1256</p>
-                </div>
-            </div>
-        </div>
-    )
-}
+ 
