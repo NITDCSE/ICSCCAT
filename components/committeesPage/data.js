@@ -202,15 +202,15 @@ export const advisoryCommittee = [
                 photo: profile
             },
             {
-                name: 'Prof. Manoj Mishra',
+                name: 'Prof. Ratnaiti Bhattacharya',
                 designation: 'Professor',
-                affiliation: { line1: 'IIT, Roorkee', line2: '' },
+                affiliation: { line1: 'IIT, Guwahati', line2: '' },
                 photo: profile
             },
             {
-                name: 'Prof. Manoj Mishra',
+                name: 'Prof. Devanand',
                 designation: 'Professor',
-                affiliation: { line1: 'IIT, Roorkee', line2: '' },
+                affiliation: { line1: 'Central University of Jammu', line2: '' },
                 photo: profile
             },
             {
