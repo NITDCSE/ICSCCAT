@@ -39,7 +39,7 @@ function NavRibbon({ open, toggleTracksMenu }) {
     return (
         <nav className={`${open ? 'block' : 'hidden'} md:block bg-primaryDark text-white sticky top-8 z-50`}>
             <div className="container bg-primaryDark absolute md:static mx-auto py-1.5 px-6 left-0 w-full md:w-auto mx-auto">
-                <ul className="md:flex md:items-center md:justify-between">
+                <ul className=" md:flex md:items-center md:justify-between">
                     {links.map((link, index) => (
                         <li key={link.name} className="my-6 md:my-0">
                             {link.name === "Tracks" ? (
