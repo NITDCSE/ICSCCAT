@@ -1,11 +1,12 @@
 import { rules } from "./data";
 import Fees from "./Fees";
-//import ImportantDates from "./importantDates";
+import ImportantDates from "./importantDates";
 
 export default function Submissions() {
   return (
     <>
       <div>
+      <ImportantDates />
         <div className="container mx-auto px-12 sm:px-6 py-4">
           <h2 className="text-4xl font-bold my-8 text-center sm:text-left">Submission Rules</h2>
           <section>
@@ -21,7 +22,6 @@ export default function Submissions() {
           </section>
         </div>
         <Fees />
-        <ImportantDates />
       </div>
     </>
   );

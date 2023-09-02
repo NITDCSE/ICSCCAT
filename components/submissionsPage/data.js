@@ -1,7 +1,6 @@
 export const dates = [
     {
         category : "Full paper Submission Deadline",
-        previousDate:"October 30th , 2023",
         date :"October 31st , 2023"
     },
     {
