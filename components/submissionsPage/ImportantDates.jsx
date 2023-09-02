@@ -7,12 +7,12 @@ export default function ImportantDates() {
         <h3 className="text-2xl font-bold text-center md:text-left py-12">
           Important Dates
         </h3>
-        <ol className="items-center sm:flex">
+        <ol className="items-start sm:flex">
           {dates.map(function (date, idx) {
             return (
               <li key={idx} className="relative mb-6 sm:mb-0">
                 <div className="flex items-center">
-                  <div className="z-10 flex items-center justify-center w-6 h-6 bg-primary05 rounded-full ring-0 ring-primary05 sm:ring-8 shrink-0">
+                  <div className="z-10 flex items-center justify-center w-6 h-6 bg-primary20 rounded-full ring-0 ring-white sm:ring-8 shrink-0">
                     <svg
                       aria-hidden="true"
                       className="w-3 h-3 text-primaryRegular"
@@ -34,7 +34,7 @@ export default function ImportantDates() {
                   <h3 className="text-lg font-semibold text-gray-900">
                     {date.category}
                   </h3>
-                  <div className="flex space-x-2">
+                  <div className="flex gap-x-2 flex-wrap ">
                     {date.previousDate && (
                       <time className="block mb-2 text-sm leading-none text-primaryRegular font-bold line-through">
                         {date.previousDate}
