@@ -76,11 +76,10 @@ function TrackSubMenu() {
     ];
     return (
         <div className="container mx-auto px-6 py-2">
-            <div className="flex space-x-6 items-center justify-between">
-                <h3 className="font-bold text-3xl tracking-wider text-center align-middle">Tracks</h3>
-                <ul className="md:flex md:items-center md:justify-between">
+            <div className="flex flex-col items-center">
+                <ul className="mt-4">
                     {trackOptions.map((track, index) => (
-                        <li key={track.name} className="my-6 md:my-0">
+                        <li key={track.name} className="my-2">
                             <Link
                                 className="font-bold uppercase text-md font-medium hover:text-primary20"
                                 href={track.link}
