@@ -118,45 +118,45 @@ export const advisoryCommittee = [
                 photo: profile
             },
             {
-                name: 'Prof. Manoj Mishra',
+                name: 'Prof. Binod Kumar Kanaujia',
+                designation: 'Director (Prof.)',
+                affiliation: { line1: 'NIT Jalandhar', line2: '' },
+                photo: profile
+            },
+            {
+                name: 'T. V. Vijay Kumar',
+                designation: 'Professor',
+                affiliation: { line1: 'JNU Delhi', line2: '' },
+                photo: profile
+            },
+            {
+                name: 'Prof. B. K. Singh',
                 designation: 'Professor',
                 affiliation: { line1: 'IIT, Roorkee', line2: '' },
                 photo: profile
             },
             {
-                name: 'Prof. Manoj Mishra',
-                designation: 'Professor',
-                affiliation: { line1: 'IIT, Roorkee', line2: '' },
+                name: 'Prof. Pramod Kumar Jain',
+                designation: 'Director',
+                affiliation: { line1: 'IIT(BHU) Varanasi', line2: '' },
                 photo: profile
             },
             {
-                name: 'Prof. Manoj Mishra',
+                name: 'Prof. Kolin Poul',
                 designation: 'Professor',
-                affiliation: { line1: 'IIT, Roorkee', line2: '' },
+                affiliation: { line1: 'IIT, Delhi', line2: '' },
                 photo: profile
             },
             {
-                name: 'Prof. Manoj Mishra',
+                name: 'Prof. Balaraman Ravindran',
                 designation: 'Professor',
-                affiliation: { line1: 'IIT, Roorkee', line2: '' },
+                affiliation: { line1: 'IIT, Madras', line2: '' },
                 photo: profile
             },
             {
-                name: 'Prof. Manoj Mishra',
+                name: 'Prof. Somenath Biswas',
                 designation: 'Professor',
-                affiliation: { line1: 'IIT, Roorkee', line2: '' },
-                photo: profile
-            },
-            {
-                name: 'Prof. Manoj Mishra',
-                designation: 'Professor',
-                affiliation: { line1: 'IIT, Roorkee', line2: '' },
-                photo: profile
-            },
-            {
-                name: 'Prof. Manoj Mishra',
-                designation: 'Professor',
-                affiliation: { line1: 'IIT, Roorkee', line2: '' },
+                affiliation: { line1: 'IIT, Kanpur', line2: '' },
                 photo: profile
             },
             {
