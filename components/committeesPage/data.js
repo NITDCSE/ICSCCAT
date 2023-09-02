@@ -254,13 +254,7 @@ export const advisoryCommittee = [
                 designation: 'Professor',
                 affiliation: { line1: 'IIT, Roorkee', line2: '' },
                 photo: profile
-            },
-            {
-                name: 'Prof. Manoj Mishra',
-                designation: 'Professor',
-                affiliation: { line1: 'IIT, Roorkee', line2: '' },
-                photo: profile
-            },
+            }
         ]
     }
 ]
