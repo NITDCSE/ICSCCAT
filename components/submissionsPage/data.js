@@ -32,3 +32,51 @@ export const rules = [
     "All the paper submission will be done on EDAS conference management software.",
     "Reviewer assignment will be made using EDAS."
 ]
+
+export const fees = [
+    {
+        category : "Researcher",
+        allowance : [
+            {
+                category:"IEEE",
+                national: "7000",
+                international:"300"
+            },
+            {
+                category:"Non - IEEE",
+                national: "7000",
+                international:"300"
+            }
+        ]
+    },
+    {
+        category : "Student",
+        allowance : [
+            {
+                category:"IEEE",
+                national: "5000",
+                international:"200"
+            },
+            {
+                category:"Non - IEEE",
+                national: "7200",
+                international:"250"
+            }
+        ]
+    },
+    {
+        category : "Attendees",
+        allowance : [
+            {
+                category:"IEEE",
+                national: "2500",
+                international:"100"
+            },
+            {
+                category:"Non - IEEE",
+                national: "3500",
+                international:"150"
+            }
+        ]
+    }
+]
