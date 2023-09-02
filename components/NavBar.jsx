@@ -10,35 +10,89 @@ import {useState} from "react"
 
 export default function NavBar() {
     const [open, setOpen] = useState(false)
+    const [showTracks, setShowTracks] = useState(false); // State for the "Tracks" sub-menu
+
+    const toggleTracksMenu = () => {
+        setShowTracks(!showTracks);
+    };
 
     return (<>
         <ConferenceHeader setOpen={setOpen} open={open}/>
-        <NavRibbon open={open}/>
+        <NavRibbon open={open} toggleTracksMenu={toggleTracksMenu}/>
+        {showTracks && <TrackSubMenu />} {/* Render the sub-menu if showTracks is true */}
+
     </>)
 }
 
-function NavRibbon({open}) {
+function NavRibbon({ open, toggleTracksMenu }) {
     const links = [
         {name: "Home", link: "#"},
         {name: "About", link: "/about"},
         {name: "Submissions", link: "#"},
+        {name: "Tracks", link: "#"},
         {name: "Speakers", link: "/speakers"},
         {name: "Committees", link: "/committees"},
         {name: "Registration", link: "/registration"},
         
-    ]
+    ];
 
-    return (<nav className={`${open ? 'block' : 'hidden'} md:block bg-primaryDark text-white sticky top-8 z-50`}>
-        <div
-            className="container bg-primaryDark absolute md:static mx-auto py-1.5 px-6 left-0 w-full md:w-auto mx-auto">
-            <ul className="md:flex md:items-center md:justify-between">
-                {links.map((link, index) => (<li key={link.name} className="my-6 md:my-0">
-                    <Link className="font-bold uppercase text-md font-medium hover:text-primary20"
-                          href={link.link}>{link.name}</Link>
-                </li>))}
-            </ul>
+    return (
+        <nav className={`${open ? 'block' : 'hidden'} md:block bg-primaryDark text-white sticky top-8 z-50`}>
+            <div className="container bg-primaryDark absolute md:static mx-auto py-1.5 px-6 left-0 w-full md:w-auto mx-auto">
+                <ul className="md:flex md:items-center md:justify-between">
+                    {links.map((link, index) => (
+                        <li key={link.name} className="my-6 md:my-0">
+                            {link.name === "Tracks" ? (
+                                <button
+                                    className="font-bold uppercase text-md font-medium hover:text-primary20"
+                                    onClick={toggleTracksMenu} // Toggle the "Tracks" sub-menu
+                                >
+                                    {link.name}
+                                </button>
+                            ) : (
+                                <Link
+                                    className="font-bold uppercase text-md font-medium hover:text-primary20"
+                                    href={link.link}
+                                >
+                                    {link.name}
+                                </Link>
+                            )}
+                        </li>
+                    ))}
+                </ul>
+            </div>
+        </nav>
+    );
+}
+
+function TrackSubMenu() {
+    const trackOptions = [
+        { name: "DATA ANALYTICS AND MINING", link: "#" },
+        { name: "CRYPTOGRAPHY, CYBER SECURITY AND NETWORK SECURITY", link: "#" },
+        { name: "CLOUD COMPUTING AND IOT", link: "#" },
+        { name: "ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING", link: "#" },
+        { name: "HEALTHCARE 4.0", link: "#" },
+
+    ];
+    return (
+        <div className="container mx-auto px-6 py-2">
+            <div className="flex space-x-6 items-center justify-between">
+                <h3 className="font-bold text-3xl tracking-wider text-center align-middle">Tracks</h3>
+                <ul className="md:flex md:items-center md:justify-between">
+                    {trackOptions.map((track, index) => (
+                        <li key={track.name} className="my-6 md:my-0">
+                            <Link
+                                className="font-bold uppercase text-md font-medium hover:text-primary20"
+                                href={track.link}
+                            >
+                                {track.name}
+                            </Link>
+                        </li>
+                    ))}
+                </ul>
+            </div>
         </div>
-    </nav>)
+    );
 }
 
 function ConferenceHeader({open, setOpen}) {
