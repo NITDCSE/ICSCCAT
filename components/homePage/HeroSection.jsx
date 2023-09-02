@@ -47,7 +47,7 @@ export default function HeroSection() {
         </div>
       </section>
       {/* Venue Address Card */}
-      <a
+      {/* <a
         className="flex px-8 md:px-32 lg:px-64 flex-col w-full justify-between space-y-8 space-x-0 absolute left-0 sm:space-y-0 sm:space-x-12 -bottom-48 md:-bottom-14 sm:flex-row"
         href="/contact"
       >
@@ -62,7 +62,7 @@ export default function HeroSection() {
             Plot No. FA7, Zone, P1, GT Karnal Road, Delhi, 110036
           </p>
         </div>
-      </a>
+      </a> */}
     </>
   );
 }
