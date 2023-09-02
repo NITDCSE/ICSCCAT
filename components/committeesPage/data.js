@@ -540,3 +540,235 @@ export const technicalCommitee = [
     }
 ]
 
+export const financeCommittee = [
+    {
+        type: 'COORDINATORS',
+        members : [
+            {
+                name: 'Prof. Yogesh Singh',
+                designation: 'Vice Chancellor',
+                affiliation: { line1: 'University of Delhi', line2: '' },
+                photo: profile
+            },
+            {
+                name: 'Prof. Yogesh Singh',
+                designation: 'Vice Chancellor',
+                affiliation: { line1: 'University of Delhi', line2: '' },
+                photo: profile
+            }
+        ]
+    },
+    {
+        type: 'CO-COORDINATORS',
+        members : [
+            {
+                name: 'Prof. Yogesh Singh',
+                designation: 'Vice Chancellor',
+                affiliation: { line1: 'University of Delhi', line2: '' },
+                photo: profile
+            }
+        ]
+    }
+]
+
+export const organizingCommittee =  [
+    {
+        type: 'main',
+        members : [
+            {
+                name: 'Prof. Yogesh Singh',
+                designation: 'Vice Chancellor',
+                affiliation: { line1: 'University of Delhi', line2: '' },
+                photo: profile
+            },
+            {
+                name: 'Prof. Yogesh Singh',
+                designation: 'Vice Chancellor',
+                affiliation: { line1: 'University of Delhi', line2: '' },
+                photo: profile
+            },
+            {
+                name: 'Prof. Yogesh Singh',
+                designation: 'Vice Chancellor',
+                affiliation: { line1: 'University of Delhi', line2: '' },
+                photo: profile
+            },
+            {
+                name: 'Prof. Yogesh Singh',
+                designation: 'Vice Chancellor',
+                affiliation: { line1: 'University of Delhi', line2: '' },
+                photo: profile
+            },
+            {
+                name: 'Prof. Yogesh Singh',
+                designation: 'Vice Chancellor',
+                affiliation: { line1: 'University of Delhi', line2: '' },
+                photo: profile
+            },
+            {
+                name: 'Prof. Yogesh Singh',
+                designation: 'Vice Chancellor',
+                affiliation: { line1: 'University of Delhi', line2: '' },
+                photo: profile
+            },
+            {
+                name: 'Prof. Yogesh Singh',
+                designation: 'Vice Chancellor',
+                affiliation: { line1: 'University of Delhi', line2: '' },
+                photo: profile
+            },
+            {
+                name: 'Prof. Yogesh Singh',
+                designation: 'Vice Chancellor',
+                affiliation: { line1: 'University of Delhi', line2: '' },
+                photo: profile
+            },
+            {
+                name: 'Prof. Yogesh Singh',
+                designation: 'Vice Chancellor',
+                affiliation: { line1: 'University of Delhi', line2: '' },
+                photo: profile
+            },
+            {
+                name: 'Prof. Yogesh Singh',
+                designation: 'Vice Chancellor',
+                affiliation: { line1: 'University of Delhi', line2: '' },
+                photo: profile
+            }
+        ]
+    },
+    {
+        type: 'CO-COORDINATORS',
+        members : [
+            {
+                name: 'Prof. Yogesh Singh',
+                designation: 'Vice Chancellor',
+                affiliation: { line1: 'University of Delhi', line2: '' },
+                photo: profile
+            },
+            {
+                name: 'Prof. Yogesh Singh',
+                designation: 'Vice Chancellor',
+                affiliation: { line1: 'University of Delhi', line2: '' },
+                photo: profile
+            }
+        ]
+    }
+]
+
+export const publicationCommittee = [
+    {
+        type: 'COORDINATORS',
+        members : [
+            {
+                name: 'Prof. Yogesh Singh',
+                designation: 'Vice Chancellor',
+                affiliation: { line1: 'University of Delhi', line2: '' },
+                photo: profile
+            }
+        ]
+    },
+    {
+        type: 'CO-COORDINATORS',
+        members : [
+            {
+                name: 'Prof. Yogesh Singh',
+                designation: 'Vice Chancellor',
+                affiliation: { line1: 'University of Delhi', line2: '' },
+                photo: profile
+            },
+            {
+                name: 'Prof. Yogesh Singh',
+                designation: 'Vice Chancellor',
+                affiliation: { line1: 'University of Delhi', line2: '' },
+                photo: profile
+            },
+            {
+                name: 'Prof. Yogesh Singh',
+                designation: 'Vice Chancellor',
+                affiliation: { line1: 'University of Delhi', line2: '' },
+                photo: profile
+            }
+        ]
+    }
+]
+export const publicityCommittee = [
+    {
+        type: 'COORDINATORS',
+        members : [
+            {
+                name: 'Prof. Yogesh Singh',
+                designation: 'Vice Chancellor',
+                affiliation: { line1: 'University of Delhi', line2: '' },
+                photo: profile
+            }
+        ]
+    },
+    {
+        type: 'CO-COORDINATORS',
+        members : [
+            {
+                name: 'Prof. Yogesh Singh',
+                designation: 'Vice Chancellor',
+                affiliation: { line1: 'University of Delhi', line2: '' },
+                photo: profile
+            },
+            {
+                name: 'Prof. Yogesh Singh',
+                designation: 'Vice Chancellor',
+                affiliation: { line1: 'University of Delhi', line2: '' },
+                photo: profile
+            }
+        ]
+    }
+]
+
+export const hospitalityCommittee = [
+    {
+        type: 'COORDINATORS',
+        members : [
+            {
+                name: 'Prof. Yogesh Singh',
+                designation: 'Vice Chancellor',
+                affiliation: { line1: 'University of Delhi', line2: '' },
+                photo: profile
+            }
+        ]
+    },
+    {
+        type: 'CO-COORDINATORS',
+        members : [
+            {
+                name: 'Prof. Yogesh Singh',
+                designation: 'Vice Chancellor',
+                affiliation: { line1: 'University of Delhi', line2: '' },
+                photo: profile
+            }
+        ]
+    }
+]
+export const transportationCommittee = [
+    {
+        type: 'COORDINATORS',
+        members : [
+            {
+                name: 'Prof. Yogesh Singh',
+                designation: 'Vice Chancellor',
+                affiliation: { line1: 'University of Delhi', line2: '' },
+                photo: profile
+            }
+        ]
+    },
+    {
+        type: 'CO-COORDINATORS',
+        members : [
+            {
+                name: 'Prof. Yogesh Singh',
+                designation: 'Vice Chancellor',
+                affiliation: { line1: 'University of Delhi', line2: '' },
+                photo: profile
+            }
+        ]
+    }
+]
+
