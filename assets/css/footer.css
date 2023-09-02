@@ -46,3 +46,7 @@
         row-gap:20px;
     }
 }
+.social-media-handle a{
+    display: flex;
+    column-gap: 10px;
+}
