@@ -1,3 +1,10 @@
+# <img src="https://cdn-icons-png.flaticon.com/512/2387/2387635.png" width="64">
+- Remove registration link from NavBar, (make href blank)
+- Add photos of committee members.
+
+
+## Intro
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 Use the following command first
