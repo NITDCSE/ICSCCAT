@@ -196,9 +196,9 @@ export const advisoryCommittee = [
                 photo: profile
             },
             {
-                name: 'Prof. Manoj Mishra',
-                designation: 'Professor',
-                affiliation: { line1: 'IIT, Roorkee', line2: '' },
+                name: 'Dr. Maheshkumar H. Kolekar',
+                designation: 'Associate Professor',
+                affiliation: { line1: 'IIT, Patna', line2: '' },
                 photo: profile
             },
             {
