@@ -1,7 +1,6 @@
 import nitdAdmin from '@/public/nitd_admin.jpg'
 import nitdAcad from '@/public/nitd_acad.jpg'
-import du from '@/public/du.jpg'
-import ssdu from '@/public/Swami Shraddhanand College 1.jpg'
+
 
 export const aboutColleges = {
     nitd: {
