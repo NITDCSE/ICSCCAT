@@ -16,12 +16,14 @@ export default function NavBar() {
         setShowTracks(!showTracks);
     };
 
-    return (<>
+    return (
+    <>
         <ConferenceHeader setOpen={setOpen} open={open}/>
         <NavRibbon open={open} toggleTracksMenu={toggleTracksMenu}/>
         {showTracks && <TrackSubMenu />} {/* Render the sub-menu if showTracks is true */}
 
-    </>)
+    </>
+    )
 }
 
 function NavRibbon({ open, toggleTracksMenu }) {
@@ -33,6 +35,7 @@ function NavRibbon({ open, toggleTracksMenu }) {
         {name: "Speakers", link: "/speakers"},
         {name: "Committees", link: "/committees"},
         {name: "Registration", link: "/registration"},
+       // {name: "Contact Us", link: "/contact"},
         
     ];
 

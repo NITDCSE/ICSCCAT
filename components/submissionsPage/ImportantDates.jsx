@@ -2,7 +2,7 @@ import { dates } from "./data";
 
 export default function ImportantDates() {
   return (
-    <>
+    <div>
       <div className="flex flex-col container mx-auto px-6 py-4 mb-8">
         <h3 className="text-2xl font-bold text-center md:text-left py-12">
           Important Dates
@@ -50,6 +50,6 @@ export default function ImportantDates() {
           })}
         </ol>
       </div>
-    </>
+    </div>
   );
 }
