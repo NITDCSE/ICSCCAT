@@ -180,11 +180,11 @@ export const advisoryCommittee = [
             {
                 name: 'Prof. B. B. Chaudhuri',
                 designation: 'Professor',
-                affiliation: { line1: 'NIT, Uttarakhand', line2: '' },
+                affiliation: { line1: 'Indian Statistical Institute Kolkata', line2: '' },
                 photo: profile
             },
             {
-                name: 'Prof. Manoj Mishra',
+                name: 'Prof. R. Balasubramanian',
                 designation: 'Professor',
                 affiliation: { line1: 'IIT, Roorkee', line2: '' },
                 photo: profile
