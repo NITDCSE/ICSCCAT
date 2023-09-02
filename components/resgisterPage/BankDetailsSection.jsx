@@ -1,5 +1,6 @@
-import qrcode from '@/public/payment_qrcode1024_1.png'
+//  import qrcode from '@/public/payment_qrcode1024_1.png'
 import Image from 'next/image'
+qrcode
 
 export default function BankDetailsSection() {
     return (
