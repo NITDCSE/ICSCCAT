@@ -160,9 +160,9 @@ export const advisoryCommittee = [
                 photo: profile
             },
             {
-                name: 'Prof. Manoj Mishra',
+                name: 'Prof. Rajeev Sangal',
                 designation: 'Professor',
-                affiliation: { line1: 'IIT, Roorkee', line2: '' },
+                affiliation: { line1: 'IIT, Hyderabad', line2: '' },
                 photo: profile
             },
             {
@@ -172,15 +172,15 @@ export const advisoryCommittee = [
                 photo: profile
             },
             {
-                name: 'Prof. Manoj Mishra',
-                designation: 'Professor',
+                name: 'Prof. Lalit Kumar Awasthi',
+                designation: 'Director',
                 affiliation: { line1: 'IIT, Roorkee', line2: '' },
                 photo: profile
             },
             {
-                name: 'Prof. Manoj Mishra',
+                name: 'Prof. B. B. Chaudhuri',
                 designation: 'Professor',
-                affiliation: { line1: 'IIT, Roorkee', line2: '' },
+                affiliation: { line1: 'NIT, Uttarakhand', line2: '' },
                 photo: profile
             },
             {
