@@ -190,9 +190,9 @@ export const advisoryCommittee = [
                 photo: profile
             },
             {
-                name: 'Prof. Manoj Mishra',
+                name: 'Prof. Aparajita Ojha',
                 designation: 'Professor',
-                affiliation: { line1: 'IIT, Roorkee', line2: '' },
+                affiliation: { line1: 'IIITDM, Jabalpur', line2: '' },
                 photo: profile
             },
             {
