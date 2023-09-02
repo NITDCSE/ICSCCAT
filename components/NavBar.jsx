@@ -28,7 +28,7 @@ function NavRibbon({ open, toggleTracksMenu }) {
     const links = [
         {name: "Home", link: "#"},
         {name: "About", link: "/about"},
-        {name: "Submissions", link: "#"},
+        {name: "Submissions", link: "/submissions"},
         {name: "Tracks", link: "#"},
         {name: "Speakers", link: "/speakers"},
         {name: "Committees", link: "/committees"},
