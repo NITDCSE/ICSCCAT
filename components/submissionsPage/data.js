@@ -39,13 +39,13 @@ export const fees = [
         allowance : [
             {
                 category:"IEEE",
-                national: "7000",
-                international:"300"
+                national: "₹7000",
+                international:"$300"
             },
             {
                 category:"Non - IEEE",
-                national: "7000",
-                international:"300"
+                national: "₹7000",
+                international:"$300"
             }
         ]
     },
@@ -54,13 +54,13 @@ export const fees = [
         allowance : [
             {
                 category:"IEEE",
-                national: "5000",
-                international:"200"
+                national: "₹5000",
+                international:"$200"
             },
             {
                 category:"Non - IEEE",
-                national: "7200",
-                international:"250"
+                national: "₹7200",
+                international:"$250"
             }
         ]
     },
@@ -69,13 +69,13 @@ export const fees = [
         allowance : [
             {
                 category:"IEEE",
-                national: "2500",
-                international:"100"
+                national: "₹2500",
+                international:"$100"
             },
             {
                 category:"Non - IEEE",
-                national: "3500",
-                international:"150"
+                national: "₹3500",
+                international:"$150"
             }
         ]
     }
