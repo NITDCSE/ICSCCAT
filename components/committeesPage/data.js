@@ -613,23 +613,53 @@ export const organizingCommittee =  [
                 affiliation: { line1: 'Dept of CSE, NIT Delhi', line2: '' },
                 photo: profile
             },
+            {
+                name: 'Dr. Rishav Singh',
+                designation: 'Assistant Professor',
+                affiliation: { line1: 'Dept of CSE, NIT Delhi', line2: '' },
+                photo: profile
+            },
+            {
+                name: 'Dr. Gautam Kumar',
+                designation: 'Assistant Professor',
+                affiliation: { line1: 'Dept of CSE, NIT Delhi', line2: '' },
+                photo: profile
+            },
+            {
+                name: 'Dr. Amandeep Kaur',
+                designation: 'Assistant Professor',
+                affiliation: { line1: 'Dept of CSE, NIT Delhi', line2: '' },
+                photo: profile
+            },
+            {
+                name: 'Dr. Gunjan',
+                designation: 'Assistant Professor',
+                affiliation: { line1: 'Dept of CSE, NIT Delhi', line2: '' },
+                photo: profile
+            },
+            {
+                name: 'Dr. Sahil',
+                designation: 'Assistant Professor',
+                affiliation: { line1: 'Dept of CSE, NIT Delhi', line2: '' },
+                photo: profile
+            },
         ]
     },
     {
         type: 'CO-COORDINATORS',
         members : [
             {
-                name: 'Prof. Yogesh Singh',
-                designation: 'Vice Chancellor',
-                affiliation: { line1: 'University of Delhi', line2: '' },
+                name: 'Dr. Divya Punia',
+                designation: 'Postdoctoral Researcher',
+                affiliation: { line1: 'Dept of CSE, NIT Delhi', line2: '' },
                 photo: profile
             },
             {
-                name: 'Prof. Yogesh Singh',
-                designation: 'Vice Chancellor',
-                affiliation: { line1: 'University of Delhi', line2: '' },
+                name: 'Dr. Rohini Mahajan',
+                designation: 'Postdoctoral Researcher',
+                affiliation: { line1: 'Dept of CSE, NIT Delhi', line2: '' },
                 photo: profile
-            }
+            },
         ]
     }
 ]
@@ -639,34 +669,40 @@ export const publicationCommittee = [
         type: 'COORDINATORS',
         members : [
             {
-                name: 'Prof. Yogesh Singh',
-                designation: 'Vice Chancellor',
-                affiliation: { line1: 'University of Delhi', line2: '' },
+                name: 'Dr. Anurag Singh',
+                designation: 'Assistant Professor',
+                affiliation: { line1: 'Dept of CSE, NIT Delhi', line2: '' },
                 photo: profile
-            }
+            },
+            {
+                name: 'Dr. Karan Verma',
+                designation: 'Assistant Professor',
+                affiliation: { line1: 'Dept of CSE, NIT Delhi', line2: '' },
+                photo: profile
+            },
         ]
     },
     {
         type: 'CO-COORDINATORS',
         members : [
             {
-                name: 'Prof. Yogesh Singh',
-                designation: 'Vice Chancellor',
-                affiliation: { line1: 'University of Delhi', line2: '' },
+                name: 'Dr. Chandra Prakash',
+                designation: 'Assistant Professor',
+                affiliation: { line1: 'Dept of CSE, NIT Delhi', line2: '' },
                 photo: profile
             },
             {
-                name: 'Prof. Yogesh Singh',
-                designation: 'Vice Chancellor',
-                affiliation: { line1: 'University of Delhi', line2: '' },
+                name: 'Dr. Amandeep Kaur',
+                designation: 'Assistant Professor',
+                affiliation: { line1: 'Dept of CSE, NIT Delhi', line2: '' },
                 photo: profile
             },
             {
-                name: 'Prof. Yogesh Singh',
-                designation: 'Vice Chancellor',
-                affiliation: { line1: 'University of Delhi', line2: '' },
+                name: 'Dr. Indu Joshi',
+                designation: 'Assistant Professor',
+                affiliation: { line1: 'Dept of CSE, NIT Delhi', line2: '' },
                 photo: profile
-            }
+            },
         ]
     }
 ]
