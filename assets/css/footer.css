@@ -40,7 +40,7 @@
     text-decoration: underline;
 }
 
-@media screen and (max-width:800px){
+@media screen and (max-width:1200px){
     .footer_content{
         flex-direction: column;
         row-gap:20px;
