@@ -4,7 +4,7 @@ import ConferenceObjectives from "@/components/homePage/ConferenceObjectives";
 import ConferenceTracks from "@/components/homePage/ConferenceTracks";
 import AboutColleges from "@/components/homePage/AboutColleges";
 import Registerbuttonbottom from "@/components/homePage/registerbuttonbottom";
-import Registerbuttonbottom from "@/components/sponsorspage/sponsors";
+import SponsorsSection from "@/components/sponsorspage/sponsors";
 
 export default function Home() {
     return (
