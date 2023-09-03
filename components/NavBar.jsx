@@ -31,7 +31,7 @@ function NavRibbon({ open, toggleTracksMenu }) {
         {name: "Home", link: "#"},
         {name: "About", link: "/about"},
         {name: "Submissions", link: "/submissions"},
-        {name: "Tracks", link: "#"},
+        {name: "Tracks", link: "#themes"},
         {name: "Speakers", link: "/speakers"},
         {name: "Committees", link: "/committees"},
         {name: "Registration", link: "#"},
