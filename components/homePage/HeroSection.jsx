@@ -2,7 +2,8 @@ import Link from "next/link";
 import Image from "next/image";
 import CountdownTimer from "./CountdownTimer";
 import bg from "@/public/hero-bg.jpg";
-import icsccatLogo from "@/public/iccssat-logo.png";
+import icsccatLogo from "@/public/icsccat.png";
+import icsccatLogotransparent from "@/public/icsccatlogo.png";
 import styles from './AddressCard.module.css';
 import './CountdownTimer.css';
 export default function HeroSection() {
@@ -23,7 +24,7 @@ export default function HeroSection() {
             <div className="flex flex-col items-center mb-2">
               <Image
                 className="w-32 md:w-64 mb-4 p-4 rounded-lg shadow-md flex items-center object-contain"
-                src={icsccatLogo}
+                src={icsccatLogotransparent}
                 width={256}
                 quality={100}
                 priority
