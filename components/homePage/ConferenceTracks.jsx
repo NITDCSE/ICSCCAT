@@ -1,26 +1,32 @@
 import data_analytics from "@/public/Data-analytics.jpg";
-
+import Image from "next/image";
+ 
 export default function ConferenceTracks() {
   const themes = [
     {
       name: "DATA ANALYTICS AND MINING",
       imageUrl: data_analytics,
+      link: "sajal",
     },
     {
       name: "CRYPTOGRAPHY, CYBER SECURITY AND NETWORK SECURITY",
       imageUrl: data_analytics,
+      link: "crypto",
     },
     {
       name: "CLOUD COMPUTING AND IOT",
       imageUrl: data_analytics,
+      link: "sajal",
     },
     {
       name: "ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING",
       imageUrl: data_analytics,
+     link: "artificial_intelligence",
     },
     {
       name: "HEALTHCARE 4.0",
       imageUrl: data_analytics,
+      link: "sajal",
     },
   ];
 
@@ -33,6 +39,7 @@ export default function ConferenceTracks() {
             return (
               <div
                 key={index}
+                href={theme.link}
                 className="bg-gray-200 p-4 rounded-lg shadow-md flex items-center hover:shadow-lg hover:bg-gray-400 transition duration-300 ease-in-out"
               >
                 <div className="w-1/2 pr-4">

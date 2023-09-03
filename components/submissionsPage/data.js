@@ -43,8 +43,8 @@ export const fees = [
             },
             {
                 category:"Non - IEEE",
-                national: "₹7000",
-                international:"$300"
+                national: "₹8400",
+                international:"$350"
             }
         ]
     },
