@@ -75,7 +75,7 @@ function TrackSubMenu() {
 
     ];
     return (
-        <div className="container mx-auto px-6 py-2">
+        <div className="container mx-auto px-6 py-2 w-96 static absolute bg-white z-50 left-1/2 transform -translate-x-1/2">
             <div className="flex flex-col items-center">
                 <ul className="mt-4">
                     {trackOptions.map((track, index) => (
