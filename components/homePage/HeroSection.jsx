@@ -2,12 +2,12 @@ import Link from "next/link";
 import Image from "next/image";
 import bg from "@/public/hero-bg.jpg";
 import icsccatLogo from "@/public/iccssat-logo.png";
-
+import styles from './AddressCard.module.css';
 export default function HeroSection() {
   return (
     <>
       <section
-        className="bg-no-repeat bg-cover"
+        className="bg-no-repeat bg-cover relative"
         id="hero"
         style={{
           backgroundImage: `linear-gradient(to bottom, rgba(233, 233, 245, 0.7), rgba(233, 233, 245, 0.8)), url(${bg.src})`,
@@ -17,7 +17,7 @@ export default function HeroSection() {
           <div className="flex flex-col mb-32 mx-auto items-center">
             <div className="flex flex-col items-center">
               <Image
-                className="w-32 md:w-64 object-contain"
+                className="w-32 md:w-64 pb-10 p-4 rounded-lg shadow-md flex items-center object-contain"
                 src={icsccatLogo}
                 width={256}
                 quality={100}
@@ -40,29 +40,22 @@ export default function HeroSection() {
             </div>
             <div className="flex pt-8 justify-center">
               {/* <Link href="/register"
-                  className="p-3 pt-3 text-xl uppercase text-primary05 bg-gray-400 rounded-full baseline md:block px-6 disabled">Registeration Closed
+                  className="p-3 pt-3 text-xl uppercase text-primary05 bg-gray-400 rounded-full baseline md:block px-6 disabled">Registration Closed
               </Link> */}
             </div>
           </div>
         </div>
+          <div className={styles.addressCard}>
+            <h2 className={styles.addressTitle}>Venue</h2>
+            <div className={styles.addressDetails}>
+              <p className={styles.addressText}>
+                Auditorium, Administrative Block <br />
+                National Institute of Technology Delhi <br />
+                Plot No. FA7, Zone, P1, GT Karnal Road, Delhi, 110036
+              </p>
+            </div>
+          </div>
       </section>
-      {/* Venue Address Card */}
-      <a
-        className="flex px-8 md:px-32 lg:px-64 flex-col w-full justify-between space-y-8 space-x-0 absolute left-0 sm:space-y-0 sm:space-x-12 -bottom-48 md:-bottom-14 sm:flex-row"
-        href="/contact"
-      >
-        <div className="block flex-1 p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100">
-          <h5 className="mb-2 text-2xl text-center font-bold tracking-tight text-gray-900">
-            Venue
-          </h5>
-          <p className="font-normal text-lg text-center text-gray-700">
-            Auditorium, Administrative Block <br />
-            National Institute of Technology Delhi
-            <br />
-            Plot No. FA7, Zone, P1, GT Karnal Road, Delhi, 110036
-          </p>
-        </div>
-      </a>
     </>
   );
 }
