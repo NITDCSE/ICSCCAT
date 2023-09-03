@@ -32,8 +32,8 @@ export const advisoryCommittee = [
                 photo: profile
             },
             {
-                name: 'Prof. Isao Echizen Director',
-                affiliation: { line1: 'National Institute Of Informatics, Tokyo, Japan', line2: '' },
+                name: 'Prof. Isao Echizen',
+                affiliation: { line1: 'Director, National Institute Of Informatics, Tokyo, Japan', line2: '' },
                 photo: profile
             },
             {
@@ -111,16 +111,6 @@ export const advisoryCommittee = [
                 name: 'Prof. (Dr.) Habil',
                 designation:'Levente Adalbert Kovács',
                 affiliation: { line1: 'Óbuda University, Budapest, Hungary', line2: '' },
-                photo: profile
-            },
-            {
-                name: 'Prof. Leandro Melo de Sale',
-                affiliation: { line1: 'Institute of Computing (IC)', line2: 'Federal University of Alagoas (UFAL), Brazil' },
-                photo: profile
-            },
-            {
-                name: 'Prof. ramin.yahyapour',
-                affiliation: { line1: 'GWDG - Gesellschaft für wissenschaftliche', line2: 'Datenverarbeitung mbHGeorg-August-Universität Göttingen' },
                 photo: profile
             },
         ]
@@ -674,17 +664,17 @@ export const publicationCommittee = [
                 affiliation: { line1: 'Dept of CSE, NIT Delhi', line2: '' },
                 photo: profile
             },
+        ]
+    },
+    {
+        type: 'CO-COORDINATORS',
+        members : [
             {
                 name: 'Dr. Karan Verma',
                 designation: 'Assistant Professor',
                 affiliation: { line1: 'Dept of CSE, NIT Delhi', line2: '' },
                 photo: profile
             },
-        ]
-    },
-    {
-        type: 'CO-COORDINATORS',
-        members : [
             {
                 name: 'Dr. Chandra Prakash',
                 designation: 'Assistant Professor',
@@ -711,9 +701,9 @@ export const publicityCommittee = [
         type: 'COORDINATORS',
         members : [
             {
-                name: 'Prof. Yogesh Singh',
-                designation: 'Vice Chancellor',
-                affiliation: { line1: 'University of Delhi', line2: '' },
+                name: 'Prof. Shelly Sachdeva',
+                designation: 'Associate Professor',
+                affiliation: { line1: 'Dept of CSE, NIT Delhi', line2: '' },
                 photo: profile
             }
         ]
@@ -722,17 +712,23 @@ export const publicityCommittee = [
         type: 'CO-COORDINATORS',
         members : [
             {
-                name: 'Prof. Yogesh Singh',
-                designation: 'Vice Chancellor',
-                affiliation: { line1: 'University of Delhi', line2: '' },
+                name: 'Dr. Rishav Singh',
+                designation: 'Assistant Professor',
+                affiliation: { line1: 'Dept of CSE, NIT Delhi', line2: '' },
                 photo: profile
             },
             {
-                name: 'Prof. Yogesh Singh',
-                designation: 'Vice Chancellor',
-                affiliation: { line1: 'University of Delhi', line2: '' },
+                name: 'Dr. Sahil',
+                designation: 'Assistant Professor',
+                affiliation: { line1: 'Dept of CSE, NIT Delhi', line2: '' },
                 photo: profile
-            }
+            },
+            {
+                name: 'Dr. Indu Joshi',
+                designation: 'Assistant Professor',
+                affiliation: { line1: 'Dept of CSE, NIT Delhi', line2: '' },
+                photo: profile
+            },
         ]
     }
 ]
@@ -742,22 +738,22 @@ export const hospitalityCommittee = [
         type: 'COORDINATORS',
         members : [
             {
-                name: 'Prof. Yogesh Singh',
-                designation: 'Vice Chancellor',
-                affiliation: { line1: 'University of Delhi', line2: '' },
+                name: 'Dr. Karan Verma',
+                designation: 'Assistant Professor',
+                affiliation: { line1: 'Dept of CSE, NIT Delhi', line2: '' },
                 photo: profile
-            }
+            },
         ]
     },
     {
         type: 'CO-COORDINATORS',
         members : [
             {
-                name: 'Prof. Yogesh Singh',
-                designation: 'Vice Chancellor',
-                affiliation: { line1: 'University of Delhi', line2: '' },
+                name: 'Dr. Indu Joshi',
+                designation: 'Assistant Professor',
+                affiliation: { line1: 'Dept of CSE, NIT Delhi', line2: '' },
                 photo: profile
-            }
+            },
         ]
     }
 ]
@@ -766,9 +762,9 @@ export const transportationCommittee = [
         type: 'COORDINATORS',
         members : [
             {
-                name: 'Prof. Yogesh Singh',
-                designation: 'Vice Chancellor',
-                affiliation: { line1: 'University of Delhi', line2: '' },
+                name: 'Prof. Rishav Singh',
+                designation: 'Assistant Professor',
+                affiliation: { line1: 'Dept of CSE, NIT Delhi', line2: '' },
                 photo: profile
             }
         ]
@@ -777,9 +773,9 @@ export const transportationCommittee = [
         type: 'CO-COORDINATORS',
         members : [
             {
-                name: 'Prof. Yogesh Singh',
-                designation: 'Vice Chancellor',
-                affiliation: { line1: 'University of Delhi', line2: '' },
+                name: 'Prof. Indu Joshi',
+                designation: 'Assistant Professor',
+                affiliation: { line1: 'Dept of CSE, NIT Delhi', line2: '' },
                 photo: profile
             }
         ]
