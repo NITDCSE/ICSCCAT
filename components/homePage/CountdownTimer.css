@@ -1,0 +1,52 @@
+/* Countdown Timer Styles */
+
+.show-counter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem;
+  }
+  
+  .show-counter .countdown-link {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    padding: 0.5rem;
+    border: 1px solid #ebebeb;
+    border-radius: 0.25rem;
+    text-decoration: none;
+    color: #000;
+  }
+  
+  .show-counter .countdown {
+    display: flex;
+    align-items: center;
+    gap: 1rem; /* Increase the gap between digits */
+  }
+  
+  .show-counter .countdown .digit-container {
+    background-color: black;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 0.2rem 0.5rem;
+    border-radius: 0.25rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .show-counter .countdown .digit {
+    margin: 0.1rem 0; /* Adjust the margin between digits */
+    font-size: 2rem; /* Increase the font size of digits */
+  }
+  
+  .show-counter .countdown-label {
+    font-size: 1.25rem; /* Adjust the font size of labels */
+    margin: 0 0.1rem; /* Adjust the margin between labels */
+  }
+  

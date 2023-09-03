@@ -1,9 +1,14 @@
 import Link from "next/link";
 import Image from "next/image";
+import CountdownTimer from "./CountdownTimer";
 import bg from "@/public/hero-bg.jpg";
 import icsccatLogo from "@/public/iccssat-logo.png";
 import styles from './AddressCard.module.css';
+import './CountdownTimer.css';
 export default function HeroSection() {
+  const THREE_DAYS_IN_MS = 236* 24 * 60 * 60 * 1000;
+  const NOW_IN_MS = new Date().getTime();
+  const dateTimeAfterThreeDays = NOW_IN_MS + THREE_DAYS_IN_MS;
   return (
     <>
       <section
@@ -14,8 +19,8 @@ export default function HeroSection() {
         }}
       >
         <div className="container relative flex flex-col-reverse md:flex-row justify-center items-start px-6 mx-auto pt-12 space-y-0 md:justify-start">
-          <div className="flex flex-col mb-32 mx-auto items-center">
-            <div className="flex flex-col items-center">
+          <div className="flex flex-col mb-20 mx-auto items-center">
+            <div className="flex flex-col items-center mb-2">
               <Image
                 className="w-32 md:w-64 mb-4 p-4 rounded-lg shadow-md flex items-center object-contain"
                 src={icsccatLogo}
@@ -33,10 +38,16 @@ export default function HeroSection() {
                 <h1 className="text-center font-bold text-4xl text-black md:text-5xl my-4">
                   "Secure Cyber Computing & Advanced Technologies"
                 </h1>
-                <p className="text-center text-lg text-black md:text-2xl mt-4">
+                <p className="text-center text-lg text-black md:text-2xl mt-4 mb-4">
                   26<sup>th</sup> - 28<sup>th</sup> April, 2024
                 </p>
+                <p className="text-2xl text-center md:text-3xl">
+                    Coming Soon
+                </p>
               </div>
+            </div>
+            <div className="flex pt-8 justify-center">
+                <CountdownTimer targetDate={dateTimeAfterThreeDays} /> {/* Use the CountdownTimer component here */}
             </div>
             <div className="flex pt-8 justify-center">
               {/* <Link href="/register"
