@@ -118,9 +118,99 @@ export const advisoryCommittee = [
                 photo: profile
             },
             {
+                name: 'Prof. Binod Kumar Kanaujia',
+                designation: 'Director (Prof.)',
+                affiliation: { line1: 'NIT Jalandhar', line2: '' },
+                photo: profile
+            },
+            {
+                name: 'T. V. Vijay Kumar',
+                designation: 'Professor',
+                affiliation: { line1: 'JNU Delhi', line2: '' },
+                photo: profile
+            },
+            {
+                name: 'Prof. B. K. Singh',
+                designation: 'Professor',
+                affiliation: { line1: 'IIT, Roorkee', line2: '' },
+                photo: profile
+            },
+            {
+                name: 'Prof. Pramod Kumar Jain',
+                designation: 'Director',
+                affiliation: { line1: 'IIT(BHU) Varanasi', line2: '' },
+                photo: profile
+            },
+            {
+                name: 'Prof. Kolin Poul',
+                designation: 'Professor',
+                affiliation: { line1: 'IIT, Delhi', line2: '' },
+                photo: profile
+            },
+            {
+                name: 'Prof. Balaraman Ravindran',
+                designation: 'Professor',
+                affiliation: { line1: 'IIT, Madras', line2: '' },
+                photo: profile
+            },
+            {
+                name: 'Prof. Somenath Biswas',
+                designation: 'Professor',
+                affiliation: { line1: 'IIT, Kanpur', line2: '' },
+                photo: profile
+            },
+            {
+                name: 'Prof. Rajeev Sangal',
+                designation: 'Professor',
+                affiliation: { line1: 'IIT, Hyderabad', line2: '' },
+                photo: profile
+            },
+            {
                 name: 'Prof. Manoj Mishra',
                 designation: 'Professor',
                 affiliation: { line1: 'IIT, Roorkee', line2: '' },
+                photo: profile
+            },
+            {
+                name: 'Prof. Lalit Kumar Awasthi',
+                designation: 'Director',
+                affiliation: { line1: 'IIT, Roorkee', line2: '' },
+                photo: profile
+            },
+            {
+                name: 'Prof. B. B. Chaudhuri',
+                designation: 'Professor',
+                affiliation: { line1: 'Indian Statistical Institute Kolkata', line2: '' },
+                photo: profile
+            },
+            {
+                name: 'Prof. R. Balasubramanian',
+                designation: 'Professor',
+                affiliation: { line1: 'IIT, Roorkee', line2: '' },
+                photo: profile
+            },
+            {
+                name: 'Prof. Aparajita Ojha',
+                designation: 'Professor',
+                affiliation: { line1: 'IIITDM, Jabalpur', line2: '' },
+                photo: profile
+            },
+            {
+                name: 'Dr. Maheshkumar H. Kolekar',
+                designation: 'Associate Professor',
+                affiliation: { line1: 'IIT, Patna', line2: '' },
+                photo: profile
+            },
+            {
+                name: 'Prof. Ratnaiti Bhattacharya',
+                designation: 'Professor',
+                affiliation: { line1: 'IIT, Guwahati', line2: '' },
+                photo: profile
+            },
+            {
+                name: 'Prof. Devanand',
+                designation: 'Professor',
+                affiliation: { line1: 'Central University of Jammu', line2: '' },
                 photo: profile
             },
             {
@@ -164,103 +254,7 @@ export const advisoryCommittee = [
                 designation: 'Professor',
                 affiliation: { line1: 'IIT, Roorkee', line2: '' },
                 photo: profile
-            },
-            {
-                name: 'Prof. Manoj Mishra',
-                designation: 'Professor',
-                affiliation: { line1: 'IIT, Roorkee', line2: '' },
-                photo: profile
-            },
-            {
-                name: 'Prof. Manoj Mishra',
-                designation: 'Professor',
-                affiliation: { line1: 'IIT, Roorkee', line2: '' },
-                photo: profile
-            },
-            {
-                name: 'Prof. Manoj Mishra',
-                designation: 'Professor',
-                affiliation: { line1: 'IIT, Roorkee', line2: '' },
-                photo: profile
-            },
-            {
-                name: 'Prof. Manoj Mishra',
-                designation: 'Professor',
-                affiliation: { line1: 'IIT, Roorkee', line2: '' },
-                photo: profile
-            },
-            {
-                name: 'Prof. Manoj Mishra',
-                designation: 'Professor',
-                affiliation: { line1: 'IIT, Roorkee', line2: '' },
-                photo: profile
-            },
-            {
-                name: 'Prof. Manoj Mishra',
-                designation: 'Professor',
-                affiliation: { line1: 'IIT, Roorkee', line2: '' },
-                photo: profile
-            },
-            {
-                name: 'Prof. Manoj Mishra',
-                designation: 'Professor',
-                affiliation: { line1: 'IIT, Roorkee', line2: '' },
-                photo: profile
-            },
-            {
-                name: 'Prof. Manoj Mishra',
-                designation: 'Professor',
-                affiliation: { line1: 'IIT, Roorkee', line2: '' },
-                photo: profile
-            },
-            {
-                name: 'Prof. Manoj Mishra',
-                designation: 'Professor',
-                affiliation: { line1: 'IIT, Roorkee', line2: '' },
-                photo: profile
-            },
-            {
-                name: 'Prof. Manoj Mishra',
-                designation: 'Professor',
-                affiliation: { line1: 'IIT, Roorkee', line2: '' },
-                photo: profile
-            },
-            {
-                name: 'Prof. Manoj Mishra',
-                designation: 'Professor',
-                affiliation: { line1: 'IIT, Roorkee', line2: '' },
-                photo: profile
-            },
-            {
-                name: 'Prof. Manoj Mishra',
-                designation: 'Professor',
-                affiliation: { line1: 'IIT, Roorkee', line2: '' },
-                photo: profile
-            },
-            {
-                name: 'Prof. Manoj Mishra',
-                designation: 'Professor',
-                affiliation: { line1: 'IIT, Roorkee', line2: '' },
-                photo: profile
-            },
-            {
-                name: 'Prof. Manoj Mishra',
-                designation: 'Professor',
-                affiliation: { line1: 'IIT, Roorkee', line2: '' },
-                photo: profile
-            },
-            {
-                name: 'Prof. Manoj Mishra',
-                designation: 'Professor',
-                affiliation: { line1: 'IIT, Roorkee', line2: '' },
-                photo: profile
-            },
-            {
-                name: 'Prof. Manoj Mishra',
-                designation: 'Professor',
-                affiliation: { line1: 'IIT, Roorkee', line2: '' },
-                photo: profile
-            },
+            }
         ]
     }
 ]

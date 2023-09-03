@@ -1,37 +1,8 @@
-import { rules } from "./data";
 import { dates } from "./data";
 
-import Fees from "./Fees";
-//import ImportantDates from "./importantDates";
-
-export default function Submissions() {
+export default function ImportantDates() {
   return (
-    <>
-      <div>
-      <ImportantDates />
-        <div className="container mx-auto px-12 sm:px-6 py-4">
-          <h2 className="text-4xl font-bold my-8 text-center sm:text-left">Submission Rules</h2>
-          <section>
-            <ul>
-              {rules.map(function (rule, idx) {
-                return (
-                  <li className="list-disc leading-6 sm:leading-8" key={idx}>
-                    {rule}
-                  </li>
-                );
-              })}
-            </ul>
-          </section>
-        </div>
-        <Fees />
-      </div>
-    </>
-  );
-}
-
-function ImportantDates() {
-  return (
-    <>
+    <div>
       <div className="flex flex-col container mx-auto px-6 py-4 mb-8">
         <h3 className="text-2xl font-bold text-center md:text-left py-12">
           Important Dates
@@ -79,7 +50,6 @@ function ImportantDates() {
           })}
         </ol>
       </div>
-    </>
+    </div>
   );
 }
-
