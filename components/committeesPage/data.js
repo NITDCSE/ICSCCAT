@@ -58,12 +58,18 @@ export const advisoryCommittee = [
                 photo: profile
             },
             {
+                name: 'Prof. Konstantin Kozadeav',
+                affiliation: { line1: 'BSU, Minsk, Belarus', line2: '' },
+                photo: profile
+            },
+            {
                 name: 'Dr. Bharat Bhargava',
                 affiliation: { line1: 'Purdue University, USA', line2: '' },
                 photo: profile
             },
             {
-                name: 'Dr. Marcin Paprzycki, Systems Research Institute',
+                name: 'Dr. Marcin Paprzycki',
+                designation:'Systems Research Institute',
                 affiliation: { line1: 'Polish Academy of Sciences, Warsaw, POLAND', line2: '' },
                 photo: profile
             },
@@ -102,10 +108,21 @@ export const advisoryCommittee = [
                 photo: profile
             },
             {
-                name: 'Prof. (Dr.) Habil. Levente Adalbert Kovács',
+                name: 'Prof. (Dr.) Habil',
+                designation:'Levente Adalbert Kovács',
                 affiliation: { line1: 'Óbuda University, Budapest, Hungary', line2: '' },
                 photo: profile
-            }
+            },
+            {
+                name: 'Prof. Leandro Melo de Sale',
+                affiliation: { line1: 'Institute of Computing (IC)', line2: 'Federal University of Alagoas (UFAL), Brazil' },
+                photo: profile
+            },
+            {
+                name: 'Prof. ramin.yahyapour',
+                affiliation: { line1: 'GWDG - Gesellschaft für wissenschaftliche', line2: 'Datenverarbeitung mbHGeorg-August-Universität Göttingen' },
+                photo: profile
+            },
         ]
     },
     {
@@ -214,45 +231,45 @@ export const advisoryCommittee = [
                 photo: profile
             },
             {
-                name: 'Prof. Manoj Mishra',
+                name: 'Prof. B S Kaith',
                 designation: 'Professor',
-                affiliation: { line1: 'IIT, Roorkee', line2: '' },
+                affiliation: { line1: 'NIT Jalandhar', line2: '' },
                 photo: profile
             },
             {
-                name: 'Prof. Manoj Mishra',
+                name: 'Prof. Hardeep Singh',
                 designation: 'Professor',
-                affiliation: { line1: 'IIT, Roorkee', line2: '' },
+                affiliation: { line1: 'GNDU Amritsar', line2: '' },
                 photo: profile
             },
             {
-                name: 'Prof. Manoj Mishra',
+                name: 'Prof. Daya Gupta',
                 designation: 'Professor',
-                affiliation: { line1: 'IIT, Roorkee', line2: '' },
+                affiliation: { line1: 'DTU, New Delhi', line2: '' },
                 photo: profile
             },
             {
-                name: 'Prof. Manoj Mishra',
+                name: 'Dr Shailender Kumar',
                 designation: 'Professor',
-                affiliation: { line1: 'IIT, Roorkee', line2: '' },
+                affiliation: { line1: 'DTU New Delhi', line2: '' },
                 photo: profile
             },
             {
-                name: 'Prof. Manoj Mishra',
-                designation: 'Professor',
-                affiliation: { line1: 'IIT, Roorkee', line2: '' },
+                name: 'Prof. Ranjan Bose',
+                designation: 'Director',
+                affiliation: { line1: 'IIIT-Delhi', line2: '' },
                 photo: profile
             },
             {
-                name: 'Prof. Manoj Mishra',
-                designation: 'Professor',
-                affiliation: { line1: 'IIT, Roorkee', line2: '' },
+                name: 'Prof. Angshul Majumda',
+                designation: 'Professor (CSE, ECE)',
+                affiliation: { line1: 'IIIT Delhi', line2: '' },
                 photo: profile
             },
             {
-                name: 'Prof. Manoj Mishra',
-                designation: 'Professor',
-                affiliation: { line1: 'IIT, Roorkee', line2: '' },
+                name: 'Dr. Badri N. Subudhi',
+                designation: 'Assistant Professor',
+                affiliation: { line1: 'IIT jammu', line2: '' },
                 photo: profile
             }
         ]
@@ -270,27 +287,27 @@ export const steeringCommitee = [
                 photo: profile
             },
             {
-                name: 'Prof. Satish Chand',
+                name: 'Dr. Arvinder Kaur',
                 designation: 'Professor',
                 affiliation: { line1: 'School of Computer Systems Sciences, JNU Delhi', line2: '' },
                 photo: profile
             },
             {
-                name: 'Prof. Satish Chand',
+                name: 'Prof. Harsh Verma',
                 designation: 'Professor',
-                affiliation: { line1: 'School of Computer Systems Sciences, JNU Delhi', line2: '' },
+                affiliation: { line1: 'Department of CSE, NIT Jalandhar', line2: '' },
                 photo: profile
             },
             {
-                name: 'Prof. Satish Chand',
+                name: 'Prof. Manoj Kumar',
                 designation: 'Professor',
-                affiliation: { line1: 'School of Computer Systems Sciences, JNU Delhi', line2: '' },
+                affiliation: { line1: 'Department of ECE, NIT Delhi', line2: '' },
                 photo: profile
             },
             {
-                name: 'Prof. Satish Chand',
+                name: 'Dr Jyoteesh Malhotra',
                 designation: 'Professor',
-                affiliation: { line1: 'School of Computer Systems Sciences, JNU Delhi', line2: '' },
+                affiliation: { line1: 'Department of ECE, NIT Delhi', line2: '' },
                 photo: profile
             }
         ]
@@ -338,13 +355,13 @@ export const steeringCommitee = [
         type: "SECRETARY",
         members: [
             {
-                name: 'Dr. Chandra Prakash',
+                name: 'Dr. Karan Verma',
                 designation: 'Assistant Professor',
                 affiliation: { line1: 'Dept of CSE, NIT Delhi', line2: '' },
                 photo: profile
             },
             {
-                name: 'Dr. Chandra Prakash',
+                name: 'Dr. Rishav Singh',
                 designation: 'Assistant Professor',
                 affiliation: { line1: 'Dept of CSE, NIT Delhi', line2: '' },
                 photo: profile
@@ -364,15 +381,15 @@ export const technicalCommitee = [
                 photo: profile
             },
             {
-                name: 'Padma Shri Prof. Deepak B Phatak',
-                designation: 'Professor',
-                affiliation: { line1: 'IIT Bombay', line2: '' },
+                name: 'Prof. K K Aggarwa',
+                designation: 'Chairman',
+                affiliation: { line1: 'NBA', line2: '' },
                 photo: profile
             },
             {
-                name: 'Padma Shri Prof. Deepak B Phatak',
-                designation: 'Professor',
-                affiliation: { line1: 'IIT Bombay', line2: '' },
+                name: 'Prof. Manoj Singh Gaur',
+                designation: 'Director',
+                affiliation: { line1: 'IIT Jammu', line2: '' },
                 photo: profile
             }
         ]
@@ -387,149 +404,146 @@ export const technicalCommitee = [
                 photo: profile
             },
             {
-                name: 'Prof. Yogesh Singh',
-                designation: 'Vice Chancellor',
-                affiliation: { line1: 'University of Delhi', line2: '' },
+                name: 'Prof. Bijendra Kumar',
+                designation: 'Professor',
+                affiliation: { line1: 'NSUT Delhi', line2: '' },
                 photo: profile
             },
             {
-                name: 'Prof. Yogesh Singh',
-                designation: 'Vice Chancellor',
-                affiliation: { line1: 'University of Delhi', line2: '' },
+                name: 'Prof. Sunil Vadera',
+                designation: 'Professor',
+                affiliation: { line1: 'University of Salford, Manchester, UK', line2: '' },
                 photo: profile
             },
             {
-                name: 'Prof. Yogesh Singh',
-                designation: 'Vice Chancellor',
-                affiliation: { line1: 'University of Delhi', line2: '' },
+                name: 'Prof. Jasdeep Kaur Dhanoa',
+                designation: 'Professor',
+                affiliation: { line1: 'IGDTUW Delhi', line2: '' },
                 photo: profile
             },
             {
-                name: 'Prof. Yogesh Singh',
-                designation: 'Vice Chancellor',
-                affiliation: { line1: 'University of Delhi', line2: '' },
+                name: 'Prof. Seeja. K. R.',
+                designation: 'Professor',
+                affiliation: { line1: 'IGDTUW Delhi', line2: '' },
                 photo: profile
             },
             {
-                name: 'Prof. Yogesh Singh',
-                designation: 'Vice Chancellor',
-                affiliation: { line1: 'University of Delhi', line2: '' },
+                name: 'Prof. Ela Arun',
+                designation: 'Professor',
+                affiliation: { line1: 'IGDTUW Delhi', line2: '' },
                 photo: profile
             },
             {
-                name: 'Prof. Yogesh Singh',
-                designation: 'Vice Chancellor',
-                affiliation: { line1: 'University of Delhi', line2: '' },
+                name: 'Dr. Preetam Kumar',
+                affiliation: { line1: 'IIT Patna, India', line2: '' },
                 photo: profile
             },
             {
-                name: 'Prof. Yogesh Singh',
-                designation: 'Vice Chancellor',
-                affiliation: { line1: 'University of Delhi', line2: '' },
+                name: 'Dr. C. Periasamy',
+                affiliation: { line1: 'MNIT Jaipur, India', line2: '' },
                 photo: profile
             },
             {
-                name: 'Prof. Yogesh Singh',
-                designation: 'Vice Chancellor',
-                affiliation: { line1: 'University of Delhi', line2: '' },
+                name: 'Dr.Partha Pritam Roy',
+                affiliation: { line1: 'CSE, IIT Roorkee', line2: '' },
                 photo: profile
             },
             {
-                name: 'Prof. Yogesh Singh',
-                designation: 'Vice Chancellor',
-                affiliation: { line1: 'University of Delhi', line2: '' },
+                name: 'Dr. Subrahmanyam Murala',
+                affiliation: { line1: 'IIT Ropar', line2: '' },
                 photo: profile
             },
             {
-                name: 'Prof. Yogesh Singh',
-                designation: 'Vice Chancellor',
-                affiliation: { line1: 'University of Delhi', line2: '' },
+                name: 'Prof. Rama Krishna Challa',
+                designation:'Professor',
+                affiliation: { line1: 'NITTTR Chandigarh', line2: '' },
                 photo: profile
             },
             {
-                name: 'Prof. Yogesh Singh',
-                designation: 'Vice Chancellor',
-                affiliation: { line1: 'University of Delhi', line2: '' },
+                name: 'Prof. Hardeep Singh',
+                designation:'Professor',
+                affiliation: { line1: 'GNDU Amritsar', line2: '' },
                 photo: profile
             },
             {
-                name: 'Prof. Yogesh Singh',
-                designation: 'Vice Chancellor',
-                affiliation: { line1: 'University of Delhi', line2: '' },
+                name: 'Prof. Savita Gupta',
+                designation:'Professor',
+                affiliation: { line1: 'Panjab University, Chandigarh', line2: '' },
                 photo: profile
             },
             {
-                name: 'Prof. Yogesh Singh',
-                designation: 'Vice Chancellor',
-                affiliation: { line1: 'University of Delhi', line2: '' },
+                name: 'Prof. Aditya Trivedi',
+                designation:'Professor',
+                affiliation: { line1: 'IITM Gwalior', line2: '' },
                 photo: profile
             },
             {
-                name: 'Prof. Yogesh Singh',
-                designation: 'Vice Chancellor',
-                affiliation: { line1: 'University of Delhi', line2: '' },
+                name: 'Prof. Y. N. Singh',
+                designation:'Professor',
+                affiliation: { line1: 'IIT Kanpur', line2: '' },
                 photo: profile
             },
             {
-                name: 'Prof. Yogesh Singh',
-                designation: 'Vice Chancellor',
-                affiliation: { line1: 'University of Delhi', line2: '' },
+                name: 'Dr T P Sharma',
+                designation:'Associate Professor',
+                affiliation: { line1: 'NIT Hamirpur', line2: '' },
                 photo: profile
             },
             {
-                name: 'Prof. Yogesh Singh',
-                designation: 'Vice Chancellor',
-                affiliation: { line1: 'University of Delhi', line2: '' },
+                name: 'Dr Kamlesh Dutta',
+                designation:'Associate Professor',
+                affiliation: { line1: 'NIT Hamirpur', line2: '' },
                 photo: profile
             },
             {
-                name: 'Prof. Yogesh Singh',
-                designation: 'Vice Chancellor',
-                affiliation: { line1: 'University of Delhi', line2: '' },
+                name: 'Dr Roop Pahuja',
+                designation:'Associate Professor',
+                affiliation: { line1: 'NIT Jalandhar', line2: '' },
                 photo: profile
             },
             {
-                name: 'Prof. Yogesh Singh',
-                designation: 'Vice Chancellor',
-                affiliation: { line1: 'University of Delhi', line2: '' },
+                name: 'Dr S K Pahuja',
+                designation:'Associate Professor',
+                affiliation: { line1: 'NIT Jalandhar', line2: '' },
                 photo: profile
             },
             {
-                name: 'Prof. Yogesh Singh',
-                designation: 'Vice Chancellor',
-                affiliation: { line1: 'University of Delhi', line2: '' },
+                name: 'Dr Monica Sikka',
+                designation:'Associate Professor',
+                affiliation: { line1: 'NIT Jalandhar', line2: '' },
                 photo: profile
             },
             {
-                name: 'Prof. Yogesh Singh',
-                designation: 'Vice Chancellor',
-                affiliation: { line1: 'University of Delhi', line2: '' },
+                name: 'Dr. Nitai Basak',
+                designation:'Associate Professor',
+                affiliation: { line1: 'NIT Jalandhar', line2: '' },
                 photo: profile
             },
             {
-                name: 'Prof. Yogesh Singh',
-                designation: 'Vice Chancellor',
-                affiliation: { line1: 'University of Delhi', line2: '' },
+                name: 'Dr. Mamta Khosla',
+                designation:'Associate Professor',
+                affiliation: { line1: 'NIT Jalandhar', line2: '' },
                 photo: profile
             },
             {
-                name: 'Prof. Yogesh Singh',
-                designation: 'Vice Chancellor',
-                affiliation: { line1: 'University of Delhi', line2: '' },
+                name: 'Dr. Rohit Mehra',
+                designation:'Associate Professor',
+                affiliation: { line1: 'NIT Jalandhar', line2: '' },
                 photo: profile
             },
             {
-                name: 'Prof. Yogesh Singh',
-                designation: 'Vice Chancellor',
-                affiliation: { line1: 'University of Delhi', line2: '' },
+                name: 'Dr. Deepak Kumar Sharma',
+                designation:'Associate Professor',
+                affiliation: { line1: 'IGDTUW New Delhi', line2: '' },
                 photo: profile
             },
             {
-                name: 'Prof. Yogesh Singh',
-                designation: 'Vice Chancellor',
-                affiliation: { line1: 'University of Delhi', line2: '' },
+                name: 'Dr. Nonita Sharma',
+                designation:'Associate Professor',
+                affiliation: { line1: 'IGDTUW New Delhi', line2: '' },
                 photo: profile
-            }
+            },
+
         ]
     }
 ]
@@ -539,26 +553,26 @@ export const financeCommittee = [
         type: 'COORDINATORS',
         members : [
             {
-                name: 'Prof. Yogesh Singh',
-                designation: 'Vice Chancellor',
-                affiliation: { line1: 'University of Delhi', line2: '' },
+                name: 'Prof. (Dr.) Geeta Sikka',
+                designation: 'Professor & Head',
+                affiliation: { line1: 'Dept of CSE, NIT Delhi', line2: '' },
                 photo: profile
             },
             {
-                name: 'Prof. Yogesh Singh',
-                designation: 'Vice Chancellor',
-                affiliation: { line1: 'University of Delhi', line2: '' },
+                name: 'Dr. Karan Verma',
+                designation: 'Assistant Professor',
+                affiliation: { line1: 'Dept of CSE, NIT Delhi', line2: '' },
                 photo: profile
-            }
+            },
         ]
     },
     {
         type: 'CO-COORDINATORS',
         members : [
             {
-                name: 'Prof. Yogesh Singh',
-                designation: 'Vice Chancellor',
-                affiliation: { line1: 'University of Delhi', line2: '' },
+                name: 'Dr. Gautam Kumar',
+                designation: 'Assistant Professor',
+                affiliation: { line1: 'Dept of CSE, NIT Delhi', line2: '' },
                 photo: profile
             }
         ]
@@ -570,65 +584,35 @@ export const organizingCommittee =  [
         type: 'main',
         members : [
             {
-                name: 'Prof. Yogesh Singh',
-                designation: 'Vice Chancellor',
-                affiliation: { line1: 'University of Delhi', line2: '' },
+                name: 'Prof. (Dr.) Geeta Sikka',
+                designation: 'Professor & Head',
+                affiliation: { line1: 'Dept of CSE, NIT Delhi', line2: '' },
                 photo: profile
             },
             {
-                name: 'Prof. Yogesh Singh',
-                designation: 'Vice Chancellor',
-                affiliation: { line1: 'University of Delhi', line2: '' },
+                name: 'Dr. Shelly Sachdeva',
+                designation: 'Assistant Professor',
+                affiliation: { line1: 'Dept of CSE, NIT Delhi', line2: '' },
                 photo: profile
             },
             {
-                name: 'Prof. Yogesh Singh',
-                designation: 'Vice Chancellor',
-                affiliation: { line1: 'University of Delhi', line2: '' },
+                name: 'Dr. Anurag Singh',
+                designation: 'Assistant Professor',
+                affiliation: { line1: 'Dept of CSE, NIT Delhi', line2: '' },
                 photo: profile
             },
             {
-                name: 'Prof. Yogesh Singh',
-                designation: 'Vice Chancellor',
-                affiliation: { line1: 'University of Delhi', line2: '' },
+                name: 'Dr. Karan Verma',
+                designation: 'Assistant Professor',
+                affiliation: { line1: 'Dept of CSE, NIT Delhi', line2: '' },
                 photo: profile
             },
             {
-                name: 'Prof. Yogesh Singh',
-                designation: 'Vice Chancellor',
-                affiliation: { line1: 'University of Delhi', line2: '' },
+                name: 'Dr. Chandra Prakash',
+                designation: 'Assistant Professor',
+                affiliation: { line1: 'Dept of CSE, NIT Delhi', line2: '' },
                 photo: profile
             },
-            {
-                name: 'Prof. Yogesh Singh',
-                designation: 'Vice Chancellor',
-                affiliation: { line1: 'University of Delhi', line2: '' },
-                photo: profile
-            },
-            {
-                name: 'Prof. Yogesh Singh',
-                designation: 'Vice Chancellor',
-                affiliation: { line1: 'University of Delhi', line2: '' },
-                photo: profile
-            },
-            {
-                name: 'Prof. Yogesh Singh',
-                designation: 'Vice Chancellor',
-                affiliation: { line1: 'University of Delhi', line2: '' },
-                photo: profile
-            },
-            {
-                name: 'Prof. Yogesh Singh',
-                designation: 'Vice Chancellor',
-                affiliation: { line1: 'University of Delhi', line2: '' },
-                photo: profile
-            },
-            {
-                name: 'Prof. Yogesh Singh',
-                designation: 'Vice Chancellor',
-                affiliation: { line1: 'University of Delhi', line2: '' },
-                photo: profile
-            }
         ]
     },
     {
