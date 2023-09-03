@@ -16,28 +16,32 @@ export default function NavBar() {
         setShowTracks(!showTracks);
     };
 
-    return (<>
+    return (
+    <>
         <ConferenceHeader setOpen={setOpen} open={open}/>
         <NavRibbon open={open} toggleTracksMenu={toggleTracksMenu}/>
         {showTracks && <TrackSubMenu />} {/* Render the sub-menu if showTracks is true */}
 
-    </>)
+    </>
+    )
 }
 
 function NavRibbon({ open, toggleTracksMenu }) {
     const links = [
         {name: "Home", link: "#"},
         {name: "About", link: "/about"},
-        {name: "Submissions", link: "#"},
-        {name: "Tracks", link: "#"},
+        {name: "Submissions", link: "/submissions"},
+        {name: "Tracks", link: "#themes"},
         {name: "Speakers", link: "/speakers"},
         {name: "Committees", link: "/committees"},
-        {name: "Registration", link: "/registration"},
+        {name: "Sponsors", link: "/sponsors"},
+        {name: "Registration", link: "#"},
+       //{name: "Contact Us", link: "/contact"},
         
     ];
 
     return (
-        <nav className={`${open ? 'block' : 'hidden'} md:block bg-primaryDark text-white sticky top-8 z-50`}>
+        <nav className={`${open ? 'block' : 'hidden'} md:block bg-primaryDark text-white sticky top-0 z-50`}>
             <div className="container bg-primaryDark absolute md:static mx-auto py-1.5 px-6 left-0 w-full md:w-auto mx-auto">
                 <ul className=" md:flex md:items-center md:justify-between">
                     {links.map((link, index) => (

@@ -1,0 +1,138 @@
+.venue {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.mapdiv {
+    width: 50%;
+}
+.pl{
+    padding-left: 0;
+}
+.textdiv {
+    width: 50%;
+}
+
+.mapdiv h1 {
+    font-weight: 600;
+    margin-bottom: 20px;
+    font-size: 22px;
+}
+
+.hed {
+    font-weight: 600;
+    font-size: 34px;
+    color: rgb(70, 70, 121);
+}
+
+.card-c .a-box {
+    display: inline-block;
+    width: 200px;
+    text-align: center;
+    margin: 30px;
+}
+
+.card-c .img-container {
+    height: 200px;
+    width: 160px;
+    overflow: hidden;
+    border-radius: 0px 0px 20px 20px;
+    display: inline-block;
+}
+
+.card-c .img-container img {
+    transform: skew(0deg, -13deg);
+    height: 200px;
+    margin: -14px 0px 0px -20px;
+}
+
+.card-c .inner-skew {
+    display: inline-block;
+    border-radius: 20px;
+    overflow: hidden;
+    padding: 0px;
+    transform: skew(0deg, 13deg);
+    font-size: 0px;
+    margin: 30px 0px 0px 0px;
+    background: #c8c2c2;
+    height: 250px;
+    width: 200px;
+}
+
+.card-c .text-container {
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+    padding: 120px 20px 20px 20px;
+    border-radius: 20px;
+    background: #fff;
+    margin: -120px 0px 0px 0px;
+    line-height: 19px;
+    font-size: 14px;
+    height: 220px;
+}
+
+.card-c .text-container h3 {
+    margin: 20px 0px 10px 0px;
+    color: #04bcff;
+    font-size: 18px;
+    transition: all 0.5s;
+}
+
+.card-c .text-container h3:hover {
+    color: black;
+}
+.hh{
+    color: rgb(55, 55, 185);
+}
+@media screen and (max-width: 1400px) {
+    .mapdiv {
+        width: 55%;
+    }
+    .textdiv {
+        width: 45%;
+    }
+}
+
+@media screen and (max-width: 1038px) {
+    .mapdiv {
+        margin-top: 30px;
+        width: 100%;
+    }
+    .textdiv {
+        width: 100%;
+        margin-top: 30px;
+    }
+    #railway iframe {
+        width: 500px;
+        height: 300px;
+    }
+}
+
+@media screen and (max-width: 534px) {
+    #railway {
+        padding-top: 0px;
+    }
+    #railway iframe {
+        width: 300px;
+        height: 300px;
+    }
+}
+
+@media screen and (max-width: 809px) {
+    .card-c .a-box {
+        margin: 30px 7px;
+    }
+}
+
+@media screen and (max-width: 666px) {
+
+    .card-c .a-box {
+        width: 250px;
+    }
+    .card-c .a-box .img-container{
+        width: 177px;
+    }
+    .card-sec{
+        flex-direction: column;
+        align-content: center;
+    }
+}

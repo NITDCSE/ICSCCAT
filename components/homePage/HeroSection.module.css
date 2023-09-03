@@ -1,0 +1,27 @@
+/* components/AddressCard.module.css */
+
+.addressSection {
+  background-color: #f2f2f2; /* Background color similar to bg-primary10 */
+  padding: 40px 0; /* Add padding to the section */
+}
+
+.addressCard {
+  background-color: #ffffff;
+  border: 1px solid #e0e0e0;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add a shadow for the card */
+  padding: 20px;
+  text-align: center;
+  max-width: 300px; /* Adjust the width as needed */
+  margin: 0 auto; /* Center align the card horizontally */
+}
+
+.addressTitle {
+  font-size: 1.5rem;
+  color: #333333;
+  margin-bottom: 10px;
+}
+
+.addressText {
+  font-size: 1rem;
+  color: #666666;
+}
