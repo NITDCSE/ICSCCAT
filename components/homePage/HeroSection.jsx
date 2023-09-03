@@ -17,7 +17,7 @@ export default function HeroSection() {
           <div className="flex flex-col mb-32 mx-auto items-center">
             <div className="flex flex-col items-center">
               <Image
-                className="w-32 md:w-64 pb-10 p-4 rounded-lg shadow-md flex items-center object-contain"
+                className="w-32 md:w-64 mb-4 p-4 rounded-lg shadow-md flex items-center object-contain"
                 src={icsccatLogo}
                 width={256}
                 quality={100}
