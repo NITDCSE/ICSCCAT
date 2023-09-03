@@ -1,5 +1,5 @@
 # <img src="https://cdn-icons-png.flaticon.com/512/2387/2387635.png" width="64">
-- Remove registration link from NavBar, (make href blank)
+ 
 - Add photos of committee members.
 
 
