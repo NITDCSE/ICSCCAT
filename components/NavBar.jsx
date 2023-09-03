@@ -71,11 +71,11 @@ function NavRibbon({ open, toggleTracksMenu }) {
 
 function TrackSubMenu() {
     const trackOptions = [
-        { name: "DATA ANALYTICS AND MINING", link: "#" },
-        { name: "CRYPTOGRAPHY, CYBER SECURITY AND NETWORK SECURITY", link: "#" },
-        { name: "CLOUD COMPUTING AND IOT", link: "#" },
-        { name: "ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING", link: "#" },
-        { name: "HEALTHCARE 4.0", link: "#" },
+        { name: "DATA ANALYTICS AND MINING", link: "tracks/dataanalytics" },
+        { name: "CRYPTOGRAPHY, CYBER SECURITY AND NETWORK SECURITY", link: "tracks/cryptography" },
+        { name: "CLOUD COMPUTING AND IOT", link: "tracks/cloudcomputing" },
+        { name: "ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING", link: "tracks/artificialintelligence" },
+        { name: "HEALTHCARE 4.0", link: "tracks/healthcare" },
 
     ];
     return (
