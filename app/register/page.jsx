@@ -5,10 +5,10 @@ import Brochure from'@/components/resgisterPage/Brochure'
 export default function Register() {
     return(
         <>
-            <Brochure />
+            {/* <Brochure />
             <RegistrationSteps />
             <FeesSection />
-            <BankDetailsSection />
+            <BankDetailsSection /> */}
         </>
     )
 }

@@ -15,7 +15,7 @@ export default function Contact() {
                     <div className="textdiv">
                         <div className="px-8">
                             <br></br>
-                            <span className="px-3 font-bold pl">Dr. Amit Pratap Singh
+                            <span className="px-3 font-bold pl">Dr. Karan Varma
                         </span>
                             <br></br>
                             
@@ -26,7 +26,7 @@ export default function Contact() {
                                 d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"></path>
                             </svg>
                         </span>
-                            +91 7838545356 (M)
+                            +91 12345 67890 (M)
                             <br></br>
                             <span className="px-3 pl">
                             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
@@ -35,24 +35,9 @@ export default function Contact() {
                                 d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"></path>
                             </svg>
                         </span>
-                            011 3386 1250,1256 (O)
+                            Office Number (O)
                         </div>
-                        <div className="px-8">
-                            <br></br>
-                            <span className="px-3 font-bold pl">Dr. Chandra Shekhar Jeengar
-                        </span>
-                            <br></br>
-                            <span className="px-3 pl">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                                className="bi bi-telephone-fill inline-block" viewBox="0 0 16 16">
-                            <path fill-rule="evenodd"
-                                d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"></path>
-                            </svg>
-                        </span>
-                            +91 9462239586 (M)
-                            <br></br>
-                            <br></br>
-                        </div>
+                        
                         <div className="px-8">
                             {/* <h1 className="px-3">Email Id:</h1> */}
                             <span className="px-3 pl">
@@ -64,7 +49,7 @@ export default function Contact() {
                                     d="M14.247 14.269c1.01 0 1.587-.857 1.587-2.025v-.21C15.834 10.43 14.64 9 12.52 9h-.035C10.42 9 9 10.36 9 12.432v.214C9 14.82 10.438 16 12.358 16h.044c.594 0 1.018-.074 1.237-.175v-.73c-.245.11-.673.18-1.18.18h-.044c-1.334 0-2.571-.788-2.571-2.655v-.157c0-1.657 1.058-2.724 2.64-2.724h.04c1.535 0 2.484 1.05 2.484 2.326v.118c0 .975-.324 1.39-.639 1.39-.232 0-.41-.148-.41-.42v-2.19h-.906v.569h-.03c-.084-.298-.368-.63-.954-.63-.778 0-1.259.555-1.259 1.4v.528c0 .892.49 1.434 1.26 1.434.471 0 .896-.227 1.014-.643h.043c.118.42.617.648 1.12.648Zm-2.453-1.588v-.227c0-.546.227-.791.573-.791.297 0 .572.192.572.708v.367c0 .573-.253.744-.564.744-.354 0-.581-.215-.581-.8Z"></path>
                                 </svg>
                             </span>
-                                rtcsse[at]nitdelhi.ac.in
+                               email[at]nitdelhi.ac.in
                                 <br></br>
                                 <br></br>
                                 <span className="font-bold px pl">Address:</span> Auditorium, Administrative Block <br></br> National Institute of Technology Delhi<br></br> Plot No. FA7, Zone, P1, GT Karnal Road, Delhi, 110036
@@ -80,8 +65,7 @@ export default function Contact() {
                             </Link>
                             <br></br>
                             {/* <span className="px-3">SS.DU:</span> */}
-                            <Link href="https://ss.du.ac.in" className="underline hh px-3" target={"_blank"}>www.ss.du.ac.in
-                            </Link>
+                             
                         </div>
                     </div>
                     <div className="mapdiv">
