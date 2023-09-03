@@ -1,9 +1,9 @@
 import "./sponsors.css";
 import Image from "next/image";
-import aegmatel from '@public/sponsors/aegmatel.jpeg'
-import globus from '@public/sponsors/globus.jpeg'
-import mathworks from '@public/sponsors/mathworks.jpeg'
-import takyon from '@public/sponsors/takyon.jpeg'
+import aegmatel from '@/public/sponsors/aegmatel.jpeg'
+import globus from '@/public/sponsors/globus.jpeg'
+import mathworks from '@/public/sponsors/mathworks.jpeg'
+import takyon from '@/public/sponsors/takyon.jpeg'
 
  
 export default function SponsorsSection() {
@@ -16,7 +16,7 @@ export default function SponsorsSection() {
             <Image src={aegmatel} alt=""/>
             </div>
             <div className="text-s">
-                <span className="font-bold">Aegmatel:</span> Science & Engineering Research Board
+                <span className="font-bold">Aegmatel</span> 
             </div>
         </div>
         <div class="card-s">
@@ -32,7 +32,7 @@ export default function SponsorsSection() {
             <Image src={mathworks} alt="" className="cdh"/>
             </div>
             <div className="text-s">
-                <span className="font-bold">mathworks</span>  
+                <span className="font-bold">Mathworks</span>  
             </div>
         </div>
         <div class="card-s">
