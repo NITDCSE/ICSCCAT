@@ -9,11 +9,10 @@ import takyon from '@/public/sponsors/takyon.jpeg'
 export default function SponsorsSection() {
     return (
         <>
-         
-        <h3 className="text-3xl font-bold text-center md:text-4xl md:text-left">
-                            About the Conference
-                        </h3>
-        <section id="railway" className=" bg-primary10 px-3 py-12 spon">
+        <section id="railway" className=" bg-primary10 px-3 py-6 spon">
+        <div className="container flex flex-col mx-auto px-6 py-4">
+         <h4 className="max-w-md text-4xl font-bold text-center md:text-4xl md:text-left pl-30s">Sponsors</h4>
+         </div>
         <div class="card-s">
             <div className="s-logo">
             <Image src={aegmatel} alt=""/>

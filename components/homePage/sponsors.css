@@ -6,11 +6,13 @@
     height: 160px;
     padding-bottom: 10px;
 }
+
 .cdh{
     max-width: 200px;
     display: block;
     object-fit: contain;
 }
+
 .card-s {
     box-shadow: 0 0 3px rgb(93 103 175 / 73%);
     padding: 10px;
