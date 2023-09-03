@@ -4,6 +4,7 @@ import ConferenceObjectives from "@/components/homePage/ConferenceObjectives";
 import ConferenceTracks from "@/components/homePage/ConferenceTracks";
 import AboutColleges from "@/components/homePage/AboutColleges";
 import Registerbuttonbottom from "@/components/homePage/registerbuttonbottom";
+import SponsorsSection from "@/components/sponsorspage/sponsors";
 
 
 export default function Home() {
@@ -13,6 +14,8 @@ export default function Home() {
             <AboutColleges/>
             <AboutConference/>
             <ConferenceTracks />
+            <SponsorsSection />
+
         </>
     )
 }
