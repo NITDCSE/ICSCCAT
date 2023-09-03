@@ -346,7 +346,7 @@ export const steeringCommitee = [
         members: [
             {
                 name: 'Dr. Karan Verma',
-                designation: 'Assistant Professor',
+                designation: 'Associate Professor',
                 affiliation: { line1: 'Dept of CSE, NIT Delhi', line2: '' },
                 photo: profile
             },
@@ -550,7 +550,7 @@ export const financeCommittee = [
             },
             {
                 name: 'Dr. Karan Verma',
-                designation: 'Assistant Professor',
+                designation: 'Associate Professor',
                 affiliation: { line1: 'Dept of CSE, NIT Delhi', line2: '' },
                 photo: profile
             },
@@ -593,7 +593,7 @@ export const organizingCommittee =  [
             },
             {
                 name: 'Dr. Karan Verma',
-                designation: 'Assistant Professor',
+                designation: 'Associate Professor',
                 affiliation: { line1: 'Dept of CSE, NIT Delhi', line2: '' },
                 photo: profile
             },
@@ -671,7 +671,7 @@ export const publicationCommittee = [
         members : [
             {
                 name: 'Dr. Karan Verma',
-                designation: 'Assistant Professor',
+                designation: 'Associate Professor',
                 affiliation: { line1: 'Dept of CSE, NIT Delhi', line2: '' },
                 photo: profile
             },
@@ -739,7 +739,7 @@ export const hospitalityCommittee = [
         members : [
             {
                 name: 'Dr. Karan Verma',
-                designation: 'Assistant Professor',
+                designation: 'Associate Professor',
                 affiliation: { line1: 'Dept of CSE, NIT Delhi', line2: '' },
                 photo: profile
             },
