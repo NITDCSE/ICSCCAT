@@ -1,88 +1,50 @@
 import "./sponsors.css";
 import Image from "next/image";
-import SERB from './SERB_logo.png'
+import aegmatel from '@public/sponsors/aegmatel.jpeg'
+import globus from '@public/sponsors/globus.jpeg'
+import mathworks from '@public/sponsors/mathworks.jpeg'
+import takyon from '@public/sponsors/takyon.jpeg'
+
  
 export default function SponsorsSection() {
     return (
         <>
-
         <h1 className=" bg-primary10 py-3 text-center hed underline">Sponsors</h1>
         <section id="railway" className=" bg-primary10 px-3 py-12 spon">
         <div class="card-s">
             <div className="s-logo">
-            <Image src={SERB} alt=""/>
+            <Image src={aegmatel} alt=""/>
             </div>
             <div className="text-s">
-                <span className="font-bold">SERB:</span> Science & Engineering Research Board
+                <span className="font-bold">Aegmatel:</span> Science & Engineering Research Board
             </div>
         </div>
         <div class="card-s">
             <div className="s-logo">
-            <Image src={CSIR} alt=""/>
+            <Image src={globus} alt=""/>
             </div>
             <div className="text-s">
-                <span className="font-bold">CSIR:</span> Council of Scientific & Industrial Research
+                <span className="font-bold">Globus</span>  
             </div>
         </div>
         <div class="card-s">
             <div className="s-logo">
-            <Image src={CDH} alt="" className="cdh"/>
+            <Image src={mathworks} alt="" className="cdh"/>
             </div>
             <div className="text-s">
-                <span className="font-bold">CDH:</span> Central Drug House (P) Limited
+                <span className="font-bold">mathworks</span>  
             </div>
         </div>
         <div class="card-s">
             <div className="s-logo">
-            <Image src={BHEL} alt=""/>
+            <Image src={takyon} alt=""/>
             </div>
             <div className="text-s">
-                <span className="font-bold">BHEL:</span> Bharat Heavy Electricals Limited
-            </div>
-        </div>
-        <div class="card-s">
-            <div className="s-logo acs">
-            <Image src={ACS} alt=""/>
-            </div>
-            <div className="text-s">
-                <span className="font-bold">ACS:</span> American Chemical Society
-            </div>
-        </div>
-        <div class="card-s">
-            <div className="s-logo acs">
-            <Image src={LABINDIA} alt=""/>
-            </div>
-            <div className="text-s">
-                <span className="font-bold">LABINDIA</span>
-            </div>
-        </div>
-        <div class="card-s">
-            <div className="s-logo acs">
-            <Image src={GENIUS_ENTERPRISE} alt=""/>
-            </div>
-            <div className="text-s">
-                <span className="font-bold">GENIUS ENTERPRISE</span>
-            </div>
-        </div>
-        <div class="card-s">
-            <div className="s-logo acs">
-            <Image src={GCPPL} alt=""/>
-            </div>
-            <div className="text-s">
-                <span className="font-bold">GCPPL:</span> Globe Civil Projects Pvt Ltd
-            </div>
-        </div>
-        <div class="card-s">
-            <div className="s-logo acs">
-            <Image src={SCPPL} alt=""/>
-            </div>
-            <div className="text-s">
-                <span className="font-bold">SCIPL:</span> Swadeshi Civil Infrastructure
+                <span className="font-bold">Takyon</span>  
             </div>
         </div>
         
-            
-        </section>
+          </section>
         <br></br>
         </>
     )
