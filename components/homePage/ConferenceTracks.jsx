@@ -1,4 +1,8 @@
-import data_analytics from "@/public/Data-analytics.jpg";
+import data_analytics from "@/assets/icons/data_mining.png";
+import cryptography from "@/assets/icons/cryptography.png";
+import iot from "@/assets/icons/IoT.png";
+import ai from "@/assets/icons/ai.jpg";
+import healthcare from "@/assets/icons/healthcare.png";
 import Image from "next/image";
  
 export default function ConferenceTracks() {
@@ -10,22 +14,22 @@ export default function ConferenceTracks() {
     },
     {
       name: "CRYPTOGRAPHY, CYBER SECURITY AND NETWORK SECURITY",
-      imageUrl: data_analytics,
+      imageUrl: cryptography,
       link: "crypto",
     },
     {
       name: "CLOUD COMPUTING AND IOT",
-      imageUrl: data_analytics,
+      imageUrl: iot,
       link: "sajal",
     },
     {
       name: "ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING",
-      imageUrl: data_analytics,
+      imageUrl: ai,
      link: "artificial_intelligence",
     },
     {
       name: "HEALTHCARE 4.0",
-      imageUrl: data_analytics,
+      imageUrl: healthcare,
       link: "sajal",
     },
   ];
