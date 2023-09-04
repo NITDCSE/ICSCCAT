@@ -16,6 +16,7 @@ import cprakash from "@/assets/faculty/cprakash.jpg"
 import rohini from "@/assets/faculty/rohini.jpeg"
 import manoj from "@/assets/faculty/manoj.jpg"
 import jyoteesh from "@/assets/faculty/jyoteesh.jpg"
+import indu from "@/assets/faculty/indu.jpg"
 
 export const cheifPatron = [
     {
@@ -708,7 +709,7 @@ export const publicationCommittee = [
                 name: 'Dr. Indu Joshi',
                 designation: 'Assistant Professor',
                 affiliation: { line1: 'Dept of CSE, NIT Delhi', line2: '' },
-                photo: profile
+                photo: indu
             },
         ]
     }
@@ -744,7 +745,7 @@ export const publicityCommittee = [
                 name: 'Dr. Indu Joshi',
                 designation: 'Assistant Professor',
                 affiliation: { line1: 'Dept of CSE, NIT Delhi', line2: '' },
-                photo: profile
+                photo: indu
             },
         ]
     }
@@ -769,7 +770,7 @@ export const hospitalityCommittee = [
                 name: 'Dr. Indu Joshi',
                 designation: 'Assistant Professor',
                 affiliation: { line1: 'Dept of CSE, NIT Delhi', line2: '' },
-                photo: profile
+                photo: indu
             },
         ]
     }
@@ -793,7 +794,7 @@ export const transportationCommittee = [
                 name: 'Prof. Indu Joshi',
                 designation: 'Assistant Professor',
                 affiliation: { line1: 'Dept of CSE, NIT Delhi', line2: '' },
-                photo: profile
+                photo: indu
             }
         ]
     }
