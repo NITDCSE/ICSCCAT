@@ -22,13 +22,13 @@ export default function HeroSection() {
         <div className="container relative flex flex-col-reverse md:flex-row justify-center items-start px-6 mx-auto pt-12 space-y-0 md:justify-start">
           <div className="flex flex-col mb-20 mx-auto items-center">
             <div className="flex flex-col items-center mb-2">
-              <Image
+              {/* <Image
                 className="w-32 md:w-64 mb-4 p-4 rounded-lg shadow-md flex items-center object-contain"
                 src={icsccatLogotransparent}
                 width={256}
                 quality={100}
                 priority
-              />
+              /> */}
               <div className="flex flex-col mx-auto md:mx-0">
                 <p className="text-2xl text-center md:text-3xl">
                   1<sup>st</sup> International Conference

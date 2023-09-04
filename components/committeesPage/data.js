@@ -1,5 +1,15 @@
 
 import profile from "@/public/profile.png"
+import director from "@/assets/faculty/director.jpg"
+import geeta from "@/assets/faculty/Geeta_Sikka.jpg"
+
+// import director from "@/assets/faculty/director.jpg"
+// import director from "@/assets/faculty/director.jpg"
+// import director from "@/assets/faculty/director.jpg"
+// import director from "@/assets/faculty/director.jpg"
+// import director from "@/assets/faculty/director.jpg"
+// import director from "@/assets/faculty/director.jpg"
+
 export const cheifPatron = [
     {
         type: "Cheif Patron",
@@ -7,7 +17,7 @@ export const cheifPatron = [
             name: 'Prof. (Dr.) Ajay K. Sharma',
             designation: 'Director',
             affiliation: { line1: 'National Institute of Technology Delhi', line2: '' },
-            photo: profile
+            photo: director
         }]
     }]
 
@@ -309,7 +319,7 @@ export const steeringCommitee = [
                 name: 'Prof. (Dr.) Geeta Sikka',
                 designation: 'Professor',
                 affiliation: { line1: 'Head, Dept of CSE, NIT Delhi', line2: '' },
-                photo: profile
+                photo: geeta
             },
         ]
     },
@@ -546,7 +556,7 @@ export const financeCommittee = [
                 name: 'Prof. (Dr.) Geeta Sikka',
                 designation: 'Professor & Head',
                 affiliation: { line1: 'Dept of CSE, NIT Delhi', line2: '' },
-                photo: profile
+                photo: geeta
             },
             {
                 name: 'Dr. Karan Verma',
@@ -577,7 +587,7 @@ export const organizingCommittee =  [
                 name: 'Prof. (Dr.) Geeta Sikka',
                 designation: 'Professor & Head',
                 affiliation: { line1: 'Dept of CSE, NIT Delhi', line2: '' },
-                photo: profile
+                photo: geeta
             },
             {
                 name: 'Dr. Shelly Sachdeva',

@@ -12,7 +12,7 @@ export default function Home() {
             <AboutColleges/>
             <AboutConference/>
             <ConferenceTracks />
-            <SponsorsSection />
+             {/* <SponsorsSection /> */}
         </>
     )
 }

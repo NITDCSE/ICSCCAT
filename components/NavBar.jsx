@@ -20,7 +20,7 @@ export default function NavBar() {
     <>
         <ConferenceHeader setOpen={setOpen} open={open}/>
         <NavRibbon open={open} toggleTracksMenu={toggleTracksMenu}/>
-        {showTracks && <TrackSubMenu />} {/* Render the sub-menu if showTracks is true */}
+        {/* {showTracks && <TrackSubMenu />} Render the sub-menu if showTracks is true */}
 
     </>
     )
@@ -28,14 +28,14 @@ export default function NavBar() {
 
 function NavRibbon({ open, toggleTracksMenu }) {
     const links = [
-        {name: "Home", link: "#"},
+        {name: "Home", link: "/"},
         {name: "About", link: "/about"},
         {name: "Submissions", link: "/submissions"},
         {name: "Tracks", link: "#themes"},
         {name: "Speakers", link: "/speakers"},
         {name: "Committees", link: "/committees"},
-        {name: "Sponsors", link: "/sponsors"},
-        {name: "Registration", link: "#"},
+        {name: "Sponsors", link: ""},
+        // {name: "Registration", link: "#"},
        //{name: "Contact Us", link: "/contact"},
         
     ];
@@ -105,8 +105,8 @@ function ConferenceHeader({open, setOpen}) {
                 <Image src={g20logo} className="object-contain" alt="G20"
                        width={84} quality={100}/>
                 <Link href="/" className="flex items-center space-x-4 pt-2">
-                    <Image src={ICSCCAT} className="object-contain" alt="ICSCCAT-2024"
-                           width={84} quality={100}/>
+                    {/* <Image src={ICSCCAT} className="object-contain" alt="ICSCCAT-2024"
+                           width={84} quality={100}/> */}
                     <h3 className="hidden md:block font-bold text-3xl tracking-wider text-center align-middle">
                         ICSCCAT 2024
                         </h3>
@@ -114,7 +114,7 @@ function ConferenceHeader({open, setOpen}) {
                 <div className="flex-1" />
                 <div className="flex space-x-4 items-center justify-end">
                     <a target="_blank" href="https://nitdelhi.ac.in/" className="pt-2">
-                        <Image src={nitdLogo} className="max-h-12 object-contain" alt="NITD" width={72}
+                        <Image src={nitdLogo} className="max-h-16 object-contain" alt="NITD" width={72}
                                quality={100}/>
                     </a>
                     {/* register button */}
