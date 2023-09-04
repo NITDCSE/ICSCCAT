@@ -15,21 +15,6 @@ import manoj from "@/assets/faculty/manoj.jpg"
 import jyoteesh from "@/assets/faculty/jyoteesh.jpg"
 import indu from "@/assets/faculty/indu.jpg"
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 export const cheifPatron = [
     {
         type: "Cheif Patron",
