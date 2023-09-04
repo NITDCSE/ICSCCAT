@@ -1,14 +1,21 @@
-
 import profile from "@/public/profile.png"
 import director from "@/assets/faculty/director.jpg"
 import geeta from "@/assets/faculty/Geeta_Sikka.jpg"
+import anurag from "@/assets/faculty/anurag singh.jpg"
+import shelly from "@/assets/faculty/SHALLY.png"
 
-// import director from "@/assets/faculty/director.jpg"
-// import director from "@/assets/faculty/director.jpg"
-// import director from "@/assets/faculty/director.jpg"
-// import director from "@/assets/faculty/director.jpg"
-// import director from "@/assets/faculty/director.jpg"
-// import director from "@/assets/faculty/director.jpg"
+import sahil from "@/assets/faculty/Dr.Sahil_nitdelhi.ac.in.png"
+import amandeep from "@/assets/faculty/amandeepkaur.jpg"
+import gunjan from "@/assets/faculty/gunjan.jpg"
+import gautam from "@/assets/faculty/gautam.jpg"
+
+import rishav from "@/assets/faculty/Rishav-singh.jpg"
+import karan from "@/assets/faculty/karan_verma.jpg"
+import cprakash from "@/assets/faculty/cprakash.jpg"
+
+import rohini from "@/assets/faculty/rohini.jpeg"
+import manoj from "@/assets/faculty/manoj.jpg"
+import jyoteesh from "@/assets/faculty/jyoteesh.jpg"
 
 export const cheifPatron = [
     {
@@ -302,13 +309,13 @@ export const steeringCommitee = [
                 name: 'Prof. Manoj Kumar',
                 designation: 'Professor',
                 affiliation: { line1: 'Department of ECE, NIT Delhi', line2: '' },
-                photo: profile
+                photo: manoj
             },
             {
                 name: 'Dr Jyoteesh Malhotra',
                 designation: 'Professor',
                 affiliation: { line1: 'Department of ECE, NIT Delhi', line2: '' },
-                photo: profile
+                photo: jyoteesh
             }
         ]
     },
@@ -330,13 +337,13 @@ export const steeringCommitee = [
                 name: 'Dr. Anurag Singh',
                 designation: 'Associate Professor',
                 affiliation: { line1: 'Dept of CSE, NIT Delhi', line2: '' },
-                photo: profile
+                photo: anurag
             },
             {
                 name: 'Dr. Shelly Sachdeva',
                 designation: 'Associate Professor',
                 affiliation: { line1: 'Dept of CSE, NIT Delhi', line2: '' },
-                photo: profile
+                photo: shelly
             }
         ]
     },
@@ -347,7 +354,7 @@ export const steeringCommitee = [
                 name: 'Dr. Chandra Prakash',
                 designation: 'Assistant Professor',
                 affiliation: { line1: 'Dept of CSE, NIT Delhi', line2: '' },
-                photo: profile
+                photo: cprakash
             }
         ]
     },
@@ -358,13 +365,13 @@ export const steeringCommitee = [
                 name: 'Dr. Karan Verma',
                 designation: 'Associate Professor',
                 affiliation: { line1: 'Dept of CSE, NIT Delhi', line2: '' },
-                photo: profile
+                photo: karan
             },
             {
                 name: 'Dr. Rishav Singh',
                 designation: 'Assistant Professor',
                 affiliation: { line1: 'Dept of CSE, NIT Delhi', line2: '' },
-                photo: profile
+                photo: rishav
             }
         ]
     }
@@ -562,7 +569,7 @@ export const financeCommittee = [
                 name: 'Dr. Karan Verma',
                 designation: 'Associate Professor',
                 affiliation: { line1: 'Dept of CSE, NIT Delhi', line2: '' },
-                photo: profile
+                photo: karan
             },
         ]
     },
@@ -573,7 +580,7 @@ export const financeCommittee = [
                 name: 'Dr. Gautam Kumar',
                 designation: 'Assistant Professor',
                 affiliation: { line1: 'Dept of CSE, NIT Delhi', line2: '' },
-                photo: profile
+                photo: gautam
             }
         ]
     }
@@ -593,55 +600,55 @@ export const organizingCommittee =  [
                 name: 'Dr. Shelly Sachdeva',
                 designation: 'Assistant Professor',
                 affiliation: { line1: 'Dept of CSE, NIT Delhi', line2: '' },
-                photo: profile
+                photo: shelly
             },
             {
                 name: 'Dr. Anurag Singh',
                 designation: 'Assistant Professor',
                 affiliation: { line1: 'Dept of CSE, NIT Delhi', line2: '' },
-                photo: profile
+                photo: anurag
             },
             {
                 name: 'Dr. Karan Verma',
                 designation: 'Associate Professor',
                 affiliation: { line1: 'Dept of CSE, NIT Delhi', line2: '' },
-                photo: profile
+                photo: karan
             },
             {
                 name: 'Dr. Chandra Prakash',
                 designation: 'Assistant Professor',
                 affiliation: { line1: 'Dept of CSE, NIT Delhi', line2: '' },
-                photo: profile
+                photo: cprakash
             },
             {
                 name: 'Dr. Rishav Singh',
                 designation: 'Assistant Professor',
                 affiliation: { line1: 'Dept of CSE, NIT Delhi', line2: '' },
-                photo: profile
+                photo: rishav
             },
             {
                 name: 'Dr. Gautam Kumar',
                 designation: 'Assistant Professor',
                 affiliation: { line1: 'Dept of CSE, NIT Delhi', line2: '' },
-                photo: profile
+                photo: gautam
             },
             {
                 name: 'Dr. Amandeep Kaur',
                 designation: 'Assistant Professor',
                 affiliation: { line1: 'Dept of CSE, NIT Delhi', line2: '' },
-                photo: profile
+                photo: amandeep
             },
             {
                 name: 'Dr. Gunjan',
                 designation: 'Assistant Professor',
                 affiliation: { line1: 'Dept of CSE, NIT Delhi', line2: '' },
-                photo: profile
+                photo: gunjan
             },
             {
                 name: 'Dr. Sahil',
                 designation: 'Assistant Professor',
                 affiliation: { line1: 'Dept of CSE, NIT Delhi', line2: '' },
-                photo: profile
+                photo: sahil
             },
         ]
     },
@@ -658,7 +665,7 @@ export const organizingCommittee =  [
                 name: 'Dr. Rohini Mahajan',
                 designation: 'Postdoctoral Researcher',
                 affiliation: { line1: 'Dept of CSE, NIT Delhi', line2: '' },
-                photo: profile
+                photo: rohini
             },
         ]
     }
@@ -672,7 +679,7 @@ export const publicationCommittee = [
                 name: 'Dr. Anurag Singh',
                 designation: 'Assistant Professor',
                 affiliation: { line1: 'Dept of CSE, NIT Delhi', line2: '' },
-                photo: profile
+                photo: anurag
             },
         ]
     },
@@ -683,19 +690,19 @@ export const publicationCommittee = [
                 name: 'Dr. Karan Verma',
                 designation: 'Associate Professor',
                 affiliation: { line1: 'Dept of CSE, NIT Delhi', line2: '' },
-                photo: profile
+                photo: karan
             },
             {
                 name: 'Dr. Chandra Prakash',
                 designation: 'Assistant Professor',
                 affiliation: { line1: 'Dept of CSE, NIT Delhi', line2: '' },
-                photo: profile
+                photo: cprakash
             },
             {
                 name: 'Dr. Amandeep Kaur',
                 designation: 'Assistant Professor',
                 affiliation: { line1: 'Dept of CSE, NIT Delhi', line2: '' },
-                photo: profile
+                photo: amandeep
             },
             {
                 name: 'Dr. Indu Joshi',
@@ -714,7 +721,7 @@ export const publicityCommittee = [
                 name: 'Prof. Shelly Sachdeva',
                 designation: 'Associate Professor',
                 affiliation: { line1: 'Dept of CSE, NIT Delhi', line2: '' },
-                photo: profile
+                photo: shelly
             }
         ]
     },
@@ -725,13 +732,13 @@ export const publicityCommittee = [
                 name: 'Dr. Rishav Singh',
                 designation: 'Assistant Professor',
                 affiliation: { line1: 'Dept of CSE, NIT Delhi', line2: '' },
-                photo: profile
+                photo: rishav
             },
             {
                 name: 'Dr. Sahil',
                 designation: 'Assistant Professor',
                 affiliation: { line1: 'Dept of CSE, NIT Delhi', line2: '' },
-                photo: profile
+                photo: sahil
             },
             {
                 name: 'Dr. Indu Joshi',
@@ -751,7 +758,7 @@ export const hospitalityCommittee = [
                 name: 'Dr. Karan Verma',
                 designation: 'Associate Professor',
                 affiliation: { line1: 'Dept of CSE, NIT Delhi', line2: '' },
-                photo: profile
+                photo: karan
             },
         ]
     },
@@ -775,7 +782,7 @@ export const transportationCommittee = [
                 name: 'Prof. Rishav Singh',
                 designation: 'Assistant Professor',
                 affiliation: { line1: 'Dept of CSE, NIT Delhi', line2: '' },
-                photo: profile
+                photo: rishav
             }
         ]
     },
