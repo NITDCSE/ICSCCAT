@@ -1,5 +1,4 @@
 "use client"
-
 import Image from "next/image";
 import ICSCCAT from "@/assets/ICSCCAT logo.png"
 import nitdLogo from "@/public/nitd-logo.png" 
@@ -46,21 +45,12 @@ function NavRibbon({ open, toggleTracksMenu }) {
                 <ul className=" md:flex md:items-center md:justify-between">
                     {links.map((link, index) => (
                         <li key={link.name} className="my-6 md:my-0">
-                            {link.name === "Tracks" ? (
-                                <button
-                                    className="font-bold uppercase text-md font-medium hover:text-primary20"
-                                    onClick={toggleTracksMenu} // Toggle the "Tracks" sub-menu
-                                >
-                                    {link.name}
-                                </button>
-                            ) : (
                                 <Link
                                     className="font-bold uppercase text-md font-medium hover:text-primary20"
                                     href={link.link}
                                 >
                                     {link.name}
                                 </Link>
-                            )}
                         </li>
                     ))}
                 </ul>
