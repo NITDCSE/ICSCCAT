@@ -17,6 +17,7 @@ import rohini from "@/assets/faculty/rohini.jpeg"
 import manoj from "@/assets/faculty/manoj.jpg"
 import jyoteesh from "@/assets/faculty/jyoteesh.jpg"
 import indu from "@/assets/faculty/indu.jpg"
+import divya from "@/assets/faculty/divya.jpg"
 
 export const cheifPatron = [
     {
@@ -660,7 +661,7 @@ export const organizingCommittee =  [
                 name: 'Dr. Divya Punia',
                 designation: 'Postdoctoral Researcher',
                 affiliation: { line1: 'Dept of CSE, NIT Delhi', line2: '' },
-                photo: profile
+                photo: divya
             },
             {
                 name: 'Dr. Rohini Mahajan',
