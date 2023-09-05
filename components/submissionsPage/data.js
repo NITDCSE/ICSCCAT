@@ -1,18 +1,18 @@
 export const dates = [
     {
-        category : "Full paper Submission Deadline",
+        category : "Full paper Submission",
         date :"October 31st , 2023"
     },
     {
-        category : "Acceptance Notification Deadline",
+        category : "Acceptance Notification",
         date :"January 31st , 2024"
     },
     {
-        category : "Camera Ready Manuscript Deadline",
+        category : "Camera Ready Manuscript",
         date :"February 15th , 2024"
     },
     {
-        category : "Conference registration Deadline",
+        category : "Conference registration",
         date :"February 28th , 2024"
     },
     {
@@ -25,11 +25,11 @@ export const rules = [
     "All the papers submitted to the conference should be written in English with the maximum page length of six printed pages (10pt font).",
     "Authors should submit their original unpublished work in PDF format to ICSCCAT 2024.",
     "Simultaneous submissions (papers already submitted to other conferences/journals) are not allowed.",
-    "Submission should strictly follow recommended IEEE conference template, which can be found here.",
+    "Submission should strictly follow recommended IEEE conference template, which can be found here (will be updated).",
     "The decision regarding the acceptance of paper is at the discretion of Technical Program Committee.",
-    "Plagiarism Check using EDAS.",
+    "Plagiarism check will be done using EDAS.",
     "All the paper submission will be done on EDAS conference management software.",
-    "Reviewer assignment will be made using EDAS."
+    "Reviewer assignment will be made using EDAS.",
 ]
 
 export const fees = [

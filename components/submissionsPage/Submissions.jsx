@@ -20,6 +20,16 @@ export default function Submissions() {
                   </li>
                 );
               })}
+              <li className="list-disc leading-6 sm:leading-8">Submission should strictly follow recommended IEEE conference template, which can be found <span class="text-red-400">here </span>(will be updated)</li>
+              <li className="list-disc leading-6 sm:leading-8">
+                Paper Submission: <span class="text-red-400"> Link will be updated soon</span> <br/>
+                Accepted papers will be submitted for inclusion into IEEE Xplore subject to meeting IEEE Xplore’s scope and quality requirements
+              </li>
+              <li className="list-disc leading-6 sm:leading-8">
+                Registration Form: <span class="text-red-400">Link will be updated soon</span> <br/>
+                Paper should be in proper IEEE format. <br/>
+                PDF of paper should be generated in IEEE Xplore compatible format.
+              </li>
             </ul>
           </section>
         </div>
