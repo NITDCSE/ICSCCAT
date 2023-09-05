@@ -3,16 +3,13 @@ import director from "@/assets/faculty/director.jpg"
 import geeta from "@/assets/faculty/Geeta_Sikka.jpg"
 import anurag from "@/assets/faculty/anurag singh.jpg"
 import shelly from "@/assets/faculty/SHALLY.png"
-
 import sahil from "@/assets/faculty/Dr.Sahil_nitdelhi.ac.in.png"
 import amandeep from "@/assets/faculty/amandeepkaur.jpg"
 import gunjan from "@/assets/faculty/gunjan.jpg"
 import gautam from "@/assets/faculty/gautam.jpg"
-
 import rishav from "@/assets/faculty/Rishav-singh.jpg"
 import karan from "@/assets/faculty/karan_verma.jpg"
 import cprakash from "@/assets/faculty/cprakash.jpg"
-
 import rohini from "@/assets/faculty/rohini.jpeg"
 import manoj from "@/assets/faculty/manoj.jpg"
 import jyoteesh from "@/assets/faculty/jyoteesh.jpg"
@@ -22,12 +19,14 @@ import divya from "@/assets/faculty/divya.jpg"
 export const cheifPatron = [
     {
         type: "Cheif Patron",
-        members: [{
-            name: 'Prof. (Dr.) Ajay K. Sharma',
-            designation: 'Director',
-            affiliation: { line1: 'National Institute of Technology Delhi', line2: '' },
-            photo: director
-        }]
+        members: [
+            {
+                name: 'Prof. (Dr.) Ajay K. Sharma',
+                designation: 'Director',
+                affiliation: { line1: 'National Institute of Technology Delhi', line2: '' },
+                photo: director
+            }
+    ]
     }]
 
 export const advisoryCommittee = [
