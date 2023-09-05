@@ -15,6 +15,8 @@ import manoj from "@/assets/faculty/manoj.jpg"
 import jyoteesh from "@/assets/faculty/jyoteesh.jpg"
 import indu from "@/assets/faculty/indu.jpg"
 import divya from "@/assets/faculty/divya.jpg"
+import harsh from "@/assets/faculty/harsh_verma.jpg"
+import satish from "@/assets/faculty/satish.jpg"
 
 export const cheifPatron = [
     {
@@ -292,7 +294,7 @@ export const steeringCommitee = [
                 name: 'Prof. Satish Chand',
                 designation: 'Professor',
                 affiliation: { line1: 'School of Computer Systems Sciences, JNU Delhi', line2: '' },
-                photo: profile
+                photo: satish
             },
             {
                 name: 'Dr. Arvinder Kaur',
@@ -304,7 +306,7 @@ export const steeringCommitee = [
                 name: 'Prof. Harsh Verma',
                 designation: 'Professor',
                 affiliation: { line1: 'Department of CSE, NIT Jalandhar', line2: '' },
-                photo: profile
+                photo: harsh
             },
             {
                 name: 'Prof. Manoj Kumar',
