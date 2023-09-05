@@ -1,7 +1,7 @@
 import data_analytics from "@/assets/icons/data_mining.png";
 import cryptography from "@/assets/icons/cryptography.png";
 import iot from "@/assets/icons/IoT.png";
-import ai from "@/assets/icons/ai.jpg";
+import ai from "@/assets/icons/ai.png";
 import healthcare from "@/assets/icons/healthcare.png";
 import Image from "next/image";
  
