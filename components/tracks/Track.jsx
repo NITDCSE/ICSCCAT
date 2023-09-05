@@ -24,7 +24,7 @@ export default function Track({ heading, by, content, imgOri, image, id }) {
             {content.map(function (con, idx) {
               return  (
                 <section key={idx} className={`flex my-12 items-center flex-col md:flex-row ${idx % 2 == 0 ? "" : "md:flex-row-reverse"}`}>
-                  <Image src={image} className="rounded-xl shadow-md mb-8 sm:my-0" />
+                  {/* <Image src={image} className="rounded-xl shadow-md mb-8 sm:my-0" /> */}
                   <p className="text-lg my-4 leading-8 px-4 text-justify">{con}</p>:
                 </section>
               );
