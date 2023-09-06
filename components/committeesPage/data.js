@@ -84,6 +84,12 @@ import Sunil from "@/assets/committee/technical/Prof. Sunil Vadera.jpg"
 import YNSingh from "@/assets/committee/technical/Prof. Y. N. Singh.jpg"
 import YSingh from "@/assets/committee/technical/Prof. Yogesh Singh.png"
 
+import Bhargava from "@/assets/committee/technical/Bharat Bhargava.jpg"
+import Aggarwal from "@/assets/committee/technical/K K Aggarwal.JPG"
+import Preetam from "@/assets/committee/technical/Preetam Kumar IIT Patna.PNG"
+import Sergii from "@/assets/committee/technical/Sergii-Ubizskii.jpg"
+import Subhas from "@/assets/committee/technical/Subhas Chandra.png"
+
 export const cheifPatron = [
     {
         type: "Cheif Patron",
@@ -136,7 +142,7 @@ export const advisoryCommittee = [
             {
                 name: 'Prof. Sergii Ubizskii',
                 affiliation: { line1: 'LPNU, Ukraine', line2: '' },
-                photo: profile
+                photo: Sergii
             },
             {
                 name: 'Prof. Yuri Shpolyanskiy',
@@ -151,7 +157,7 @@ export const advisoryCommittee = [
             {
                 name: 'Dr. Bharat Bhargava',
                 affiliation: { line1: 'Purdue University, USA', line2: '' },
-                photo: profile
+                photo: Bhargava
             },
             {
                 name: 'Dr. Marcin Paprzycki',
@@ -168,7 +174,7 @@ export const advisoryCommittee = [
             {
                 name: 'Dr. Subhas Chandra Mukhopadhyay',
                 affiliation: { line1: 'Macquarie University, NSW 2109 Australia', line2: '' },
-                photo: profile
+                photo: Subhas
             },
             {
                 name: 'Dr. Pavel Kromer',
@@ -472,7 +478,7 @@ export const technicalCommitee = [
                 name: 'Prof. K K Aggarwal',
                 designation: 'Chairman',
                 affiliation: { line1: 'NBA', line2: '' },
-                photo: profile
+                photo: Aggarwal
             },
             {
                 name: 'Prof. Manoj Singh Gaur',
@@ -524,7 +530,7 @@ export const technicalCommitee = [
             {
                 name: 'Dr. Preetam Kumar',
                 affiliation: { line1: 'IIT Patna, India', line2: '' },
-                photo: profile
+                photo: Preetam
             },
             {
                 name: 'Dr. C. Periasamy',
