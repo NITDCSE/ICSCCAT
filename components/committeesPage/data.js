@@ -386,18 +386,18 @@ export const steeringCommitee = [
                 affiliation: { line1: 'Department of CSE, NIT Jalandhar', line2: '' },
                 photo: harsh
             },
-            {
-                name: 'Prof. Manoj Kumar',
-                designation: 'Professor',
-                affiliation: { line1: 'Department of ECE, NIT Delhi', line2: '' },
-                photo: manoj
-            },
-            {
-                name: 'Dr Jyoteesh Malhotra',
-                designation: 'Professor',
-                affiliation: { line1: 'Department of ECE, NIT Delhi', line2: '' },
-                photo: jyoteesh
-            }
+            // {
+            //     name: 'Prof. Manoj Kumar',
+            //     designation: 'Professor',
+            //     affiliation: { line1: 'Department of ECE, NIT Delhi', line2: '' },
+            //     photo: manoj
+            // },
+            // {
+            //     name: 'Dr Jyoteesh Malhotra',
+            //     designation: 'Professor',
+            //     affiliation: { line1: 'Department of ECE, NIT Delhi', line2: '' },
+            //     photo: jyoteesh
+            // }
         ]
     },
     {
