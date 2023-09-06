@@ -277,12 +277,6 @@ export const advisoryCommittee = [
                 photo: Rajeev
             },
             {
-                name: 'Prof. Manoj Mishra',
-                designation: 'Professor',
-                affiliation: { line1: 'IIT, Roorkee', line2: '' },
-                photo: Manoj
-            },
-            {
                 name: 'Prof. Lalit Kumar Awasthi',
                 designation: 'Director',
                 affiliation: { line1: 'IIT, Roorkee', line2: '' },
@@ -465,38 +459,38 @@ export const steeringCommitee = [
 ]
 
 export const technicalCommitee = [
-    {
-        type:'CHAIRS',
-        members:[
-            {
-                name: 'Padma Shri Prof. Deepak B Phatak',
-                designation: 'Professor',
-                affiliation: { line1: 'IIT Bombay', line2: '' },
-                photo: Phatak
-            },
-            {
-                name: 'Prof. K K Aggarwal',
-                designation: 'Chairman',
-                affiliation: { line1: 'NBA', line2: '' },
-                photo: Aggarwal
-            },
-            {
-                name: 'Prof. Manoj Singh Gaur',
-                designation: 'Director',
-                affiliation: { line1: 'IIT Jammu', line2: '' },
-                photo: Gaur
-            }
-        ]
-    },
+    // {
+    //     type:'CHAIRS',
+    //     members:[
+    //         {
+    //             name: 'Padma Shri Prof. Deepak B Phatak',
+    //             designation: 'Professor',
+    //             affiliation: { line1: 'IIT Bombay', line2: '' },
+    //             photo: Phatak
+    //         },
+    //         {
+    //             name: 'Prof. K K Aggarwal',
+    //             designation: 'Chairman',
+    //             affiliation: { line1: 'NBA', line2: '' },
+    //             photo: Aggarwal
+    //         },
+    //         {
+    //             name: 'Prof. Manoj Singh Gaur',
+    //             designation: 'Director',
+    //             affiliation: { line1: 'IIT Jammu', line2: '' },
+    //             photo: Gaur
+    //         }
+    //     ]
+    // },
     {
         type : 'COMMITTEE MEMBERS',
         members :  [
-            {
-                name: 'Prof. Yogesh Singh',
-                designation: 'Vice Chancellor',
-                affiliation: { line1: 'University of Delhi', line2: '' },
-                photo: YSingh
-            },
+            // {
+            //     name: 'Prof. Yogesh Singh',
+            //     designation: 'Vice Chancellor',
+            //     affiliation: { line1: 'University of Delhi', line2: '' },
+            //     photo: YSingh
+            // },
             {
                 name: 'Prof. Bijendra Kumar',
                 designation: 'Professor',
