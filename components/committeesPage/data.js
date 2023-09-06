@@ -18,6 +18,72 @@ import divya from "@/assets/faculty/divya.jpg"
 import harsh from "@/assets/faculty/harsh_verma.jpg"
 import satish from "@/assets/faculty/satish.jpg"
 
+import abhijit from "@/assets/committee/international/Dr. Abhijit Sen.jpeg"
+import chaman from "@/assets/committee/international/Dr. Chaman Verma.png"
+import marcin from "@/assets/committee/international/Dr. Marcin Paprzycki.jpg"
+import pavel from "@/assets/committee/international/Dr. Pavel Kromer.jpg"
+import zoltan from "@/assets/committee/international/Dr. Zoltán Vámossy.jpg"
+import habil from "@/assets/committee/international/Prof. (Dr.) Habil.jpg"
+import ali from "@/assets/committee/international/Prof. Ali Gharsallah.jpg"
+import hiroyuki from "@/assets/committee/international/Prof. Hiroyuki Tsuda.jpg"
+import isao from "@/assets/committee/international/Prof. Isao Echizen.jpg"
+import konstantin from "@/assets/committee/international/Prof. Konstantin Kozadeav.png"
+import leandro from "@/assets/committee/international/Prof. Leandro Melo de Sales.jpg"
+import yasin from "@/assets/committee/international/Prof. M. Yasin Akhtar Raja.png"
+import mukesh from "@/assets/committee/international/Prof. Mukesh Singhal.jpg"
+import yudong from "@/assets/committee/international/Prof. Yudong Zhang.jpg"
+import yuri from "@/assets/committee/international/Prof. Yuri Shpolyanskiy.jpg"
+
+import Shailender from "@/assets/committee/national/Dr Shailender Kumar.jpg"
+import Badri from "@/assets/committee/national/Dr. Badri N. Subudhi.jpg"
+import Maheshkumar from "@/assets/committee/national/Dr. Maheshkumar H. Kolekar.jpg"
+import Angshul from "@/assets/committee/national/Prof. Angshul Majumda.jpg"
+import Aparajita from "@/assets/committee/national/Prof. Aparajita Ojha.jpg"
+import Kaith from "@/assets/committee/national/Prof. B S Kaith.jpg"
+import Chaudhuri from "@/assets/committee/national/Prof. B. B. Chaudhuri.jpg"
+import Singh from "@/assets/committee/national/Prof. B. K. Singh.jpg"
+import Balaraman from "@/assets/committee/national/Prof. Balaraman Ravindran.jpg"
+import Binod from "@/assets/committee/national/Prof. Binod Kumar Kanaujia.jpg"
+import Daya from "@/assets/committee/national/Prof. Daya Gupta.png"
+import Devanand from "@/assets/committee/national/Prof. Devanand.jpg"
+import Kolin from "@/assets/committee/national/Prof. Kolin Poul.jpg"
+import Lalit from "@/assets/committee/national/Prof. Lalit Kumar Awasthi.jpg"
+import Manoj from "@/assets/committee/national/Prof. Manoj Mishra.jpg"
+import Pramod from "@/assets/committee/national/Prof. Pramod Kumar Jain.jpg"
+import Balasubramanian from "@/assets/committee/national/Prof. R. Balasubramanian.jpeg"
+import Rajeev from "@/assets/committee/national/Prof. Rajeev Sangal.jpg"
+import Ranjan from "@/assets/committee/national/Prof. Ranjan Bose.jpg"
+import Ratnaiti from "@/assets/committee/national/Prof. Ratnaiti Bhattacharya.jpg"
+import Somenath from "@/assets/committee/national/Prof. Somenath Biswas.jpg"
+import Vijay from "@/assets/committee/national/T. V. Vijay Kumar.jpg"
+import { Chathura, Shalimar } from "@next/font/google"
+
+import Kamlesh from "@/assets/committee/technical/Dr Kamlesh Dutta.jpg"
+import Monica from "@/assets/committee/technical/Dr Monica Sikka.jpg"
+import Roop from "@/assets/committee/technical/Dr Roop Pahuja.jpg"
+import Pahuja from "@/assets/committee/technical/Dr S K Pahuja.png"
+import Sharma from "@/assets/committee/technical/Dr T P Sharma.jpg"
+import Periasamy from "@/assets/committee/technical/Dr. C. Periasamy.png"
+import Deepak from "@/assets/committee/technical/Dr. Deepak Kumar Sharma.jpg"
+import Mamta from "@/assets/committee/technical/Dr. Mamta Khosla.jpg"
+import Nitai from "@/assets/committee/technical/Dr. Nitai Basak.jpg"
+import Nonita from "@/assets/committee/technical/Dr. Nonita Sharma.jpg"
+import Rohit from "@/assets/committee/technical/Dr. Rohit Mehra.jpg"
+import Subrahmanyam from "@/assets/committee/technical/Dr. Subrahmanyam Murala.jpg"
+import Partha from "@/assets/committee/technical/Dr.Partha Pritam Roy.jpeg"
+import Phatak from "@/assets/committee/technical/Padma Shri Prof. Deepak B Phatak.jpg"
+import Trivedi from "@/assets/committee/technical/Prof. Aditya Trivedi.jpg"
+import Bijendra from "@/assets/committee/technical/Prof. Bijendra Kumar.jpg"
+import Hardeep from "@/assets/committee/technical/Prof. Hardeep Singh.jpg"
+import Jasdeep from "@/assets/committee/technical/Prof. Jasdeep Kaur Dhanoa.jpg"
+import Gaur from "@/assets/committee/technical/Prof. Manoj Singh Gaur.png"
+import Krishna from "@/assets/committee/technical/Prof. Rama Krishna Challa.jpg"
+import Savita from "@/assets/committee/technical/Prof. Savita Gupta.jpg"
+import Seeja from "@/assets/committee/technical/Prof. Seeja. K. R..jpg"
+import Sunil from "@/assets/committee/technical/Prof. Sunil Vadera.jpg"
+import YNSingh from "@/assets/committee/technical/Prof. Y. N. Singh.jpg"
+import YSingh from "@/assets/committee/technical/Prof. Yogesh Singh.png"
+
 export const cheifPatron = [
     {
         type: "Cheif Patron",
@@ -39,33 +105,33 @@ export const advisoryCommittee = [
                 name: 'Prof. Mukesh Singhal',
                 designation: 'Chancellor\'s Professor',
                 affiliation: { line1: 'University of California at Merced', line2: '' },
-                photo: profile
+                photo: mukesh
             },
             {
                 name: 'Prof. Hiroyuki Tsuda',
                 affiliation: { line1: 'Keio University, Japan', line2: '' },
-                photo: profile
+                photo: hiroyuki
             },
             {
                 name: 'Prof. Ali Gharsallah',
                 affiliation: { line1: 'Univ. of Tunis E. M., Tunisia', line2: '' },
-                photo: profile
+                photo: ali
             },
             {
                 name: 'Prof. Isao Echizen',
                 affiliation: { line1: 'Director, National Institute Of Informatics, Tokyo, Japan', line2: '' },
-                photo: profile
+                photo: isao
             },
             {
                 name: 'Prof. Yudong Zhang',
                 affiliation: { line1: 'University Of Leicester, UK', line2: '' },
-                photo: profile
+                photo: yudong
             },
             {
                 name: 'Prof. M. Yasin Akhtar Raja',
                 designation: 'Professor',
                 affiliation: { line1: 'University of North Carolina at Charlotte, USA', line2: '' },
-                photo: profile
+                photo: yasin
             },
             {
                 name: 'Prof. Sergii Ubizskii',
@@ -75,12 +141,12 @@ export const advisoryCommittee = [
             {
                 name: 'Prof. Yuri Shpolyanskiy',
                 affiliation: { line1: 'Univ. of Saint Petersburg, Russia', line2: '' },
-                photo: profile
+                photo: yuri
             },
             {
                 name: 'Prof. Konstantin Kozadeav',
                 affiliation: { line1: 'BSU, Minsk, Belarus', line2: '' },
-                photo: profile
+                photo: konstantin
             },
             {
                 name: 'Dr. Bharat Bhargava',
@@ -91,13 +157,13 @@ export const advisoryCommittee = [
                 name: 'Dr. Marcin Paprzycki',
                 designation:'Systems Research Institute',
                 affiliation: { line1: 'Polish Academy of Sciences, Warsaw, POLAND', line2: '' },
-                photo: profile
+                photo: marcin
             },
             {
                 name: 'Dr. Abhijit Sen',
                 designation: 'Computer Science and Information Technology',
                 affiliation: { line1: 'Kwantlen Polytechnic University, CANADA', line2: '' },
-                photo: profile
+                photo: abhijit
             },
             {
                 name: 'Dr. Subhas Chandra Mukhopadhyay',
@@ -108,7 +174,7 @@ export const advisoryCommittee = [
                 name: 'Dr. Pavel Kromer',
                 designation: 'Associate Professor',
                 affiliation: { line1: 'VSB-Technical University of Ostrava, Czech Republic', line2: '' },
-                photo: profile
+                photo: pavel
             },
             {
                 name: 'Dr. Pradeep Kumar',
@@ -120,24 +186,24 @@ export const advisoryCommittee = [
                 name: 'Dr. Chaman Verma',
                 designation: 'Assistant Professor',
                 affiliation: { line1: 'Eötvös Loránd University, Budapest, Hungary', line2: '' },
-                photo: profile
+                photo: chaman
             },
             {
                 name: 'Dr. Zoltán Vámossy',
                 affiliation: { line1: 'Óbuda University, Budapest, Hungary', line2: '' },
-                photo: profile
+                photo: zoltan
             },
             {
                 name: 'Prof. (Dr.) Habil',
                 designation:'Levente Adalbert Kovács',
                 affiliation: { line1: 'Óbuda University, Budapest, Hungary', line2: '' },
-                photo: profile
+                photo: habil
             },
             {
                 name: 'Prof. Leandro Melo de Sales',
                 // designation:'Levente Adalbert Kovács',
                 affiliation: { line1: 'Institute of Computing (IC) at Federal University of Alagoas (UFAL), Brazil', line2: '' },
-                photo: profile
+                photo: leandro
             },
             {
                 name: 'Prof. (Dr.) Habil',
@@ -154,145 +220,145 @@ export const advisoryCommittee = [
                 name: 'Prof. Manoj Mishra',
                 designation: 'Professor',
                 affiliation: { line1: 'IIT, Roorkee', line2: '' },
-                photo: profile
+                photo: Manoj
             },
             {
                 name: 'Prof. Binod Kumar Kanaujia',
                 designation: 'Director (Prof.)',
                 affiliation: { line1: 'NIT Jalandhar', line2: '' },
-                photo: profile
+                photo: Binod
             },
             {
                 name: 'T. V. Vijay Kumar',
                 designation: 'Professor',
                 affiliation: { line1: 'JNU Delhi', line2: '' },
-                photo: profile
+                photo: Vijay
             },
             {
                 name: 'Prof. B. K. Singh',
                 designation: 'Professor',
                 affiliation: { line1: 'IIT, Roorkee', line2: '' },
-                photo: profile
+                photo: Singh
             },
             {
                 name: 'Prof. Pramod Kumar Jain',
                 designation: 'Director',
                 affiliation: { line1: 'IIT(BHU) Varanasi', line2: '' },
-                photo: profile
+                photo: Pramod
             },
             {
                 name: 'Prof. Kolin Poul',
                 designation: 'Professor',
                 affiliation: { line1: 'IIT, Delhi', line2: '' },
-                photo: profile
+                photo: Kolin
             },
             {
                 name: 'Prof. Balaraman Ravindran',
                 designation: 'Professor',
                 affiliation: { line1: 'IIT, Madras', line2: '' },
-                photo: profile
+                photo: Balaraman
             },
             {
                 name: 'Prof. Somenath Biswas',
                 designation: 'Professor',
                 affiliation: { line1: 'IIT, Kanpur', line2: '' },
-                photo: profile
+                photo: Somenath
             },
             {
                 name: 'Prof. Rajeev Sangal',
                 designation: 'Professor',
                 affiliation: { line1: 'IIT, Hyderabad', line2: '' },
-                photo: profile
+                photo: Rajeev
             },
             {
                 name: 'Prof. Manoj Mishra',
                 designation: 'Professor',
                 affiliation: { line1: 'IIT, Roorkee', line2: '' },
-                photo: profile
+                photo: Manoj
             },
             {
                 name: 'Prof. Lalit Kumar Awasthi',
                 designation: 'Director',
                 affiliation: { line1: 'IIT, Roorkee', line2: '' },
-                photo: profile
+                photo: Lalit
             },
             {
                 name: 'Prof. B. B. Chaudhuri',
                 designation: 'Professor',
                 affiliation: { line1: 'Indian Statistical Institute Kolkata', line2: '' },
-                photo: profile
+                photo: Chaudhuri
             },
             {
                 name: 'Prof. R. Balasubramanian',
                 designation: 'Professor',
                 affiliation: { line1: 'IIT, Roorkee', line2: '' },
-                photo: profile
+                photo: Balasubramanian
             },
             {
                 name: 'Prof. Aparajita Ojha',
                 designation: 'Professor',
                 affiliation: { line1: 'IIITDM, Jabalpur', line2: '' },
-                photo: profile
+                photo: Aparajita
             },
             {
                 name: 'Dr. Maheshkumar H. Kolekar',
                 designation: 'Associate Professor',
                 affiliation: { line1: 'IIT, Patna', line2: '' },
-                photo: profile
+                photo: Maheshkumar
             },
             {
                 name: 'Prof. Ratnaiti Bhattacharya',
                 designation: 'Professor',
                 affiliation: { line1: 'IIT, Guwahati', line2: '' },
-                photo: profile
+                photo: Ratnaiti
             },
             {
                 name: 'Prof. Devanand',
                 designation: 'Professor',
                 affiliation: { line1: 'Central University of Jammu', line2: '' },
-                photo: profile
+                photo: Devanand
             },
             {
                 name: 'Prof. B S Kaith',
                 designation: 'Professor',
                 affiliation: { line1: 'NIT Jalandhar', line2: '' },
-                photo: profile
+                photo: Kaith
             },
             {
                 name: 'Prof. Hardeep Singh',
                 designation: 'Professor',
                 affiliation: { line1: 'GNDU Amritsar', line2: '' },
-                photo: profile
+                photo: Hardeep
             },
             {
                 name: 'Prof. Daya Gupta',
                 designation: 'Professor',
                 affiliation: { line1: 'DTU, New Delhi', line2: '' },
-                photo: profile
+                photo: Daya
             },
             {
                 name: 'Dr Shailender Kumar',
                 designation: 'Professor',
                 affiliation: { line1: 'DTU New Delhi', line2: '' },
-                photo: profile
+                photo: Shailender
             },
             {
                 name: 'Prof. Ranjan Bose',
                 designation: 'Director',
                 affiliation: { line1: 'IIIT-Delhi', line2: '' },
-                photo: profile
+                photo: Ranjan
             },
             {
                 name: 'Prof. Angshul Majumda',
                 designation: 'Professor (CSE, ECE)',
                 affiliation: { line1: 'IIIT Delhi', line2: '' },
-                photo: profile
+                photo: Angshul
             },
             {
                 name: 'Dr. Badri N. Subudhi',
                 designation: 'Assistant Professor',
                 affiliation: { line1: 'IIT jammu', line2: '' },
-                photo: profile
+                photo: Badri
             }
         ]
     }
@@ -400,10 +466,10 @@ export const technicalCommitee = [
                 name: 'Padma Shri Prof. Deepak B Phatak',
                 designation: 'Professor',
                 affiliation: { line1: 'IIT Bombay', line2: '' },
-                photo: profile
+                photo: Phatak
             },
             {
-                name: 'Prof. K K Aggarwa',
+                name: 'Prof. K K Aggarwal',
                 designation: 'Chairman',
                 affiliation: { line1: 'NBA', line2: '' },
                 photo: profile
@@ -412,7 +478,7 @@ export const technicalCommitee = [
                 name: 'Prof. Manoj Singh Gaur',
                 designation: 'Director',
                 affiliation: { line1: 'IIT Jammu', line2: '' },
-                photo: profile
+                photo: Gaur
             }
         ]
     },
@@ -423,31 +489,31 @@ export const technicalCommitee = [
                 name: 'Prof. Yogesh Singh',
                 designation: 'Vice Chancellor',
                 affiliation: { line1: 'University of Delhi', line2: '' },
-                photo: profile
+                photo: YSingh
             },
             {
                 name: 'Prof. Bijendra Kumar',
                 designation: 'Professor',
                 affiliation: { line1: 'NSUT Delhi', line2: '' },
-                photo: profile
+                photo: Bijendra
             },
             {
                 name: 'Prof. Sunil Vadera',
                 designation: 'Professor',
                 affiliation: { line1: 'University of Salford, Manchester, UK', line2: '' },
-                photo: profile
+                photo: Sunil
             },
             {
                 name: 'Prof. Jasdeep Kaur Dhanoa',
                 designation: 'Professor',
                 affiliation: { line1: 'IGDTUW Delhi', line2: '' },
-                photo: profile
+                photo: Jasdeep
             },
             {
                 name: 'Prof. Seeja. K. R.',
                 designation: 'Professor',
                 affiliation: { line1: 'IGDTUW Delhi', line2: '' },
-                photo: profile
+                photo: Seeja
             },
             {
                 name: 'Prof. Ela Arun',
@@ -463,107 +529,107 @@ export const technicalCommitee = [
             {
                 name: 'Dr. C. Periasamy',
                 affiliation: { line1: 'MNIT Jaipur, India', line2: '' },
-                photo: profile
+                photo: Periasamy
             },
             {
                 name: 'Dr.Partha Pritam Roy',
                 affiliation: { line1: 'CSE, IIT Roorkee', line2: '' },
-                photo: profile
+                photo: Partha
             },
             {
                 name: 'Dr. Subrahmanyam Murala',
                 affiliation: { line1: 'IIT Ropar', line2: '' },
-                photo: profile
+                photo: Subrahmanyam
             },
             {
                 name: 'Prof. Rama Krishna Challa',
                 designation:'Professor',
                 affiliation: { line1: 'NITTTR Chandigarh', line2: '' },
-                photo: profile
+                photo: Krishna
             },
             {
                 name: 'Prof. Hardeep Singh',
                 designation:'Professor',
                 affiliation: { line1: 'GNDU Amritsar', line2: '' },
-                photo: profile
+                photo: Hardeep
             },
             {
                 name: 'Prof. Savita Gupta',
                 designation:'Professor',
                 affiliation: { line1: 'Panjab University, Chandigarh', line2: '' },
-                photo: profile
+                photo: Savita
             },
             {
                 name: 'Prof. Aditya Trivedi',
                 designation:'Professor',
                 affiliation: { line1: 'IITM Gwalior', line2: '' },
-                photo: profile
+                photo: Trivedi
             },
             {
                 name: 'Prof. Y. N. Singh',
                 designation:'Professor',
                 affiliation: { line1: 'IIT Kanpur', line2: '' },
-                photo: profile
+                photo: YNSingh
             },
             {
                 name: 'Dr T P Sharma',
                 designation:'Associate Professor',
                 affiliation: { line1: 'NIT Hamirpur', line2: '' },
-                photo: profile
+                photo: Sharma
             },
             {
                 name: 'Dr Kamlesh Dutta',
                 designation:'Associate Professor',
                 affiliation: { line1: 'NIT Hamirpur', line2: '' },
-                photo: profile
+                photo: Kamlesh
             },
             {
                 name: 'Dr Roop Pahuja',
                 designation:'Associate Professor',
                 affiliation: { line1: 'NIT Jalandhar', line2: '' },
-                photo: profile
+                photo: Roop
             },
             {
                 name: 'Dr S K Pahuja',
                 designation:'Associate Professor',
                 affiliation: { line1: 'NIT Jalandhar', line2: '' },
-                photo: profile
+                photo: Pahuja
             },
             {
                 name: 'Dr Monica Sikka',
                 designation:'Associate Professor',
                 affiliation: { line1: 'NIT Jalandhar', line2: '' },
-                photo: profile
+                photo: Monica
             },
             {
                 name: 'Dr. Nitai Basak',
                 designation:'Associate Professor',
                 affiliation: { line1: 'NIT Jalandhar', line2: '' },
-                photo: profile
+                photo: Nitai
             },
             {
                 name: 'Dr. Mamta Khosla',
                 designation:'Associate Professor',
                 affiliation: { line1: 'NIT Jalandhar', line2: '' },
-                photo: profile
+                photo: Mamta
             },
             {
                 name: 'Dr. Rohit Mehra',
                 designation:'Associate Professor',
                 affiliation: { line1: 'NIT Jalandhar', line2: '' },
-                photo: profile
+                photo: Rohit
             },
             {
                 name: 'Dr. Deepak Kumar Sharma',
                 designation:'Associate Professor',
                 affiliation: { line1: 'IGDTUW New Delhi', line2: '' },
-                photo: profile
+                photo: Deepak
             },
             {
                 name: 'Dr. Nonita Sharma',
                 designation:'Associate Professor',
                 affiliation: { line1: 'IGDTUW New Delhi', line2: '' },
-                photo: profile
+                photo: Nonita
             },
 
         ]
