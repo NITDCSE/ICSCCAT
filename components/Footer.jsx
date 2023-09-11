@@ -143,7 +143,7 @@ export default function Footer() {
             </div>
           </div>
           <p className="text-sm text-center mt-12">
-            All right reserved ICSCCAT-2024. Powered by NIT Delhi
+            Powered by Department of Computer Science & Engineering, NIT Delhi
           </p>
         </div>
         <div className="bg-black text-white text-sm">

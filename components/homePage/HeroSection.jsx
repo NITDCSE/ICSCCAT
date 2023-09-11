@@ -61,7 +61,7 @@ export default function HeroSection() {
             <h2 className={styles.addressTitle}>Venue</h2>
             <div className={styles.addressDetails}>
               <p className={styles.addressText}>
-                Auditorium, Administrative Block <br />
+                Department of Computer Science & Engineering  <br />
                 National Institute of Technology Delhi <br />
                 Plot No. FA7, Zone, P1, GT Karnal Road, Delhi, 110036
               </p>
