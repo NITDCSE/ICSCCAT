@@ -1,6 +1,8 @@
 # <img src="https://cdn-icons-png.flaticon.com/512/2387/2387635.png" width="64">
  
-- Add photos of committee members.
+1. Add visitors counter.
+2. Change Tracks page UI.
+3. change color of track-cards in homepage.
 
 
 ## Intro
