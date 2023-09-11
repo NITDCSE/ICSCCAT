@@ -279,7 +279,7 @@ export const advisoryCommittee = [
             {
                 name: 'Prof. Lalit Kumar Awasthi',
                 designation: 'Director',
-                affiliation: { line1: 'IIT, Roorkee', line2: '' },
+                affiliation: { line1: 'NIT, Uttarakhand', line2: '' },
                 photo: Lalit
             },
             {
@@ -731,6 +731,12 @@ export const organizingCommittee =  [
                 affiliation: { line1: 'Dept of CSE, NIT Delhi', line2: '' },
                 photo: sahil
             },
+            {
+                name: 'Dr. Indu Joshi',
+                designation: 'Assistant Professor',
+                affiliation: { line1: 'Dept of CSE, NIT Delhi', line2: '' },
+                photo: indu
+            },
         ]
     },
     {
@@ -785,12 +791,6 @@ export const publicationCommittee = [
                 affiliation: { line1: 'Dept of CSE, NIT Delhi', line2: '' },
                 photo: amandeep
             },
-            {
-                name: 'Dr. Indu Joshi',
-                designation: 'Assistant Professor',
-                affiliation: { line1: 'Dept of CSE, NIT Delhi', line2: '' },
-                photo: indu
-            },
         ]
     }
 ]
@@ -835,12 +835,7 @@ export const hospitalityCommittee = [
                 affiliation: { line1: 'Dept of CSE, NIT Delhi', line2: '' },
                 photo: karan
             },
-            {
-                name: 'Dr. Indu Joshi',
-                designation: 'Assistant Professor',
-                affiliation: { line1: 'Dept of CSE, NIT Delhi', line2: '' },
-                photo: indu
-            },
+
         ]
     },
     {
@@ -851,6 +846,12 @@ export const hospitalityCommittee = [
                 designation: 'Postdoctoral Researcher',
                 affiliation: { line1: 'Dept of CSE, NIT Delhi', line2: '' },
                 photo: divya
+            },
+            {
+                name: 'Dr. Indu Joshi',
+                designation: 'Assistant Professor',
+                affiliation: { line1: 'Dept of CSE, NIT Delhi', line2: '' },
+                photo: indu
             },
         ]
     }
