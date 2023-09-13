@@ -1,10 +1,15 @@
+// ConferenceTracks.js
+
+'use client'
 import data_analytics from "@/assets/icons/data_mining.png";
 import cryptography from "@/assets/icons/cryptography.png";
 import iot from "@/assets/icons/IoT.png";
 import ai from "@/assets/icons/ai.png";
 import healthcare from "@/assets/icons/healthcare.png";
 import Image from "next/image";
- 
+import { useState } from "react";
+import './ConferenceTracks.css';
+
 export default function ConferenceTracks() {
   const themes = [
     {
@@ -25,7 +30,7 @@ export default function ConferenceTracks() {
     {
       name: "ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING",
       imageUrl: ai,
-     link: "artificial_intelligence",
+      link: "artificial_intelligence",
     },
     {
       name: "HEALTHCARE 4.0",
@@ -33,6 +38,14 @@ export default function ConferenceTracks() {
       link: "sajal",
     },
   ];
+
+  const linkUrl = 'https://example.com';
+  
+  const [flippedCard, setFlippedCard] = useState(null);
+
+  const toggleCardFlip = (index) => {
+    setFlippedCard(flippedCard === index ? null : index);
+  };
 
   return (
     <section id="themes" className="py-6">
@@ -44,17 +57,25 @@ export default function ConferenceTracks() {
               <div
                 key={index}
                 href={theme.link}
-                className="bg-gray-200 p-4 rounded-lg shadow-md flex items-center hover:shadow-lg hover:bg-gray-400 transition duration-300 ease-in-out"
+                className={`card ${flippedCard === index ? "flip" : ""}`}
+                onClick={() => toggleCardFlip(index)}
               >
-                <div className="w-1/2 pr-4">
-                  <img
-                    src={theme.imageUrl.src}
-                    alt={theme.name}
-                    className="w-full h-auto rounded-md"
-                  />
-                </div>
-                <div className="w-1/2">
-                  <ConferenceTrackGridItem theme={theme.name} />
+                <div className="card-inner">
+                  <div className="front">
+                    <div className="front-content">
+                      <img
+                        src={theme.imageUrl.src}
+                        alt={theme.name}
+                        className="w-full h-auto rounded-md"
+                      />
+                      <p className="text-black font-semibold">{theme.name}</p>
+                    </div>
+                  </div>
+                  <div className="back">
+                  <a href={linkUrl} className="read-more-button">
+                    Read More
+                  </a>
+                  </div>
                 </div>
               </div>
             );
