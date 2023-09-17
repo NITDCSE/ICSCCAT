@@ -1,13 +1,13 @@
 // ConferenceTracks.js
-
 'use client'
+import React, { useState } from "react";
+import Link from "next/link";
 import data_analytics from "@/assets/icons/data_mining.png";
 import cryptography from "@/assets/icons/cryptography.png";
 import iot from "@/assets/icons/IoT.png";
 import ai from "@/assets/icons/ai.png";
 import healthcare from "@/assets/icons/healthcare.png";
 import Image from "next/image";
-import { useState } from "react";
 import './ConferenceTracks.css';
 
 export default function ConferenceTracks() {
@@ -15,29 +15,29 @@ export default function ConferenceTracks() {
     {
       name: "DATA ANALYTICS AND MINING",
       imageUrl: data_analytics,
-      link: "sajal",
+      link: "/dataanalytics", 
     },
     {
       name: "CRYPTOGRAPHY, CYBER SECURITY AND NETWORK SECURITY",
       imageUrl: cryptography,
-      link: "crypto",
+      link: "/cryptography", 
     },
     {
       name: "CLOUD COMPUTING AND IOT",
       imageUrl: iot,
-      link: "sajal",
+      link: "/cloudcomputing", 
     },
     {
       name: "ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING",
       imageUrl: ai,
-      link: "artificial_intelligence",
+      link: "/aiml", 
     },
     {
       name: "HEALTHCARE 4.0",
       imageUrl: healthcare,
-      link: "sajal",
+      link: "/healthcare", 
     },
-  ];
+  ];  
 
   const linkUrl = '/';
   
@@ -46,6 +46,16 @@ export default function ConferenceTracks() {
   const toggleCardFlip = (index) => {
     setFlippedCard(flippedCard === index ? null : index);
   };
+
+  // Define an array of background colors
+  const cardColors = [
+    "#FF5733", // Color for the first card
+    "#33FF57", // Color for the second card
+    "#5733FF", // Color for the third card
+    "#FF33A1", // Color for the fourth card
+    "#A1FF33", // Color for the fifth card
+    // You can add more colors if needed
+  ];
 
   return (
     <section id="themes" className="py-6">
@@ -58,6 +68,7 @@ export default function ConferenceTracks() {
                 key={index}
                 href={theme.link}
                 className={`card ${flippedCard === index ? "flip" : ""}`}
+                style={{ backgroundColor: cardColors[index] }} // Assign background color
                 onClick={() => toggleCardFlip(index)}
               >
                 <div className="card-inner">
@@ -71,11 +82,13 @@ export default function ConferenceTracks() {
                       <p className="text-black font-semibold">{theme.name}</p>
                     </div>
                   </div>
-                  <div className="back">
-                  <a href={linkUrl} className="read-more-button">
-                    Read More
-                  </a>
+                  <div className="back" style={{ backgroundColor: cardColors[index] }}>
+                    {/* Use Link to create a link to the individual track page */}
+                    <Link href={`/Track_pages/${theme.link}`}>
+                      <div className="read-more-button">Read More</div>
+                    </Link>
                   </div>
+
                 </div>
               </div>
             );
@@ -83,13 +96,5 @@ export default function ConferenceTracks() {
         </div>
       </div>
     </section>
-  );
-}
-
-function ConferenceTrackGridItem({ theme }) {
-  return (
-    <div className="block font-medium text-md leading-tight">
-      <p className="text-black font-semibold">{theme}</p>
-    </div>
   );
 }

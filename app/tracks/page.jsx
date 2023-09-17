@@ -1,5 +1,5 @@
-import Track from "@/components/tracks/Track";
-import {tracks} from '@/components/tracks/data'
+import Track from "@/components/homePage/Track_Pages/tracks/Track";
+import {tracks} from '@/components/homePage/Track_Pages/tracks/data'
 
 export default function Tracks() {
   return (
