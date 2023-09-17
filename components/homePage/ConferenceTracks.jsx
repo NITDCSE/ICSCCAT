@@ -1,13 +1,13 @@
 // ConferenceTracks.js
 
 'use client'
+import React, { useState } from "react";
 import data_analytics from "@/assets/icons/data_mining.png";
 import cryptography from "@/assets/icons/cryptography.png";
 import iot from "@/assets/icons/IoT.png";
 import ai from "@/assets/icons/ai.png";
 import healthcare from "@/assets/icons/healthcare.png";
 import Image from "next/image";
-import { useState } from "react";
 import './ConferenceTracks.css';
 
 export default function ConferenceTracks() {
@@ -47,6 +47,16 @@ export default function ConferenceTracks() {
     setFlippedCard(flippedCard === index ? null : index);
   };
 
+  // Define an array of background colors (light and soothing colors)
+  const cardColors = [
+    "#F4E9CD", // Light yellow
+    "#D1EAF0", // Light blue
+    "#FFD3E0", // Light pink
+    "#C7E9C0", // Light green
+    "#F9E0C1", // Light orange
+    // You can add more colors if needed
+  ];
+
   return (
     <section id="themes" className="py-6">
       <div className="container flex flex-col mx-auto px-6 py-4">
@@ -58,6 +68,7 @@ export default function ConferenceTracks() {
                 key={index}
                 href={theme.link}
                 className={`card ${flippedCard === index ? "flip" : ""}`}
+                style={{ backgroundColor: cardColors[index] }} // Assign background color
                 onClick={() => toggleCardFlip(index)}
               >
                 <div className="card-inner">
@@ -71,10 +82,10 @@ export default function ConferenceTracks() {
                       <p className="text-black font-semibold">{theme.name}</p>
                     </div>
                   </div>
-                  <div className="back">
-                  <a href={linkUrl} className="read-more-button">
-                    Read More
-                  </a>
+                  <div className="back" style={{ backgroundColor: cardColors[index] }}>
+                    <a href={linkUrl} className="read-more-button">
+                      Read More
+                    </a>
                   </div>
                 </div>
               </div>
@@ -83,13 +94,5 @@ export default function ConferenceTracks() {
         </div>
       </div>
     </section>
-  );
-}
-
-function ConferenceTrackGridItem({ theme }) {
-  return (
-    <div className="block font-medium text-md leading-tight">
-      <p className="text-black font-semibold">{theme}</p>
-    </div>
   );
 }
