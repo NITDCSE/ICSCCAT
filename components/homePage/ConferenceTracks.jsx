@@ -39,7 +39,7 @@ export default function ConferenceTracks() {
     },
   ];
 
-  const linkUrl = 'https://example.com';
+  const linkUrl = '/';
   
   const [flippedCard, setFlippedCard] = useState(null);
 

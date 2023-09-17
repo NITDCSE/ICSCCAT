@@ -1,6 +1,5 @@
 "use client"
 import Image from "next/image";
-import ICSCCAT from "@/assets/ICSCCAT logo.png"
 import nitdLogo from "@/public/nitd-logo.png" 
 import g20logo from "@/public/g20_logo.png"
 import azadi from "@/public/azadi_ka_amrit_mahotsav.png"
@@ -42,12 +41,12 @@ function NavRibbon({ open, toggleTracksMenu }) {
 
     return (
         <nav className={`${open ? 'block' : 'hidden'} md:block bg-primaryDark text-white sticky top-0 z-50`}>
-            <div className="container bg-primaryDark absolute md:static mx-auto py-1.5 px-6 left-0 w-full md:w-auto mx-auto">
+            <div className="bg-primaryDark absolute md:static py-1.5 px-6 left-0 w-full md:w-auto mx-auto">
                 <ul className=" md:flex md:items-center md:justify-between">
                     {links.map((link, index) => (
                         <li key={link.name} className="my-6 md:my-0">
                                 <Link
-                                    className="font-bold uppercase text-md font-medium hover:text-primary20"
+                                    className="uppercase text-md font-medium hover:text-primary20"
                                     href={link.link}
                                 >
                                     {link.name}
