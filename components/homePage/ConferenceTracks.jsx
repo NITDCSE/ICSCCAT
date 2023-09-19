@@ -9,13 +9,19 @@ import ai from "@/assets/icons/ai.png";
 import healthcare from "@/assets/icons/healthcare.png";
 import Image from "next/image";
 import './ConferenceTracks.css';
+import DataAnalyticsTrackPage from "./Track_Pages/tracks/dataanalytics";
+import CryptographyTrackPage from "./Track_Pages/tracks/cryptography";
+import CloudComputingTrackPage from "./Track_Pages/tracks/cloudcomputing";
+import AIMLTrackPage from "./Track_Pages/tracks/aiml";
+
+
 
 export default function ConferenceTracks() {
   const themes = [
     {
       name: "DATA ANALYTICS AND MINING",
       imageUrl: data_analytics,
-      link: "/dataanalytics", 
+      link: "/", 
     },
     {
       name: "CRYPTOGRAPHY, CYBER SECURITY AND NETWORK SECURITY",
@@ -49,12 +55,17 @@ export default function ConferenceTracks() {
 
   // Define an array of background colors
   const cardColors = [
-    "#FF5733", // Color for the first card
-    "#33FF57", // Color for the second card
-    "#5733FF", // Color for the third card
-    "#FF33A1", // Color for the fourth card
-    "#A1FF33", // Color for the fifth card
-    // You can add more colors if needed
+    // "#FF5733", // Color for the first card
+    // "#33FF57", // Color for the second card
+    // "#5733FF", // Color for the third card
+    // "#FF33A1", // Color for the fourth card
+    // "#A1FF33", // Color for the fifth card
+    
+    "#FD6824",
+    "#57C12C",
+    "#26BDE3",
+    "#DD1267",
+    "#FCC309"
   ];
 
   return (
