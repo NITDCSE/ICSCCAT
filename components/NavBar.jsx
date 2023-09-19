@@ -4,7 +4,7 @@ import nitdLogo from "@/public/nitd-logo.png"
 import g20logo from "@/public/g20_logo.png"
 import azadi from "@/public/azadi_ka_amrit_mahotsav.png"
 import Link from "next/link";
-import {useState} from "react"
+import {useState} from "react";
 
 export default function NavBar() {
     const [open, setOpen] = useState(false)
@@ -30,7 +30,7 @@ function NavRibbon({ open, toggleTracksMenu }) {
         {name: "About", link: "/about"},
         // {name: "Submissions", link: "/submissions"},
         {name: "Registration", link: "/submissions"},
-        // {name: "Tracks", link: "/tracks"},
+        {name: "Tracks", link: "/tracks"},
         {name: "Speakers", link: "/speakers"},
         {name: "Committees", link: "/committees"},
         {name: "Sponsors", link: "/sponsors"},
