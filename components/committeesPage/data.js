@@ -90,6 +90,9 @@ import Preetam from "@/assets/committee/technical/Preetam Kumar IIT Patna.PNG"
 import Sergii from "@/assets/committee/technical/Sergii-Ubizskii.jpg"
 import Subhas from "@/assets/committee/technical/Subhas Chandra.png"
 
+import lakhssassi from "@/assets/committee/steering/lakhssassi.gif"
+import ramin from "@/assets/committee/steering/ramin.jpg"
+
 export const cheifPatron = [
     {
         type: "Cheif Patron",
@@ -386,18 +389,36 @@ export const steeringCommitee = [
                 affiliation: { line1: 'Department of CSE, NIT Jalandhar', line2: '' },
                 photo: harsh
             },
-            // {
-            //     name: 'Prof. Manoj Kumar',
-            //     designation: 'Professor',
-            //     affiliation: { line1: 'Department of ECE, NIT Delhi', line2: '' },
-            //     photo: manoj
-            // },
-            // {
-            //     name: 'Dr Jyoteesh Malhotra',
-            //     designation: 'Professor',
-            //     affiliation: { line1: 'Department of ECE, NIT Delhi', line2: '' },
-            //     photo: jyoteesh
-            // }
+            {
+                name: 'Prof. Leandro Melo de Sales',
+                designation: 'Professor',
+                affiliation: { line1: 'Institute of Computing (IC) at Federal University of Alagoas (UFAL), Brazil', line2: '' },
+                photo: leandro
+            },
+            {
+                name: 'Prof. Ahmed Lakhssassi',
+                designation: 'Professor',
+                affiliation: { line1: 'Université du Québec en Outaouais, Gatineau, Canada', line2: '' },
+                photo: lakhssassi
+            },
+            {
+                name: 'Prof. Ramin Yahyapour',
+                designation: 'Professor',
+                affiliation: { line1: 'Gesellschaft Gesellschaft für wissenschaftliche Datenverarbeitung mbH Göttingen', line2: '' },
+                photo: ramin
+            },
+            {
+                name: 'Prof. Ali Gharsallah',
+                designation: 'Professor',
+                affiliation: { line1: 'Univ. of Tunis E. M., Tunisia', line2: '' },
+                photo: ali
+            },
+            {
+                name: 'Dr. Nonita Sharma',
+                designation:'Associate Professor',
+                affiliation: { line1: 'IGDTUW New Delhi', line2: '' },
+                photo: Nonita
+            },
         ]
     },
     {

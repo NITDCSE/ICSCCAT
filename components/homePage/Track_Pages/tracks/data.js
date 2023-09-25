@@ -4,8 +4,9 @@ export const tracks = [
     {
         heading: "Data Analytics and Mining",
         by: [
-            "Prof. Vikram Goyal, Professor IIIT Delhi",
-            "Prof. Mayank Vasta and Prof. Richa Singh , IIT Jodhpur"
+            "Prof. Vikram Goyal, Professor, IIIT Delhi",
+            "Prof. Mayank Vasta and Prof. Richa Singh , IIT Jodhpur",
+            "Prof. Manoj Kumar, Professor, NIT Delhi"
         ],
 
         content:
@@ -19,7 +20,8 @@ export const tracks = [
         heading: "Cryptography, Cyber Security and Network Security",
         by: [
             "Prof. Harsh K. Verma, Professor, Department Of Computer Science Engineering NIT Jalandhar",
-            "Prof. Manoj Kumar, Professor, Computer Science Engineering NIT Jalandhar"
+            "Prof. Manoj Kumar, Professor, Computer Science Engineering NIT Jalandhar",
+            "Dr, Chandra Sekhar Obbu, Associate Professor, NIT Delhi"
         ],
 
         content: [
@@ -32,7 +34,9 @@ export const tracks = [
     {
         heading: "Cloud Computing and IoT",
         by: [
-            "Dr. Mashtaq Ahmed, Associate Professor MNIT Jaipur"
+            "Dr. Mashtaq Ahmed, Associate Professor MNIT Jaipur",
+            "Dr. Piyush Kumar, Assistant Professor, NIT Patna",
+            "Prof. Jyoteesh Malhotra, Professor, NIT Delhi"
         ],
 
         content: [
@@ -45,7 +49,8 @@ export const tracks = [
         heading: "Artificial Intelligence and Machine Learning",
         by: [
             "Dr. Shailender Kumar, Associate Professor DTU, New Delhi, India",
-            "Dr. Yogesh Kumar Meena, Associate Professor, MNIT Jaipur"
+            "Dr. Yogesh Kumar Meena, Associate Professor, MNIT Jaipur",
+            "Dr. Shelly Sachdeva, Associate Professor, NIT Delhi"
         ],
 
         content: [
@@ -60,7 +65,8 @@ export const tracks = [
         heading: "Healthcare 4.0",
         by: [
             "Dr. Deepak Kumar Jain, Associate Professor Chongqing University of Posts and Telecommunications, China",
-            "Dr. Deepak Ranjan Nayak, Assistant Professorv NIT Jaipur, India"
+            "Dr. Deepak Ranjan Nayak, Assistant Professorv NIT Jaipur, India",
+            "Dr. Indu Joshi, Assistant Professor, NIT Delhi"
         ],
 
         content: [
