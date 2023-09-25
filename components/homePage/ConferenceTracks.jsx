@@ -16,7 +16,7 @@ export default function CombinedTracks() {
     {
       name: "DATA ANALYTICS AND MINING",
       imageUrl: data_analytics,
-      link: "#data-analytics", // Use section IDs as links
+      link: "#dataanalytics", // Use section IDs as links
     },
     {
       name: "CRYPTOGRAPHY, CYBER SECURITY AND NETWORK SECURITY",
