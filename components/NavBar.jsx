@@ -1,10 +1,9 @@
 "use client"
 import Image from "next/image";
-import nitdLogo from "@/public/nitd-logo.png" 
-import g20logo from "@/public/g20_logo.png"
-import azadi from "@/public/azadi_ka_amrit_mahotsav.png"
+import nitdLogo from "@/public/nitd-logo.png"  
 import ieee from "@/public/ieee.png"
 import Link from "next/link";
+import icslogo from "assets/ICSCCAT logo.png"
 import {useState} from "react";
 
 export default function NavBar() {
@@ -96,11 +95,9 @@ function ConferenceHeader({open, setOpen}) {
                 {/* <Image src={g20logo} className="object-contain" alt="G20"
                        width={84} quality={100}/> */}
                 <Link href="/" className="flex items-center space-x-4 pt-2">
-                    {/* <Image src={ICSCCAT} className="object-contain" alt="ICSCCAT-2024"
-                           width={84} quality={100}/> */}
-                    <h3 className="hidden md:block font-bold text-3xl tracking-wider text-center align-middle">
-                        ICSCCAT 2024
-                        </h3>
+                    <Image src={icslogo} className="object-contain" alt="ICSCCAT-2024"
+                           width={200} quality={100}/>
+                    
                 </Link>
                 <div className="flex-1" />
                 <div className="flex space-x-4 items-center justify-end">
