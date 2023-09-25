@@ -433,7 +433,7 @@ export const steeringCommitee = [
         ]
     },
     {
-        type: 'CO-CHAIRS',
+        type: 'GENERAL CHAIR',
         members: [
             {
                 name: 'Dr. Anurag Singh',
@@ -769,12 +769,12 @@ export const organizingCommittee =  [
                 affiliation: { line1: 'Dept of CSE, NIT Delhi', line2: '' },
                 photo: divya
             },
-            {
-                name: 'Dr. Rohini Mahajan',
-                designation: 'Postdoctoral Researcher',
-                affiliation: { line1: 'Dept of CSE, NIT Delhi', line2: '' },
-                photo: rohini
-            },
+            // {
+            //     name: 'Dr. Rohini Mahajan',
+            //     designation: 'Postdoctoral Researcher',
+            //     affiliation: { line1: 'Dept of CSE, NIT Delhi', line2: '' },
+            //     photo: rohini
+            // },
         ]
     }
 ]
