@@ -5,11 +5,6 @@ export default function Tracks() {
   return (
     <>
       <ConferenceTracks/>
-      {
-      tracks.map(function (elem, idx) {
-        return <Track key={idx} {...elem} imgOri = {idx % 2} />
-      })
-      }
     </>
   );
 }
