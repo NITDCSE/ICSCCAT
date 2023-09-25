@@ -8,7 +8,7 @@ export default function Submissions() {
   return (
     <>
       <div>
-      <ImportantDates />
+        <ImportantDates />
         <div className="container mx-auto px-12 sm:px-6 py-4">
           <h2 className="text-4xl font-bold my-8 text-center sm:text-left">Submission Rules</h2>
           <section>
@@ -20,14 +20,18 @@ export default function Submissions() {
                   </li>
                 );
               })}
-              <li className="list-disc leading-6 sm:leading-8">Submission should strictly follow recommended IEEE conference template, which can be found <span class="text-red-400">here </span>(will be updated)</li>
+              <li className="list-disc leading-6 sm:leading-8">Submission should strictly follow recommended IEEE conference template, which can be found,  
+              <a class="font-medium text-blue-600 dark:text-blue-500 hover:underline" href="https://www.ieee.org/conferences/publishing/templates.html"> please click here</a> </li>
               <li className="list-disc leading-6 sm:leading-8">
-                Paper Submission: <span class="text-red-400"> Link will be updated soon</span> <br/>
+                Authors should submit their original unpublished work in PDF format to ICSCCAT 2024, 
+                <a class="font-medium text-blue-600 dark:text-blue-500 hover:underline" href="https://edas.info/login.php?rurl=aHR0cHM6Ly9lZGFzLmluZm8v"> please click here</a>  </li>
+              <li className="list-disc leading-6 sm:leading-8">
+                Paper Submission: <span class="text-red-400"> Link will be updated soon</span> <br />
                 Accepted papers will be submitted for inclusion into IEEE Xplore subject to meeting IEEE Xplore’s scope and quality requirements
               </li>
               <li className="list-disc leading-6 sm:leading-8">
-                Registration Form: <span class="text-red-400">Link will be updated soon</span> <br/>
-                Paper should be in proper IEEE format. <br/>
+                Registration Form: <span class="text-red-400">Link will be updated soon</span> <br />
+                Paper should be in proper IEEE format. <br />
                 PDF of paper should be generated in IEEE Xplore compatible format.
               </li>
             </ul>
