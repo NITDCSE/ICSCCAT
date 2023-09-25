@@ -17,6 +17,8 @@ export default function AboutConference() {
                             We welcome you to this humble initiative to take part in the celebrations on possibilities of collaborative research and innovative ideas. 
                             <i><b>Accepted papers will be submitted for inclusion into IEEE Explore subject to meeting IEEE Xplore scope and quality requirements.    </b></i>
                         </p>
+
+                        <br></br><br></br>
                     </div>
                 </div>
             </section>
