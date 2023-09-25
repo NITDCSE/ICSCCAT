@@ -3,6 +3,7 @@ import Image from "next/image";
 import nitdLogo from "@/public/nitd-logo.png" 
 import g20logo from "@/public/g20_logo.png"
 import azadi from "@/public/azadi_ka_amrit_mahotsav.png"
+import ieee from "@/public/ieee.png"
 import Link from "next/link";
 import {useState} from "react";
 
@@ -92,8 +93,8 @@ function ConferenceHeader({open, setOpen}) {
     return (
         <div className="container mx-auto px-6 py-2">
             <div className="flex space-x-6 items-center justify-between">
-                <Image src={g20logo} className="object-contain" alt="G20"
-                       width={84} quality={100}/>
+                {/* <Image src={g20logo} className="object-contain" alt="G20"
+                       width={84} quality={100}/> */}
                 <Link href="/" className="flex items-center space-x-4 pt-2">
                     {/* <Image src={ICSCCAT} className="object-contain" alt="ICSCCAT-2024"
                            width={84} quality={100}/> */}
@@ -113,7 +114,7 @@ function ConferenceHeader({open, setOpen}) {
                               className="p-3 my-auto px-6 pt-2 text-white bg-gray-400 rounded-full baseline"
                         >Registration Closed</Link>
                     </div> */}
-                    <Image src={azadi} className="object-contain" alt="G20"
+                    <Image src={ieee} className="object-contain" alt="G20"
                            width={84} quality={100}/>
                     <div className="md:hidden">
                         <div onClick={() => {
