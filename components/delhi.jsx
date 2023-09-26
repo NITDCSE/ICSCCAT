@@ -26,7 +26,7 @@ export default function Howtoreach() {
                             <br></br>
                             Mostly, Cabs are available 24/7 and you can also go for metros which are availble from 06:00 AM to 11:00 PM thorugh-out Delhi. Although to reach NIT Delhi via metro you need to come to “Jahangirpuri Metro Station”(nearest metro station) & then take another available option to come to NIT Delhi which is nearly 15 Kms aways.
                        
-                        </p>
+                        </p><br />
                         <iframe src=
                         "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3495.758813003077!2d77.13065917606504!3d28.816260475712802!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d1b1923ada2e3%3A0x1169930518add2fe!2sNational%20Institute%20of%20Technology%20Delhi!5e0!3m2!1sen!2sin!4v1695635007871!5m2!1sen!2sin" 
                         width="600" height="450" frameborder="0" style={{border:0}} allowfullscreen="" aria-hidden="false" tabindex="0"></iframe></div>
