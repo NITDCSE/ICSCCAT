@@ -37,7 +37,9 @@ export default function HeroSection() {
                   on
                 </p>
                 <h1 className="text-center font-bold text-4xl text-black md:text-5xl my-4">
-                  "Secure Cyber Computing & Advanced Technologies"
+                  "Pioneering Developments in Computer Science & Digital Technologies"
+                  {/* "Emerging Technologies in Computer Science & Digital World" */}
+                  {/* "Emerging Frontiers in Computer Science & Digital Technologies" */}
                 </h1>
                 <p className="text-center text-lg text-black md:text-2xl mt-4 mb-4">
                   26<sup>th</sup> - 28<sup>th</sup> April, 2024

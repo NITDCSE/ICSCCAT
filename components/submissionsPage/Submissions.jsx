@@ -23,7 +23,7 @@ export default function Submissions() {
               <li className="list-disc leading-6 sm:leading-8">Submission should strictly follow recommended IEEE conference template, which can be found,  
               <a class="font-medium text-blue-600 dark:text-blue-500 hover:underline" href="https://www.ieee.org/conferences/publishing/templates.html"> please click here</a> </li>
               <li className="list-disc leading-6 sm:leading-8">
-                Authors should submit their original unpublished work in PDF format to ICSCCAT 2024, 
+                Authors should submit their original unpublished work in PDF format to ICCSDT 2024, 
                 <a class="font-medium text-blue-600 dark:text-blue-500 hover:underline" href="https://edas.info/login.php?rurl=aHR0cHM6Ly9lZGFzLmluZm8v"> please click here</a>  </li>
               {/* <li className="list-disc leading-6 sm:leading-8">
                 Paper Submission: <span class="text-red-400"> Link will be updated soon</span> <br />
