@@ -1,7 +1,7 @@
 export const dates = [
     {
         category : "Full paper Submission",
-        date :"October 31st , 2023"
+        date :"30th November , 2023"
     },
     {
         category : "Acceptance Notification",
@@ -32,7 +32,7 @@ export const rules = [
 
 export const fees = [
     {
-        category : "Researcher",
+        category : "Academician/ Industrial Professionals",
         allowance : [
             {
                 category:"IEEE",
@@ -47,7 +47,7 @@ export const fees = [
         ]
     },
     {
-        category : "Student",
+        category : "Student (UG/ PG/ Researcher)",
         allowance : [
             {
                 category:"IEEE",

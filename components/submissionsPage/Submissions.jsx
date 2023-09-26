@@ -25,14 +25,12 @@ export default function Submissions() {
               <li className="list-disc leading-6 sm:leading-8">
                 Authors should submit their original unpublished work in PDF format to ICSCCAT 2024, 
                 <a class="font-medium text-blue-600 dark:text-blue-500 hover:underline" href="https://edas.info/login.php?rurl=aHR0cHM6Ly9lZGFzLmluZm8v"> please click here</a>  </li>
-              <li className="list-disc leading-6 sm:leading-8">
+              {/* <li className="list-disc leading-6 sm:leading-8">
                 Paper Submission: <span class="text-red-400"> Link will be updated soon</span> <br />
                 Accepted papers will be submitted for inclusion into IEEE Xplore subject to meeting IEEE Xplore’s scope and quality requirements
-              </li>
+              </li> */}
               <li className="list-disc leading-6 sm:leading-8">
                 Registration Form: <span class="text-red-400">Link will be updated soon</span> <br />
-                Paper should be in proper IEEE format. <br />
-                PDF of paper should be generated in IEEE Xplore compatible format.
               </li>
             </ul>
           </section>
