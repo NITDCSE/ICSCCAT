@@ -95,9 +95,8 @@ function ConferenceHeader({open, setOpen}) {
                 {/* <Image src={g20logo} className="object-contain" alt="G20"
                        width={84} quality={100}/> */}
                 <Link href="/" className="flex items-center space-x-4 pt-2">
-                    <Image src={icslogo} className="object-contain" alt="ICSCCAT-2024"
-                           width={200} quality={100}/>
-                    
+                    {/* <Image src={icslogo} className="object-contain" alt="ICSCCAT-2024"
+                           width={200} quality={100}/> */}
                 </Link>
                 <div className="flex-1" />
                 <div className="flex space-x-4 items-center justify-end">
