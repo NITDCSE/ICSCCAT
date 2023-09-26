@@ -413,12 +413,12 @@ export const steeringCommitee = [
                 affiliation: { line1: 'Univ. of Tunis E. M., Tunisia', line2: '' },
                 photo: ali
             },
-            {
-                name: 'Dr. Nonita Sharma',
-                designation:'Associate Professor',
-                affiliation: { line1: 'IGDTUW New Delhi', line2: '' },
-                photo: Nonita
-            },
+            // {
+            //     name: 'Dr. Nonita Sharma',
+            //     designation:'Associate Professor',
+            //     affiliation: { line1: 'IGDTUW New Delhi', line2: '' },
+            //     photo: Nonita
+            // },
         ]
     },
     {
