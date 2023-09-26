@@ -21,7 +21,7 @@ export const tracks = [
         by: [
             "Prof. Harsh K. Verma, Professor, Department Of Computer Science Engineering NIT Jalandhar",
             "Dr. T P Sharma, Associate Professor, NIT Hamirpur",
-            "Dr, Chandra Sekhar Obbu, Associate Professor, NIT Delhi"
+            "Dr. Chandra Sekhar Obbu, Associate Professor, NIT Delhi"
         ],
 
         content: [
