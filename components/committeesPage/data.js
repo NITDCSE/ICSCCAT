@@ -92,6 +92,7 @@ import Subhas from "@/assets/committee/technical/Subhas Chandra.png"
 
 import lakhssassi from "@/assets/committee/steering/lakhssassi.gif"
 import ramin from "@/assets/committee/steering/ramin.jpg"
+import arvinder_kaur from "@/assets/committee/steering/arvinder_kaur.jpg"
 
 export const cheifPatron = [
     {
@@ -378,10 +379,10 @@ export const steeringCommitee = [
                 photo: satish
             },
             {
-                name: 'Dr. Arvinder Kaur',
+                name: 'Prof. (Dr.) Arvinder Kaur',
                 designation: 'Professor',
-                affiliation: { line1: 'School of Computer Systems Sciences, JNU Delhi', line2: '' },
-                photo: profile
+                affiliation: { line1: 'Guru Gobind Singh Indraprastha University, Delhi', line2: '' },
+                photo: arvinder_kaur
             },
             {
                 name: 'Prof. Harsh Verma',
