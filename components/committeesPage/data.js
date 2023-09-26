@@ -83,6 +83,7 @@ import Seeja from "@/assets/committee/technical/Prof. Seeja. K. R..jpg"
 import Sunil from "@/assets/committee/technical/Prof. Sunil Vadera.jpg"
 import YNSingh from "@/assets/committee/technical/Prof. Y. N. Singh.jpg"
 import YSingh from "@/assets/committee/technical/Prof. Yogesh Singh.png"
+import ela from "@/assets/committee/technical/ela.jpg"
 
 import Bhargava from "@/assets/committee/technical/Bharat Bhargava.jpg"
 import Aggarwal from "@/assets/committee/technical/K K Aggarwal.JPG"
@@ -538,10 +539,10 @@ export const technicalCommitee = [
                 photo: Seeja
             },
             {
-                name: 'Prof. Ela Arun',
+                name: 'Prof. Ela Kumar',
                 designation: 'Professor',
                 affiliation: { line1: 'IGDTUW Delhi', line2: '' },
-                photo: profile
+                photo: ela
             },
             {
                 name: 'Dr. Preetam Kumar',
