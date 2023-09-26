@@ -94,16 +94,16 @@ function ConferenceHeader({open, setOpen}) {
             <div className="flex space-x-6 items-center justify-between">
                 {/* <Image src={g20logo} className="object-contain" alt="G20"
                        width={84} quality={100}/> */}
+                        <Image src={nitdLogo} className="max-h-16 object-contain" alt="NITD" width={72}
+                               quality={100}/>
+                        <span class="text-3xl font-bold">ICCSDT 2024</span>
                 <Link href="/" className="flex items-center space-x-4 pt-2">
                     {/* <Image src={icslogo} className="object-contain" alt="ICSCCAT-2024"
                            width={200} quality={100}/> */}
                 </Link>
                 <div className="flex-1" />
                 <div className="flex space-x-4 items-center justify-end">
-                    <a target="_blank" href="https://nitdelhi.ac.in/" className="pt-2">
-                        <Image src={nitdLogo} className="max-h-16 object-contain" alt="NITD" width={72}
-                               quality={100}/>
-                    </a>
+                    
                     {/* register button */}
                     {/* <div className="pl-6 hidden md:block ">
                         <Link href="/register"
