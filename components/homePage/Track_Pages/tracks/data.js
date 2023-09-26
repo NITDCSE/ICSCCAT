@@ -20,7 +20,7 @@ export const tracks = [
         heading: "Cryptography, Cyber Security and Network Security",
         by: [
             "Prof. Harsh K. Verma, Professor, Department Of Computer Science Engineering NIT Jalandhar",
-            "Prof. Manoj Kumar, Professor, Computer Science Engineering NIT Jalandhar",
+            "Dr. T P Sharma, Associate Professor, NIT Hamirpur",
             "Dr, Chandra Sekhar Obbu, Associate Professor, NIT Delhi"
         ],
 
