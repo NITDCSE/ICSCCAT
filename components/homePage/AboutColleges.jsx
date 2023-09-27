@@ -16,7 +16,7 @@ export default function AboutColleges() {
                 </h3>
                 <p className="flex items-center flex-1 text-justify flex-col space-y-3">
                     National Institute of Technology Delhi is a premier public technical autonomous institution
-                    located in New Delhi. NIT Delhi is an Institution of National Importance (INI) and aims to
+                    located in New Delhi. NIT Delhi is an Institution of National Importance and aims to
                     provide instructions and research facilities in various disciplines of Engineering, Science
                     and Technology, Management, Social Sciences and Humanities for advance learning and
                     dissemination of knowledge. The mission of NIT Delhi is to produce human resource those who

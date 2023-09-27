@@ -20,11 +20,11 @@ export default function Submissions() {
                   </li>
                 );
               })}
-              <li className="list-disc leading-6 sm:leading-8">Submission should strictly follow recommended IEEE conference template, which can be found,  
-              <a class="font-medium text-blue-600 dark:text-blue-500 hover:underline" href="https://www.ieee.org/conferences/publishing/templates.html"> please click here</a> </li>
+              <li className="list-disc leading-6 sm:leading-8">Submission should strictly follow recommended IEEE conference template, which can be found  
+              <a class="font-medium text-blue-600 dark:text-blue-500 hover:underline" href="https://www.ieee.org/conferences/publishing/templates.html"> here.</a> </li>
               <li className="list-disc leading-6 sm:leading-8">
-                Authors should submit their original unpublished work in PDF format to ICCSDT 2024, 
-                <a class="font-medium text-blue-600 dark:text-blue-500 hover:underline" href="https://edas.info/login.php?rurl=aHR0cHM6Ly9lZGFzLmluZm8v"> please click here</a>  </li>
+                Authors should submit their original unpublished work in PDF format 
+                <a class="font-medium text-blue-600 dark:text-blue-500 hover:underline" href="https://edas.info/login.php?rurl=aHR0cHM6Ly9lZGFzLmluZm8v"> here.</a>  </li>
               {/* <li className="list-disc leading-6 sm:leading-8">
                 Paper Submission: <span class="text-red-400"> Link will be updated soon</span> <br />
                 Accepted papers will be submitted for inclusion into IEEE Xplore subject to meeting IEEE Xplore’s scope and quality requirements

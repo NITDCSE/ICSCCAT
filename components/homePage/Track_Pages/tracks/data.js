@@ -5,7 +5,7 @@ export const tracks = [
         heading: "Data Analytics and Mining",
         by: [
             "Prof. Vikram Goyal, Professor, IIIT Delhi",
-            "Prof. Mayank Vasta and Prof. Richa Singh , IIT Jodhpur",
+            "Prof. Mayank Vasta and Prof. Richa Singh, IIT Jodhpur",
             "Prof. Manoj Kumar, Professor, NIT Delhi"
         ],
 
@@ -19,7 +19,7 @@ export const tracks = [
     {
         heading: "Cryptography, Cyber Security and Network Security",
         by: [
-            "Prof. Harsh K. Verma, Professor, Department Of Computer Science Engineering NIT Jalandhar",
+            "Prof. Harsh K. Verma, Professor, Department Of Computer Science Engineering, NIT Jalandhar",
             "Dr. T P Sharma, Associate Professor, NIT Hamirpur",
             "Dr. Chandra Sekhar Obbu, Associate Professor, NIT Delhi"
         ],
@@ -34,7 +34,7 @@ export const tracks = [
     {
         heading: "Cloud Computing and IoT",
         by: [
-            "Dr. Mashtaq Ahmed, Associate Professor MNIT Jaipur",
+            "Dr. Mashtaq Ahmed, Associate Professor, MNIT Jaipur",
             "Dr. Piyush Kumar, Assistant Professor, NIT Patna",
             "Prof. Jyoteesh Malhotra, Professor, NIT Delhi"
         ],
