@@ -9,7 +9,7 @@ export default function AboutColleges() {
         <div className="flex flex-col md:flex-row space-y-6 md:space-y-0 md:space-x-24 justify-between">
             <div className="flex flex-1 items-center flex-col space-y-3">
                 <p className="font-bold text-xl uppercase text-center md:text-xl text-blue-700">Department of Computer Science & Engineering</p>
-                <p className="font-bold text-xl uppercase text-center md:text-2xl text-blue-700">National Institute of Technology, Delhi</p>
+                <p className="font-bold text-xl uppercase text-center md:text-2xl text-blue-700">National Institute of Technology Delhi</p>
                 {/* <Image src={nitdLongLogo} height={72} alt="" quality={100} className="max-h-18 object-contain"/> */}
                 <h3 className="text-xl font-bold text-center md:text-2xl pt-4 hidden">
                     National Institute of Technology, Delhi

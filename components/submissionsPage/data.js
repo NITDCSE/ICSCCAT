@@ -12,7 +12,7 @@ export const dates = [
         date :"February 15th, 2024"
     },
     {
-        category : "Conference registration",
+        category : "Conference Registration",
         date :"February 28th, 2024"
     },
     {

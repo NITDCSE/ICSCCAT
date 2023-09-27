@@ -24,7 +24,7 @@ export default function Howtoreach() {
                             3. New Delhi Railway Station – 30 Kms
                             <br></br>
                             <br></br>
-                            Mostly, Cabs are available 24/7 and you can also go for metros which are available from 06:00 AM to 11:00 PM through-out Delhi. Although to reach NIT Delhi via metro you need to come to “Jahangirpuri Metro Station”(nearest metro station) & then take another available option to come to NIT Delhi which is nearly 15 Kms away.
+                            Mostly, Cabs are available 24/7 and you can also go for metros which are available from 06:00 AM to 11:00 PM through-out Delhi. Although to reach NIT Delhi via metro you need to come to “Jahangirpuri Metro Station” (nearest metro station) & then take another available option to come to NIT Delhi which is nearly 15 Kms away.
                        
                         </p><br />
                         <iframe src=

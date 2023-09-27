@@ -15,6 +15,7 @@ import manoj from "@/assets/faculty/manoj.jpg"
 import jyoteesh from "@/assets/faculty/jyoteesh.jpg"
 import indu from "@/assets/faculty/indu.jpg"
 import divya from "@/assets/faculty/divya.jpg"
+import jaspinder from "@/assets/faculty/jaspinder.jpg"
 import harsh from "@/assets/faculty/harsh_verma.jpg"
 import satish from "@/assets/faculty/satish.jpg"
 
@@ -217,10 +218,10 @@ export const advisoryCommittee = [
                 photo: leandro
             },
             {
-                name: 'Prof. (Dr.) Habil',
-                // designation:'Levente Adalbert Kovács',
-                affiliation: { line1: 'GWDG - Gesellschaft für wissenschaftliche Datenverarbeitung mbH Georg-August-Universität Göttingen', line2: '' },
-                photo: profile
+                name: 'Prof. Ramin Yahyapour',
+                designation: 'Professor',
+                affiliation: { line1: 'Gesellschaft für wissenschaftliche Datenverarbeitung mbH Göttingen', line2: '' },
+                photo: ramin
             },
         ]
     },
@@ -406,7 +407,7 @@ export const steeringCommitee = [
             {
                 name: 'Prof. Ramin Yahyapour',
                 designation: 'Professor',
-                affiliation: { line1: 'Gesellschaft Gesellschaft für wissenschaftliche Datenverarbeitung mbH Göttingen', line2: '' },
+                affiliation: { line1: 'Gesellschaft für wissenschaftliche Datenverarbeitung mbH Göttingen', line2: '' },
                 photo: ramin
             },
             {
@@ -767,16 +768,16 @@ export const organizingCommittee =  [
         members : [
             {
                 name: 'Dr. Divya Punia',
-                designation: 'Postdoctoral Researcher',
-                affiliation: { line1: 'Dept of CSE, NIT Delhi', line2: '' },
+                designation: 'Postdoctoral Fellow',
+                affiliation: { line1: 'Dept of ECE, NIT Delhi', line2: '' },
                 photo: divya
             },
-            // {
-            //     name: 'Dr. Rohini Mahajan',
-            //     designation: 'Postdoctoral Researcher',
-            //     affiliation: { line1: 'Dept of CSE, NIT Delhi', line2: '' },
-            //     photo: rohini
-            // },
+            {
+                name: 'Dr. Japinder Kaur',
+                designation: 'Postdoctoral Fellow',
+                affiliation: { line1: 'Dept of ECE, NIT Delhi', line2: '' },
+                photo: jaspinder
+            },
         ]
     }
 ]
