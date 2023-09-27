@@ -37,7 +37,8 @@ export default function HeroSection() {
                   on
                 </p>
                 <h1 className="text-center font-bold text-4xl text-black md:text-5xl my-4">
-                  "Pioneering Developments in Computer Science & Digital Technologies"
+                  "Pioneering Developments in Computer Science <br/> 
+                  & Digital Technologies"
                   {/* "Emerging Technologies in Computer Science & Digital World" */}
                   {/* "Emerging Frontiers in Computer Science & Digital Technologies" */}
                 </h1>
@@ -49,14 +50,14 @@ export default function HeroSection() {
                 </p>
               </div>
             </div>
-            <div className="flex pt-8 justify-center">
+            <div className="flex pt-6 justify-center">
                 <CountdownTimer targetDate={dateTimeAfterThreeDays} /> {/* Use the CountdownTimer component here */}
             </div>
-            <div className="flex pt-8 justify-center">
-              {/* <Link href="/register"
+            {/* <div className="flex pt-8 justify-center">
+              <Link href="/register"
                   className="p-3 pt-3 text-xl uppercase text-primary05 bg-gray-400 rounded-full baseline md:block px-6 disabled">Registration Closed
-              </Link> */}
-            </div>
+              </Link>
+            </div> */}
           </div>
         </div>
           <div className={styles.addressCard}>
@@ -68,7 +69,7 @@ export default function HeroSection() {
                 Plot No. FA7, Zone, P1, GT Karnal Road, Delhi, 110036
               </p>
             </div>
-          </div>
+          </div><br />
       </section>
     </>
   );
