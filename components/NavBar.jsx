@@ -1,7 +1,7 @@
 "use client"
 import Image from "next/image";
 import nitdLogo from "@/public/nitd-logo.png"  
-import ieee from "@/public/ieee.png"
+import ieee from "@/public/ieee_logo.png"
 import Link from "next/link";
 import icslogo from "assets/ICSCCAT logo.png"
 import {useState} from "react";
