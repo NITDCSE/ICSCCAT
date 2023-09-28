@@ -111,7 +111,7 @@ function ConferenceHeader({open, setOpen}) {
                         >Registration Closed</Link>
                     </div> */}
                     <Image src={ieee} className="object-contain" alt="G20"
-                           width={200} quality={100}/>
+                           width={128} quality={100}/>
                     <div className="md:hidden">
                         <div onClick={() => {
                             setOpen(!open)
