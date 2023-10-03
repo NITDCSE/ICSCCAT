@@ -1,25 +1,32 @@
-# <img src="https://cdn-icons-png.flaticon.com/512/2387/2387635.png" width="64">
- 
-1. Add visitors counter.
-2. Change Tracks page UI.
-3. change color of track-cards in homepage.
-
-
-## Intro
-
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-Use the following command first
+Steps to use this project:
+
+1. Use the following command on your terminal / Command Prompt
 
 
 ```bash
-npm i next
-
+git clone https://github.com/NITDCSE/ICSCCAT.git
 ```
 
-## Getting Started
+2. Run 
 
-First, run the development server:
+```bash
+npm i next
+```
+
+3. You may even need to build your prokect before running, if you get any build errors, run
+
+```bash
+npm build
+```
+
+4. go to localhost port 3000 where development is deployed.
+
+ [http://localhost:3000](http://localhost:3000) 
+
+
+You cna run the development server using the following commands   
 
 ```bash
 npm run dev
@@ -29,7 +36,6 @@ yarn dev
 pnpm dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 You can start editing the page by modifying `app/page.jsx`. The page auto-updates as you edit the file.
 
