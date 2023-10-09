@@ -10,7 +10,7 @@ export const keynote = {
     
     Ansari : {
         title: "Prof. Abdul Quaiyum Ansari",
-        designation: "Executive Vice Chairman",
+        designation: "Chairman",
         description: "IEEE Delhi Section",
         image: abdulAnsari,
       },
