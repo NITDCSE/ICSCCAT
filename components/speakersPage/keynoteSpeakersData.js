@@ -4,6 +4,7 @@ import sharmaChakraborty from '@/public/keynote/sharmaChakraborty.jpg'
 import manindraAgarwal from '@/public/keynote/manindraAgarwal.jpg'
 import moinUddin from '@/public/keynote/moinUddin.jpg'
 import manojMishra from '@/public/keynote/manojMishra.jpg'
+import Binod from "@/assets/committee/national/Prof. Binod Kumar Kanaujia.jpg"
 
 
 export const keynote = {
@@ -15,6 +16,13 @@ export const keynote = {
         image: abdulAnsari,
       },
     
+      Ansari : {
+        title: "Prof. Binod Kumar Kanaujia",
+        designation: "Director",
+        description: "NIT Jalandhar",
+        image: Binod,
+      },
+
     Selvakumar : {
         title: "Prof. S. Selvakumar",
         designation: "Director",

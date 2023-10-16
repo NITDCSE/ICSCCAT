@@ -17,7 +17,7 @@ import indu from "@/assets/faculty/indu.jpg"
 import divya from "@/assets/faculty/divya.jpg"
 import jaspinder from "@/assets/faculty/jaspinder.jpg"
 import harsh from "@/assets/faculty/harsh_verma.jpg"
-import satish from "@/assets/faculty/satish.jpg"
+// import satish from "@/assets/faculty/satish.jpg" 
 
 import abhijit from "@/assets/committee/international/Dr. Abhijit Sen.jpeg"
 import chaman from "@/assets/committee/international/Dr. Chaman Verma.png"
@@ -95,6 +95,8 @@ import Subhas from "@/assets/committee/technical/Subhas Chandra.png"
 import lakhssassi from "@/assets/committee/steering/lakhssassi.gif"
 import ramin from "@/assets/committee/steering/ramin.jpg"
 import arvinder_kaur from "@/assets/committee/steering/arvinder_kaur.jpg"
+import satish from "@/assets/faculty/satish.jpg"
+import Shashvat from "@/assets/faculty/shashvat.jpg"
 
 export const cheifPatron = [
     {
@@ -234,12 +236,12 @@ export const advisoryCommittee = [
                 affiliation: { line1: 'IIT, Roorkee', line2: '' },
                 photo: Manoj
             },
-            {
-                name: 'Prof. Binod Kumar Kanaujia',
-                designation: 'Director (Prof.)',
-                affiliation: { line1: 'NIT Jalandhar', line2: '' },
-                photo: Binod
-            },
+            // {
+            //     name: 'Prof. Binod Kumar Kanaujia',
+            //     designation: 'Director (Prof.)',
+            //     affiliation: { line1: 'NIT Jalandhar', line2: '' },
+            //     photo: Binod
+            // },
             {
                 name: 'T. V. Vijay Kumar',
                 designation: 'Professor',
@@ -425,7 +427,7 @@ export const steeringCommitee = [
         ]
     },
     {
-        type: 'EXECUTIVE GENERAL CHAIR',
+        type: 'CONFERENCE CHAIR',
         members: [
             {
                 name: 'Prof. (Dr.) Geeta Sikka',
@@ -435,9 +437,32 @@ export const steeringCommitee = [
             },
         ]
     },
+    // {
+    //     type: 'GENERAL CHAIR',
+    //     members: [
+    //         {
+    //             name: 'Dr. Anurag Singh',
+    //             designation: 'Associate Professor',
+    //             affiliation: { line1: 'Dept of CSE, NIT Delhi', line2: '' },
+    //             photo: anurag
+    //         },
+    //         {
+    //             name: 'Dr. Shelly Sachdeva',
+    //             designation: 'Associate Professor',
+    //             affiliation: { line1: 'Dept of CSE, NIT Delhi', line2: '' },
+    //             photo: shelly
+    //         }
+    //     ]
+    // },
     {
-        type: 'GENERAL CHAIR',
+        type: "CONVENORS",
         members: [
+            {
+                name: 'Prof. Harsh Verma',
+                designation: 'Professor',
+                affiliation: { line1: 'Department of CSE, NIT Jalandhar', line2: '' },
+                photo: harsh
+            },
             {
                 name: 'Dr. Anurag Singh',
                 designation: 'Associate Professor',
@@ -449,17 +474,6 @@ export const steeringCommitee = [
                 designation: 'Associate Professor',
                 affiliation: { line1: 'Dept of CSE, NIT Delhi', line2: '' },
                 photo: shelly
-            }
-        ]
-    },
-    {
-        type: "CONVENOR(S)",
-        members: [
-            {
-                name: 'Dr. Chandra Prakash',
-                designation: 'Assistant Professor',
-                affiliation: { line1: 'Dept of CSE, NIT Delhi', line2: '' },
-                photo: cprakash
             }
         ]
     },
@@ -784,30 +798,49 @@ export const organizingCommittee =  [
 
 export const publicationCommittee = [
     {
-        type: 'COORDINATORS',
-        members : [
-            {
-                name: 'Dr. Anurag Singh',
-                designation: 'Associate Professor',
-                affiliation: { line1: 'Dept of CSE, NIT Delhi', line2: '' },
-                photo: anurag
-            },
-            {
-                name: 'Dr. Karan Verma',
-                designation: 'Assistant Professor',
-                affiliation: { line1: 'Dept of CSE, NIT Delhi', line2: '' },
-                photo: karan
-            },
-        ]
-    },
-    {
-        type: 'CO-COORDINATORS',
+        type: 'CHAIRPERSON',
         members : [
             {
                 name: 'Dr. Chandra Prakash',
                 designation: 'Assistant Professor',
                 affiliation: { line1: 'Dept of CSE, NIT Delhi', line2: '' },
                 photo: cprakash
+            },
+            {
+                name: 'Dr. Nonita Sharma',
+                designation:'Associate Professor',
+                affiliation: { line1: 'IGDTUW New Delhi', line2: '' },
+                photo: Nonita
+            },
+            {
+                name: 'Dr. Shashvat Sharma',
+                designation:'Assistant Professor',
+                affiliation: { line1: 'Alliance University', line2: '' },
+                photo: Shashvat
+            }
+
+            // {
+            //     name: 'Dr. Anurag Singh',
+            //     designation: 'Associate Professor',
+            //     affiliation: { line1: 'Dept of CSE, NIT Delhi', line2: '' },
+            //     photo: anurag
+            // },
+            // {
+            //     name: 'Dr. Karan Verma',
+            //     designation: 'Assistant Professor',
+            //     affiliation: { line1: 'Dept of CSE, NIT Delhi', line2: '' },
+            //     photo: karan
+            // },
+        ]
+    },
+    {
+        type: 'CO-COORDINATORS',
+        members : [
+            {
+                name: 'Dr. Sahil',
+                designation: 'Assistant Professor',
+                affiliation: { line1: 'Dept of CSE, NIT Delhi', line2: '' },
+                photo: sahil
             },
             {
                 name: 'Dr. Amandeep Kaur',
