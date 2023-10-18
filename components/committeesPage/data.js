@@ -17,6 +17,7 @@ import indu from "@/assets/faculty/indu.jpg"
 import divya from "@/assets/faculty/divya.jpg"
 import jaspinder from "@/assets/faculty/jaspinder.jpg"
 import harsh from "@/assets/faculty/harsh_verma.jpg"
+import manojkumar from "@/assets/faculty/manojkumar.jpg"
 // import satish from "@/assets/faculty/satish.jpg" 
 
 import abhijit from "@/assets/committee/international/Dr. Abhijit Sen.jpeg"
@@ -390,12 +391,12 @@ export const steeringCommitee = [
                 affiliation: { line1: 'Guru Gobind Singh Indraprastha University, Delhi', line2: '' },
                 photo: arvinder_kaur
             },
-            {
-                name: 'Prof. Harsh Verma',
-                designation: 'Professor',
-                affiliation: { line1: 'Department of CSE, NIT Jalandhar', line2: '' },
-                photo: harsh
-            },
+            // {
+            //     name: 'Prof. Harsh Verma',
+            //     designation: 'Professor',
+            //     affiliation: { line1: 'Department of CSE, NIT Jalandhar', line2: '' },
+            //     photo: harsh
+            // },
             {
                 name: 'Prof. Leandro Melo de Sales',
                 designation: 'Professor',
@@ -538,10 +539,10 @@ export const technicalCommitee = [
                 photo: harsh
             },
             {
-                name: 'Dr. Anurag Singh',
-                designation: 'Associate Professor',
-                affiliation: { line1: 'Dept of CSE, NIT Delhi', line2: '' },
-                photo: anurag
+                name: 'Prof. Manoj Kumar',
+                designation: 'Professor & Head',
+                affiliation: { line1: 'Dept of ECE, NIT Delhi', line2: '' },
+                photo: manojkumar
             },
         ]
     },
