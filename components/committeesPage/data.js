@@ -121,19 +121,9 @@ import ripin from "@/assets/faculty/ripin.jpg"
 
 export const cheifPatron = [
     
-    // {
-    //     type: "Co-Patron",
-    //     members: [
-    //         {
-    //             name: 'Prof. (Dr.) Manju Bala',
-    //             designation: 'Director',
-    //             affiliation: { line1: 'Khalsa College of Engineering and Technology', line2: '' },
-    //             photo: manjubala
-    //         }
-    // ]
-    // }
+   
     {
-        type: 'PRINCIPLE GENERAL CHAIR',
+        type: 'PRINCIPAL GENERAL CHAIR',
         members: [
             {
                 name: 'Prof. (Dr.) Ajay K. Sharma',
@@ -171,23 +161,7 @@ export const cheifPatron = [
             }
         ]
     },
-    // {
-    //     type: 'GENERAL CHAIR',
-    //     members: [
-    //         {
-    //             name: 'Dr. Anurag Singh',
-    //             designation: 'Associate Professor',
-    //             affiliation: { line1: 'Dept of CSE, NIT Delhi', line2: '' },
-    //             photo: anurag
-    //         },
-    //         {
-    //             name: 'Dr. Shelly Sachdeva',
-    //             designation: 'Associate Professor',
-    //             affiliation: { line1: 'Dept of CSE, NIT Delhi', line2: '' },
-    //             photo: shelly
-    //         }
-    //     ]
-    // },
+    
     {
         type: "CONFERENCE CO-CHAIR(S)",
         members: [
@@ -212,7 +186,7 @@ export const cheifPatron = [
         ]
     },
     {
-        type: "Steering Committee",
+        type: "STEERING COMMITTEE",
         members: [
             {
                 name: 'Prof. Satish Chand',
@@ -257,40 +231,7 @@ export const cheifPatron = [
                 photo: ghanshyam
             },
         ]
-    },
-    // {
-    //     type: "Technical Program Committee",
-    //     members: [
-    //         {
-    //             type: "COORDINATOR",
-    //             members : [
-    //                 {
-    //                     name: 'Prof. Harsh Verma',
-    //                     designation: 'Professor',
-    //                     affiliation: { line1: 'Department of CSE, NIT Jalandhar', line2: '' },
-    //                     photo: harsh
-    //                 },
-    //             ]
-    //         },
-    //     ]
-    // },
-    // {
-    //     type: "CO-COORDINATOR(S)",
-    //     members : [
-    //         {
-    //             name: 'Prof. Manoj Kumar',
-    //             designation: 'Professor & Head',
-    //             affiliation: { line1: 'Dept of ECE, NIT Delhi', line2: '' },
-    //             photo: manojkumar
-    //         },
-    //         {
-    //             name: 'Prof. Jyoteesh Malhotra',
-    //             designation:'Professor',
-    //             affiliation: { line1: 'NIT Delhi', line2: '' },
-    //             photo: jyoteesh
-    //         },
-    //     ]
-    // },
+    },  
     {
         type: "SECRETARY",
         members: [
@@ -656,6 +597,40 @@ export const steeringCommitee = [
     },
 ]
 
+
+export const topLevel= [
+    {
+        layout: "row",
+        type: "CHAIR",
+        members : [
+            {
+                name: 'Prof. Harsh Verma',
+                designation: 'Professor',
+                affiliation: { line1: 'Department of CSE, NIT Jalandhar', line2: '' },
+                photo: harsh
+            },
+        ]
+    },
+    {
+        layout: "row",
+        type: "CO-CHAIR",
+        members : [
+            {
+                name: 'Prof. Manoj Kumar',
+                designation: 'Professor & Head',
+                affiliation: { line1: 'Dept of ECE, NIT Delhi', line2: '' },
+                photo: manojkumar
+            },
+            {
+                name: 'Prof. Jyoteesh Malhotra',
+                designation:'Professor',
+                affiliation: { line1: 'NIT Delhi', line2: '' },
+                photo: jyoteesh
+            },
+        ]
+    },
+
+];
 export const technicalCommitee = [
     // {
     //     type:'CHAIRS',
@@ -680,34 +655,6 @@ export const technicalCommitee = [
     //         }
     //     ]
     // },
-    {
-        type: "COORDINATOR",
-        members : [
-            {
-                name: 'Prof. Harsh Verma',
-                designation: 'Professor',
-                affiliation: { line1: 'Department of CSE, NIT Jalandhar', line2: '' },
-                photo: harsh
-            },
-        ]
-    },
-    {
-        type: "CO-COORDINATOR(S)",
-        members : [
-            {
-                name: 'Prof. Manoj Kumar',
-                designation: 'Professor & Head',
-                affiliation: { line1: 'Dept of ECE, NIT Delhi', line2: '' },
-                photo: manojkumar
-            },
-            {
-                name: 'Prof. Jyoteesh Malhotra',
-                designation:'Professor',
-                affiliation: { line1: 'NIT Delhi', line2: '' },
-                photo: jyoteesh
-            },
-        ]
-    },
 
     {   
         type : 'COMMITTEE MEMBERS',

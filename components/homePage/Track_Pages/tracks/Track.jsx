@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-export default function Track({ heading, by, content, imgOri, image, id }) {
+export default function Track({ heading, by, content, imgOri, image, id, bullets }) {
   return (
     <div className={`w-full ${imgOri ? "bg-primary10":"bg-primary20"} pb-12`} id={id}>
       <div className="w-[90%] sm:w-[70%] mx-auto">
@@ -23,9 +23,13 @@ export default function Track({ heading, by, content, imgOri, image, id }) {
           <article className="mt-12">
             {content.map(function (con, idx) {
               return  (
-                <section key={idx} className={`flex my-12 items-center flex-col md:flex-row ${idx % 2 == 0 ? "" : "md:flex-row-reverse"}`}>
+                <section key={idx} className={`flex flex-col my-12 ${idx % 2 == 0 ? "" : "md:flex-row-reverse"}`}>
                   {/* <Image src={image} className="rounded-xl shadow-md mb-8 sm:my-0" /> */}
-                  <p className="text-lg my-4 leading-8 px-4 text-justify">{con}</p>:
+                  <p className="text-lg my-4 leading-8 px-4 text-justify">{con}</p>
+                  <ul>
+                    {bullets && bullets.map(function (element, idx){
+                    return <li className="list-disc ml-12 text-lg my-2">{element}</li>
+                  })}</ul>
                 </section>
               );
             })}
