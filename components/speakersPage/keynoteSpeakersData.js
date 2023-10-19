@@ -9,19 +9,19 @@ import Binod from "@/assets/committee/national/Prof. Binod Kumar Kanaujia.jpg"
 
 export const keynote = {
     
-    Ansari : {
-        title: "Prof. Abdul Quaiyum Ansari",
-        designation: "Chairman",
-        description: "IEEE Delhi Section",
-        image: abdulAnsari,
-      },
+    // Ansari : {
+    //     title: "Prof. Abdul Quaiyum Ansari",
+    //     designation: "Chairman",
+    //     description: "IEEE Delhi Section",
+    //     image: abdulAnsari,
+    //   },
     
-      Ansari : {
-        title: "Prof. Binod Kumar Kanaujia",
-        designation: "Director",
-        description: "NIT Jalandhar",
-        image: Binod,
-      },
+      // Ansari : {
+      //   title: "Prof. Binod Kumar Kanaujia",
+      //   designation: "Director",
+      //   description: "NIT Jalandhar",
+      //   image: Binod,
+      // },
 
     Selvakumar : {
         title: "Prof. S. Selvakumar",
