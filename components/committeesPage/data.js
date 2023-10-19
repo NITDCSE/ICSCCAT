@@ -256,12 +256,12 @@ export const cheifPatron = [
         ]
     },
     {
-        type: "CONVERNOR(S)",
+        type: "CONVENOR(S)",
         members: [
             {
                 name: 'Dr. Samayveer Singh',
                 designation: 'Assistant Professor',
-                affiliation: { line1: 'Dept. of CSE, NIT Delhi', line2: '' },
+                affiliation: { line1: 'Dept. of CSE, NIT Jalandhar', line2: '' },
                 photo: samayveer
             },
             {

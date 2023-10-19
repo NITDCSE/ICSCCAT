@@ -96,7 +96,7 @@ function ConferenceHeader({open, setOpen}) {
                        width={84} quality={100}/> */}
                         <Image src={nitdLogo} className="max-h-16 object-contain" alt="NITD" width={72}
                                quality={100}/>
-                        <span class="text-3xl font-bold">ICCSDT 2024</span>
+                        <span class="text-3xl font-bold">IC<sup>2</sup>SDT 2024</span>
                 <Link href="/" className="flex items-center space-x-4 pt-2">
                     {/* <Image src={icslogo} className="object-contain" alt="ICSCCAT-2024"
                            width={200} quality={100}/> */}
