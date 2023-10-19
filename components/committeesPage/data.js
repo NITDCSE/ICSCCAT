@@ -258,6 +258,39 @@ export const cheifPatron = [
             },
         ]
     },
+    // {
+    //     type: "Technical Program Committee",
+    //     members: [
+    //         {
+    //             type: "COORDINATOR",
+    //             members : [
+    //                 {
+    //                     name: 'Prof. Harsh Verma',
+    //                     designation: 'Professor',
+    //                     affiliation: { line1: 'Department of CSE, NIT Jalandhar', line2: '' },
+    //                     photo: harsh
+    //                 },
+    //             ]
+    //         },
+    //     ]
+    // },
+    // {
+    //     type: "CO-COORDINATOR(S)",
+    //     members : [
+    //         {
+    //             name: 'Prof. Manoj Kumar',
+    //             designation: 'Professor & Head',
+    //             affiliation: { line1: 'Dept of ECE, NIT Delhi', line2: '' },
+    //             photo: manojkumar
+    //         },
+    //         {
+    //             name: 'Prof. Jyoteesh Malhotra',
+    //             designation:'Professor',
+    //             affiliation: { line1: 'NIT Delhi', line2: '' },
+    //             photo: jyoteesh
+    //         },
+    //     ]
+    // },
     {
         type: "SECRETARY",
         members: [
@@ -1075,12 +1108,12 @@ export const hospitalityCommittee = [
     {
         // type: 'COORDINATORS',
         members : [ 
-            // {
-            //     name: 'Dr. Gautam Kumar',
-            //     designation: 'Assistant Professor',
-            //     affiliation: { line1: 'Dept of CSE, NIT Delhi', line2: '' },
-            //     photo: gautam
-            // },
+            {
+                name: 'Dr. Gautam Kumar',
+                designation: 'Assistant Professor',
+                affiliation: { line1: 'Dept of CSE, NIT Delhi', line2: '' },
+                photo: gautam
+            },
             {
                 name: 'Dr. Indu Joshi',
                 designation: 'Assistant Professor',
@@ -1099,13 +1132,6 @@ export const hospitalityCommittee = [
                 affiliation: { line1: 'Dept of Electrical  Engineering, NIT Delhi', line2: '' },
                 photo: sachin
             },
-        ]
-    }
-]
-export const transportationCommittee = [
-    {
-        // type: 'COORDINATORS',
-        members : [
             {
                 name: 'Prof. Rishav Singh',
                 designation: 'Assistant Professor',
@@ -1119,11 +1145,36 @@ export const transportationCommittee = [
                 photo: amit
             },
             {
-                name: 'Dr. Indu Joshi',
+                name: 'Dr. Gunjan',
                 designation: 'Assistant Professor',
                 affiliation: { line1: 'Dept of CSE, NIT Delhi', line2: '' },
-                photo: indu
+                photo: gunjan
             },
+        ]
+    }
+]
+export const transportationCommittee = [
+    {
+        // type: 'COORDINATORS',
+        members : [
+            // {
+            //     name: 'Prof. Rishav Singh',
+            //     designation: 'Assistant Professor',
+            //     affiliation: { line1: 'Dept of CSE, NIT Delhi', line2: '' },
+            //     photo: rishav
+            // },
+            // {
+            //     name: 'Dr Amit Kumar Singh',
+            //     designation: 'Assistant Professor',
+            //     affiliation: { line1: 'Dept of Electrical  Engineering, NIT Delhi', line2: '' },
+            //     photo: amit
+            // },
+            // {
+            //     name: 'Dr. Indu Joshi',
+            //     designation: 'Assistant Professor',
+            //     affiliation: { line1: 'Dept of CSE, NIT Delhi', line2: '' },
+            //     photo: indu
+            // },
         ]
     }
 ]
