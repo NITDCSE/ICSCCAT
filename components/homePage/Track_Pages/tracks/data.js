@@ -108,11 +108,11 @@ export const tracks = [
 
     },
     {
-        heading: "Healthcare 4.0",
+        heading: "Smart Healthcare and Applications",
         by: [
             "Dr. Deepak Kumar Jain, Associate Professor Chongqing University of Posts and Telecommunications, China",
             "Dr. Deepak Ranjan Nayak, Assistant Professor, MNIT Jaipur",
-            "Dr. Indu Joshi, Assistant Professor, NIT Delhi"
+            "Dr. Anurag Singh, Associate Professor, NIT Delhi"
         ],
 
         content: [

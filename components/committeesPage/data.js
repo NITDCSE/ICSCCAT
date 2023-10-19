@@ -613,7 +613,7 @@ export const topLevel= [
     },
     {
         layout: "row",
-        type: "CO-CHAIR",
+        type: "CO-CHAIR(S)",
         members : [
             {
                 name: 'Prof. Manoj Kumar',
