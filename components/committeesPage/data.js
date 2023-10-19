@@ -155,7 +155,7 @@ export const cheifPatron = [
         ]
     },
     {
-        type: 'CONFERENCE CHAIR',
+        type: 'CONFERENCE CHAIR(S)',
         members: [
             {
                 name: 'Prof. (Dr.) Geeta Sikka',
@@ -166,7 +166,7 @@ export const cheifPatron = [
             {
                 name: 'Prof. (Dr.) Manju Bala',
                 designation: 'Director',
-                affiliation: { line1: 'Khalsa College of Engineering and Technology', line2: '' },
+                affiliation: { line1: 'Khalsa College of Engineering and Technology, Amritsar', line2: '' },
                 photo: manjubala
             }
         ]
@@ -189,7 +189,7 @@ export const cheifPatron = [
     //     ]
     // },
     {
-        type: "CONFERENCE CO-CHAIRS",
+        type: "CONFERENCE CO-CHAIR(S)",
         members: [
             {
                 name: 'Dr. Anurag Singh',
@@ -209,6 +209,53 @@ export const cheifPatron = [
                 affiliation: { line1: 'Dept of CSE, NIT Jalandhar', line2: '' },
                 photo: rajneesh
             }
+        ]
+    },
+    {
+        type: "Steering Committee",
+        members: [
+            {
+                name: 'Prof. Satish Chand',
+                designation: 'Professor',
+                affiliation: { line1: 'School of Computer Systems Sciences, JNU Delhi', line2: '' },
+                photo: satish
+            },
+            {
+                name: 'Prof. (Dr.) Arvinder Kaur',
+                designation: 'Professor',
+                affiliation: { line1: 'Guru Gobind Singh Indraprastha University, Delhi', line2: '' },
+                photo: arvinder_kaur
+            },
+            {
+                name: 'Prof. Leandro Melo de Sales',
+                designation: 'Professor',
+                affiliation: { line1: 'Institute of Computing (IC) at Federal University of Alagoas (UFAL), Brazil', line2: '' },
+                photo: leandro
+            },
+            {
+                name: 'Prof. Ahmed Lakhssassi',
+                designation: 'Professor',
+                affiliation: { line1: 'Université du Québec en Outaouais, Gatineau, Canada', line2: '' },
+                photo: lakhssassi
+            },
+            {
+                name: 'Prof. Ramin Yahyapour',
+                designation: 'Professor',
+                affiliation: { line1: 'Gesellschaft für wissenschaftliche Datenverarbeitung mbH Göttingen', line2: '' },
+                photo: ramin
+            },
+            {
+                name: 'Prof. Ali Gharsallah',
+                designation: 'Professor',
+                affiliation: { line1: 'Univ. of Tunis E. M., Tunisia', line2: '' },
+                photo: ali
+            },
+            {
+                name: 'Prof. Ghanshyam Singh',
+                designation: 'Professor',
+                affiliation: { line1: 'Dept. of Electronics & Communication Engg., MNIT, Jaipur', line2: '' },
+                photo: ghanshyam
+            },
         ]
     },
     {
@@ -235,7 +282,7 @@ export const cheifPatron = [
         ]
     },
     {
-        type: "CONVERNOR",
+        type: "CONVERNOR(S)",
         members: [
             {
                 name: 'Dr. Samayveer Singh',
@@ -256,15 +303,9 @@ export const cheifPatron = [
                 photo: gunjan
             },
             {
-                name: 'Dr. Gunjan',
-                designation: 'Assistant Professor',
-                affiliation: { line1: 'Dept of CSE, NIT Delhi', line2: '' },
-                photo: gunjan
-            },
-            {
                 name: 'Dr. G. S. Grewal',
                 designation: 'Dean (Training & Placement)',
-                affiliation: { line1: 'Khalsa College of Engineering & Technology', line2: '' },
+                affiliation: { line1: 'Khalsa College of Engineering & Technology, Amritsar', line2: '' },
                 photo: grewal
             },
         ]
@@ -536,48 +577,48 @@ export const steeringCommitee = [
     {
         type: "main",
         members: [
-            {
-                name: 'Prof. Satish Chand',
-                designation: 'Professor',
-                affiliation: { line1: 'School of Computer Systems Sciences, JNU Delhi', line2: '' },
-                photo: satish
-            },
-            {
-                name: 'Prof. (Dr.) Arvinder Kaur',
-                designation: 'Professor',
-                affiliation: { line1: 'Guru Gobind Singh Indraprastha University, Delhi', line2: '' },
-                photo: arvinder_kaur
-            },
-            {
-                name: 'Prof. Leandro Melo de Sales',
-                designation: 'Professor',
-                affiliation: { line1: 'Institute of Computing (IC) at Federal University of Alagoas (UFAL), Brazil', line2: '' },
-                photo: leandro
-            },
-            {
-                name: 'Prof. Ahmed Lakhssassi',
-                designation: 'Professor',
-                affiliation: { line1: 'Université du Québec en Outaouais, Gatineau, Canada', line2: '' },
-                photo: lakhssassi
-            },
-            {
-                name: 'Prof. Ramin Yahyapour',
-                designation: 'Professor',
-                affiliation: { line1: 'Gesellschaft für wissenschaftliche Datenverarbeitung mbH Göttingen', line2: '' },
-                photo: ramin
-            },
-            {
-                name: 'Prof. Ali Gharsallah',
-                designation: 'Professor',
-                affiliation: { line1: 'Univ. of Tunis E. M., Tunisia', line2: '' },
-                photo: ali
-            },
-            {
-                name: 'Prof. Ghanshyam Singh',
-                designation: 'Professor',
-                affiliation: { line1: 'Dept. of Electronics & Communication Engg., MNIT, Jaipur', line2: '' },
-                photo: ghanshyam
-            },
+            // {
+            //     name: 'Prof. Satish Chand',
+            //     designation: 'Professor',
+            //     affiliation: { line1: 'School of Computer Systems Sciences, JNU Delhi', line2: '' },
+            //     photo: satish
+            // },
+            // {
+            //     name: 'Prof. (Dr.) Arvinder Kaur',
+            //     designation: 'Professor',
+            //     affiliation: { line1: 'Guru Gobind Singh Indraprastha University, Delhi', line2: '' },
+            //     photo: arvinder_kaur
+            // },
+            // {
+            //     name: 'Prof. Leandro Melo de Sales',
+            //     designation: 'Professor',
+            //     affiliation: { line1: 'Institute of Computing (IC) at Federal University of Alagoas (UFAL), Brazil', line2: '' },
+            //     photo: leandro
+            // },
+            // {
+            //     name: 'Prof. Ahmed Lakhssassi',
+            //     designation: 'Professor',
+            //     affiliation: { line1: 'Université du Québec en Outaouais, Gatineau, Canada', line2: '' },
+            //     photo: lakhssassi
+            // },
+            // {
+            //     name: 'Prof. Ramin Yahyapour',
+            //     designation: 'Professor',
+            //     affiliation: { line1: 'Gesellschaft für wissenschaftliche Datenverarbeitung mbH Göttingen', line2: '' },
+            //     photo: ramin
+            // },
+            // {
+            //     name: 'Prof. Ali Gharsallah',
+            //     designation: 'Professor',
+            //     affiliation: { line1: 'Univ. of Tunis E. M., Tunisia', line2: '' },
+            //     photo: ali
+            // },
+            // {
+            //     name: 'Prof. Ghanshyam Singh',
+            //     designation: 'Professor',
+            //     affiliation: { line1: 'Dept. of Electronics & Communication Engg., MNIT, Jaipur', line2: '' },
+            //     photo: ghanshyam
+            // },
         ]
     },
 ]
@@ -823,7 +864,7 @@ export const technicalCommitee = [
             {
                 name: 'Dr. Ripin Kohli',
                 designation:'Associate Professor',
-                affiliation: { line1: 'Khalsa College of Engineering and Technology', line2: '' },
+                affiliation: { line1: 'Khalsa College of Engineering and Technology, Amrtisar', line2: '' },
                 photo: ripin
             },
             {
