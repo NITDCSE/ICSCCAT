@@ -7,9 +7,6 @@ import icsccatLogotransparent from "@/public/icsccatlogo.png";
 import styles from './AddressCard.module.css';
 import './CountdownTimer.css';
 export default function HeroSection() {
-  const THREE_DAYS_IN_MS = 236* 24 * 60 * 60 * 1000;
-  const NOW_IN_MS = new Date().getTime();
-  const dateTimeAfterThreeDays = NOW_IN_MS + THREE_DAYS_IN_MS;
   return (
     <>
       <section
@@ -61,7 +58,7 @@ export default function HeroSection() {
               </div>
             </div>
             <div className="flex pt-6 justify-center">
-                <CountdownTimer targetDate={dateTimeAfterThreeDays} /> {/* Use the CountdownTimer component here */}
+                <CountdownTimer /> {/* Use the CountdownTimer component here */}
             </div>
             {/* <div className="flex pt-8 justify-center">
               <Link href="/register"

@@ -1,7 +1,8 @@
-'use client'
+"use client"
 import React, { useState, useEffect } from 'react';
 
-export default function CountdownTimer({ targetDate }) {
+export default function CountdownTimer() {
+  const targetDate = 236* 24 * 60 * 60 * 1000 + new Date().getTime();
   const calculateTimeRemaining = () => {
     const NOW_IN_MS = new Date().getTime();
     const timeRemaining = targetDate - NOW_IN_MS;
@@ -29,7 +30,7 @@ export default function CountdownTimer({ targetDate }) {
     }, 1000);
 
     return () => clearInterval(timer);
-  }, [targetDate]);
+  }, []);
 
   const formatTime = (time) => {
     return time.toString().padStart(2, '0');
