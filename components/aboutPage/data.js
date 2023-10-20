@@ -14,7 +14,7 @@ export const aboutColleges = {
         Science and Technology, Management, Social Sciences, and Humanities for advanced learning and 
         dissemination of knowledge. The mission of NIT Delhi is to develop a highly intelligent and 
         deeply ethical human resource, a workforce which is creative, competitive and innovative. The 
-        Institute is imparting holistic education, along with inculcating high moral values in its students."`,
+        Institute is imparting holistic education, along with inculcating high moral values in its students.`,
         text2: `NIT Delhi started its academic session in 2010 and it was operating from its transit campus 
         at Narela, Delhi until recently. The institute has now completely shifted to its permanent campus 
         situated on NH-1 (GT Karnal Road), Narela sub-city, New Delhi. The institute offers B. Tech. 
@@ -50,14 +50,14 @@ export const aboutColleges = {
             `2-year M. Tech program in Computer Science and Engineering started in the academic 
             session 2020-21, NIT Delhi has admitted students to its postgraduate programmes with 
             specialty in Artificial Intelligence and Machine Learning, Data Science, Information 
-            Security, Computer Systems and Networks and Distributed Systems`,
+            Security, Computer Systems and Networks and Distributed Systems.`,
 
             `2-year M. Tech program in Computer Science and Engineering Analytics started in the 
             academic session 2013-14, NIT Delhi has admitted students to its postgraduate programmes 
             with specialty in Statistical Inference and Simulation Techniques, Stream Analytics with 
             advanced learning techniques and their applications.`,
 
-            "Ph. D. programme in Computer Science and Engineering started in 2013-14",],
+            "Ph. D. programme in Computer Science and Engineering started in 2013-14.",],
         
         text5: `The Department of CSE has awarded 11 PhDs since 2014 and
         presently 26 Ph.D. scholars are enrolled and pursuing their research
