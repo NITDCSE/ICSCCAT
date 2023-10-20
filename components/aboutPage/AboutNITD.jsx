@@ -46,7 +46,7 @@ export default function AboutNITD({college, nitdActive, setNitdActive}) {
                 </div>
 
             </section>
-            <section id="about">
+            {/* <section id="about">
 
                 <div className="flex flex-col md:flex-col mt-4  mx-auto">
                     <h3 className="text-2xl px-6 font-bold text-center md:text-3xl">
@@ -55,10 +55,18 @@ export default function AboutNITD({college, nitdActive, setNitdActive}) {
                     <div className=" py-3 px-6 mb-4 mt-10">
                         <p className="text-justify px-6  mx-auto text-black lg:text-lg">
                             {college.text4}
+                        </p><br />
+                        <ul>
+                            {college.bullets && college.bullets.map(function(ele,idx){
+                                return <li className="list-disc ml-12 text-lg my-2">{ele}</li>
+                            })}
+                        </ul><br />
+                        <p className="text-justify px-6  mx-auto text-black lg:text-lg">
+                            {college.text5}
                         </p>
                     </div>
                 </div>
-            </section>
+            </section> */}
         </>
 
     )
