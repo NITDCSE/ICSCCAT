@@ -123,7 +123,7 @@ export const cheifPatron = [
     
    
     {
-        type: 'PRINCIPAL GENERAL CHAIR',
+        type: 'PATRON',
         members: [
             {
                 name: 'Prof. (Dr.) Ajay K. Sharma',
@@ -134,7 +134,7 @@ export const cheifPatron = [
         ]
     },
     {
-        type: 'EXECUTIVE GENERAL CHAIR',
+        type: 'HONORARY CHAIR',
         members: [
             {
                 name: 'Prof. (Dr.) Binod Kumar Kanaujia',
