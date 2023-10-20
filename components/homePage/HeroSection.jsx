@@ -30,19 +30,26 @@ export default function HeroSection() {
                 priority
               /> */}
               <div className="flex flex-col mx-auto md:mx-0">
-                <p className="text-2xl text-center md:text-3xl">
-                  1<sup>st</sup> International Conference
+                <p className="font-bold text-4xl text-center md:text-5xl">
+                  1<sup>st</sup> 
                 </p>
-                <p className="text-center text-lg text-black md:text-xl my-4">
+                <p className=" text-4xl text-center md:text-5xl font-bold">
+                <span className="text-blue-800">I</span>nternational  
+                <span className="text-blue-800"> C</span>onference
+                </p>
+                
+                <p className="font-bold text-center text-lg text-black md:text-xl my-2">
                   on
                 </p>
-                <h1 className="text-center font-bold text-4xl text-black md:text-5xl my-4">
-                  "Pioneering Developments in Computer Science <br/> 
-                  & Digital Technologies"
-                  {/* "Emerging Technologies in Computer Science & Digital World" */}
-                  {/* "Emerging Frontiers in Computer Science & Digital Technologies" */}
+                <h1 className="text-center text-4xl text-black md:text-5xl my-4">
+                  <span className="italic">Pioneering Developments in</span>
+                  <p className="font-bold mt-4"><span className="text-blue-800"> C</span>omputer 
+                  <span className="text-blue-800"> S</span>cience & 
+                  <span className="text-blue-800"> D</span>igital 
+                  <span className="text-blue-800"> T</span>echnologies <br />
+                  </p>
                 </h1>
-                <p className="text-center text-lg text-black md:text-2xl mt-4 mb-2">
+                <p className="font-bold text-center text-lg text-black md:text-2xl mt-4 mb-2">
                   26<sup>th</sup> - 28<sup>th</sup> April, 2024
                 </p>
                 <p className="text-center text-base text-black md:text-lg mb-4">
