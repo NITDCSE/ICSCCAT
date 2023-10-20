@@ -9,3 +9,13 @@
     font-weight: normal; 
     font-style: normal; 
   } 
+
+  @font-face { 
+    font-family: "Ananda"; 
+    src: url('/fonts/Ananda.ttf'); 
+    font-weight: normal; 
+    font-style: normal; 
+  } 
+
+
+  
