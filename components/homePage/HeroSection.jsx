@@ -42,7 +42,7 @@ export default function HeroSection() {
                   on
                 </p>
                 <h1 className="text-center text-4xl text-black md:text-5xl my-4">
-                  <span className="italic">Pioneering Developments in</span>
+                  <span className="italic Coneria">Pioneering Developments in</span>
                   <p className="font-bold mt-4"><span className="text-blue-800"> C</span>omputer 
                   <span className="text-blue-800"> S</span>cience & 
                   <span className="text-blue-800"> D</span>igital 
