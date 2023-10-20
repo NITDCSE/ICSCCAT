@@ -38,8 +38,10 @@ export default function HeroSection() {
                 <p className="font-bold text-center text-lg text-black md:text-xl my-2">
                   on
                 </p>
-                <h1 className="text-center text-4xl text-black md:text-5xl my-4">
+                <h1 className="text-center text-2xl text-black md:text-3xl mt-4">
                   <span className="font-[Coneria] font-semibold">Pioneering Developments in</span>
+                  </h1>
+                <h1 className="text-center text-3xl text-black md:text-5xl mt-4">
                   <p className="font-bold mt-4"><span className="text-blue-800"> C</span>omputer 
                   <span className="text-blue-800"> S</span>cience & 
                   <span className="text-blue-800"> D</span>igital 
