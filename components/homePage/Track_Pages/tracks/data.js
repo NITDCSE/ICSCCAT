@@ -108,7 +108,7 @@ export const tracks = [
 
     },
     {
-        heading: "Smart Healthcare and Applications",
+        heading: "Digital Innovation in Healthcare and its Application",
         by: [
             "Dr. Deepak Kumar Jain, Associate Professor Chongqing University of Posts and Telecommunications, China",
             "Dr. Deepak Ranjan Nayak, Assistant Professor, MNIT Jaipur",
@@ -120,24 +120,24 @@ export const tracks = [
         ],
         image: profile,
         id:"healthcare",
-        bullets: ["Health management and analytics",
-        "Healthcare IoT applications",
-        "Expert Systems for Healthcare",
-        "Biomedical semantics",
-        "Health informatics and its applications ",
-        "Security, privacy and protection of personal data in health systems",
-        "IoT and IoE for healthcare",
-        "Wireless Body Area Sensor Networks",
-        "Training and learning algorithms in healthcare systems",
-        "Reliability and Fault-Tolerant in healthcare systems",
-        "Wearable and implantable medical devices",
-        "Home monitoring systems",
-        "IoT-based Active and Healthy Ageing technologies",
-        "Blockchain technology in healthcare",
-        "Cancer detection, treatment and care using IoT, Fog & Cloud Computing approaches",
-        "Smart Healthcare-supported rehabilitation",
-        "Risk management in Smart Healthcare systems",
-        "Healthcare behavior analysis in the context of Smart Healthcare",
-        "Health screening and monitoring in Smart Healthcare systems"]
+        bullets: [
+            "Health Informatics and Electronic Health Records (EHR)",
+            "Telemedicine and Remote Patient Monitoring",
+            "IoT Applications in Healthcare",
+            "Healthcare Data Privacy and Cybersecurity",
+            "Training and learning algorithms in healthcare systems",
+            "Augmented Reality (AR) and Virtual Reality (VR) in Medical Training and Treatment",
+            "Healthcare Robotics and Automation",
+            "Digital Therapeutics and Health Apps",
+            "Explainable AI in Healthcare Decision-Making",
+            "E-Health and Mobile Health (mHealth) Integration",
+            "Ethical Considerations in AI-Driven Healthcare",
+            "IoT, Fog & Cloud Computing-based Cyber Physical System for Digital Healthcare",
+            "Blockchain Applications in Healthcare",
+            "Precision Medicine and Genomics",
+            "Digital Mental Health Solutions",
+            "Healthcare Gamification for Patient Engagement",
+            "Ethical Considerations in AI-Driven Healthcare",
+        ]
     }
 ]
