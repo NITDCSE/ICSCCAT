@@ -34,7 +34,7 @@ export default function CombinedTracks() {
       link: "#aiml",
     },
     {
-      name: "SMART HEALTHCARE AND APPLICATIONS",
+      name: "Digital Innovation in Healthcare and its Application",
       imageUrl: healthcare,
       link: "#healthcare",
     },
