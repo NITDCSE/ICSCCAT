@@ -1,8 +1,19 @@
 "use client"
 import React, { useState, useEffect } from 'react';
+import moment from 'moment';
 
 export default function CountdownTimer() {
   const targetDate = 236* 24 * 60 * 60 * 1000 + new Date().getTime();
+  
+  var date1 = moment("2024-04-24");
+  var date2 = moment();
+  var Months = date1.diff(date2, 'months');
+  var Days = date1.diff(date2, 'days');
+  Days = Days - (Months*30)
+  var Hours = date1.diff(date2, 'hours');
+  var Minutes = date1.diff(date2, 'minutes');
+  var Seconds = date1.diff(date2, 'seconds');
+
   const calculateTimeRemaining = () => {
     const NOW_IN_MS = new Date().getTime();
     const timeRemaining = targetDate - NOW_IN_MS;
@@ -40,7 +51,7 @@ export default function CountdownTimer() {
     <div className="show-counter">
       <div className="countdown">
         <div className="digit-container">
-          <span className="digit">{formatTime(timeRemaining.months)}</span>
+          <span className="digit">{formatTime(Months)}</span>
           <span className="countdown-label">Months</span>
         </div> 
         
