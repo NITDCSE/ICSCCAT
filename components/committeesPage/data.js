@@ -119,6 +119,12 @@ import grewal from "@/assets/faculty/grewal.jpg"
 import ripin from "@/assets/faculty/ripin.jpg"
 
 
+import ashu from "@/assets/committee/oversight/ashu.jpg"
+import bundele from "@/assets/committee/oversight/bundele.jpg"
+import chakradhar from "@/assets/committee/oversight/chakradhar.jpg"
+import pradeep from "@/assets/committee/oversight/pradeep.jpg"
+import rajnish from "@/assets/committee/oversight/rajnish.jpg"
+
 export const cheifPatron = [
     
    
@@ -183,6 +189,41 @@ export const cheifPatron = [
                 affiliation: { line1: 'Dept of CSE, NIT Jalandhar', line2: '' },
                 photo: rajneesh
             }
+        ]
+    },
+    {
+        type: "OVERSIGHT COMMITTEE",
+        members: [
+            {
+                name: 'Prof. Mahesh Bundele',
+                designation: 'Lead Member Coordinator',
+                affiliation: { line1: 'Executive Committee Member & Member-IEEE Delhi Section STDCOM on T & P Act', line2: '' },
+                photo: bundele
+            },
+            {
+                name: 'Prof. Rajnish Sharma',
+                designation: '',
+                affiliation: { line1: 'Section Secretary & Member-IEEE Delhi Section STDCOM on T & P Act', line2: '' },
+                photo: rajnish
+            },
+            {
+                name: 'Prof. Chakradhar C Reddy',
+                designation: '',
+                affiliation: { line1: 'Executive Committee Member & Member-IEEE Delhi Section STDCOM on T & P Act', line2: '' },
+                photo: chakradhar
+            },
+            {
+                name: 'Prof. Pradeep K Gupta',
+                designation: '',
+                affiliation: { line1: 'Executive Committee Co-opted Member & Member-IEEE Delhi Section STDCOM on T & P Act', line2: '' },
+                photo: pradeep
+            },
+            {
+                name: 'Prof. Ashu Verma',
+                designation: '',
+                affiliation: { line1: 'Section Treasurer & Member-IEEE Delhi Section STDCOM on T & P Act', line2: '' },
+                photo: ashu
+            },
         ]
     },
     {
