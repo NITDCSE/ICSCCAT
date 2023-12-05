@@ -7,11 +7,19 @@ export default function CountdownTimer() {
   
   var date1 = moment("2024-04-24");
   var date2 = moment();
+
   var Months = date1.diff(date2, 'months');
+  date2.add(Months, "months")
+
   var Days = date1.diff(date2, 'days');
-  Days = Days - (Months*30)
+  date2.add(Days, "days")
+
   var Hours = date1.diff(date2, 'hours');
+  date2.add(Hours, "hours")
+
   var Minutes = date1.diff(date2, 'minutes');
+  date2.add(Minutes, "minutes")
+
   var Seconds = date1.diff(date2, 'seconds');
 
   const calculateTimeRemaining = () => {
@@ -56,22 +64,22 @@ export default function CountdownTimer() {
         </div> 
         
         <div className="digit-container">
-          <span className="digit">{formatTime(timeRemaining.days)}</span>
+          <span className="digit">{formatTime(Days)}</span>
           <span className="countdown-label">Days</span>
         </div> 
         
         <div className="digit-container">
-          <span className="digit">{formatTime(timeRemaining.hours)}</span>
+          <span className="digit">{formatTime(Hours)}</span>
           <span className="countdown-label">Hours</span>
         </div> 
         
         <div className="digit-container">
-          <span className="digit">{formatTime(timeRemaining.minutes)}</span>
+          <span className="digit">{formatTime(Minutes)}</span>
           <span className="countdown-label">Minutes</span>
         </div> 
         
         <div className="digit-container">
-          <span className="digit">{formatTime(timeRemaining.seconds)}</span>
+          <span className="digit">{formatTime(Seconds)}</span>
           <span className="countdown-label">Seconds</span>
         </div> 
       </div>
