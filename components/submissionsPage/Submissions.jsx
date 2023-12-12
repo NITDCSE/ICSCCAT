@@ -24,7 +24,7 @@ export default function Submissions() {
               <a class="font-medium text-blue-600 dark:text-blue-500 hover:underline" href="https://www.ieee.org/conferences/publishing/templates.html"> here.</a> </li>
               <li className="list-disc leading-6 sm:leading-8">
                 Authors should submit their original unpublished work in PDF format 
-                <a class="font-medium text-blue-600 dark:text-blue-500 hover:underline" href="https://edas.info/login.php?rurl=aHR0cHM6Ly9lZGFzLmluZm8v"> here.</a>  </li>
+                <a class="font-medium text-blue-600 dark:text-blue-500 hover:underline" href="https://edas.info/newPaper.php?c=31902"> here.</a>  </li>
               {/* <li className="list-disc leading-6 sm:leading-8">
                 Paper Submission: <span class="text-red-400"> Link will be updated soon</span> <br />
                 Accepted papers will be submitted for inclusion into IEEE Xplore subject to meeting IEEE Xplore’s scope and quality requirements
