@@ -1,23 +1,23 @@
 export const dates = [
     {
         category : "Full paper Submission",
-        date :"November 30th, 2023"
+        date :"30 January, 2024"
     },
     {
         category : "Acceptance Notification",
-        date :"January 31st, 2024"
+        date :"15 February, 2024"
     },
     {
         category : "Camera Ready Manuscript",
-        date :"February 15th, 2024"
+        date :"25 February, 2024"
     },
     {
         category : "Conference Registration",
-        date :"February 28th, 2024"
+        date :"1 March, 2024"
     },
     {
         category : "Conference Dates",
-        date :"April 26 - 28, 2024"
+        date :" 26-28 April, 2024"
     },
 ]
 
