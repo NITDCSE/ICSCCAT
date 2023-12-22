@@ -1,9 +1,14 @@
 'use client'
+
 import { useState } from "react";
 import { fees } from "./data";
+
 export default function Fees() {
   const [price, setPrice] = useState(false);
   return (
+
+  <div>
+       
     <div className="container mx-auto px-6 py-4">
       <h2 className="text-4xl font-semibold sm:font-bold text-center sm:text-left my-4 mb-8 ">FEES</h2>
       <div className="flex gap-x-12 justify-center my-4 mb-8">
@@ -44,5 +49,6 @@ export default function Fees() {
         })}
       </div>
     </div>
+  </div>
   );
 }
