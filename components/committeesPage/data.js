@@ -274,7 +274,7 @@ export const cheifPatron = [
         ]
     },  
     {
-        type: "SECRETARY",
+        type: "SECRETARY(S)",
         members: [
             {
                 name: 'Dr. Karan Verma',
