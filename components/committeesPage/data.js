@@ -926,12 +926,12 @@ export const organizingCommittee =  [
                 affiliation: { line1: 'Dept of CSE, NIT Delhi', line2: '' },
                 photo: karan
             },
-            {
-                name: 'Dr. Chandra Prakash',
-                designation: 'Assistant Professor',
-                affiliation: { line1: 'Dept of CSE, NIT Delhi', line2: '' },
-                photo: cprakash
-            },
+            // {
+            //     name: 'Dr. Chandra Prakash',
+            //     designation: 'Assistant Professor',
+            //     affiliation: { line1: 'Dept of CSE, NIT Delhi', line2: '' },
+            //     photo: cprakash
+            // },
             {
                 name: 'Dr. Rishav Singh',
                 designation: 'Assistant Professor',
@@ -1014,12 +1014,12 @@ export const publicationCommittee = [
     {
         // type: 'CHAIRPERSON',
         members : [
-            {
-                name: 'Dr. Chandra Prakash',
-                designation: 'Assistant Professor',
-                affiliation: { line1: 'Dept of CSE, NIT Delhi', line2: '' },
-                photo: cprakash
-            },
+            // {
+            //     name: 'Dr. Chandra Prakash',
+            //     designation: 'Assistant Professor',
+            //     affiliation: { line1: 'Dept of CSE, NIT Delhi', line2: '' },
+            //     photo: cprakash
+            // },
             {
                 name: 'Dr. Nonita Sharma',
                 designation:'Associate Professor',
