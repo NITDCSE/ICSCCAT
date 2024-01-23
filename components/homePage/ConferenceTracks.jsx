@@ -1,5 +1,5 @@
 // CombinedTracks.js
-'use client'
+'use client';
 import React, { useState } from "react";
 import Link from "next/link";
 import Track from "@/components/homePage/Track_Pages/tracks/Track";
@@ -50,43 +50,39 @@ export default function CombinedTracks() {
     setHoveredCard(null);
   };
 
-  const cardColors = [
-    "#FD6824",
-    "#57C12C",
-    "#26BDE3",
-    "#DD1267",
-    "#FCC309",
-  ];
+  const cardColors = ["#FD6824", "#57C12C", "#26BDE3", "#DD1267", "#FCC309"];
 
   return (
     <div>
       <section id="themes" className="py-6">
         <div className="container flex flex-col mx-auto px-6 py-4">
-          <h4 className="max-w-md text-4xl font-bold text-center md:text-4xl md:text-left">Tracks</h4>
-          <div className="mt-6 grid grid-cols-1 xs:grid-cols-2 md:grid-cols-3 gap-4" style={{ height: '100vh' }}>
+              <h4 className="max-w-md text-4xl font-bold text-center mx-auto md:text-4xl md:text-left mb-6">
+                  Tracks
+              </h4>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
             {themes.map(function (theme, index) {
               return (
-                <a
-                  key={index}
-                  href={theme.link} // Use the link as the href
-                  className={`card ${hoveredCard === index ? "hovered" : ""}`}
-                  style={{ backgroundColor: cardColors[index] }}
-                  onMouseEnter={() => handleCardHover(index)}
-                  onMouseLeave={handleCardLeave}
-                >
-                  <div className="card-inner">
-                    <div className="front">
-                      <div className="front-content">
-                        <img
-                          src={theme.imageUrl.src}
-                          alt={theme.name}
-                          className="w-full h-auto rounded-md"
-                        />
-                        <p className="text-black font-semibold">{theme.name}</p>
+                <Link key={index} href={theme.link} passHref>
+                  <div
+                    className={`card ${hoveredCard === index ? "hovered" : ""}`}
+                    style={{ backgroundColor: cardColors[index] }}
+                    onMouseEnter={() => handleCardHover(index)}
+                    onMouseLeave={handleCardLeave}
+                  >
+                    <div className="card-inner">
+                      <div className="front">
+                        <div className="front-content">
+                          <img
+                            src={theme.imageUrl.src}
+                            alt={theme.name}
+                            className="w-full h-auto rounded-md"
+                          />
+                          <p className="text-black font-semibold">{theme.name}</p>
+                        </div>
                       </div>
                     </div>
                   </div>
-                </a>
+                </Link>
               );
             })}
           </div>
