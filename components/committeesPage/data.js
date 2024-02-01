@@ -288,12 +288,12 @@ export const cheifPatron = [
             //     affiliation: { line1: 'Dept of CSE, NIT Delhi', line2: '' },
             //     photo: cprakash
             // },
-            {
-                name: 'Dr. Rishav Singh',
-                designation: 'Assistant Professor',
-                affiliation: { line1: 'Dept of CSE, NIT Delhi', line2: '' },
-                photo: rishav
-            }
+            // {
+            //     name: 'Dr. Rishav Singh',
+            //     designation: 'Assistant Professor',
+            //     affiliation: { line1: 'Dept of CSE, NIT Delhi', line2: '' },
+            //     photo: rishav
+            // }
         ]
     },
     {
@@ -932,12 +932,12 @@ export const organizingCommittee =  [
             //     affiliation: { line1: 'Dept of CSE, NIT Delhi', line2: '' },
             //     photo: cprakash
             // },
-            {
-                name: 'Dr. Rishav Singh',
-                designation: 'Assistant Professor',
-                affiliation: { line1: 'Dept of CSE, NIT Delhi', line2: '' },
-                photo: rishav
-            },
+            // {
+            //     name: 'Dr. Rishav Singh',
+            //     designation: 'Assistant Professor',
+            //     affiliation: { line1: 'Dept of CSE, NIT Delhi', line2: '' },
+            //     photo: rishav
+            // },
             {
                 name: 'Dr. Gautam Kumar',
                 designation: 'Assistant Professor',
@@ -1070,12 +1070,12 @@ export const publicityCommittee = [
                 affiliation: { line1: 'Dept of CSE, NIT Delhi', line2: '' },
                 photo: shelly
             },
-            {
-                name: 'Dr. Rishav Singh',
-                designation: 'Assistant Professor',
-                affiliation: { line1: 'Dept of CSE, NIT Delhi', line2: '' },
-                photo: rishav
-            },
+            // {
+            //     name: 'Dr. Rishav Singh',
+            //     designation: 'Assistant Professor',
+            //     affiliation: { line1: 'Dept of CSE, NIT Delhi', line2: '' },
+            //     photo: rishav
+            // },
             {
                 name: 'Dr. Arshpreet Kaur',
                 designation: 'Assistant Professor',
@@ -1120,12 +1120,12 @@ export const hospitalityCommittee = [
                 affiliation: { line1: 'Dept of Electrical  Engineering, NIT Delhi', line2: '' },
                 photo: sachin
             },
-            {
-                name: 'Prof. Rishav Singh',
-                designation: 'Assistant Professor',
-                affiliation: { line1: 'Dept of CSE, NIT Delhi', line2: '' },
-                photo: rishav
-            },
+            // {
+            //     name: 'Prof. Rishav Singh',
+            //     designation: 'Assistant Professor',
+            //     affiliation: { line1: 'Dept of CSE, NIT Delhi', line2: '' },
+            //     photo: rishav
+            // },
             {
                 name: 'Dr Amit Kumar Singh',
                 designation: 'Assistant Professor',
