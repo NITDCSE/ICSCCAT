@@ -1,23 +1,23 @@
 export const dates = [
     {
         category : "Full paper Submission",
-        date :"20 February, 2024"
+        date :"1 May, 2024"
     },
     {
         category : "Acceptance Notification",
-        date :"1 March, 2024"
+        date :"25 June, 2024"
     },
     {
         category : "Camera Ready Manuscript",
-        date :"1 March, 2024"
+        date :"2 July, 2024"
     },
     {
         category : "Conference Registration",
-        date :"10 March, 2024"
+        date :"20 July, 2024"
     },
     {
         category : "Conference Dates",
-        date :" 26-28 April, 2024"
+        date :" 02-04 August, 2024"
     },
 ]
 
@@ -25,9 +25,9 @@ export const rules = [
     "All the papers submitted to the conference should be written in English with the maximum page length of six printed pages (10pt font).",
     "Simultaneous submissions (papers already submitted to other conferences/journals) are not allowed.",
     "The decision regarding the acceptance of paper is at the discretion of Technical Program Committee.",
-    "Plagiarism check will be done using EDAS.",
-    "All the paper submission will be done on EDAS conference management software.",
-    "Reviewer assignment will be made using EDAS.",
+    "Plagiarism check will be done using Turnitin.",
+    "All the paper submission will be done on Microsoft CMT conference management software.",
+    "Reviewer assignment will be made using Microsoft CMT.",
 ]
 
 export const fees = [

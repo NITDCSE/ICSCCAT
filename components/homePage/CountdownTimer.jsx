@@ -5,7 +5,7 @@ import moment from 'moment';
 export default function CountdownTimer() {
   const targetDate = 236* 24 * 60 * 60 * 1000 + new Date().getTime();
   
-  var date1 = moment("2024-04-24");
+  var date1 = moment("2024-08-02");
   var date2 = moment();
 
   var Months = date1.diff(date2, 'months');

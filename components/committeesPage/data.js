@@ -962,12 +962,12 @@ export const organizingCommittee =  [
                 affiliation: { line1: 'Dept of CSE, NIT Delhi', line2: '' },
                 photo: sahil
             },
-            {
-                name: 'Dr. Indu Joshi',
-                designation: 'Assistant Professor',
-                affiliation: { line1: 'Dept of CSE, NIT Delhi', line2: '' },
-                photo: indu
-            },
+            // {
+            //     name: 'Dr. Indu Joshi',
+            //     designation: 'Assistant Professor',
+            //     affiliation: { line1: 'Dept of CSE, NIT Delhi', line2: '' },
+            //     photo: indu
+            // },
             {
                 name: 'Dr. Divya Punia',
                 designation: 'Postdoctoral Fellow',
@@ -1102,12 +1102,12 @@ export const hospitalityCommittee = [
                 affiliation: { line1: 'Dept of CSE, NIT Delhi', line2: '' },
                 photo: gautam
             },
-            {
-                name: 'Dr. Indu Joshi',
-                designation: 'Assistant Professor',
-                affiliation: { line1: 'Dept of CSE, NIT Delhi', line2: '' },
-                photo: indu
-            },
+            // {
+            //     name: 'Dr. Indu Joshi',
+            //     designation: 'Assistant Professor',
+            //     affiliation: { line1: 'Dept of CSE, NIT Delhi', line2: '' },
+            //     photo: indu
+            // },
             {
                 name: 'Dr. Divya Punia',
                 designation: 'Postdoctoral Researcher',
