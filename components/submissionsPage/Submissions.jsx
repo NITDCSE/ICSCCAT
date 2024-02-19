@@ -24,7 +24,7 @@ export default function Submissions() {
               <a class="font-medium text-blue-600 dark:text-blue-500 hover:underline" href="https://www.ieee.org/conferences/publishing/templates.html"> here.</a> </li>
               <li className="list-disc leading-6 sm:leading-8">
                 Authors should submit their original unpublished work in PDF format 
-                <a class="font-medium text-blue-600 dark:text-blue-500 hover:underline" href=""> here.</a>  </li>
+                <a class="font-medium text-blue-600 dark:text-blue-500 hover:underline" href="https://cmt3.research.microsoft.com/IC2SDT2024/"> here.</a>  </li>
               <li className="list-disc leading-6 sm:leading-8"> 
                 <b>IEEE PDF eXpress conference ID: 62152</b></li>
               {/* <li className="list-disc leading-6 sm:leading-8">
