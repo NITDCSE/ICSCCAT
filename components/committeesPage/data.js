@@ -645,9 +645,9 @@ export const topLevel= [
         type: "CHAIR",
         members : [
             {
-                name: 'Dr. Anurag Singh',
-                designation: 'Associate Professor',
-                affiliation: { line1: 'Department of CSE, NIT Delhi', line2: '' },
+                name: 'Prof. Harsh K Verma',
+                designation: 'Professor',
+                affiliation: { line1: 'Department of CSE, NIT Jalandhar', line2: '' },
                 photo: harsh
             },
         ]
