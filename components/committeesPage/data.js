@@ -645,9 +645,9 @@ export const topLevel= [
         type: "CHAIR",
         members : [
             {
-                name: 'Prof. Harsh Verma',
-                designation: 'Professor',
-                affiliation: { line1: 'Department of CSE, NIT Jalandhar', line2: '' },
+                name: 'Dr. Anurag Singh',
+                designation: 'Associate Professor',
+                affiliation: { line1: 'Department of CSE, NIT Delhi', line2: '' },
                 photo: harsh
             },
         ]
@@ -1020,6 +1020,12 @@ export const publicationCommittee = [
             //     affiliation: { line1: 'Dept of CSE, NIT Delhi', line2: '' },
             //     photo: cprakash
             // },
+            {
+                name: 'Dr. Anurag Singh',
+                designation: 'Associate Professor',
+                affiliation: { line1: 'Dept of CSE, NIT Delhi', line2: '' },
+                photo: anurag
+            },
             {
                 name: 'Dr. Nonita Sharma',
                 designation:'Associate Professor',
