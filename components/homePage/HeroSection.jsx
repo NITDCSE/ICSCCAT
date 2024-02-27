@@ -6,6 +6,9 @@ import icsccatLogo from "@/public/icsccat.png";
 import icsccatLogotransparent from "@/public/icsccatlogo.png";
 import styles from './AddressCard.module.css';
 import './CountdownTimer.css';
+import ImportantDates from "./ImportantDates";
+import { dates } from "./data";
+
 export default function HeroSection() {
   return (
     <>
@@ -54,9 +57,9 @@ export default function HeroSection() {
                 <p className="text-center text-base text-black md:text-lg mb-4">
                   (Hybrid Mode)
                 </p>
-                <p className="text-2xl text-center md:text-3xl">
+                {/* <p className="text-2xl text-center md:text-3xl">
                     Coming Soon
-                </p>
+                </p> */}
               </div>
             </div>
             <div className="flex pt-6 justify-center">
@@ -80,6 +83,7 @@ export default function HeroSection() {
             </div>
           </div><br />
       </section>
+      <ImportantDates></ImportantDates>
     </>
   );
 }
