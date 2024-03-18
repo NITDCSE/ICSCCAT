@@ -86,6 +86,7 @@ import Sunil from "@/assets/committee/technical/Prof. Sunil Vadera.jpg"
 import YNSingh from "@/assets/committee/technical/Prof. Y. N. Singh.jpg"
 import YSingh from "@/assets/committee/technical/Prof. Yogesh Singh.png"
 import ela from "@/assets/committee/technical/ela.jpg"
+import Sangal from "@/assets/committee/technical/sangal.jpg"
 
 import Bhargava from "@/assets/committee/technical/Bharat Bhargava.jpg"
 import Aggarwal from "@/assets/committee/technical/K K Aggarwal.JPG"
@@ -586,57 +587,57 @@ export const advisoryCommittee = [
             }
         ]
     }
-]
+];
 
-export const steeringCommitee = [
-    {
-        type: "main",
-        members: [
-            // {
-            //     name: 'Prof. Satish Chand',
-            //     designation: 'Professor',
-            //     affiliation: { line1: 'School of Computer Systems Sciences, JNU Delhi', line2: '' },
-            //     photo: satish
-            // },
-            // {
-            //     name: 'Prof. (Dr.) Arvinder Kaur',
-            //     designation: 'Professor',
-            //     affiliation: { line1: 'Guru Gobind Singh Indraprastha University, Delhi', line2: '' },
-            //     photo: arvinder_kaur
-            // },
-            // {
-            //     name: 'Prof. Leandro Melo de Sales',
-            //     designation: 'Professor',
-            //     affiliation: { line1: 'Institute of Computing (IC) at Federal University of Alagoas (UFAL), Brazil', line2: '' },
-            //     photo: leandro
-            // },
-            // {
-            //     name: 'Prof. Ahmed Lakhssassi',
-            //     designation: 'Professor',
-            //     affiliation: { line1: 'Université du Québec en Outaouais, Gatineau, Canada', line2: '' },
-            //     photo: lakhssassi
-            // },
-            // {
-            //     name: 'Prof. Ramin Yahyapour',
-            //     designation: 'Professor',
-            //     affiliation: { line1: 'Gesellschaft für wissenschaftliche Datenverarbeitung mbH Göttingen', line2: '' },
-            //     photo: ramin
-            // },
-            // {
-            //     name: 'Prof. Ali Gharsallah',
-            //     designation: 'Professor',
-            //     affiliation: { line1: 'Univ. of Tunis E. M., Tunisia', line2: '' },
-            //     photo: ali
-            // },
-            // {
-            //     name: 'Prof. Ghanshyam Singh',
-            //     designation: 'Professor',
-            //     affiliation: { line1: 'Dept. of Electronics & Communication Engg., MNIT, Jaipur', line2: '' },
-            //     photo: ghanshyam
-            // },
-        ]
-    },
-]
+// export const steeringCommitee = [
+//     {
+//         type: "main",
+//         members: [
+//             // {
+//             //     name: 'Prof. Satish Chand',
+//             //     designation: 'Professor',
+//             //     affiliation: { line1: 'School of Computer Systems Sciences, JNU Delhi', line2: '' },
+//             //     photo: satish
+//             // },
+//             // {
+//             //     name: 'Prof. (Dr.) Arvinder Kaur',
+//             //     designation: 'Professor',
+//             //     affiliation: { line1: 'Guru Gobind Singh Indraprastha University, Delhi', line2: '' },
+//             //     photo: arvinder_kaur
+//             // },
+//             // {
+//             //     name: 'Prof. Leandro Melo de Sales',
+//             //     designation: 'Professor',
+//             //     affiliation: { line1: 'Institute of Computing (IC) at Federal University of Alagoas (UFAL), Brazil', line2: '' },
+//             //     photo: leandro
+//             // },
+//             // {
+//             //     name: 'Prof. Ahmed Lakhssassi',
+//             //     designation: 'Professor',
+//             //     affiliation: { line1: 'Université du Québec en Outaouais, Gatineau, Canada', line2: '' },
+//             //     photo: lakhssassi
+//             // },
+//             // {
+//             //     name: 'Prof. Ramin Yahyapour',
+//             //     designation: 'Professor',
+//             //     affiliation: { line1: 'Gesellschaft für wissenschaftliche Datenverarbeitung mbH Göttingen', line2: '' },
+//             //     photo: ramin
+//             // },
+//             // {
+//             //     name: 'Prof. Ali Gharsallah',
+//             //     designation: 'Professor',
+//             //     affiliation: { line1: 'Univ. of Tunis E. M., Tunisia', line2: '' },
+//             //     photo: ali
+//             // },
+//             // {
+//             //     name: 'Prof. Ghanshyam Singh',
+//             //     designation: 'Professor',
+//             //     affiliation: { line1: 'Dept. of Electronics & Communication Engg., MNIT, Jaipur', line2: '' },
+//             //     photo: ghanshyam
+//             // },
+//         ]
+//     },
+// ]
 
 
 export const topLevel= [
@@ -654,49 +655,44 @@ export const topLevel= [
     },
     {
         layout: "row",
-        type: "CO-CHAIR(S)",
+        type: "CO-CHAIR",
         members : [
             {
-                name: 'Prof. Manoj Kumar',
-                designation: 'Professor & Head',
-                affiliation: { line1: 'Dept of ECE, NIT Delhi', line2: '' },
-                photo: manojkumar
-            },
-            {
-                name: 'Prof. Jyoteesh Malhotra',
-                designation:'Professor',
-                affiliation: { line1: 'NIT Delhi', line2: '' },
-                photo: jyoteesh
+                name: 'Dr. Anurag Singh',
+                designation: 'Associate Professor',
+                affiliation: { line1: 'Dept of CSE, NIT Delhi', line2: '' },
+                photo: anurag
             },
         ]
     },
 
 ];
-export const technicalCommitee = [
-    // {
-    //     type:'CHAIRS',
-    //     members:[
-    //         {
-    //             name: 'Padma Shri Prof. Deepak B Phatak',
-    //             designation: 'Professor',
-    //             affiliation: { line1: 'IIT Bombay', line2: '' },
-    //             photo: Phatak
-    //         },
-    //         {
-    //             name: 'Prof. K K Aggarwal',
-    //             designation: 'Chairman',
-    //             affiliation: { line1: 'NBA', line2: '' },
-    //             photo: Aggarwal
-    //         },
-    //         {
-    //             name: 'Prof. Manoj Singh Gaur',
-    //             designation: 'Director',
-    //             affiliation: { line1: 'IIT Jammu', line2: '' },
-    //             photo: Gaur
-    //         }
-    //     ]
-    // },
 
+export const technicalCommitee = [
+    {
+        layout: "row",
+        type: "CHAIR",
+        members : [
+            {
+                name: 'Prof. Harsh K Verma',
+                designation: 'Professor',
+                affiliation: { line1: 'Department of CSE, NIT Jalandhar', line2: '' },
+                photo: harsh
+            },
+        ]
+    },
+    {
+        layout: "row",
+        type: "CO-CHAIR",
+        members : [
+            {
+                name: 'Dr. Anurag Singh',
+                designation: 'Associate Professor',
+                affiliation: { line1: 'Dept of CSE, NIT Delhi', line2: '' },
+                photo: anurag
+            },
+        ]
+    },
     {   
         type : 'COMMITTEE MEMBERS',
         members :  [
@@ -706,6 +702,24 @@ export const technicalCommitee = [
             //     affiliation: { line1: 'University of Delhi', line2: '' },
             //     photo: YSingh
             // },
+            {
+                name: 'Prof. Manoj Kumar',
+                designation: 'Professor & Head',
+                affiliation: { line1: 'Dept of ECE, NIT Delhi', line2: '' },
+                photo: manojkumar
+            },
+            {
+                name: 'Prof. Jyoteesh Malhotra',
+                designation:'Professor & Dean Student Welfare',
+                affiliation: { line1: 'NIT Delhi', line2: '' },
+                photo: jyoteesh
+            },
+            {
+                name: 'Prof. Amrit Lal Sangal',
+                designation:'Professor',
+                affiliation: { line1: 'NIT Jalandhar', line2: '' },
+                photo: Sangal
+            },
             {
                 name: 'Prof. Bijendra Kumar',
                 designation: 'Professor',
@@ -1014,18 +1028,6 @@ export const publicationCommittee = [
     {
         // type: 'CHAIRPERSON',
         members : [
-            // {
-            //     name: 'Dr. Chandra Prakash',
-            //     designation: 'Assistant Professor',
-            //     affiliation: { line1: 'Dept of CSE, NIT Delhi', line2: '' },
-            //     photo: cprakash
-            // },
-            {
-                name: 'Dr. Anurag Singh',
-                designation: 'Associate Professor',
-                affiliation: { line1: 'Dept of CSE, NIT Delhi', line2: '' },
-                photo: anurag
-            },
             {
                 name: 'Dr. Nonita Sharma',
                 designation:'Associate Professor',
@@ -1038,30 +1040,17 @@ export const publicationCommittee = [
                 affiliation: { line1: 'Alliance University', line2: '' },
                 photo: Shashvat
             },
-
-            // {
-            //     name: 'Dr. Anurag Singh',
-            //     designation: 'Associate Professor',
-            //     affiliation: { line1: 'Dept of CSE, NIT Delhi', line2: '' },
-            //     photo: anurag
-            // },
-            // {
-            //     name: 'Dr. Karan Verma',
-            //     designation: 'Assistant Professor',
-            //     affiliation: { line1: 'Dept of CSE, NIT Delhi', line2: '' },
-            //     photo: karan
-            // },
-            // {
-            //     name: 'Dr. Sahil',
-            //     designation: 'Assistant Professor',
-            //     affiliation: { line1: 'Dept of CSE, NIT Delhi', line2: '' },
-            //     photo: sahil
-            // },
             {
                 name: 'Dr. Amandeep Kaur',
                 designation: 'Assistant Professor',
                 affiliation: { line1: 'Dept of CSE, NIT Delhi', line2: '' },
                 photo: amandeep
+            },
+            {
+                name: 'Dr. Divya Punia',
+                designation: 'Postdoctoral Researcher',
+                affiliation: { line1: 'Dept of CSE, NIT Delhi', line2: '' },
+                photo: divya
             },
         ]
     }
@@ -1076,12 +1065,6 @@ export const publicityCommittee = [
                 affiliation: { line1: 'Dept of CSE, NIT Delhi', line2: '' },
                 photo: shelly
             },
-            // {
-            //     name: 'Dr. Rishav Singh',
-            //     designation: 'Assistant Professor',
-            //     affiliation: { line1: 'Dept of CSE, NIT Delhi', line2: '' },
-            //     photo: rishav
-            // },
             {
                 name: 'Dr. Arshpreet Kaur',
                 designation: 'Assistant Professor',
