@@ -283,28 +283,22 @@ export const cheifPatron = [
                 affiliation: { line1: 'Dept of CSE, NIT Delhi', line2: '' },
                 photo: karan
             },
-            // {
-            //     name: 'Dr. Chandra Prakash',
-            //     designation: 'Assistant Professor',
-            //     affiliation: { line1: 'Dept of CSE, NIT Delhi', line2: '' },
-            //     photo: cprakash
-            // },
-            // {
-            //     name: 'Dr. Rishav Singh',
-            //     designation: 'Assistant Professor',
-            //     affiliation: { line1: 'Dept of CSE, NIT Delhi', line2: '' },
-            //     photo: rishav
-            // }
+            {
+                name: 'Dr. Samayveer Singh',
+                designation: 'Assistant Professor',
+                affiliation: { line1: 'Dept. of CSE, NIT Jalandhar', line2: '' },
+                photo: samayveer
+            },
         ]
     },
     {
         type: "CONVENOR(S)",
         members: [
             {
-                name: 'Dr. Samayveer Singh',
+                name: 'Dr. Amandeep Kaur',
                 designation: 'Assistant Professor',
-                affiliation: { line1: 'Dept. of CSE, NIT Jalandhar', line2: '' },
-                photo: samayveer
+                affiliation: { line1: 'Dept of CSE, NIT Delhi', line2: '' },
+                photo: amandeep
             },
             {
                 name: 'Dr. Gautam Kumar',
@@ -317,6 +311,12 @@ export const cheifPatron = [
                 designation: 'Assistant Professor',
                 affiliation: { line1: 'Dept of CSE, NIT Delhi', line2: '' },
                 photo: gunjan
+            },
+            {
+                name: 'Dr. Sahil',
+                designation: 'Assistant Professor',
+                affiliation: { line1: 'Dept of CSE, NIT Delhi', line2: '' },
+                photo: sahil
             },
             {
                 name: 'Dr. G. S. Grewal',
@@ -642,30 +642,17 @@ export const advisoryCommittee = [
 
 export const topLevel= [
     {
-        layout: "row",
-        type: "CHAIR",
+        // layout: "row",
+        // type: "CHAIR",
         members : [
-            {
-                name: 'Prof. Harsh K Verma',
-                designation: 'Professor',
-                affiliation: { line1: 'Department of CSE, NIT Jalandhar', line2: '' },
-                photo: harsh
-            },
+        // //     {
+        // //         name: 'Prof. Harsh K Verma',
+        // //         designation: 'Professor',
+        // //         affiliation: { line1: 'Department of CSE, NIT Jalandhar', line2: '' },
+        // //         photo: harsh
+        // //     },
         ]
     },
-    {
-        layout: "row",
-        type: "CO-CHAIR",
-        members : [
-            {
-                name: 'Dr. Anurag Singh',
-                designation: 'Associate Professor',
-                affiliation: { line1: 'Dept of CSE, NIT Delhi', line2: '' },
-                photo: anurag
-            },
-        ]
-    },
-
 ];
 
 export const technicalCommitee = [
@@ -1076,6 +1063,12 @@ export const publicityCommittee = [
                 designation: 'Assistant Professor',
                 affiliation: { line1: 'Dept of CSE, NIT Delhi', line2: '' },
                 photo: sahil
+            },
+            {
+                name: 'Dr. Japinder Kaur',
+                designation: 'Postdoctoral Fellow',
+                affiliation: { line1: 'Dept of ECE, NIT Delhi', line2: '' },
+                photo: jaspinder
             },
         ]
     }

@@ -4,7 +4,6 @@ export default function Committees() {
     return (
         <>
             <Committee data = {cheifPatron}/>
-            <Committee data = {topLevel} name = "TECHNICAL PROGRAM COMMITTEE" />
             <Committee data = {advisoryCommittee} name = {"ADVISORY COMITTEE"} />
              <Committee data = {technicalCommitee} name = {"TECHNICAL PROGRAM COMMITTEE"} />
            
