@@ -90,16 +90,16 @@ export default function Footer() {
       <div className="container mx-auto px-6 py-2">
         <p className="text-center">
           Designed and Developed by -
-          <a href="" className="underline hover:text-primary20">
+          <a href="https://in.linkedin.com/in/sajalsahu8" className="underline hover:text-primary20">
           Sajal Sahu,{" "}
           </a>
-          <a href="" className="underline hover:text-primary20">
+          <a href="https://in.linkedin.com/in/rohit-kumar-20926a164" className="underline hover:text-primary20">
           Rohit Kumar, {" "}
           </a>
-          <a href="" className="underline hover:text-primary20">
+          <a href="https://in.linkedin.com/in/trivedi-utkarsh" className="underline hover:text-primary20">
           Utkarsh Trivedi, {" "}
           </a>
-          <a href="" className="underline hover:text-primary20">
+          <a href="https://in.linkedin.com/in/shreyanshgupta001" className="underline hover:text-primary20">
           Shreyansh Gupta.{" "}
           </a>
         </p>
