@@ -126,9 +126,22 @@ import chakradhar from "@/assets/committee/oversight/chakradhar.jpg"
 import pradeep from "@/assets/committee/oversight/pradeep.jpg"
 import rajnish from "@/assets/committee/oversight/rajnish.jpg"
 
+import ckbirla from "@/assets/committee/ckbirla.jpg"
+
 export const cheifPatron = [
     
    
+    {
+        type: 'CHIEF-PATRON',
+        members: [
+            {
+                name: 'Mr. Chandra Kant Birla',
+                designation: 'Chairman',
+                affiliation: { line1: 'C K Birla Group', line2: '' },
+                photo: ckbirla
+            },
+        ]
+    },
     {
         type: 'PATRON',
         members: [
