@@ -127,6 +127,7 @@ import pradeep from "@/assets/committee/oversight/pradeep.jpg"
 import rajnish from "@/assets/committee/oversight/rajnish.jpg"
 
 import ckbirla from "@/assets/committee/ckbirla.jpg"
+import abhijan from "@/assets/committee/technical/abhijan.jpg"
 
 export const cheifPatron = [
     
@@ -702,6 +703,36 @@ export const technicalCommitee = [
             //     affiliation: { line1: 'University of Delhi', line2: '' },
             //     photo: YSingh
             // },
+            {
+                name: 'Prof. Ahmed Lakhssassi',
+                designation: 'Professor',
+                affiliation: { line1: 'Université du Québec en Outaouais, Gatineau, Canada', line2: '' },
+                photo: lakhssassi
+            },
+            {
+                name: 'Mr. Abhijan Bhattacharyya',
+                designation: 'Sr. Scientist',
+                affiliation: { line1: 'TCS Research', line2: '' },
+                photo: abhijan
+            },
+            {
+                name: 'Prof. Ali Gharsallah',
+                designation: 'Professor',
+                affiliation: { line1: 'Univ. of Tunis E. M., Tunisia', line2: '' },
+                photo: ali
+            },
+            {
+                name: 'Prof. Leandro Melo de Sales',
+                designation: 'Professor',
+                affiliation: { line1: 'Institute of Computing (IC) at Federal University of Alagoas (UFAL), Brazil', line2: '' },
+                photo: leandro
+            },
+            {
+                name: 'Prof. Ramin Yahyapour',
+                designation: 'Professor',
+                affiliation: { line1: 'Gesellschaft für wissenschaftliche Datenverarbeitung mbH Göttingen', line2: '' },
+                photo: ramin
+            },
             {
                 name: 'Prof. Manoj Kumar',
                 designation: 'Professor & Head',
