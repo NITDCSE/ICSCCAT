@@ -567,7 +567,7 @@ export const advisoryCommittee = [
             },
             {
                 name: 'Prof. Rahul Kataria',
-                designation: 'Principal',
+                designation: 'Professor',
                 affiliation: { line1: 'Delhi Technological University', line2: '' },
                 photo: rahul_kataria
             },
