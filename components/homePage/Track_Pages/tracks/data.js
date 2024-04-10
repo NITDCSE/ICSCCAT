@@ -47,9 +47,10 @@ export const tracks = [
     {
         heading: "Cloud Computing and IoT",
         by: [
+            "Prof. Jyoteesh Malhotra, Professor, NIT Delhi",
             "Dr. Mashtaq Ahmed, Associate Professor, MNIT Jaipur",
             "Dr. Piyush Kumar, Assistant Professor, NIT Patna",
-            "Prof. Jyoteesh Malhotra, Professor, NIT Delhi"
+            
         ],
 
         content: [
