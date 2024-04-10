@@ -78,7 +78,7 @@ export const tracks = [
     {
         heading: "Artificial Intelligence and Machine Learning",
         by: [
-            "Dr. Shailender Kumar, Associate Professor, DTU, New Delhi",
+            "Dr. Shailender Kumar, Professor, DTU, New Delhi",
             "Dr. Yogesh Kumar Meena, Associate Professor, MNIT Jaipur",
             "Dr. Shelly Sachdeva, Associate Professor, NIT Delhi"
         ],
