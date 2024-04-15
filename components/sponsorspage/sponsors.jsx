@@ -6,6 +6,7 @@ import mathworks from '@/public/sponsors/mathworks.jpeg'
 import takyon from '@/public/sponsors/takyon.jpeg'
 import serb from '@/public/sponsors/serb.png'
 import kcet from '@/public/sponsors/kcet.png'
+import drdo from '@/public/sponsors/drdo.png'
 
  
 export default function SponsorsSection() {
@@ -19,6 +20,14 @@ export default function SponsorsSection() {
             </div>
             <div className="text-s">
                 <span className="font-bold">Science and Engineering Research Board</span> 
+            </div>
+        </div>
+        <div class="card-s">
+            <div className="s-logo">
+            <Image src={drdo} alt=""/>
+            </div>
+            <div className="text-s">
+                <span className="font-bold">DRDO</span>  
             </div>
         </div>
         <div class="card-s">
