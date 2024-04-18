@@ -114,7 +114,7 @@ function ConferenceHeader({open, setOpen}) {
                         >Registration Closed</Link>
                     </div> */}
                     <Image src={ieee} className="object-contain" alt="G20"
-                           height={54} quality={100}/>
+                           height={70} quality={100}/>
                     <a href="https://www.drdo.gov.in/drdo/" target="_blank"><Image src={drdo} className="object-contain" alt="G20"
                            height={84} quality={100}/></a>
                     <a href="https://serb.gov.in/" target="_blank"><Image src={serb} className="object-contain" alt="G20"
