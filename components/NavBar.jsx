@@ -5,6 +5,8 @@ import ieee from "@/public/ieee_logo.png"
 import Link from "next/link";
 import icslogo from "assets/ICSCCAT logo.png"
 import {useState} from "react";
+import drdo from "@/public/sponsors/drdo.png"
+import kcet from "@/public/sponsors/kcet.png"
 
 export default function NavBar() {
     const [open, setOpen] = useState(false)
@@ -90,7 +92,7 @@ function TrackSubMenu() {
 
 function ConferenceHeader({open, setOpen}) {
     return (
-        <div className="container mx-auto px-6 py-2">
+        <div className="container mx-auto py-2">
             <div className="flex space-x-6 items-center justify-between">
                 {/* <Image src={g20logo} className="object-contain" alt="G20"
                        width={84} quality={100}/> */}
@@ -111,7 +113,11 @@ function ConferenceHeader({open, setOpen}) {
                         >Registration Closed</Link>
                     </div> */}
                     <Image src={ieee} className="object-contain" alt="G20"
-                           width={128} quality={100}/>
+                           height={54} quality={100}/>
+                    <Image src={drdo} className="object-contain" alt="G20"
+                           height={84} quality={100}/>
+                    <Image src={kcet} className="object-contain" alt="G20"
+                           height={84} quality={100}/>
                     <div className="md:hidden">
                         <div onClick={() => {
                             setOpen(!open)
