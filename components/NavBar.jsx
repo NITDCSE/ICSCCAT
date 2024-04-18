@@ -116,8 +116,8 @@ function ConferenceHeader({open, setOpen}) {
                            height={54} quality={100}/>
                     <Image src={drdo} className="object-contain" alt="G20"
                            height={84} quality={100}/>
-                    <Image src={kcet} className="object-contain" alt="G20"
-                           height={84} quality={100}/>
+                    <a href="https://khalsaengineering.co.in/" target="_blank"><Image src={kcet} className="object-contain" alt="G20"
+                           height={84} quality={100}/></a>
                     <div className="md:hidden">
                         <div onClick={() => {
                             setOpen(!open)
