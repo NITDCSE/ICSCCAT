@@ -20,7 +20,7 @@ export default function HeroSection() {
         }}
       >
         <div className="container relative flex flex-col-reverse md:flex-row justify-center items-start px-6 mx-auto pt-12 space-y-0 md:justify-start">
-          <div className="flex flex-col mb-20 mx-auto items-center">
+          <div className="flex flex-col mb-8 mx-auto items-center">
             <div className="flex flex-col items-center mb-2">
               {/* <Image
                 className="w-32 md:w-64 mb-4 p-4 rounded-lg shadow-md flex items-center object-contain"
@@ -54,7 +54,7 @@ export default function HeroSection() {
                 <p className="font-bold text-center text-lg text-black md:text-2xl mt-4 mb-2">
                   02<sup>th</sup> - 04<sup>th</sup> August, 2024
                 </p>
-                <p className="text-center text-base text-black md:text-lg mb-4">
+                <p className="text-center text-base text-black md:text-lg">
                   (Hybrid Mode)
                 </p>
                 {/* <p className="text-2xl text-center md:text-3xl">
@@ -62,7 +62,7 @@ export default function HeroSection() {
                 </p> */}
               </div>
             </div>
-            <div className="flex pt-6 justify-center">
+            <div className="flex justify-center">
                 <CountdownTimer /> {/* Use the CountdownTimer component here */}
             </div>
             {/* <div className="flex pt-8 justify-center">
