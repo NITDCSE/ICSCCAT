@@ -96,8 +96,8 @@ function ConferenceHeader({open, setOpen}) {
             <div className="flex space-x-6 items-center justify-between">
                 {/* <Image src={g20logo} className="object-contain" alt="G20"
                        width={84} quality={100}/> */}
-                        <Image src={nitdLogo} className="max-h-16 object-contain" alt="NITD" width={72}
-                               quality={100}/>
+                        <a href="https://nitdelhi.ac.in/" target="_blank"><Image src={nitdLogo} className="max-h-16 object-contain" alt="NITD" width={72}
+                               quality={100}/></a>
                         <span class="text-3xl font-bold">IC<sup>2</sup>SDT 2024</span>
                 <Link href="/" className="flex items-center space-x-4 pt-2">
                     {/* <Image src={icslogo} className="object-contain" alt="ICSCCAT-2024"
@@ -114,8 +114,8 @@ function ConferenceHeader({open, setOpen}) {
                     </div> */}
                     <Image src={ieee} className="object-contain" alt="G20"
                            height={54} quality={100}/>
-                    <Image src={drdo} className="object-contain" alt="G20"
-                           height={84} quality={100}/>
+                    <a href="https://www.drdo.gov.in/drdo/" target="_blank"><Image src={drdo} className="object-contain" alt="G20"
+                           height={84} quality={100}/></a>
                     <a href="https://khalsaengineering.co.in/" target="_blank"><Image src={kcet} className="object-contain" alt="G20"
                            height={84} quality={100}/></a>
                     <div className="md:hidden">
