@@ -7,6 +7,7 @@ import icslogo from "assets/ICSCCAT logo.png"
 import {useState} from "react";
 import drdo from "@/public/sponsors/drdo.png"
 import kcet from "@/public/sponsors/kcet.png"
+import serb from "@/public/sponsors/serb.png"
 
 export default function NavBar() {
     const [open, setOpen] = useState(false)
@@ -116,6 +117,8 @@ function ConferenceHeader({open, setOpen}) {
                            height={54} quality={100}/>
                     <a href="https://www.drdo.gov.in/drdo/" target="_blank"><Image src={drdo} className="object-contain" alt="G20"
                            height={84} quality={100}/></a>
+                    <a href="https://serb.gov.in/" target="_blank"><Image src={serb} className="object-contain" alt="G20"
+                           height={76} quality={100}/></a>
                     <a href="https://khalsaengineering.co.in/" target="_blank"><Image src={kcet} className="object-contain" alt="G20"
                            height={84} quality={100}/></a>
                     <div className="md:hidden">
