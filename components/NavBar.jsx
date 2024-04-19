@@ -99,7 +99,7 @@ function ConferenceHeader({open, setOpen}) {
                        width={84} quality={100}/> */}
                         <a href="https://nitdelhi.ac.in/" target="_blank"><Image src={nitdLogo} className="object-contain" alt="NITD" height={84}
                                quality={100}/></a>
-                        <span class="text-3xl font-bold">IC<sup>2</sup>SDT 2024</span>
+                        <span className="sm:text-base md:text-2xl lg:text-3xl font-bold">IC<sup>2</sup>SDT 2024</span>
                 <Link href="/" className="flex items-center space-x-4 pt-2">
                     {/* <Image src={icslogo} className="object-contain" alt="ICSCCAT-2024"
                            width={200} quality={100}/> */}
@@ -113,14 +113,18 @@ function ConferenceHeader({open, setOpen}) {
                               className="p-3 my-auto px-6 pt-2 text-white bg-gray-400 rounded-full baseline"
                         >Registration Closed</Link>
                     </div> */}
-                    <Image src={ieee} className="object-contain" alt="G20"
-                           height={70} quality={100}/>
-                    <a href="https://www.drdo.gov.in/drdo/" target="_blank"><Image src={drdo} className="object-contain" alt="G20"
-                           height={84} quality={100}/></a>
-                    <a href="https://serb.gov.in/" target="_blank"><Image src={serb} className="object-contain" alt="G20"
-                           height={76} quality={100}/></a>
-                    <a href="https://khalsaengineering.co.in/" target="_blank"><Image src={kcet} className="object-contain" alt="G20"
-                           height={84} quality={100}/></a>
+                    <a href="https://ewh.ieee.org/r10/delhi/" target="_blank">
+                        <Image src={ieee} className="object-contain" alt="G20" height={70} quality={100}/>
+                    </a>
+                    <a href="https://www.drdo.gov.in/drdo/" target="_blank">
+                        <Image src={drdo} className="object-contain" alt="G20" height={84} quality={100}/>
+                    </a>
+                    <a href="https://serb.gov.in/" target="_blank">
+                        <Image src={serb} className="object-contain" alt="G20"height={76} quality={100}/>
+                    </a>
+                    <a href="https://khalsaengineering.co.in/" target="_blank">
+                        <Image src={kcet} className="object-contain" alt="G20" height={84} quality={100}/>
+                    </a>
                     <div className="md:hidden">
                         <div onClick={() => {
                             setOpen(!open)
