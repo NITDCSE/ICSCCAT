@@ -1,7 +1,7 @@
 export const dates = [
     {
         category : "Full paper Submission",
-        date :"1 May, 2024"
+        date :"1̶ ̶M̶a̶y̶,̶ ̶2̶0̶2̶4̶ ,  25 May, 2024 (firm deadline)"
     },
     {
         category : "Acceptance Notification",
