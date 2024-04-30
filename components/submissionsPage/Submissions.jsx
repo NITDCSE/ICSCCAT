@@ -31,13 +31,12 @@ export default function Submissions() {
                 Paper Submission: <span class="text-red-400"> Link will be updated soon</span> <br />
                 Accepted papers will be submitted for inclusion into IEEE Xplore subject to meeting IEEE Xplore’s scope and quality requirements
               </li> */}
-              <li className="list-disc leading-6 sm:leading-8">
-                Registration Form: 
-                {/* <span class="text-red-400">Link will be updated soon</span> <br /> */}
-                <a class="font-medium text-blue-600 dark:text-blue-500 hover:underline" href="https://forms.gle/tdZC8Eoohg739cGCA"> here.</a>
-              </li>
             </ul>
           </section>
+          <br />
+        <a class="font-medium text-red-600 dark:text-blue-500 hover:underline" href="https://forms.gle/tdZC8Eoohg739cGCA" target="_blank">
+          <h2 className="text-4xl font-bold my-8 text-center sm:text-left">Registration Form</h2>
+        </a>
         </div>
         <Fees />
       </div>
