@@ -1,48 +1,8 @@
-import { rules } from "./data";
 import { dates } from "./data";
 
-import Fees from "./Fees";
-//import ImportantDates from "./importantDates";
-
-export default function Submissions() {
+export default function ImportantDates() {
   return (
-    <>
-      <div>
-        <ImportantDates />
-        <div className="container mx-auto px-12 sm:px-6 py-4">
-          <h2 className="text-4xl font-bold my-8 text-center sm:text-left">Submission Rules</h2>
-          <section>
-            <ul>
-              {rules.map(function (rule, idx) {
-                return (
-                  <li className="list-disc leading-6 sm:leading-8" key={idx}>
-                    {rule}
-                  </li>
-                );
-              })}
-              <li className="list-disc leading-6 sm:leading-8">Submission should strictly follow recommended IEEE conference template, which can be found  
-              <a class="font-medium text-blue-600 dark:text-blue-500 hover:underline" href="https://www.ieee.org/conferences/publishing/templates.html"> here.</a> </li>
-              <li className="list-disc leading-6 sm:leading-8">
-                Authors should submit their original unpublished work in PDF format 
-                <a class="font-medium text-blue-600 dark:text-blue-500 hover:underline" href="https://cmt3.research.microsoft.com/IC2SDT2024/"> here.</a>  </li>
-              <li className="list-disc leading-6 sm:leading-8"> 
-                <b>IEEE PDF eXpress conference ID: 62152</b></li>
-              {/* <li className="list-disc leading-6 sm:leading-8">
-                Paper Submission: <span class="text-red-400"> Link will be updated soon</span> <br />
-                Accepted papers will be submitted for inclusion into IEEE Xplore subject to meeting IEEE Xplore’s scope and quality requirements
-              </li> */}
-            </ul>
-          </section>
-          <br />
-        </div>
-      </div>
-    </>
-  );
-}
-
-function ImportantDates() {
-  return (
-    <>
+    <div>
       <div className="flex flex-col container mx-auto px-6 py-4 mb-8">
         <h3 className="text-2xl font-bold text-center md:text-left py-12">
           Important Dates
@@ -90,7 +50,6 @@ function ImportantDates() {
           })}
         </ol>
       </div>
-    </>
+    </div>
   );
 }
-
