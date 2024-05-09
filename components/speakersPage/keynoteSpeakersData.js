@@ -25,8 +25,8 @@ export const keynote = {
 
     Selvakumar : {
         title: "Prof. S. Selvakumar",
-        designation: "Director",
-        description: "Indian Institute of Information Technology, Una HP, India",
+        designation: "Professor",
+        description: "National Institute of Technology Tiruchirappalli",
         image: selvaKumar,
       },
       Agarwal : {
@@ -50,7 +50,7 @@ export const keynote = {
       mishra:{
         title: "Prof. Manoj Mishra",
         designation: "Professor",
-        description: "IIT Roorkee",
+        description: "Indian Institute of Technology Roorkee",
         image: manojMishra,
       },
 }
