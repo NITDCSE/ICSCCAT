@@ -18,12 +18,12 @@ export default function FeeTable(){
               <th scope="col" className="px-6 py-3 ">
               </th>
               <th colSpan={2} scope="col" className="text-xl font-black text-gray-900 text-center px-6 py-5">
-                Early Bird Registration <br />
-                <span className="text-red-500">(02-12 July 2024)</span>
+                Regular Registration <br />
+                <span className="text-red-500">(02-15 July 2024)</span>
               </th>
               <th colSpan={2} scope="col" className="text-xl font-black text-gray-900 text-center px-6 py-5">
-                Regular Registration  <br />
-                <span className="text-red-500">(After 12 July 2024)</span>
+                Late Registration  <br />
+                <span className="text-red-500">(15-25 July 2024)</span>
               </th>
             </tr>
           </thead>
@@ -128,12 +128,12 @@ export default function FeeTable(){
               <th scope="col" className="px-6 py-3 ">
               </th>
               <th colSpan={2} scope="col" className="text-xl font-black text-gray-900 text-center px-6 py-5">
-                Early Bird Registration <br />
-                <span className="text-red-500">(02-12 July 2024)</span>
+                Regular Registration <br />
+                <span className="text-red-500">(02-15 July 2024)</span>
               </th>
               <th colSpan={2} scope="col" className="text-xl font-black text-gray-900 text-center px-6 py-5">
-                Regular Registration  <br />
-                <span className="text-red-500">(After 12 July 2024)</span>
+                Late Registration  <br />
+                <span className="text-red-500">(15-25 July 2024)</span>
               </th>
             </tr>
           </thead>
