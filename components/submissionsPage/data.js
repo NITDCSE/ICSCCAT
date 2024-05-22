@@ -25,7 +25,7 @@ export const rules = [
     "All the papers submitted to the conference should be written in English with the maximum page length of six printed pages (10pt font).",
     "Simultaneous submissions (papers already submitted to other conferences/journals) are not allowed.",
     "The decision regarding the acceptance of paper is at the discretion of Technical Program Committee.",
-    "Plagiarism check will be done using Turnitin.",
+    "Plagiarism check will be done using iThenticate.",
     "All the paper submission will be done on Microsoft CMT conference management software.",
     "Reviewer assignment will be made using Microsoft CMT.",
 ]
