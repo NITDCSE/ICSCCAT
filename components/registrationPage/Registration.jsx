@@ -19,7 +19,7 @@ export default function Submissions() {
         <h4 className="text-2xl font-bold mt-8 text-center sm:text-left text-red-600">Registration Procedure:</h4><br />
         <ol class="list-decimal list-inside">
           <li>Pay the fee using the <a class="font-medium text-blue-600 hover:underline" href="https://eazypay.icicibank.com/eazypayLink?P1=5TmxargSFo4N33Hi1ZQJdA==" target="_blank"> link</a> and take snapshot of payment details.</li>
-          <li>Fill the <a class="font-medium text-blue-600 hover:underline" href="https://forms.gle/tdZC8Eoohg739cGCA" target="_blank">registration form
+          <li>Fill the <a class="font-medium text-blue-600 hover:underline" href="https://forms.gle/kp8UDxa5HCMfjY7j7" target="_blank">registration form
           </a> (snapshot will be required in the form).
           </li>
         </ol>
