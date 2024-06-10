@@ -12,7 +12,7 @@ export default function Howtoreach() {
                             
                             
                              
-                            <b>The venue for the event i.e., National Institue of Technology Delhi is about 30 kms from the center of the city i.e., India Gate. There are several ways you can use to reach the venue. The distances from several means are mentioned below.</b>
+                            <b>The venue for the event i.e., National Institue of Technology Delhi is about 30 kms from the center of the city i.e., India Gate, New delhi. There are several ways you can use to reach the venue. The distances from several means are mentioned below.</b>
                             <br></br>
                             <br></br>
                             
