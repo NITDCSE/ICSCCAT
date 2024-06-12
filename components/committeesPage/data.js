@@ -137,6 +137,9 @@ import urvashi from "@/assets/committee/technical/urvashi.jpg"
 import harish_kumar from "@/assets/committee/technical/harish_kumar.jpg"
 import daljeet_kaur from "@/assets/committee/national/daljeet_kaur.jpg"
 
+import atul from "@/assets/committee/organising/atul.png"
+import malti from "@/assets/committee/organising/malti.png"
+
 export const cheifPatron = [
     
    
@@ -178,8 +181,8 @@ export const cheifPatron = [
         members: [
             {
                 name: 'Prof. (Dr.) Geeta Sikka',
-                designation: 'Professor & Head',
-                affiliation: { line1: 'Head, Dept of CSE, NIT Delhi', line2: '' },
+                designation: 'Dean Academics',
+                affiliation: { line1: 'NIT Delhi', line2: '' },
                 photo: geeta
             },
             {
@@ -301,7 +304,7 @@ export const cheifPatron = [
         members: [
             {
                 name: 'Dr. Karan Verma',
-                designation: 'Associate Professor',
+                designation: 'HoD',
                 affiliation: { line1: 'Dept of CSE, NIT Delhi', line2: '' },
                 photo: karan
             },
@@ -973,8 +976,8 @@ export const organizingCommittee = [
         members : [
             {
                 name: 'Prof. (Dr.) Geeta Sikka',
-                designation: 'Professor & Head',
-                affiliation: { line1: 'Dept of CSE, NIT Delhi', line2: '' },
+                designation: 'Dean Academics',
+                affiliation: { line1: 'NIT Delhi', line2: '' },
                 photo: geeta
             },
             {
@@ -991,7 +994,7 @@ export const organizingCommittee = [
             },
             {
                 name: 'Dr. Karan Verma',
-                designation: 'Associate Professor',
+                designation: 'HoD',
                 affiliation: { line1: 'Dept of CSE, NIT Delhi', line2: '' },
                 photo: karan
             },
@@ -1049,6 +1052,18 @@ export const organizingCommittee = [
                 affiliation: { line1: 'Dept of ECE, NIT Delhi', line2: '' },
                 photo: jaspinder
             },
+            {
+                name: 'Dr. Maalti Puri',
+                designation: 'HoD, Dept. of ECE',
+                affiliation: { line1: 'Khalsa College of Engineering & Technology, Amritsar', line2: '' },
+                photo: malti
+            },
+            {
+                name: 'Dr. Atul Agnihotri',
+                designation: 'Dean Research and Consultancy',
+                affiliation: { line1: 'Khalsa College of Engineering & Technology, Amritsar', line2: '' },
+                photo: atul
+            },
         ]
     }
 ]
@@ -1059,13 +1074,13 @@ export const financeCommittee = [
         members : [
             {
                 name: 'Prof. (Dr.) Geeta Sikka',
-                designation: 'Professor & Head',
-                affiliation: { line1: 'Dept of CSE, NIT Delhi', line2: '' },
+                designation: 'Dean Academics',
+                affiliation: { line1: 'NIT Delhi', line2: '' },
                 photo: geeta
             },
             {
                 name: 'Dr. Karan Verma',
-                designation: 'Associate Professor',
+                designation: 'HoD',
                 affiliation: { line1: 'Dept of CSE, NIT Delhi', line2: '' },
                 photo: karan
             },
