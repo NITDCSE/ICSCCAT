@@ -182,7 +182,7 @@ export const cheifPatron = [
             {
                 name: 'Prof. (Dr.) Geeta Sikka',
                 designation: 'Dean Academics',
-                affiliation: { line1: 'Head, Dept of CSE, NIT Delhi', line2: '' },
+                affiliation: { line1: 'NIT Delhi', line2: '' },
                 photo: geeta
             },
             {
@@ -304,7 +304,7 @@ export const cheifPatron = [
         members: [
             {
                 name: 'Dr. Karan Verma',
-                designation: 'HoD, Dept of CSE',
+                designation: 'HoD',
                 affiliation: { line1: 'Dept of CSE, NIT Delhi', line2: '' },
                 photo: karan
             },
@@ -977,7 +977,7 @@ export const organizingCommittee = [
             {
                 name: 'Prof. (Dr.) Geeta Sikka',
                 designation: 'Dean Academics',
-                affiliation: { line1: 'Dept of CSE, NIT Delhi', line2: '' },
+                affiliation: { line1: 'NIT Delhi', line2: '' },
                 photo: geeta
             },
             {
@@ -994,7 +994,7 @@ export const organizingCommittee = [
             },
             {
                 name: 'Dr. Karan Verma',
-                designation: 'HoD, Dept of CSE',
+                designation: 'HoD',
                 affiliation: { line1: 'Dept of CSE, NIT Delhi', line2: '' },
                 photo: karan
             },
@@ -1075,12 +1075,12 @@ export const financeCommittee = [
             {
                 name: 'Prof. (Dr.) Geeta Sikka',
                 designation: 'Dean Academics',
-                affiliation: { line1: 'Dept of CSE, NIT Delhi', line2: '' },
+                affiliation: { line1: 'NIT Delhi', line2: '' },
                 photo: geeta
             },
             {
                 name: 'Dr. Karan Verma',
-                designation: 'HoD, Dept of CSE',
+                designation: 'HoD',
                 affiliation: { line1: 'Dept of CSE, NIT Delhi', line2: '' },
                 photo: karan
             },
