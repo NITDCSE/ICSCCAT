@@ -181,7 +181,7 @@ export const cheifPatron = [
         members: [
             {
                 name: 'Prof. (Dr.) Geeta Sikka',
-                designation: 'Professor & Head',
+                designation: 'Dean Academics',
                 affiliation: { line1: 'Head, Dept of CSE, NIT Delhi', line2: '' },
                 photo: geeta
             },
@@ -304,7 +304,7 @@ export const cheifPatron = [
         members: [
             {
                 name: 'Dr. Karan Verma',
-                designation: 'Associate Professor',
+                designation: 'HoD, Dept of CSE',
                 affiliation: { line1: 'Dept of CSE, NIT Delhi', line2: '' },
                 photo: karan
             },
@@ -976,7 +976,7 @@ export const organizingCommittee = [
         members : [
             {
                 name: 'Prof. (Dr.) Geeta Sikka',
-                designation: 'Professor & Head',
+                designation: 'Dean Academics',
                 affiliation: { line1: 'Dept of CSE, NIT Delhi', line2: '' },
                 photo: geeta
             },
@@ -994,7 +994,7 @@ export const organizingCommittee = [
             },
             {
                 name: 'Dr. Karan Verma',
-                designation: 'Associate Professor',
+                designation: 'HoD, Dept of CSE',
                 affiliation: { line1: 'Dept of CSE, NIT Delhi', line2: '' },
                 photo: karan
             },
@@ -1074,13 +1074,13 @@ export const financeCommittee = [
         members : [
             {
                 name: 'Prof. (Dr.) Geeta Sikka',
-                designation: 'Professor & Head',
+                designation: 'Dean Academics',
                 affiliation: { line1: 'Dept of CSE, NIT Delhi', line2: '' },
                 photo: geeta
             },
             {
                 name: 'Dr. Karan Verma',
-                designation: 'Associate Professor',
+                designation: 'HoD, Dept of CSE',
                 affiliation: { line1: 'Dept of CSE, NIT Delhi', line2: '' },
                 photo: karan
             },
