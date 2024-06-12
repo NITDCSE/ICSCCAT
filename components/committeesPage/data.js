@@ -137,6 +137,9 @@ import urvashi from "@/assets/committee/technical/urvashi.jpg"
 import harish_kumar from "@/assets/committee/technical/harish_kumar.jpg"
 import daljeet_kaur from "@/assets/committee/national/daljeet_kaur.jpg"
 
+import atul from "@/assets/committee/organising/atul.png"
+import malti from "@/assets/committee/organising/malti.png"
+
 export const cheifPatron = [
     
    
@@ -1048,6 +1051,18 @@ export const organizingCommittee = [
                 designation: 'Postdoctoral Fellow',
                 affiliation: { line1: 'Dept of ECE, NIT Delhi', line2: '' },
                 photo: jaspinder
+            },
+            {
+                name: 'Dr. Maalti Puri',
+                designation: 'HoD, Dept. of ECE',
+                affiliation: { line1: 'Khalsa College of Engineering & Technology, Amritsar', line2: '' },
+                photo: malti
+            },
+            {
+                name: 'Dr. Atul Agnihotri',
+                designation: 'Dean Research and Consultancy',
+                affiliation: { line1: 'Khalsa College of Engineering & Technology, Amritsar', line2: '' },
+                photo: atul
             },
         ]
     }
