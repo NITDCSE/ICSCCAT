@@ -71,7 +71,7 @@ export default function Contact() {
                     <div className="mapdiv">
                         <iframe
                             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4744.460631183506!2d77.12986422380546!3d28.81701263912285!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d1b1923ada2e3%3A0x1169930518add2fe!2sNational%20Institute%20of%20Technology%20Delhi!5e0!3m2!1sen!2sin!4v1676052566798!5m2!1sen!2sin"
-                            width="550" height="380" allowfullscreen="" loading="lazy"
+                            width="700" height="380" allowfullscreen="" loading="lazy"
                             referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </div>
 
