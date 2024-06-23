@@ -96,6 +96,9 @@ export default function Footer() {
           <a href="https://in.linkedin.com/in/rohit-kumar-20926a164" className="underline hover:text-primary20">
           Rohit Kumar, {" "}
           </a>
+          <a href="https://www.linkedin.com/in/imalokkumar/" className="underline hover:text-primary20">
+          Alok Kumar, {" "}
+          </a>
           <a href="https://in.linkedin.com/in/trivedi-utkarsh" className="underline hover:text-primary20">
           Utkarsh Trivedi, {" "}
           </a>
