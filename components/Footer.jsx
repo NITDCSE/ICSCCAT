@@ -37,12 +37,12 @@ export default function Footer() {
             <h3 className="Footer_ContactUs_heading__F1Du9">Contact Us</h3>
             <div className="contact_details">
               <ul className="contact_list">
-                <li className="Footer_ContactUs_item__rFApu undefined">
+                {/* <li className="Footer_ContactUs_item__rFApu undefined">
                   +91 80033 89258
-                </li>
-                <li className="Footer_ContactUs_item__rFApu undefined">
+                </li> */}
+                {/* <li className="Footer_ContactUs_item__rFApu undefined">
                   +91 82925 56170
-                </li>
+                </li> */}
               </ul>
               <ul className="emailList">
                 <li>

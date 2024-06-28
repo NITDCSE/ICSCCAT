@@ -5,7 +5,7 @@ export const dates = [
     },
     {
         category : "Acceptance Notification",
-        date :"25 June, 2024"
+        date :"2̶5̶ J̶u̶n̶e̶, 2̶0̶2̶4̶, 28 June, 2024"
     },
     {
         category : "Camera Ready Manuscript",
