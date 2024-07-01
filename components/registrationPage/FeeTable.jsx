@@ -23,7 +23,7 @@ export default function FeeTable(){
               </th>
               <th colSpan={2} scope="col" className="text-xl font-black text-gray-900 text-center px-6 py-5">
                 Late Registration  <br />
-                <span className="text-red-500">(15-25 July 2024)</span>
+                <span className="text-red-500">(15-20 July 2024)</span>
               </th>
             </tr>
           </thead>
@@ -133,7 +133,7 @@ export default function FeeTable(){
               </th>
               <th colSpan={2} scope="col" className="text-xl font-black text-gray-900 text-center px-6 py-5">
                 Late Registration  <br />
-                <span className="text-red-500">(15-25 July 2024)</span>
+                <span className="text-red-500">(15-20 July 2024)</span>
               </th>
             </tr>
           </thead>
