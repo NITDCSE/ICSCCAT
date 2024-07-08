@@ -23,6 +23,8 @@ export default function Submissions() {
           <li>Fill the <a class="font-medium text-blue-600 hover:underline" href="https://forms.gle/kp8UDxa5HCMfjY7j7" target="_blank">registration form
           </a> (snapshot will be required in the form).
           <li>payment for accomodation <a class="font-medium text-blue-600 hover:underline" href="https://eazypay.icicibank.com/eazypayLink?P1=5TmxargSFo4N33Hi1ZQJdA==" target="_blank"> link</a> and take snapshot of payment details.</li>
+          <li>Fill the <a class="font-medium text-blue-600 hover:underline" href="https://forms.gle/tWKJ1thddXFcJqxt7" target="_blank">Accommodation Registration Form
+          </a> (snapshot will be required in the form).</li>
           <li>**Accommodation will be provided inside the institute campus to the registered participants on FCFS at the nominal rate of Rs 500 per day per person on a sharing basis. Each participant needs to register for accommodation by 16th July 2024. Click here to reserve your seat.</li>
           </li>
         </ol>
