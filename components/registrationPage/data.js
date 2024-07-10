@@ -9,7 +9,7 @@ export const dates = [
     },
     {
         category : "Camera Ready Manuscript",
-        date :"10 July, 2024"
+        date :"15 July, 2024"
     },
     {
         category : "Conference Registration",
