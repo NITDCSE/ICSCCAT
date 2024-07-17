@@ -19,7 +19,7 @@ export default function Submissions() {
         <h4 className="text-2xl font-bold mt-8 text-center sm:text-left text-red-600">Registration Procedure:</h4><br />
         <ol class="list-decimal list-inside">
           
-          <p>Pay the fee using the <a href="https://eazypay.icicibank.com/eazypayLink?P1=yyWoH6a5jVOW9AfoZEXS9w==" target="_blank">For Indian Delegates: link</a>, and <a href="https://rzp.io/l/vOTQuQqKgr" target="_blank">For International Delegates: link</a>, and take a snapshot of the payment details.</p>
+          <li><p>Pay the fee using the <a href="https://eazypay.icicibank.com/eazypayLink?P1=yyWoH6a5jVOW9AfoZEXS9w==" target="_blank">For Indian Delegates: link</a>, and <a href="https://rzp.io/l/vOTQuQqKgr" target="_blank">For International Delegates: link</a>, and take a snapshot of the payment details.</p></li>
 
           
           <li>Fill the <a class="font-medium text-blue-600 hover:underline" href="https://forms.gle/kp8UDxa5HCMfjY7j7" target="_blank">registration form
