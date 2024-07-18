@@ -18,13 +18,17 @@ export default function Submissions() {
 
           <h4 className="text-2xl font-bold mt-8 text-center sm:text-left text-red-600">Registration Procedure:</h4><br />
           <ol class="list-decimal list-inside">
-            <li>Pay the fee using the For Indian Delegates: <a class="font-medium text-blue-600 hover:underline" href="https://eazypay.icicibank.com/eazypayLink?P1=yyWoH6a5jVOW9AfoZEXS9w==" target="_blank">link</a>, and For International Delegates: <a class="font-medium text-blue-600 hover:underline" href="https://rzp.io/l/vOTQuQqKgr" target="_blank">link</a>, and take a snapshot of the payment details.</li>
+            <li>Pay the registration fee using the respective link as follows: <br />
+              <ul class="list-disc list-inside ml-10">
+                <li>For Indian Delegates: <a class="font-medium text-blue-600 hover:underline" href="https://eazypay.icicibank.com/eazypayLink?P1=yyWoH6a5jVOW9AfoZEXS9w==" target="_blank">link</a></li>
+                <li>For International Delegates: <a class="font-medium text-blue-600 hover:underline" href="https://rzp.io/l/vOTQuQqKgr" target="_blank">link</a></li>
+              </ul >
+            and take a snapshot of the payment details, which will be required to upload in registration form.
+            </li> 
             <li>Fill the <a class="font-medium text-blue-600 hover:underline" href="https://forms.gle/kp8UDxa5HCMfjY7j7" target="_blank">registration form
-            </a> (snapshot will be required in the form).
-              <li>payment link for accomodation <a class="font-medium text-blue-600 hover:underline" href="https://eazypay.icicibank.com/eazypayLink?P1=yyWoH6a5jVOW9AfoZEXS9w==" target="_blank"> link</a> and take snapshot of payment details.</li>
-              <li>Fill the <a class="font-medium text-blue-600 hover:underline" href="https://forms.gle/tWKJ1thddXFcJqxt7" target="_blank">Accommodation Registration Form
-              </a> (snapshot will be required in the form).</li>
-              <li>**Accommodation will be provided inside the institute campus to the registered participants on FCFS at the nominal rate of Rs 500 per day per person on a sharing basis. Each participant needs to register for accommodation by 16th July 2024.</li>
+            </a>.
+              <li>For accommodation pay fee <a class="font-medium text-blue-600 hover:underline" href="https://eazypay.icicibank.com/eazypayLink?P1=yyWoH6a5jVOW9AfoZEXS9w==" target="_blank"> here</a>, take snapshot of payment details and fill the <a class="font-medium text-blue-600 hover:underline" href="https://forms.gle/tWKJ1thddXFcJqxt7" target="_blank">Accommodation Registration Form.</a></li>
+              <li>**Accommodation will be provided inside the institute campus to the registered participants on FCFS basis, at the nominal rate of Rs 500 per day per person on a sharing basis. Each participant needs to register for accommodation by 26th July 2024.</li>
             </li>
           </ol>
 
