@@ -19,12 +19,12 @@ export default function FeeTable(){
               </th>
               <th colSpan={2} scope="col" className="text-xl font-black text-gray-900 text-center px-6 py-5">
                 Regular Registration <br />
-                <span className="text-red-500">(02-15 July 2024)</span>
+                <span className="text-red-500">(02-26 July 2024)</span>
               </th>
-              <th colSpan={2} scope="col" className="text-xl font-black text-gray-900 text-center px-6 py-5">
+              {/* <th colSpan={2} scope="col" className="text-xl font-black text-gray-900 text-center px-6 py-5">
                 Late Registration  <br />
                 <span className="text-red-500">(15-20 July 2024)</span>
-              </th>
+              </th> */}
             </tr>
           </thead>
           <tbody>
@@ -37,12 +37,12 @@ export default function FeeTable(){
               <td className="text-xl font-black text-blue-700 px-6 py-4 bg-gray-200 ">
                 Non-IEEE Members
               </td>
-              <td className="text-xl font-black text-blue-700 px-6 py-4">
+              {/* <td className="text-xl font-black text-blue-700 px-6 py-4">
                 IEEE Members
               </td>
               <td className="text-xl font-black text-blue-700 px-6 py-4 bg-gray-200 ">
                 Non-IEEE Members
-              </td>
+              </td> */}
             </tr>
             <tr className="border-b border-gray-200 ">
               <th scope="row" className="text-base font-black text-gray-900 px-6 py-4 font-medium text-gray-900  dark:text-white ">
@@ -54,12 +54,12 @@ export default function FeeTable(){
               <td className="text-base font-black text-gray-900 px-6 py-4 bg-gray-200 ">
                 ₹ 7200
               </td>
-              <td className="text-base font-black text-gray-900 px-6 py-4">
+              {/* <td className="text-base font-black text-gray-900 px-6 py-4">
                 ₹ 6500
               </td>
               <td className="text-base font-black text-gray-900 px-6 py-4 bg-gray-200 ">
                 ₹ 9000
-              </td>
+              </td> */}
             </tr>
             <tr className="border-b border-gray-200 ">
               <th scope="row" className="text-base font-black text-gray-900 px-6 py-4 font-medium text-gray-900  dark:text-white ">
@@ -71,12 +71,12 @@ export default function FeeTable(){
               <td className="text-base font-black text-gray-900 px-6 py-4 bg-gray-200 ">
                 ₹ 8400
               </td>
-              <td className="text-base font-black text-gray-900 px-6 py-4">
+              {/* <td className="text-base font-black text-gray-900 px-6 py-4">
                 ₹ 8500
               </td>
               <td className="text-base font-black text-gray-900 px-6 py-4 bg-gray-200 ">
                 ₹ 10,000
-              </td>
+              </td> */}
             </tr>
             <tr className="border-b border-gray-200 ">
               <th scope="row" className="text-base font-black text-gray-900 px-6 py-4 font-medium text-gray-900  dark:text-white ">
@@ -88,12 +88,12 @@ export default function FeeTable(){
               <td className="text-base font-black text-gray-900 px-6 py-4 bg-gray-200 ">
                 ₹ 3500
               </td>
-              <td className="text-base font-black text-gray-900 px-6 py-4">
+              {/* <td className="text-base font-black text-gray-900 px-6 py-4">
                 ₹ 3500
               </td>
               <td className="text-base font-black text-gray-900 px-6 py-4 bg-gray-200 ">
                 ₹ 4500
-              </td>
+              </td> */}
             </tr>
             <tr>
               <th scope="row" className="text-base font-black text-gray-900 px-6 py-4 font-medium text-gray-900  dark:text-white ">
@@ -105,12 +105,12 @@ export default function FeeTable(){
               <td className="text-base font-black text-gray-900 px-6 py-4 bg-gray-200 ">
                 ₹ 4000
               </td>
-              <td className="text-base font-black text-gray-900 px-6 py-4">
+              {/* <td className="text-base font-black text-gray-900 px-6 py-4">
                 ₹ 4000
               </td>
               <td className="text-base font-black text-gray-900 px-6 py-4 bg-gray-200 ">
                 ₹ 5000
-              </td>
+              </td> */}
             </tr>
           </tbody>
         </table>
@@ -129,12 +129,12 @@ export default function FeeTable(){
               </th>
               <th colSpan={2} scope="col" className="text-xl font-black text-gray-900 text-center px-6 py-5">
                 Regular Registration <br />
-                <span className="text-red-500">(02-15 July 2024)</span>
+                <span className="text-red-500">(02-26 July 2024)</span>
               </th>
-              <th colSpan={2} scope="col" className="text-xl font-black text-gray-900 text-center px-6 py-5">
+              {/* <th colSpan={2} scope="col" className="text-xl font-black text-gray-900 text-center px-6 py-5">
                 Late Registration  <br />
                 <span className="text-red-500">(15-20 July 2024)</span>
-              </th>
+              </th> */}
             </tr>
           </thead>
           <tbody>
@@ -147,12 +147,12 @@ export default function FeeTable(){
               <td className="text-xl font-black text-blue-700 px-6 py-4 bg-gray-200 ">
                 Non-IEEE Members
               </td>
-              <td className="text-xl font-black text-blue-700 px-6 py-4">
+              {/* <td className="text-xl font-black text-blue-700 px-6 py-4">
                 IEEE Members
               </td>
               <td className="text-xl font-black text-blue-700 px-6 py-4 bg-gray-200 ">
                 Non-IEEE Members
-              </td>
+              </td> */}
             </tr>
             <tr className="border-b border-gray-200 ">
               <th scope="row" className="text-base font-black text-gray-900 px-6 py-4 font-medium text-gray-900  dark:text-white ">
@@ -164,12 +164,12 @@ export default function FeeTable(){
               <td className="text-base font-black text-gray-900 px-6 py-4 bg-gray-200 ">
                 $ 250
               </td>
-              <td className="text-base font-black text-gray-900 px-6 py-4">
+              {/* <td className="text-base font-black text-gray-900 px-6 py-4">
                 $ 230
               </td>
               <td className="text-base font-black text-gray-900 px-6 py-4 bg-gray-200 ">
                 $ 280
-              </td>
+              </td> */}
             </tr>
             <tr className="border-b border-gray-200 ">
               <th scope="row" className="text-base font-black text-gray-900 px-6 py-4 font-medium text-gray-900  dark:text-white ">
@@ -181,12 +181,12 @@ export default function FeeTable(){
               <td className="text-base font-black text-gray-900 px-6 py-4 bg-gray-200 ">
                 $ 350
               </td>
-              <td className="text-base font-black text-gray-900 px-6 py-4">
+              {/* <td className="text-base font-black text-gray-900 px-6 py-4">
                 $ 330
               </td>
               <td className="text-base font-black text-gray-900 px-6 py-4 bg-gray-200 ">
                 $ 380
-              </td>
+              </td> */}
             </tr>
             <tr className="border-b border-gray-200 ">
               <th scope="row" className="text-base font-black text-gray-900 px-6 py-4 font-medium text-gray-900  dark:text-white ">
@@ -198,12 +198,12 @@ export default function FeeTable(){
               <td className="text-base font-black text-gray-900 px-6 py-4 bg-gray-200 ">
                 $ 150
               </td>
-              <td className="text-base font-black text-gray-900 px-6 py-4">
+              {/* <td className="text-base font-black text-gray-900 px-6 py-4">
                 $ 120
               </td>
               <td className="text-base font-black text-gray-900 px-6 py-4 bg-gray-200 ">
                 $ 170
-              </td>
+              </td> */}
             </tr>
             <tr>
               <th scope="row" className="text-base font-black text-gray-900 px-6 py-4 font-medium text-gray-900  dark:text-white ">
@@ -215,12 +215,12 @@ export default function FeeTable(){
               <td className="text-base font-black text-gray-900 px-6 py-4 bg-gray-200 ">
                 $ 200
               </td>
-              <td className="text-base font-black text-gray-900 px-6 py-4">
+              {/* <td className="text-base font-black text-gray-900 px-6 py-4">
                 $ 170
               </td>
               <td className="text-base font-black text-gray-900 px-6 py-4 bg-gray-200 ">
                 $ 220 
-              </td>
+              </td> */}
             </tr>
           </tbody>
         </table>
