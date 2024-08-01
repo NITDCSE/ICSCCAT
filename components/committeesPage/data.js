@@ -159,7 +159,7 @@ export const cheifPatron = [
         members: [
             {
                 name: 'Prof. (Dr.) Ajay K. Sharma',
-                designation: 'Director',
+                designation: 'PRINCIPAL CHAIR & Director',
                 affiliation: { line1: 'National Institute of Technology Delhi', line2: '' },
                 photo: director
             },
