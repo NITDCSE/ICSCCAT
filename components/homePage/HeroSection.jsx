@@ -63,7 +63,7 @@ export default function HeroSection() {
               </div>
             </div>
             <div className="flex justify-center">
-                <CountdownTimer /> {/* Use the CountdownTimer component here */}
+{/*                 <CountdownTimer /> {/* Use the CountdownTimer component here */} */}
             </div>
             {/* <div className="flex pt-8 justify-center">
               <Link href="/register"
